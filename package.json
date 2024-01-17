@@ -1,0 +1,20 @@
+{
+  "name": "pokedata",
+  "version": "1.0.0",
+  "description": "collection of Pokemon Data in JSON format",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "res/json/*"
+  ],
+  "keywords": [
+    "pokemon",
+    "jsonpokemon",
+    "pokemondata",
+    "pokemonitem"
+  ],
+  "author": "Dan Koyuki",
+  "license": "MIT"
+}
