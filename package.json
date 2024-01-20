@@ -1,5 +1,6 @@
 {
   "name": "pokedata",
+  "type": "module",
   "version": "1.0.0",
   "description": "collection of Pokemon Data in JSON format",
   "main": "index.js",
