@@ -1,5 +1,5 @@
 // pokedex.test.js (in src/functions/tests)
-import { findByAbility, findById, findByName } from "../utils/findPokemon.js";
+import { findByAbility, findById, findByName } from "../utils/Pokemon.js";
 
 // Test Usage
 const bulbasaur = findById('0001');

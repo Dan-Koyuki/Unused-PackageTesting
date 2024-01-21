@@ -1,4 +1,5 @@
 import Pokedex from "../../models/pokedex.js";
+import { learnsetByID } from "./Learnset.js";
 
 export const findById = (id) => {
   let res;
@@ -10,7 +11,8 @@ export const findById = (id) => {
   if (!res) {
     return `No Pokemon with id ${id}`
   }
-  return res;
+  const result = { ...res, learnsets: learnsetByID(id)}
+  return result;
 }
 
 export const findByName = (name) => {

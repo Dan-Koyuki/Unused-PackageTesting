@@ -33,17 +33,17 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Monster", "Grass"],
-    learnsets: Learnsets.find((entry) => entry.id === "0001"),
-    genderRatios: [75, 25],
+    learnsets: "0001",
+    genderRatios: [],
     description:
       "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun’s rays, the seed grows progressively larger.",
     evolution: [
       {
-        method: "level",
+        method: "",
         conditions: {
-          level: "16",
+          level: "",
         },
-        into: "0002",
+        into: "",
       },
     ],
   },
@@ -73,11 +73,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Monster", "Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0002",
     genderRatios: [],
     description: "",
     evolution: [
@@ -116,11 +112,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Monster", "Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0003",
     genderRatios: [],
     description: "",
     evolution: [
@@ -159,11 +151,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Monster", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0004",
     genderRatios: [],
     description: "",
     evolution: [
@@ -202,11 +190,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Monster", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0005",
     genderRatios: [],
     description: "",
     evolution: [
@@ -245,11 +229,7 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["Monster", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0006",
     genderRatios: [],
     description: "",
     evolution: [
@@ -288,11 +268,7 @@ const Pokedex = [
       speed: "43",
     },
     eggGroups: ["Monster", "Water 1"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0007",
     genderRatios: [],
     description: "",
     evolution: [
@@ -331,11 +307,7 @@ const Pokedex = [
       speed: "58",
     },
     eggGroups: ["Monster", "Water 1"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0008",
     genderRatios: [],
     description: "",
     evolution: [
@@ -374,11 +346,7 @@ const Pokedex = [
       speed: "78",
     },
     eggGroups: ["Monster", "Water 1"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0009",
     genderRatios: [],
     description: "",
     evolution: [
@@ -417,11 +385,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0010",
     genderRatios: [],
     description: "",
     evolution: [
@@ -460,11 +424,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0011",
     genderRatios: [],
     description: "",
     evolution: [
@@ -503,11 +463,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0012",
     genderRatios: [],
     description: "",
     evolution: [
@@ -546,11 +502,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0013",
     genderRatios: [],
     description: "",
     evolution: [
@@ -589,11 +541,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0014",
     genderRatios: [],
     description: "",
     evolution: [
@@ -632,11 +580,7 @@ const Pokedex = [
       speed: "75",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0015",
     genderRatios: [],
     description: "",
     evolution: [
@@ -675,11 +619,7 @@ const Pokedex = [
       speed: "56",
     },
     eggGroups: ["Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0016",
     genderRatios: [],
     description: "",
     evolution: [
@@ -718,11 +658,7 @@ const Pokedex = [
       speed: "71",
     },
     eggGroups: ["Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0017",
     genderRatios: [],
     description: "",
     evolution: [
@@ -761,11 +697,7 @@ const Pokedex = [
       speed: "101",
     },
     eggGroups: ["Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0018",
     genderRatios: [],
     description: "",
     evolution: [
@@ -804,11 +736,7 @@ const Pokedex = [
       speed: "72",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0019",
     genderRatios: [],
     description: "",
     evolution: [
@@ -847,11 +775,7 @@ const Pokedex = [
       speed: "97",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0020",
     genderRatios: [],
     description: "",
     evolution: [
@@ -890,11 +814,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0021",
     genderRatios: [],
     description: "",
     evolution: [
@@ -933,11 +853,7 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0022",
     genderRatios: [],
     description: "",
     evolution: [
@@ -976,11 +892,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Field", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0023",
     genderRatios: [],
     description: "",
     evolution: [
@@ -1019,11 +931,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Field", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0024",
     genderRatios: [],
     description: "",
     evolution: [
@@ -1062,11 +970,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Field", "Fairy"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0025",
     genderRatios: [],
     description: "",
     evolution: [
@@ -1105,11 +1009,7 @@ const Pokedex = [
       speed: "110",
     },
     eggGroups: ["Field", "Fairy"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0026",
     genderRatios: [],
     description: "",
     evolution: [
@@ -1148,11 +1048,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0027",
     genderRatios: [],
     description: "",
     evolution: [
@@ -1191,11 +1087,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0028",
     genderRatios: [],
     description: "",
     evolution: [
@@ -1234,11 +1126,7 @@ const Pokedex = [
       speed: "41",
     },
     eggGroups: ["Monster", "Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0029",
     genderRatios: [],
     description: "",
     evolution: [
@@ -1277,11 +1165,7 @@ const Pokedex = [
       speed: "56",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0030",
     genderRatios: [],
     description: "",
     evolution: [
@@ -1320,11 +1204,7 @@ const Pokedex = [
       speed: "76",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0031",
     genderRatios: [],
     description: "",
     evolution: [
@@ -1363,11 +1243,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Monster", "Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0032",
     genderRatios: [],
     description: "",
     evolution: [
@@ -1406,11 +1282,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Monster", "Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0033",
     genderRatios: [],
     description: "",
     evolution: [
@@ -1449,11 +1321,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Monster", "Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0034",
     genderRatios: [],
     description: "",
     evolution: [
@@ -1492,11 +1360,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Fairy"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0035",
     genderRatios: [],
     description: "",
     evolution: [
@@ -1535,11 +1399,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Fairy"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0036",
     genderRatios: [],
     description: "",
     evolution: [
@@ -1578,11 +1438,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0037",
     genderRatios: [],
     description: "",
     evolution: [
@@ -1621,11 +1477,7 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0038",
     genderRatios: [],
     description: "",
     evolution: [
@@ -1664,11 +1516,7 @@ const Pokedex = [
       speed: "20",
     },
     eggGroups: ["Fairy"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0039",
     genderRatios: [],
     description: "",
     evolution: [
@@ -1707,11 +1555,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Fairy"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0040",
     genderRatios: [],
     description: "",
     evolution: [
@@ -1750,11 +1594,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0041",
     genderRatios: [],
     description: "",
     evolution: [
@@ -1793,11 +1633,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0042",
     genderRatios: [],
     description: "",
     evolution: [
@@ -1836,11 +1672,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0043",
     genderRatios: [],
     description: "",
     evolution: [
@@ -1879,11 +1711,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0044",
     genderRatios: [],
     description: "",
     evolution: [
@@ -1922,11 +1750,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0045",
     genderRatios: [],
     description: "",
     evolution: [
@@ -1965,11 +1789,7 @@ const Pokedex = [
       speed: "25",
     },
     eggGroups: ["Bug", "Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0046",
     genderRatios: [],
     description: "",
     evolution: [
@@ -2008,11 +1828,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Bug", "Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0047",
     genderRatios: [],
     description: "",
     evolution: [
@@ -2051,11 +1867,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0048",
     genderRatios: [],
     description: "",
     evolution: [
@@ -2094,11 +1906,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0049",
     genderRatios: [],
     description: "",
     evolution: [
@@ -2137,11 +1945,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0050",
     genderRatios: [],
     description: "",
     evolution: [
@@ -2180,11 +1984,7 @@ const Pokedex = [
       speed: "120",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0051",
     genderRatios: [],
     description: "",
     evolution: [
@@ -2223,11 +2023,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0052",
     genderRatios: [],
     description: "",
     evolution: [
@@ -2266,11 +2062,7 @@ const Pokedex = [
       speed: "115",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0053",
     genderRatios: [],
     description: "",
     evolution: [
@@ -2309,11 +2101,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0054",
     genderRatios: [],
     description: "",
     evolution: [
@@ -2352,11 +2140,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0055",
     genderRatios: [],
     description: "",
     evolution: [
@@ -2395,11 +2179,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0056",
     genderRatios: [],
     description: "",
     evolution: [
@@ -2438,11 +2218,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0057",
     genderRatios: [],
     description: "",
     evolution: [
@@ -2481,11 +2257,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0058",
     genderRatios: [],
     description: "",
     evolution: [
@@ -2524,11 +2296,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0059",
     genderRatios: [],
     description: "",
     evolution: [
@@ -2567,11 +2335,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Water 1"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0060",
     genderRatios: [],
     description: "",
     evolution: [
@@ -2610,11 +2374,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Water 1"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0061",
     genderRatios: [],
     description: "",
     evolution: [
@@ -2653,11 +2413,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Water 1"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0062",
     genderRatios: [],
     description: "",
     evolution: [
@@ -2696,11 +2452,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0063",
     genderRatios: [],
     description: "",
     evolution: [
@@ -2739,11 +2491,7 @@ const Pokedex = [
       speed: "105",
     },
     eggGroups: ["Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0064",
     genderRatios: [],
     description: "",
     evolution: [
@@ -2782,11 +2530,7 @@ const Pokedex = [
       speed: "120",
     },
     eggGroups: ["Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0065",
     genderRatios: [],
     description: "",
     evolution: [
@@ -2825,11 +2569,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0066",
     genderRatios: [],
     description: "",
     evolution: [
@@ -2868,11 +2608,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0067",
     genderRatios: [],
     description: "",
     evolution: [
@@ -2911,11 +2647,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0068",
     genderRatios: [],
     description: "",
     evolution: [
@@ -2954,11 +2686,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0069",
     genderRatios: [],
     description: "",
     evolution: [
@@ -2997,11 +2725,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0070",
     genderRatios: [],
     description: "",
     evolution: [
@@ -3040,11 +2764,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0071",
     genderRatios: [],
     description: "",
     evolution: [
@@ -3083,11 +2803,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Water 3"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0072",
     genderRatios: [],
     description: "",
     evolution: [
@@ -3126,11 +2842,7 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["Water 3"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0073",
     genderRatios: [],
     description: "",
     evolution: [
@@ -3169,11 +2881,7 @@ const Pokedex = [
       speed: "20",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0074",
     genderRatios: [],
     description: "",
     evolution: [
@@ -3212,11 +2920,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0075",
     genderRatios: [],
     description: "",
     evolution: [
@@ -3255,11 +2959,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0076",
     genderRatios: [],
     description: "",
     evolution: [
@@ -3298,11 +2998,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0077",
     genderRatios: [],
     description: "",
     evolution: [
@@ -3341,11 +3037,7 @@ const Pokedex = [
       speed: "105",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0078",
     genderRatios: [],
     description: "",
     evolution: [
@@ -3384,11 +3076,7 @@ const Pokedex = [
       speed: "15",
     },
     eggGroups: ["Monster", "Water 1"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0079",
     genderRatios: [],
     description: "",
     evolution: [
@@ -3427,11 +3115,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Monster", "Water 1"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0080",
     genderRatios: [],
     description: "",
     evolution: [
@@ -3470,11 +3154,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0081",
     genderRatios: [],
     description: "",
     evolution: [
@@ -3513,11 +3193,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0082",
     genderRatios: [],
     description: "",
     evolution: [
@@ -3556,11 +3232,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Flying", "Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0083",
     genderRatios: [],
     description: "",
     evolution: [
@@ -3599,11 +3271,7 @@ const Pokedex = [
       speed: "75",
     },
     eggGroups: ["Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0084",
     genderRatios: [],
     description: "",
     evolution: [
@@ -3642,11 +3310,7 @@ const Pokedex = [
       speed: "110",
     },
     eggGroups: ["Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0085",
     genderRatios: [],
     description: "",
     evolution: [
@@ -3685,11 +3349,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0086",
     genderRatios: [],
     description: "",
     evolution: [
@@ -3728,11 +3388,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0087",
     genderRatios: [],
     description: "",
     evolution: [
@@ -3771,11 +3427,7 @@ const Pokedex = [
       speed: "25",
     },
     eggGroups: ["Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0088",
     genderRatios: [],
     description: "",
     evolution: [
@@ -3814,11 +3466,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0089",
     genderRatios: [],
     description: "",
     evolution: [
@@ -3857,11 +3505,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Water 3"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0090",
     genderRatios: [],
     description: "",
     evolution: [
@@ -3900,11 +3544,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Water 3"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0091",
     genderRatios: [],
     description: "",
     evolution: [
@@ -3943,11 +3583,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0092",
     genderRatios: [],
     description: "",
     evolution: [
@@ -3986,11 +3622,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0093",
     genderRatios: [],
     description: "",
     evolution: [
@@ -4029,11 +3661,7 @@ const Pokedex = [
       speed: "110",
     },
     eggGroups: ["Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0094",
     genderRatios: [],
     description: "",
     evolution: [
@@ -4072,11 +3700,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0095",
     genderRatios: [],
     description: "",
     evolution: [
@@ -4115,11 +3739,7 @@ const Pokedex = [
       speed: "42",
     },
     eggGroups: ["Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0096",
     genderRatios: [],
     description: "",
     evolution: [
@@ -4158,11 +3778,7 @@ const Pokedex = [
       speed: "67",
     },
     eggGroups: ["Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0097",
     genderRatios: [],
     description: "",
     evolution: [
@@ -4201,11 +3817,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Water 3"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0098",
     genderRatios: [],
     description: "",
     evolution: [
@@ -4244,11 +3856,7 @@ const Pokedex = [
       speed: "75",
     },
     eggGroups: ["Water 3"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0099",
     genderRatios: [],
     description: "",
     evolution: [
@@ -4287,11 +3895,7 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0100",
     genderRatios: [],
     description: "",
     evolution: [
@@ -4330,11 +3934,7 @@ const Pokedex = [
       speed: "150",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0101",
     genderRatios: [],
     description: "",
     evolution: [
@@ -4373,11 +3973,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0102",
     genderRatios: [],
     description: "",
     evolution: [
@@ -4416,11 +4012,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0103",
     genderRatios: [],
     description: "",
     evolution: [
@@ -4459,11 +4051,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Monster"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0104",
     genderRatios: [],
     description: "",
     evolution: [
@@ -4502,11 +4090,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Monster"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0105",
     genderRatios: [],
     description: "",
     evolution: [
@@ -4545,11 +4129,7 @@ const Pokedex = [
       speed: "87",
     },
     eggGroups: ["Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0106",
     genderRatios: [],
     description: "",
     evolution: [
@@ -4588,11 +4168,7 @@ const Pokedex = [
       speed: "76",
     },
     eggGroups: ["Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0107",
     genderRatios: [],
     description: "",
     evolution: [
@@ -4631,11 +4207,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Monster"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0108",
     genderRatios: [],
     description: "",
     evolution: [
@@ -4674,11 +4246,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0109",
     genderRatios: [],
     description: "",
     evolution: [
@@ -4717,11 +4285,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0110",
     genderRatios: [],
     description: "",
     evolution: [
@@ -4760,11 +4324,7 @@ const Pokedex = [
       speed: "25",
     },
     eggGroups: ["Monster", "Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0111",
     genderRatios: [],
     description: "",
     evolution: [
@@ -4803,11 +4363,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Monster", "Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0112",
     genderRatios: [],
     description: "",
     evolution: [
@@ -4846,11 +4402,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Fairy"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0113",
     genderRatios: [],
     description: "",
     evolution: [
@@ -4889,11 +4441,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0114",
     genderRatios: [],
     description: "",
     evolution: [
@@ -4932,11 +4480,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Monster"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0115",
     genderRatios: [],
     description: "",
     evolution: [
@@ -4975,11 +4519,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Water 1", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0116",
     genderRatios: [],
     description: "",
     evolution: [
@@ -5018,11 +4558,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Water 1", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0117",
     genderRatios: [],
     description: "",
     evolution: [
@@ -5061,11 +4597,7 @@ const Pokedex = [
       speed: "63",
     },
     eggGroups: ["Water 2"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0118",
     genderRatios: [],
     description: "",
     evolution: [
@@ -5104,11 +4636,7 @@ const Pokedex = [
       speed: "68",
     },
     eggGroups: ["Water 2"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0119",
     genderRatios: [],
     description: "",
     evolution: [
@@ -5147,11 +4675,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Water 3"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0120",
     genderRatios: [],
     description: "",
     evolution: [
@@ -5190,11 +4714,7 @@ const Pokedex = [
       speed: "115",
     },
     eggGroups: ["Water 3"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0121",
     genderRatios: [],
     description: "",
     evolution: [
@@ -5233,11 +4753,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0122",
     genderRatios: [],
     description: "",
     evolution: [
@@ -5276,11 +4792,7 @@ const Pokedex = [
       speed: "105",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0123",
     genderRatios: [],
     description: "",
     evolution: [
@@ -5319,11 +4831,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0124",
     genderRatios: [],
     description: "",
     evolution: [
@@ -5362,11 +4870,7 @@ const Pokedex = [
       speed: "105",
     },
     eggGroups: ["Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0125",
     genderRatios: [],
     description: "",
     evolution: [
@@ -5405,11 +4909,7 @@ const Pokedex = [
       speed: "93",
     },
     eggGroups: ["Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0126",
     genderRatios: [],
     description: "",
     evolution: [
@@ -5448,11 +4948,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0127",
     genderRatios: [],
     description: "",
     evolution: [
@@ -5491,11 +4987,7 @@ const Pokedex = [
       speed: "110",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0128",
     genderRatios: [],
     description: "",
     evolution: [
@@ -5534,11 +5026,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Water 2", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0129",
     genderRatios: [],
     description: "",
     evolution: [
@@ -5577,11 +5065,7 @@ const Pokedex = [
       speed: "81",
     },
     eggGroups: ["Water 2", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0130",
     genderRatios: [],
     description: "",
     evolution: [
@@ -5620,11 +5104,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Monster", "Water 1"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0131",
     genderRatios: [],
     description: "",
     evolution: [
@@ -5663,11 +5143,7 @@ const Pokedex = [
       speed: "48",
     },
     eggGroups: ["Ditto"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0132",
     genderRatios: [],
     description: "",
     evolution: [
@@ -5706,11 +5182,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0133",
     genderRatios: [],
     description: "",
     evolution: [
@@ -5749,11 +5221,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0134",
     genderRatios: [],
     description: "",
     evolution: [
@@ -5792,11 +5260,7 @@ const Pokedex = [
       speed: "130",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0135",
     genderRatios: [],
     description: "",
     evolution: [
@@ -5835,11 +5299,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0136",
     genderRatios: [],
     description: "",
     evolution: [
@@ -5878,11 +5338,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0137",
     genderRatios: [],
     description: "",
     evolution: [
@@ -5921,11 +5377,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Water 1", "Water 3"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0138",
     genderRatios: [],
     description: "",
     evolution: [
@@ -5964,11 +5416,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Water 1", "Water 3"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0139",
     genderRatios: [],
     description: "",
     evolution: [
@@ -6007,11 +5455,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Water 1", "Water 3"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0140",
     genderRatios: [],
     description: "",
     evolution: [
@@ -6050,11 +5494,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Water 1", "Water 3"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0141",
     genderRatios: [],
     description: "",
     evolution: [
@@ -6093,11 +5533,7 @@ const Pokedex = [
       speed: "130",
     },
     eggGroups: ["Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0142",
     genderRatios: [],
     description: "",
     evolution: [
@@ -6136,11 +5572,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Monster"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0143",
     genderRatios: [],
     description: "",
     evolution: [
@@ -6179,11 +5611,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0144",
     genderRatios: [],
     description: "",
     evolution: [
@@ -6222,11 +5650,7 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0145",
     genderRatios: [],
     description: "",
     evolution: [
@@ -6265,11 +5689,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0146",
     genderRatios: [],
     description: "",
     evolution: [
@@ -6308,11 +5728,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Water 1", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0147",
     genderRatios: [],
     description: "",
     evolution: [
@@ -6351,11 +5767,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Water 1", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0148",
     genderRatios: [],
     description: "",
     evolution: [
@@ -6394,11 +5806,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Water 1", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0149",
     genderRatios: [],
     description: "",
     evolution: [
@@ -6437,11 +5845,7 @@ const Pokedex = [
       speed: "130",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0150",
     genderRatios: [],
     description: "",
     evolution: [
@@ -6480,11 +5884,7 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0151",
     genderRatios: [],
     description: "",
     evolution: [
@@ -6523,11 +5923,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Monster", "Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0152",
     genderRatios: [],
     description: "",
     evolution: [
@@ -6566,11 +5962,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Monster", "Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0153",
     genderRatios: [],
     description: "",
     evolution: [
@@ -6609,11 +6001,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Monster", "Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0154",
     genderRatios: [],
     description: "",
     evolution: [
@@ -6652,11 +6040,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0155",
     genderRatios: [],
     description: "",
     evolution: [
@@ -6695,11 +6079,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0156",
     genderRatios: [],
     description: "",
     evolution: [
@@ -6738,11 +6118,7 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0157",
     genderRatios: [],
     description: "",
     evolution: [
@@ -6781,11 +6157,7 @@ const Pokedex = [
       speed: "43",
     },
     eggGroups: ["Monster", "Water 1"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0158",
     genderRatios: [],
     description: "",
     evolution: [
@@ -6824,11 +6196,7 @@ const Pokedex = [
       speed: "58",
     },
     eggGroups: ["Monster", "Water 1"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0159",
     genderRatios: [],
     description: "",
     evolution: [
@@ -6867,11 +6235,7 @@ const Pokedex = [
       speed: "78",
     },
     eggGroups: ["Monster", "Water 1"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0160",
     genderRatios: [],
     description: "",
     evolution: [
@@ -6910,11 +6274,7 @@ const Pokedex = [
       speed: "20",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0161",
     genderRatios: [],
     description: "",
     evolution: [
@@ -6953,11 +6313,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0162",
     genderRatios: [],
     description: "",
     evolution: [
@@ -6996,11 +6352,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0163",
     genderRatios: [],
     description: "",
     evolution: [
@@ -7039,11 +6391,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0164",
     genderRatios: [],
     description: "",
     evolution: [
@@ -7082,11 +6430,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0165",
     genderRatios: [],
     description: "",
     evolution: [
@@ -7125,11 +6469,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0166",
     genderRatios: [],
     description: "",
     evolution: [
@@ -7168,11 +6508,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0167",
     genderRatios: [],
     description: "",
     evolution: [
@@ -7211,11 +6547,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0168",
     genderRatios: [],
     description: "",
     evolution: [
@@ -7254,11 +6586,7 @@ const Pokedex = [
       speed: "130",
     },
     eggGroups: ["Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0169",
     genderRatios: [],
     description: "",
     evolution: [
@@ -7297,11 +6625,7 @@ const Pokedex = [
       speed: "67",
     },
     eggGroups: ["Water 2"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0170",
     genderRatios: [],
     description: "",
     evolution: [
@@ -7340,11 +6664,7 @@ const Pokedex = [
       speed: "67",
     },
     eggGroups: ["Water 2"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0171",
     genderRatios: [],
     description: "",
     evolution: [
@@ -7383,11 +6703,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0172",
     genderRatios: [],
     description: "",
     evolution: [
@@ -7426,11 +6742,7 @@ const Pokedex = [
       speed: "15",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0173",
     genderRatios: [],
     description: "",
     evolution: [
@@ -7469,11 +6781,7 @@ const Pokedex = [
       speed: "15",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0174",
     genderRatios: [],
     description: "",
     evolution: [
@@ -7512,11 +6820,7 @@ const Pokedex = [
       speed: "20",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0175",
     genderRatios: [],
     description: "",
     evolution: [
@@ -7555,11 +6859,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Flying", "Fairy"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0176",
     genderRatios: [],
     description: "",
     evolution: [
@@ -7598,11 +6898,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0177",
     genderRatios: [],
     description: "",
     evolution: [
@@ -7641,11 +6937,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0178",
     genderRatios: [],
     description: "",
     evolution: [
@@ -7684,11 +6976,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Monster", "Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0179",
     genderRatios: [],
     description: "",
     evolution: [
@@ -7727,11 +7015,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Monster", "Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0180",
     genderRatios: [],
     description: "",
     evolution: [
@@ -7770,11 +7054,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Monster", "Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0181",
     genderRatios: [],
     description: "",
     evolution: [
@@ -7813,11 +7093,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0182",
     genderRatios: [],
     description: "",
     evolution: [
@@ -7856,11 +7132,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Water 1", "Fairy"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0183",
     genderRatios: [],
     description: "",
     evolution: [
@@ -7899,11 +7171,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Water 1", "Fairy"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0184",
     genderRatios: [],
     description: "",
     evolution: [
@@ -7942,11 +7210,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0185",
     genderRatios: [],
     description: "",
     evolution: [
@@ -7985,11 +7249,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Water 1"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0186",
     genderRatios: [],
     description: "",
     evolution: [
@@ -8028,11 +7288,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Fairy", "Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0187",
     genderRatios: [],
     description: "",
     evolution: [
@@ -8071,11 +7327,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Fairy", "Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0188",
     genderRatios: [],
     description: "",
     evolution: [
@@ -8114,11 +7366,7 @@ const Pokedex = [
       speed: "110",
     },
     eggGroups: ["Fairy", "Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0189",
     genderRatios: [],
     description: "",
     evolution: [
@@ -8157,11 +7405,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0190",
     genderRatios: [],
     description: "",
     evolution: [
@@ -8200,11 +7444,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0191",
     genderRatios: [],
     description: "",
     evolution: [
@@ -8243,11 +7483,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0192",
     genderRatios: [],
     description: "",
     evolution: [
@@ -8286,11 +7522,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0193",
     genderRatios: [],
     description: "",
     evolution: [
@@ -8329,11 +7561,7 @@ const Pokedex = [
       speed: "15",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0194",
     genderRatios: [],
     description: "",
     evolution: [
@@ -8372,11 +7600,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0195",
     genderRatios: [],
     description: "",
     evolution: [
@@ -8415,11 +7639,7 @@ const Pokedex = [
       speed: "110",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0196",
     genderRatios: [],
     description: "",
     evolution: [
@@ -8458,11 +7678,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0197",
     genderRatios: [],
     description: "",
     evolution: [
@@ -8501,11 +7717,7 @@ const Pokedex = [
       speed: "91",
     },
     eggGroups: ["Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0198",
     genderRatios: [],
     description: "",
     evolution: [
@@ -8544,11 +7756,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Monster", "Water 1"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0199",
     genderRatios: [],
     description: "",
     evolution: [
@@ -8587,11 +7795,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0200",
     genderRatios: [],
     description: "",
     evolution: [
@@ -8630,11 +7834,7 @@ const Pokedex = [
       speed: "48",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0201",
     genderRatios: [],
     description: "",
     evolution: [
@@ -8673,11 +7873,7 @@ const Pokedex = [
       speed: "33",
     },
     eggGroups: ["Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0202",
     genderRatios: [],
     description: "",
     evolution: [
@@ -8716,11 +7912,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0203",
     genderRatios: [],
     description: "",
     evolution: [
@@ -8759,11 +7951,7 @@ const Pokedex = [
       speed: "15",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0204",
     genderRatios: [],
     description: "",
     evolution: [
@@ -8802,11 +7990,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0205",
     genderRatios: [],
     description: "",
     evolution: [
@@ -8845,11 +8029,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0206",
     genderRatios: [],
     description: "",
     evolution: [
@@ -8888,11 +8068,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0207",
     genderRatios: [],
     description: "",
     evolution: [
@@ -8931,11 +8107,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0208",
     genderRatios: [],
     description: "",
     evolution: [
@@ -8974,11 +8146,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Field", "Fairy"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0209",
     genderRatios: [],
     description: "",
     evolution: [
@@ -9017,11 +8185,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Field", "Fairy"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0210",
     genderRatios: [],
     description: "",
     evolution: [
@@ -9060,11 +8224,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Water 2"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0211",
     genderRatios: [],
     description: "",
     evolution: [
@@ -9103,11 +8263,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0212",
     genderRatios: [],
     description: "",
     evolution: [
@@ -9146,11 +8302,7 @@ const Pokedex = [
       speed: "5",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0213",
     genderRatios: [],
     description: "",
     evolution: [
@@ -9189,11 +8341,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0214",
     genderRatios: [],
     description: "",
     evolution: [
@@ -9232,11 +8380,7 @@ const Pokedex = [
       speed: "115",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0215",
     genderRatios: [],
     description: "",
     evolution: [
@@ -9275,11 +8419,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0216",
     genderRatios: [],
     description: "",
     evolution: [
@@ -9318,11 +8458,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0217",
     genderRatios: [],
     description: "",
     evolution: [
@@ -9361,11 +8497,7 @@ const Pokedex = [
       speed: "20",
     },
     eggGroups: ["Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0218",
     genderRatios: [],
     description: "",
     evolution: [
@@ -9404,11 +8536,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0219",
     genderRatios: [],
     description: "",
     evolution: [
@@ -9447,11 +8575,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0220",
     genderRatios: [],
     description: "",
     evolution: [
@@ -9490,11 +8614,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0221",
     genderRatios: [],
     description: "",
     evolution: [
@@ -9533,11 +8653,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Water 1", "Water 3"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0222",
     genderRatios: [],
     description: "",
     evolution: [
@@ -9576,11 +8692,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Water 1", "Water 2"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0223",
     genderRatios: [],
     description: "",
     evolution: [
@@ -9619,11 +8731,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Water 1", "Water 2"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0224",
     genderRatios: [],
     description: "",
     evolution: [
@@ -9662,11 +8770,7 @@ const Pokedex = [
       speed: "75",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0225",
     genderRatios: [],
     description: "",
     evolution: [
@@ -9705,11 +8809,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Water 1"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0226",
     genderRatios: [],
     description: "",
     evolution: [
@@ -9748,11 +8848,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0227",
     genderRatios: [],
     description: "",
     evolution: [
@@ -9791,11 +8887,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0228",
     genderRatios: [],
     description: "",
     evolution: [
@@ -9834,11 +8926,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0229",
     genderRatios: [],
     description: "",
     evolution: [
@@ -9877,11 +8965,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Water 1", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0230",
     genderRatios: [],
     description: "",
     evolution: [
@@ -9920,11 +9004,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0231",
     genderRatios: [],
     description: "",
     evolution: [
@@ -9963,11 +9043,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0232",
     genderRatios: [],
     description: "",
     evolution: [
@@ -10006,11 +9082,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0233",
     genderRatios: [],
     description: "",
     evolution: [
@@ -10049,11 +9121,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0234",
     genderRatios: [],
     description: "",
     evolution: [
@@ -10092,11 +9160,7 @@ const Pokedex = [
       speed: "75",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0235",
     genderRatios: [],
     description: "",
     evolution: [
@@ -10135,11 +9199,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0236",
     genderRatios: [],
     description: "",
     evolution: [
@@ -10178,11 +9238,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0237",
     genderRatios: [],
     description: "",
     evolution: [
@@ -10221,11 +9277,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0238",
     genderRatios: [],
     description: "",
     evolution: [
@@ -10264,11 +9316,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0239",
     genderRatios: [],
     description: "",
     evolution: [
@@ -10307,11 +9355,7 @@ const Pokedex = [
       speed: "83",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0240",
     genderRatios: [],
     description: "",
     evolution: [
@@ -10350,11 +9394,7 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0241",
     genderRatios: [],
     description: "",
     evolution: [
@@ -10393,11 +9433,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Fairy"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0242",
     genderRatios: [],
     description: "",
     evolution: [
@@ -10436,11 +9472,7 @@ const Pokedex = [
       speed: "115",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0243",
     genderRatios: [],
     description: "",
     evolution: [
@@ -10479,11 +9511,7 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0244",
     genderRatios: [],
     description: "",
     evolution: [
@@ -10522,11 +9550,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0245",
     genderRatios: [],
     description: "",
     evolution: [
@@ -10565,11 +9589,7 @@ const Pokedex = [
       speed: "41",
     },
     eggGroups: ["Monster"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0246",
     genderRatios: [],
     description: "",
     evolution: [
@@ -10608,11 +9628,7 @@ const Pokedex = [
       speed: "51",
     },
     eggGroups: ["Monster"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0247",
     genderRatios: [],
     description: "",
     evolution: [
@@ -10651,11 +9667,7 @@ const Pokedex = [
       speed: "61",
     },
     eggGroups: ["Monster"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0248",
     genderRatios: [],
     description: "",
     evolution: [
@@ -10694,11 +9706,7 @@ const Pokedex = [
       speed: "110",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0249",
     genderRatios: [],
     description: "",
     evolution: [
@@ -10737,11 +9745,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0250",
     genderRatios: [],
     description: "",
     evolution: [
@@ -10780,11 +9784,7 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0251",
     genderRatios: [],
     description: "",
     evolution: [
@@ -10823,11 +9823,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Monster", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0252",
     genderRatios: [],
     description: "",
     evolution: [
@@ -10866,11 +9862,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["Monster", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0253",
     genderRatios: [],
     description: "",
     evolution: [
@@ -10909,11 +9901,7 @@ const Pokedex = [
       speed: "120",
     },
     eggGroups: ["Monster", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0254",
     genderRatios: [],
     description: "",
     evolution: [
@@ -10952,11 +9940,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0255",
     genderRatios: [],
     description: "",
     evolution: [
@@ -10995,11 +9979,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0256",
     genderRatios: [],
     description: "",
     evolution: [
@@ -11038,11 +10018,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0257",
     genderRatios: [],
     description: "",
     evolution: [
@@ -11081,11 +10057,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Monster", "Water 1"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0258",
     genderRatios: [],
     description: "",
     evolution: [
@@ -11124,11 +10096,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Monster", "Water 1"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0259",
     genderRatios: [],
     description: "",
     evolution: [
@@ -11167,11 +10135,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Monster", "Water 1"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0260",
     genderRatios: [],
     description: "",
     evolution: [
@@ -11210,11 +10174,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0261",
     genderRatios: [],
     description: "",
     evolution: [
@@ -11253,11 +10213,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0262",
     genderRatios: [],
     description: "",
     evolution: [
@@ -11296,11 +10252,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0263",
     genderRatios: [],
     description: "",
     evolution: [
@@ -11339,11 +10291,7 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0264",
     genderRatios: [],
     description: "",
     evolution: [
@@ -11382,11 +10330,7 @@ const Pokedex = [
       speed: "20",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0265",
     genderRatios: [],
     description: "",
     evolution: [
@@ -11425,11 +10369,7 @@ const Pokedex = [
       speed: "15",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0266",
     genderRatios: [],
     description: "",
     evolution: [
@@ -11468,11 +10408,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0267",
     genderRatios: [],
     description: "",
     evolution: [
@@ -11511,11 +10447,7 @@ const Pokedex = [
       speed: "15",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0268",
     genderRatios: [],
     description: "",
     evolution: [
@@ -11554,11 +10486,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0269",
     genderRatios: [],
     description: "",
     evolution: [
@@ -11597,11 +10525,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Water 1", "Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0270",
     genderRatios: [],
     description: "",
     evolution: [
@@ -11640,11 +10564,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Water 1", "Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0271",
     genderRatios: [],
     description: "",
     evolution: [
@@ -11683,11 +10603,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Water 1", "Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0272",
     genderRatios: [],
     description: "",
     evolution: [
@@ -11726,11 +10642,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Field", "Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0273",
     genderRatios: [],
     description: "",
     evolution: [
@@ -11769,11 +10681,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Field", "Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0274",
     genderRatios: [],
     description: "",
     evolution: [
@@ -11812,11 +10720,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Field", "Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0275",
     genderRatios: [],
     description: "",
     evolution: [
@@ -11855,11 +10759,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0276",
     genderRatios: [],
     description: "",
     evolution: [
@@ -11898,11 +10798,7 @@ const Pokedex = [
       speed: "125",
     },
     eggGroups: ["Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0277",
     genderRatios: [],
     description: "",
     evolution: [
@@ -11941,11 +10837,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Water 1", "Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0278",
     genderRatios: [],
     description: "",
     evolution: [
@@ -11984,11 +10876,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Water 1", "Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0279",
     genderRatios: [],
     description: "",
     evolution: [
@@ -12027,11 +10915,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Human-Like*", "Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0280",
     genderRatios: [],
     description: "",
     evolution: [
@@ -12070,11 +10954,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Human-Like*", "Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0281",
     genderRatios: [],
     description: "",
     evolution: [
@@ -12113,11 +10993,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Human-Like*", "Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0282",
     genderRatios: [],
     description: "",
     evolution: [
@@ -12156,11 +11032,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Water 1", "Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0283",
     genderRatios: [],
     description: "",
     evolution: [
@@ -12199,11 +11071,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Water 1", "Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0284",
     genderRatios: [],
     description: "",
     evolution: [
@@ -12242,11 +11110,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Fairy", "Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0285",
     genderRatios: [],
     description: "",
     evolution: [
@@ -12285,11 +11149,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Fairy", "Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0286",
     genderRatios: [],
     description: "",
     evolution: [
@@ -12328,11 +11188,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0287",
     genderRatios: [],
     description: "",
     evolution: [
@@ -12371,11 +11227,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0288",
     genderRatios: [],
     description: "",
     evolution: [
@@ -12414,11 +11266,7 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0289",
     genderRatios: [],
     description: "",
     evolution: [
@@ -12457,11 +11305,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0290",
     genderRatios: [],
     description: "",
     evolution: [
@@ -12500,11 +11344,7 @@ const Pokedex = [
       speed: "160",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0291",
     genderRatios: [],
     description: "",
     evolution: [
@@ -12543,11 +11383,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0292",
     genderRatios: [],
     description: "",
     evolution: [
@@ -12586,11 +11422,7 @@ const Pokedex = [
       speed: "28",
     },
     eggGroups: ["Monster", "Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0293",
     genderRatios: [],
     description: "",
     evolution: [
@@ -12629,11 +11461,7 @@ const Pokedex = [
       speed: "48",
     },
     eggGroups: ["Monster", "Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0294",
     genderRatios: [],
     description: "",
     evolution: [
@@ -12672,11 +11500,7 @@ const Pokedex = [
       speed: "68",
     },
     eggGroups: ["Monster", "Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0295",
     genderRatios: [],
     description: "",
     evolution: [
@@ -12715,11 +11539,7 @@ const Pokedex = [
       speed: "25",
     },
     eggGroups: ["Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0296",
     genderRatios: [],
     description: "",
     evolution: [
@@ -12758,11 +11578,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0297",
     genderRatios: [],
     description: "",
     evolution: [
@@ -12801,11 +11617,7 @@ const Pokedex = [
       speed: "20",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0298",
     genderRatios: [],
     description: "",
     evolution: [
@@ -12844,11 +11656,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0299",
     genderRatios: [],
     description: "",
     evolution: [
@@ -12887,11 +11695,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Field", "Fairy"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0300",
     genderRatios: [],
     description: "",
     evolution: [
@@ -12930,11 +11734,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Field", "Fairy"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0301",
     genderRatios: [],
     description: "",
     evolution: [
@@ -12973,11 +11773,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0302",
     genderRatios: [],
     description: "",
     evolution: [
@@ -13016,11 +11812,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Field", "Fairy"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0303",
     genderRatios: [],
     description: "",
     evolution: [
@@ -13059,11 +11851,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Monster"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0304",
     genderRatios: [],
     description: "",
     evolution: [
@@ -13102,11 +11890,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Monster"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0305",
     genderRatios: [],
     description: "",
     evolution: [
@@ -13145,11 +11929,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Monster"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0306",
     genderRatios: [],
     description: "",
     evolution: [
@@ -13188,11 +11968,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0307",
     genderRatios: [],
     description: "",
     evolution: [
@@ -13231,11 +12007,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0308",
     genderRatios: [],
     description: "",
     evolution: [
@@ -13274,11 +12046,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0309",
     genderRatios: [],
     description: "",
     evolution: [
@@ -13317,11 +12085,7 @@ const Pokedex = [
       speed: "105",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0310",
     genderRatios: [],
     description: "",
     evolution: [
@@ -13360,11 +12124,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["Fairy"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0311",
     genderRatios: [],
     description: "",
     evolution: [
@@ -13403,11 +12163,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["Fairy"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0312",
     genderRatios: [],
     description: "",
     evolution: [
@@ -13446,11 +12202,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Bug", "Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0313",
     genderRatios: [],
     description: "",
     evolution: [
@@ -13489,11 +12241,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Bug", "Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0314",
     genderRatios: [],
     description: "",
     evolution: [
@@ -13532,11 +12280,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Fairy", "Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0315",
     genderRatios: [],
     description: "",
     evolution: [
@@ -13575,11 +12319,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0316",
     genderRatios: [],
     description: "",
     evolution: [
@@ -13618,11 +12358,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0317",
     genderRatios: [],
     description: "",
     evolution: [
@@ -13661,11 +12397,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Water 2"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0318",
     genderRatios: [],
     description: "",
     evolution: [
@@ -13704,11 +12436,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["Water 2"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0319",
     genderRatios: [],
     description: "",
     evolution: [
@@ -13747,11 +12475,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Field", "Water 2"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0320",
     genderRatios: [],
     description: "",
     evolution: [
@@ -13790,11 +12514,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Field", "Water 2"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0321",
     genderRatios: [],
     description: "",
     evolution: [
@@ -13833,11 +12553,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0322",
     genderRatios: [],
     description: "",
     evolution: [
@@ -13876,11 +12592,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0323",
     genderRatios: [],
     description: "",
     evolution: [
@@ -13919,11 +12631,7 @@ const Pokedex = [
       speed: "20",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0324",
     genderRatios: [],
     description: "",
     evolution: [
@@ -13962,11 +12670,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0325",
     genderRatios: [],
     description: "",
     evolution: [
@@ -14005,11 +12709,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0326",
     genderRatios: [],
     description: "",
     evolution: [
@@ -14048,11 +12748,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Field", "Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0327",
     genderRatios: [],
     description: "",
     evolution: [
@@ -14091,11 +12787,7 @@ const Pokedex = [
       speed: "10",
     },
     eggGroups: ["Bug", "Dragon*"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0328",
     genderRatios: [],
     description: "",
     evolution: [
@@ -14134,11 +12826,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Bug", "Dragon*"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0329",
     genderRatios: [],
     description: "",
     evolution: [
@@ -14177,11 +12865,7 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["Bug", "Dragon*"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0330",
     genderRatios: [],
     description: "",
     evolution: [
@@ -14220,11 +12904,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Grass", "Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0331",
     genderRatios: [],
     description: "",
     evolution: [
@@ -14263,11 +12943,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Grass", "Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0332",
     genderRatios: [],
     description: "",
     evolution: [
@@ -14306,11 +12982,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Flying", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0333",
     genderRatios: [],
     description: "",
     evolution: [
@@ -14349,11 +13021,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Flying", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0334",
     genderRatios: [],
     description: "",
     evolution: [
@@ -14392,11 +13060,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0335",
     genderRatios: [],
     description: "",
     evolution: [
@@ -14435,11 +13099,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Field", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0336",
     genderRatios: [],
     description: "",
     evolution: [
@@ -14478,11 +13138,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0337",
     genderRatios: [],
     description: "",
     evolution: [
@@ -14521,11 +13177,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0338",
     genderRatios: [],
     description: "",
     evolution: [
@@ -14564,11 +13216,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Water 2"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0339",
     genderRatios: [],
     description: "",
     evolution: [
@@ -14607,11 +13255,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Water 2"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0340",
     genderRatios: [],
     description: "",
     evolution: [
@@ -14650,11 +13294,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Water 1", "Water 3"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0341",
     genderRatios: [],
     description: "",
     evolution: [
@@ -14693,11 +13333,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Water 1", "Water 3"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0342",
     genderRatios: [],
     description: "",
     evolution: [
@@ -14736,11 +13372,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0343",
     genderRatios: [],
     description: "",
     evolution: [
@@ -14779,11 +13411,7 @@ const Pokedex = [
       speed: "75",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0344",
     genderRatios: [],
     description: "",
     evolution: [
@@ -14822,11 +13450,7 @@ const Pokedex = [
       speed: "23",
     },
     eggGroups: ["Water 3"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0345",
     genderRatios: [],
     description: "",
     evolution: [
@@ -14865,11 +13489,7 @@ const Pokedex = [
       speed: "43",
     },
     eggGroups: ["Water 3"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0346",
     genderRatios: [],
     description: "",
     evolution: [
@@ -14908,11 +13528,7 @@ const Pokedex = [
       speed: "75",
     },
     eggGroups: ["Water 3"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0347",
     genderRatios: [],
     description: "",
     evolution: [
@@ -14951,11 +13567,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Water 3"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0348",
     genderRatios: [],
     description: "",
     evolution: [
@@ -14994,11 +13606,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Water 1", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0349",
     genderRatios: [],
     description: "",
     evolution: [
@@ -15037,11 +13645,7 @@ const Pokedex = [
       speed: "81",
     },
     eggGroups: ["Water 1", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0350",
     genderRatios: [],
     description: "",
     evolution: [
@@ -15080,11 +13684,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Fairy", "Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0351",
     genderRatios: [],
     description: "",
     evolution: [
@@ -15123,11 +13723,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0352",
     genderRatios: [],
     description: "",
     evolution: [
@@ -15166,11 +13762,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0353",
     genderRatios: [],
     description: "",
     evolution: [
@@ -15209,11 +13801,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0354",
     genderRatios: [],
     description: "",
     evolution: [
@@ -15252,11 +13840,7 @@ const Pokedex = [
       speed: "25",
     },
     eggGroups: ["Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0355",
     genderRatios: [],
     description: "",
     evolution: [
@@ -15295,11 +13879,7 @@ const Pokedex = [
       speed: "25",
     },
     eggGroups: ["Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0356",
     genderRatios: [],
     description: "",
     evolution: [
@@ -15338,11 +13918,7 @@ const Pokedex = [
       speed: "51",
     },
     eggGroups: ["Monster", "Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0357",
     genderRatios: [],
     description: "",
     evolution: [
@@ -15381,11 +13957,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0358",
     genderRatios: [],
     description: "",
     evolution: [
@@ -15424,11 +13996,7 @@ const Pokedex = [
       speed: "75",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0359",
     genderRatios: [],
     description: "",
     evolution: [
@@ -15467,11 +14035,7 @@ const Pokedex = [
       speed: "23",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0360",
     genderRatios: [],
     description: "",
     evolution: [
@@ -15510,11 +14074,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Fairy", "Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0361",
     genderRatios: [],
     description: "",
     evolution: [
@@ -15553,11 +14113,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Fairy", "Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0362",
     genderRatios: [],
     description: "",
     evolution: [
@@ -15596,11 +14152,7 @@ const Pokedex = [
       speed: "25",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0363",
     genderRatios: [],
     description: "",
     evolution: [
@@ -15639,11 +14191,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0364",
     genderRatios: [],
     description: "",
     evolution: [
@@ -15682,11 +14230,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0365",
     genderRatios: [],
     description: "",
     evolution: [
@@ -15725,11 +14269,7 @@ const Pokedex = [
       speed: "32",
     },
     eggGroups: ["Water 1"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0366",
     genderRatios: [],
     description: "",
     evolution: [
@@ -15768,11 +14308,7 @@ const Pokedex = [
       speed: "52",
     },
     eggGroups: ["Water 1"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0367",
     genderRatios: [],
     description: "",
     evolution: [
@@ -15811,11 +14347,7 @@ const Pokedex = [
       speed: "52",
     },
     eggGroups: ["Water 1"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0368",
     genderRatios: [],
     description: "",
     evolution: [
@@ -15854,11 +14386,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Water 1", "Water 2"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0369",
     genderRatios: [],
     description: "",
     evolution: [
@@ -15897,11 +14425,7 @@ const Pokedex = [
       speed: "97",
     },
     eggGroups: ["Water 2"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0370",
     genderRatios: [],
     description: "",
     evolution: [
@@ -15940,11 +14464,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0371",
     genderRatios: [],
     description: "",
     evolution: [
@@ -15983,11 +14503,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0372",
     genderRatios: [],
     description: "",
     evolution: [
@@ -16026,11 +14542,7 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0373",
     genderRatios: [],
     description: "",
     evolution: [
@@ -16069,11 +14581,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0374",
     genderRatios: [],
     description: "",
     evolution: [
@@ -16112,11 +14620,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0375",
     genderRatios: [],
     description: "",
     evolution: [
@@ -16155,11 +14659,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0376",
     genderRatios: [],
     description: "",
     evolution: [
@@ -16198,11 +14698,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0377",
     genderRatios: [],
     description: "",
     evolution: [
@@ -16241,11 +14737,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0378",
     genderRatios: [],
     description: "",
     evolution: [
@@ -16284,11 +14776,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0379",
     genderRatios: [],
     description: "",
     evolution: [
@@ -16327,11 +14815,7 @@ const Pokedex = [
       speed: "110",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0380",
     genderRatios: [],
     description: "",
     evolution: [
@@ -16370,11 +14854,7 @@ const Pokedex = [
       speed: "110",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0381",
     genderRatios: [],
     description: "",
     evolution: [
@@ -16413,11 +14893,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0382",
     genderRatios: [],
     description: "",
     evolution: [
@@ -16456,11 +14932,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0383",
     genderRatios: [],
     description: "",
     evolution: [
@@ -16499,11 +14971,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0384",
     genderRatios: [],
     description: "",
     evolution: [
@@ -16542,11 +15010,7 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0385",
     genderRatios: [],
     description: "",
     evolution: [
@@ -16585,11 +15049,7 @@ const Pokedex = [
       speed: "150",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0386",
     genderRatios: [],
     description: "",
     evolution: [
@@ -16628,11 +15088,7 @@ const Pokedex = [
       speed: "31",
     },
     eggGroups: ["Monster", "Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0387",
     genderRatios: [],
     description: "",
     evolution: [
@@ -16671,11 +15127,7 @@ const Pokedex = [
       speed: "36",
     },
     eggGroups: ["Monster", "Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0388",
     genderRatios: [],
     description: "",
     evolution: [
@@ -16714,11 +15166,7 @@ const Pokedex = [
       speed: "56",
     },
     eggGroups: ["Monster", "Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0389",
     genderRatios: [],
     description: "",
     evolution: [
@@ -16757,11 +15205,7 @@ const Pokedex = [
       speed: "61",
     },
     eggGroups: ["Field", "Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0390",
     genderRatios: [],
     description: "",
     evolution: [
@@ -16800,11 +15244,7 @@ const Pokedex = [
       speed: "81",
     },
     eggGroups: ["Field", "Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0391",
     genderRatios: [],
     description: "",
     evolution: [
@@ -16843,11 +15283,7 @@ const Pokedex = [
       speed: "108",
     },
     eggGroups: ["Field", "Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0392",
     genderRatios: [],
     description: "",
     evolution: [
@@ -16886,11 +15322,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0393",
     genderRatios: [],
     description: "",
     evolution: [
@@ -16929,11 +15361,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0394",
     genderRatios: [],
     description: "",
     evolution: [
@@ -16972,11 +15400,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0395",
     genderRatios: [],
     description: "",
     evolution: [
@@ -17015,11 +15439,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0396",
     genderRatios: [],
     description: "",
     evolution: [
@@ -17058,11 +15478,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0397",
     genderRatios: [],
     description: "",
     evolution: [
@@ -17101,11 +15517,7 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0398",
     genderRatios: [],
     description: "",
     evolution: [
@@ -17144,11 +15556,7 @@ const Pokedex = [
       speed: "31",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0399",
     genderRatios: [],
     description: "",
     evolution: [
@@ -17187,11 +15595,7 @@ const Pokedex = [
       speed: "71",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0400",
     genderRatios: [],
     description: "",
     evolution: [
@@ -17230,11 +15634,7 @@ const Pokedex = [
       speed: "25",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0401",
     genderRatios: [],
     description: "",
     evolution: [
@@ -17273,11 +15673,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0402",
     genderRatios: [],
     description: "",
     evolution: [
@@ -17316,11 +15712,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0403",
     genderRatios: [],
     description: "",
     evolution: [
@@ -17359,11 +15751,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0404",
     genderRatios: [],
     description: "",
     evolution: [
@@ -17402,11 +15790,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0405",
     genderRatios: [],
     description: "",
     evolution: [
@@ -17445,11 +15829,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0406",
     genderRatios: [],
     description: "",
     evolution: [
@@ -17488,11 +15868,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Fairy", "Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0407",
     genderRatios: [],
     description: "",
     evolution: [
@@ -17531,11 +15907,7 @@ const Pokedex = [
       speed: "58",
     },
     eggGroups: ["Monster"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0408",
     genderRatios: [],
     description: "",
     evolution: [
@@ -17574,11 +15946,7 @@ const Pokedex = [
       speed: "58",
     },
     eggGroups: ["Monster"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0409",
     genderRatios: [],
     description: "",
     evolution: [
@@ -17617,11 +15985,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Monster"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0410",
     genderRatios: [],
     description: "",
     evolution: [
@@ -17660,11 +16024,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Monster"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0411",
     genderRatios: [],
     description: "",
     evolution: [
@@ -17703,11 +16063,7 @@ const Pokedex = [
       speed: "36",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0412",
     genderRatios: [],
     description: "",
     evolution: [
@@ -17746,11 +16102,7 @@ const Pokedex = [
       speed: "36",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0413",
     genderRatios: [],
     description: "",
     evolution: [
@@ -17789,11 +16141,7 @@ const Pokedex = [
       speed: "66",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0414",
     genderRatios: [],
     description: "",
     evolution: [
@@ -17832,11 +16180,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0415",
     genderRatios: [],
     description: "",
     evolution: [
@@ -17875,11 +16219,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0416",
     genderRatios: [],
     description: "",
     evolution: [
@@ -17918,11 +16258,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["Field", "Fairy"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0417",
     genderRatios: [],
     description: "",
     evolution: [
@@ -17961,11 +16297,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0418",
     genderRatios: [],
     description: "",
     evolution: [
@@ -18004,11 +16336,7 @@ const Pokedex = [
       speed: "115",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0419",
     genderRatios: [],
     description: "",
     evolution: [
@@ -18047,11 +16375,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Fairy", "Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0420",
     genderRatios: [],
     description: "",
     evolution: [
@@ -18090,11 +16414,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Fairy", "Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0421",
     genderRatios: [],
     description: "",
     evolution: [
@@ -18133,11 +16453,7 @@ const Pokedex = [
       speed: "34",
     },
     eggGroups: ["Water 1", "Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0422",
     genderRatios: [],
     description: "",
     evolution: [
@@ -18176,11 +16492,7 @@ const Pokedex = [
       speed: "39",
     },
     eggGroups: ["Water 1", "Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0423",
     genderRatios: [],
     description: "",
     evolution: [
@@ -18219,11 +16531,7 @@ const Pokedex = [
       speed: "115",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0424",
     genderRatios: [],
     description: "",
     evolution: [
@@ -18262,11 +16570,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0425",
     genderRatios: [],
     description: "",
     evolution: [
@@ -18305,11 +16609,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0426",
     genderRatios: [],
     description: "",
     evolution: [
@@ -18348,11 +16648,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Field", "Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0427",
     genderRatios: [],
     description: "",
     evolution: [
@@ -18391,11 +16687,7 @@ const Pokedex = [
       speed: "105",
     },
     eggGroups: ["Field", "Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0428",
     genderRatios: [],
     description: "",
     evolution: [
@@ -18434,11 +16726,7 @@ const Pokedex = [
       speed: "105",
     },
     eggGroups: ["Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0429",
     genderRatios: [],
     description: "",
     evolution: [
@@ -18477,11 +16765,7 @@ const Pokedex = [
       speed: "71",
     },
     eggGroups: ["Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0430",
     genderRatios: [],
     description: "",
     evolution: [
@@ -18520,11 +16804,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0431",
     genderRatios: [],
     description: "",
     evolution: [
@@ -18563,11 +16843,7 @@ const Pokedex = [
       speed: "112",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0432",
     genderRatios: [],
     description: "",
     evolution: [
@@ -18606,11 +16882,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0433",
     genderRatios: [],
     description: "",
     evolution: [
@@ -18649,11 +16921,7 @@ const Pokedex = [
       speed: "74",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0434",
     genderRatios: [],
     description: "",
     evolution: [
@@ -18692,11 +16960,7 @@ const Pokedex = [
       speed: "84",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0435",
     genderRatios: [],
     description: "",
     evolution: [
@@ -18735,11 +16999,7 @@ const Pokedex = [
       speed: "23",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0436",
     genderRatios: [],
     description: "",
     evolution: [
@@ -18778,11 +17038,7 @@ const Pokedex = [
       speed: "33",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0437",
     genderRatios: [],
     description: "",
     evolution: [
@@ -18821,11 +17077,7 @@ const Pokedex = [
       speed: "10",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0438",
     genderRatios: [],
     description: "",
     evolution: [
@@ -18864,11 +17116,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0439",
     genderRatios: [],
     description: "",
     evolution: [
@@ -18907,11 +17155,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0440",
     genderRatios: [],
     description: "",
     evolution: [
@@ -18950,11 +17194,7 @@ const Pokedex = [
       speed: "91",
     },
     eggGroups: ["Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0441",
     genderRatios: [],
     description: "",
     evolution: [
@@ -18993,11 +17233,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0442",
     genderRatios: [],
     description: "",
     evolution: [
@@ -19036,11 +17272,7 @@ const Pokedex = [
       speed: "42",
     },
     eggGroups: ["Monster", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0443",
     genderRatios: [],
     description: "",
     evolution: [
@@ -19079,11 +17311,7 @@ const Pokedex = [
       speed: "82",
     },
     eggGroups: ["Monster", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0444",
     genderRatios: [],
     description: "",
     evolution: [
@@ -19122,11 +17350,7 @@ const Pokedex = [
       speed: "102",
     },
     eggGroups: ["Monster", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0445",
     genderRatios: [],
     description: "",
     evolution: [
@@ -19165,11 +17389,7 @@ const Pokedex = [
       speed: "5",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0446",
     genderRatios: [],
     description: "",
     evolution: [
@@ -19208,11 +17428,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0447",
     genderRatios: [],
     description: "",
     evolution: [
@@ -19251,11 +17467,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Field", "Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0448",
     genderRatios: [],
     description: "",
     evolution: [
@@ -19294,11 +17506,7 @@ const Pokedex = [
       speed: "32",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0449",
     genderRatios: [],
     description: "",
     evolution: [
@@ -19337,11 +17545,7 @@ const Pokedex = [
       speed: "47",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0450",
     genderRatios: [],
     description: "",
     evolution: [
@@ -19380,11 +17584,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Bug", "Water 3"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0451",
     genderRatios: [],
     description: "",
     evolution: [
@@ -19423,11 +17623,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["Bug", "Water 3"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0452",
     genderRatios: [],
     description: "",
     evolution: [
@@ -19466,11 +17662,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0453",
     genderRatios: [],
     description: "",
     evolution: [
@@ -19509,11 +17701,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0454",
     genderRatios: [],
     description: "",
     evolution: [
@@ -19552,11 +17740,7 @@ const Pokedex = [
       speed: "46",
     },
     eggGroups: ["Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0455",
     genderRatios: [],
     description: "",
     evolution: [
@@ -19595,11 +17779,7 @@ const Pokedex = [
       speed: "66",
     },
     eggGroups: ["Water 2"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0456",
     genderRatios: [],
     description: "",
     evolution: [
@@ -19638,11 +17818,7 @@ const Pokedex = [
       speed: "91",
     },
     eggGroups: ["Water 2"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0457",
     genderRatios: [],
     description: "",
     evolution: [
@@ -19681,11 +17857,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0458",
     genderRatios: [],
     description: "",
     evolution: [
@@ -19724,11 +17896,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Monster", "Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0459",
     genderRatios: [],
     description: "",
     evolution: [
@@ -19767,11 +17935,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Monster", "Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0460",
     genderRatios: [],
     description: "",
     evolution: [
@@ -19810,11 +17974,7 @@ const Pokedex = [
       speed: "125",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0461",
     genderRatios: [],
     description: "",
     evolution: [
@@ -19853,11 +18013,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0462",
     genderRatios: [],
     description: "",
     evolution: [
@@ -19896,11 +18052,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Monster"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0463",
     genderRatios: [],
     description: "",
     evolution: [
@@ -19939,11 +18091,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Monster", "Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0464",
     genderRatios: [],
     description: "",
     evolution: [
@@ -19982,11 +18130,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0465",
     genderRatios: [],
     description: "",
     evolution: [
@@ -20025,11 +18169,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0466",
     genderRatios: [],
     description: "",
     evolution: [
@@ -20068,11 +18208,7 @@ const Pokedex = [
       speed: "83",
     },
     eggGroups: ["Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0467",
     genderRatios: [],
     description: "",
     evolution: [
@@ -20111,11 +18247,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Flying", "Fairy"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0468",
     genderRatios: [],
     description: "",
     evolution: [
@@ -20154,11 +18286,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0469",
     genderRatios: [],
     description: "",
     evolution: [
@@ -20197,11 +18325,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0470",
     genderRatios: [],
     description: "",
     evolution: [
@@ -20240,11 +18364,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0471",
     genderRatios: [],
     description: "",
     evolution: [
@@ -20283,11 +18403,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0472",
     genderRatios: [],
     description: "",
     evolution: [
@@ -20326,11 +18442,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0473",
     genderRatios: [],
     description: "",
     evolution: [
@@ -20369,11 +18481,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0474",
     genderRatios: [],
     description: "",
     evolution: [
@@ -20412,11 +18520,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Human-Like*", "Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0475",
     genderRatios: [],
     description: "",
     evolution: [
@@ -20455,11 +18559,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0476",
     genderRatios: [],
     description: "",
     evolution: [
@@ -20498,11 +18598,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0477",
     genderRatios: [],
     description: "",
     evolution: [
@@ -20541,11 +18637,7 @@ const Pokedex = [
       speed: "110",
     },
     eggGroups: ["Fairy", "Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0478",
     genderRatios: [],
     description: "",
     evolution: [
@@ -20584,11 +18676,7 @@ const Pokedex = [
       speed: "91",
     },
     eggGroups: ["Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0479",
     genderRatios: [],
     description: "",
     evolution: [
@@ -20627,11 +18715,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0480",
     genderRatios: [],
     description: "",
     evolution: [
@@ -20670,11 +18754,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0481",
     genderRatios: [],
     description: "",
     evolution: [
@@ -20713,11 +18793,7 @@ const Pokedex = [
       speed: "115",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0482",
     genderRatios: [],
     description: "",
     evolution: [
@@ -20756,11 +18832,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0483",
     genderRatios: [],
     description: "",
     evolution: [
@@ -20799,11 +18871,7 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0484",
     genderRatios: [],
     description: "",
     evolution: [
@@ -20842,11 +18910,7 @@ const Pokedex = [
       speed: "77",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0485",
     genderRatios: [],
     description: "",
     evolution: [
@@ -20885,11 +18949,7 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0486",
     genderRatios: [],
     description: "",
     evolution: [
@@ -20928,11 +18988,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0487",
     genderRatios: [],
     description: "",
     evolution: [
@@ -20971,11 +19027,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0488",
     genderRatios: [],
     description: "",
     evolution: [
@@ -21014,11 +19066,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Water 1", "Fairy"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0489",
     genderRatios: [],
     description: "",
     evolution: [
@@ -21057,11 +19105,7 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["Water 1", "Fairy"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0490",
     genderRatios: [],
     description: "",
     evolution: [
@@ -21100,11 +19144,7 @@ const Pokedex = [
       speed: "125",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0491",
     genderRatios: [],
     description: "",
     evolution: [
@@ -21143,11 +19183,7 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0492",
     genderRatios: [],
     description: "",
     evolution: [
@@ -21186,11 +19222,7 @@ const Pokedex = [
       speed: "120",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0493",
     genderRatios: [],
     description: "",
     evolution: [
@@ -21229,11 +19261,7 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0494",
     genderRatios: [],
     description: "",
     evolution: [
@@ -21272,11 +19300,7 @@ const Pokedex = [
       speed: "63",
     },
     eggGroups: ["Field", "Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0495",
     genderRatios: [],
     description: "",
     evolution: [
@@ -21315,11 +19339,7 @@ const Pokedex = [
       speed: "83",
     },
     eggGroups: ["Field", "Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0496",
     genderRatios: [],
     description: "",
     evolution: [
@@ -21358,11 +19378,7 @@ const Pokedex = [
       speed: "113",
     },
     eggGroups: ["Field", "Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0497",
     genderRatios: [],
     description: "",
     evolution: [
@@ -21401,11 +19417,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0498",
     genderRatios: [],
     description: "",
     evolution: [
@@ -21444,11 +19456,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0499",
     genderRatios: [],
     description: "",
     evolution: [
@@ -21487,11 +19495,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0500",
     genderRatios: [],
     description: "",
     evolution: [
@@ -21530,11 +19534,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0501",
     genderRatios: [],
     description: "",
     evolution: [
@@ -21573,11 +19573,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0502",
     genderRatios: [],
     description: "",
     evolution: [
@@ -21616,11 +19612,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0503",
     genderRatios: [],
     description: "",
     evolution: [
@@ -21659,11 +19651,7 @@ const Pokedex = [
       speed: "42",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0504",
     genderRatios: [],
     description: "",
     evolution: [
@@ -21702,11 +19690,7 @@ const Pokedex = [
       speed: "77",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0505",
     genderRatios: [],
     description: "",
     evolution: [
@@ -21745,11 +19729,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0506",
     genderRatios: [],
     description: "",
     evolution: [
@@ -21788,11 +19768,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0507",
     genderRatios: [],
     description: "",
     evolution: [
@@ -21831,11 +19807,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0508",
     genderRatios: [],
     description: "",
     evolution: [
@@ -21874,11 +19846,7 @@ const Pokedex = [
       speed: "66",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0509",
     genderRatios: [],
     description: "",
     evolution: [
@@ -21917,11 +19885,7 @@ const Pokedex = [
       speed: "106",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0510",
     genderRatios: [],
     description: "",
     evolution: [
@@ -21960,11 +19924,7 @@ const Pokedex = [
       speed: "64",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0511",
     genderRatios: [],
     description: "",
     evolution: [
@@ -22003,11 +19963,7 @@ const Pokedex = [
       speed: "101",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0512",
     genderRatios: [],
     description: "",
     evolution: [
@@ -22046,11 +20002,7 @@ const Pokedex = [
       speed: "64",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0513",
     genderRatios: [],
     description: "",
     evolution: [
@@ -22089,11 +20041,7 @@ const Pokedex = [
       speed: "101",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0514",
     genderRatios: [],
     description: "",
     evolution: [
@@ -22132,11 +20080,7 @@ const Pokedex = [
       speed: "64",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0515",
     genderRatios: [],
     description: "",
     evolution: [
@@ -22175,11 +20119,7 @@ const Pokedex = [
       speed: "101",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0516",
     genderRatios: [],
     description: "",
     evolution: [
@@ -22218,11 +20158,7 @@ const Pokedex = [
       speed: "24",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0517",
     genderRatios: [],
     description: "",
     evolution: [
@@ -22261,11 +20197,7 @@ const Pokedex = [
       speed: "29",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0518",
     genderRatios: [],
     description: "",
     evolution: [
@@ -22304,11 +20236,7 @@ const Pokedex = [
       speed: "43",
     },
     eggGroups: ["Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0519",
     genderRatios: [],
     description: "",
     evolution: [
@@ -22347,11 +20275,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0520",
     genderRatios: [],
     description: "",
     evolution: [
@@ -22390,11 +20314,7 @@ const Pokedex = [
       speed: "93",
     },
     eggGroups: ["Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0521",
     genderRatios: [],
     description: "",
     evolution: [
@@ -22433,11 +20353,7 @@ const Pokedex = [
       speed: "76",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0522",
     genderRatios: [],
     description: "",
     evolution: [
@@ -22476,11 +20392,7 @@ const Pokedex = [
       speed: "116",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0523",
     genderRatios: [],
     description: "",
     evolution: [
@@ -22519,11 +20431,7 @@ const Pokedex = [
       speed: "15",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0524",
     genderRatios: [],
     description: "",
     evolution: [
@@ -22562,11 +20470,7 @@ const Pokedex = [
       speed: "20",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0525",
     genderRatios: [],
     description: "",
     evolution: [
@@ -22605,11 +20509,7 @@ const Pokedex = [
       speed: "25",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0526",
     genderRatios: [],
     description: "",
     evolution: [
@@ -22648,11 +20548,7 @@ const Pokedex = [
       speed: "72",
     },
     eggGroups: ["Field", "Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0527",
     genderRatios: [],
     description: "",
     evolution: [
@@ -22691,11 +20587,7 @@ const Pokedex = [
       speed: "114",
     },
     eggGroups: ["Field", "Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0528",
     genderRatios: [],
     description: "",
     evolution: [
@@ -22734,11 +20626,7 @@ const Pokedex = [
       speed: "68",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0529",
     genderRatios: [],
     description: "",
     evolution: [
@@ -22777,11 +20665,7 @@ const Pokedex = [
       speed: "88",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0530",
     genderRatios: [],
     description: "",
     evolution: [
@@ -22820,11 +20704,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Fairy"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0531",
     genderRatios: [],
     description: "",
     evolution: [
@@ -22863,11 +20743,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0532",
     genderRatios: [],
     description: "",
     evolution: [
@@ -22906,11 +20782,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0533",
     genderRatios: [],
     description: "",
     evolution: [
@@ -22949,11 +20821,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0534",
     genderRatios: [],
     description: "",
     evolution: [
@@ -22992,11 +20860,7 @@ const Pokedex = [
       speed: "64",
     },
     eggGroups: ["Water 1"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0535",
     genderRatios: [],
     description: "",
     evolution: [
@@ -23035,11 +20899,7 @@ const Pokedex = [
       speed: "69",
     },
     eggGroups: ["Water 1"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0536",
     genderRatios: [],
     description: "",
     evolution: [
@@ -23078,11 +20938,7 @@ const Pokedex = [
       speed: "74",
     },
     eggGroups: ["Water 1"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0537",
     genderRatios: [],
     description: "",
     evolution: [
@@ -23121,11 +20977,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0538",
     genderRatios: [],
     description: "",
     evolution: [
@@ -23164,11 +21016,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0539",
     genderRatios: [],
     description: "",
     evolution: [
@@ -23207,11 +21055,7 @@ const Pokedex = [
       speed: "42",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0540",
     genderRatios: [],
     description: "",
     evolution: [
@@ -23250,11 +21094,7 @@ const Pokedex = [
       speed: "42",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0541",
     genderRatios: [],
     description: "",
     evolution: [
@@ -23293,11 +21133,7 @@ const Pokedex = [
       speed: "92",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0542",
     genderRatios: [],
     description: "",
     evolution: [
@@ -23336,11 +21172,7 @@ const Pokedex = [
       speed: "57",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0543",
     genderRatios: [],
     description: "",
     evolution: [
@@ -23379,11 +21211,7 @@ const Pokedex = [
       speed: "47",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0544",
     genderRatios: [],
     description: "",
     evolution: [
@@ -23422,11 +21250,7 @@ const Pokedex = [
       speed: "112",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0545",
     genderRatios: [],
     description: "",
     evolution: [
@@ -23465,11 +21289,7 @@ const Pokedex = [
       speed: "66",
     },
     eggGroups: ["Grass", "Fairy"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0546",
     genderRatios: [],
     description: "",
     evolution: [
@@ -23508,11 +21328,7 @@ const Pokedex = [
       speed: "116",
     },
     eggGroups: ["Grass", "Fairy"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0547",
     genderRatios: [],
     description: "",
     evolution: [
@@ -23551,11 +21367,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0548",
     genderRatios: [],
     description: "",
     evolution: [
@@ -23594,11 +21406,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0549",
     genderRatios: [],
     description: "",
     evolution: [
@@ -23637,11 +21445,7 @@ const Pokedex = [
       speed: "98",
     },
     eggGroups: ["Water 2"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0550",
     genderRatios: [],
     description: "",
     evolution: [
@@ -23680,11 +21484,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0551",
     genderRatios: [],
     description: "",
     evolution: [
@@ -23723,11 +21523,7 @@ const Pokedex = [
       speed: "74",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0552",
     genderRatios: [],
     description: "",
     evolution: [
@@ -23766,11 +21562,7 @@ const Pokedex = [
       speed: "92",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0553",
     genderRatios: [],
     description: "",
     evolution: [
@@ -23809,11 +21601,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0554",
     genderRatios: [],
     description: "",
     evolution: [
@@ -23852,11 +21640,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0555",
     genderRatios: [],
     description: "",
     evolution: [
@@ -23895,11 +21679,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0556",
     genderRatios: [],
     description: "",
     evolution: [
@@ -23938,11 +21718,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Bug", "Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0557",
     genderRatios: [],
     description: "",
     evolution: [
@@ -23981,11 +21757,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Bug", "Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0558",
     genderRatios: [],
     description: "",
     evolution: [
@@ -24024,11 +21796,7 @@ const Pokedex = [
       speed: "48",
     },
     eggGroups: ["Field", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0559",
     genderRatios: [],
     description: "",
     evolution: [
@@ -24067,11 +21835,7 @@ const Pokedex = [
       speed: "58",
     },
     eggGroups: ["Field", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0560",
     genderRatios: [],
     description: "",
     evolution: [
@@ -24110,11 +21874,7 @@ const Pokedex = [
       speed: "97",
     },
     eggGroups: ["Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0561",
     genderRatios: [],
     description: "",
     evolution: [
@@ -24153,11 +21913,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Mineral", "Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0562",
     genderRatios: [],
     description: "",
     evolution: [
@@ -24196,11 +21952,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Mineral", "Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0563",
     genderRatios: [],
     description: "",
     evolution: [
@@ -24239,11 +21991,7 @@ const Pokedex = [
       speed: "22",
     },
     eggGroups: ["Water 1", "Water 3"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0564",
     genderRatios: [],
     description: "",
     evolution: [
@@ -24282,11 +22030,7 @@ const Pokedex = [
       speed: "32",
     },
     eggGroups: ["Water 1", "Water 3"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0565",
     genderRatios: [],
     description: "",
     evolution: [
@@ -24325,11 +22069,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Flying", "Water 3"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0566",
     genderRatios: [],
     description: "",
     evolution: [
@@ -24368,11 +22108,7 @@ const Pokedex = [
       speed: "110",
     },
     eggGroups: ["Flying", "Water 3"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0567",
     genderRatios: [],
     description: "",
     evolution: [
@@ -24411,11 +22147,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0568",
     genderRatios: [],
     description: "",
     evolution: [
@@ -24454,11 +22186,7 @@ const Pokedex = [
       speed: "75",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0569",
     genderRatios: [],
     description: "",
     evolution: [
@@ -24497,11 +22225,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0570",
     genderRatios: [],
     description: "",
     evolution: [
@@ -24540,11 +22264,7 @@ const Pokedex = [
       speed: "105",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0571",
     genderRatios: [],
     description: "",
     evolution: [
@@ -24583,11 +22303,7 @@ const Pokedex = [
       speed: "75",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0572",
     genderRatios: [],
     description: "",
     evolution: [
@@ -24626,11 +22342,7 @@ const Pokedex = [
       speed: "115",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0573",
     genderRatios: [],
     description: "",
     evolution: [
@@ -24669,11 +22381,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0574",
     genderRatios: [],
     description: "",
     evolution: [
@@ -24712,11 +22420,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0575",
     genderRatios: [],
     description: "",
     evolution: [
@@ -24755,11 +22459,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0576",
     genderRatios: [],
     description: "",
     evolution: [
@@ -24798,11 +22498,7 @@ const Pokedex = [
       speed: "20",
     },
     eggGroups: ["Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0577",
     genderRatios: [],
     description: "",
     evolution: [
@@ -24841,11 +22537,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0578",
     genderRatios: [],
     description: "",
     evolution: [
@@ -24884,11 +22576,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0579",
     genderRatios: [],
     description: "",
     evolution: [
@@ -24927,11 +22615,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Water 1", "Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0580",
     genderRatios: [],
     description: "",
     evolution: [
@@ -24970,11 +22654,7 @@ const Pokedex = [
       speed: "98",
     },
     eggGroups: ["Water 1", "Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0581",
     genderRatios: [],
     description: "",
     evolution: [
@@ -25013,11 +22693,7 @@ const Pokedex = [
       speed: "44",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0582",
     genderRatios: [],
     description: "",
     evolution: [
@@ -25056,11 +22732,7 @@ const Pokedex = [
       speed: "59",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0583",
     genderRatios: [],
     description: "",
     evolution: [
@@ -25099,11 +22771,7 @@ const Pokedex = [
       speed: "79",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0584",
     genderRatios: [],
     description: "",
     evolution: [
@@ -25142,11 +22810,7 @@ const Pokedex = [
       speed: "75",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0585",
     genderRatios: [],
     description: "",
     evolution: [
@@ -25185,11 +22849,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0586",
     genderRatios: [],
     description: "",
     evolution: [
@@ -25228,11 +22888,7 @@ const Pokedex = [
       speed: "103",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0587",
     genderRatios: [],
     description: "",
     evolution: [
@@ -25271,11 +22927,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0588",
     genderRatios: [],
     description: "",
     evolution: [
@@ -25314,11 +22966,7 @@ const Pokedex = [
       speed: "20",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0589",
     genderRatios: [],
     description: "",
     evolution: [
@@ -25357,11 +23005,7 @@ const Pokedex = [
       speed: "15",
     },
     eggGroups: ["Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0590",
     genderRatios: [],
     description: "",
     evolution: [
@@ -25400,11 +23044,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0591",
     genderRatios: [],
     description: "",
     evolution: [
@@ -25443,11 +23083,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0592",
     genderRatios: [],
     description: "",
     evolution: [
@@ -25486,11 +23122,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0593",
     genderRatios: [],
     description: "",
     evolution: [
@@ -25529,11 +23161,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Water 1", "Water 2"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0594",
     genderRatios: [],
     description: "",
     evolution: [
@@ -25572,11 +23200,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0595",
     genderRatios: [],
     description: "",
     evolution: [
@@ -25615,11 +23239,7 @@ const Pokedex = [
       speed: "108",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0596",
     genderRatios: [],
     description: "",
     evolution: [
@@ -25658,11 +23278,7 @@ const Pokedex = [
       speed: "10",
     },
     eggGroups: ["Grass", "Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0597",
     genderRatios: [],
     description: "",
     evolution: [
@@ -25701,11 +23317,7 @@ const Pokedex = [
       speed: "20",
     },
     eggGroups: ["Grass", "Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0598",
     genderRatios: [],
     description: "",
     evolution: [
@@ -25744,11 +23356,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0599",
     genderRatios: [],
     description: "",
     evolution: [
@@ -25787,11 +23395,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0600",
     genderRatios: [],
     description: "",
     evolution: [
@@ -25830,11 +23434,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0601",
     genderRatios: [],
     description: "",
     evolution: [
@@ -25873,11 +23473,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0602",
     genderRatios: [],
     description: "",
     evolution: [
@@ -25916,11 +23512,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0603",
     genderRatios: [],
     description: "",
     evolution: [
@@ -25959,11 +23551,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0604",
     genderRatios: [],
     description: "",
     evolution: [
@@ -26002,11 +23590,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0605",
     genderRatios: [],
     description: "",
     evolution: [
@@ -26045,11 +23629,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0606",
     genderRatios: [],
     description: "",
     evolution: [
@@ -26088,11 +23668,7 @@ const Pokedex = [
       speed: "20",
     },
     eggGroups: ["Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0607",
     genderRatios: [],
     description: "",
     evolution: [
@@ -26131,11 +23707,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0608",
     genderRatios: [],
     description: "",
     evolution: [
@@ -26174,11 +23746,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0609",
     genderRatios: [],
     description: "",
     evolution: [
@@ -26217,11 +23785,7 @@ const Pokedex = [
       speed: "57",
     },
     eggGroups: ["Monster", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0610",
     genderRatios: [],
     description: "",
     evolution: [
@@ -26260,11 +23824,7 @@ const Pokedex = [
       speed: "67",
     },
     eggGroups: ["Monster", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0611",
     genderRatios: [],
     description: "",
     evolution: [
@@ -26303,11 +23863,7 @@ const Pokedex = [
       speed: "97",
     },
     eggGroups: ["Monster", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0612",
     genderRatios: [],
     description: "",
     evolution: [
@@ -26346,11 +23902,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0613",
     genderRatios: [],
     description: "",
     evolution: [
@@ -26389,11 +23941,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0614",
     genderRatios: [],
     description: "",
     evolution: [
@@ -26432,11 +23980,7 @@ const Pokedex = [
       speed: "105",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0615",
     genderRatios: [],
     description: "",
     evolution: [
@@ -26475,11 +24019,7 @@ const Pokedex = [
       speed: "25",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0616",
     genderRatios: [],
     description: "",
     evolution: [
@@ -26518,11 +24058,7 @@ const Pokedex = [
       speed: "145",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0617",
     genderRatios: [],
     description: "",
     evolution: [
@@ -26561,11 +24097,7 @@ const Pokedex = [
       speed: "32",
     },
     eggGroups: ["Water 1", "Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0618",
     genderRatios: [],
     description: "",
     evolution: [
@@ -26604,11 +24136,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Field", "Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0619",
     genderRatios: [],
     description: "",
     evolution: [
@@ -26647,11 +24175,7 @@ const Pokedex = [
       speed: "105",
     },
     eggGroups: ["Field", "Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0620",
     genderRatios: [],
     description: "",
     evolution: [
@@ -26690,11 +24214,7 @@ const Pokedex = [
       speed: "48",
     },
     eggGroups: ["Dragon", "Monster"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0621",
     genderRatios: [],
     description: "",
     evolution: [
@@ -26733,11 +24253,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0622",
     genderRatios: [],
     description: "",
     evolution: [
@@ -26776,11 +24292,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0623",
     genderRatios: [],
     description: "",
     evolution: [
@@ -26819,11 +24331,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0624",
     genderRatios: [],
     description: "",
     evolution: [
@@ -26862,11 +24370,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0625",
     genderRatios: [],
     description: "",
     evolution: [
@@ -26905,11 +24409,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0626",
     genderRatios: [],
     description: "",
     evolution: [
@@ -26948,11 +24448,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0627",
     genderRatios: [],
     description: "",
     evolution: [
@@ -26991,11 +24487,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0628",
     genderRatios: [],
     description: "",
     evolution: [
@@ -27034,11 +24526,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0629",
     genderRatios: [],
     description: "",
     evolution: [
@@ -27077,11 +24565,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0630",
     genderRatios: [],
     description: "",
     evolution: [
@@ -27120,11 +24604,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0631",
     genderRatios: [],
     description: "",
     evolution: [
@@ -27163,11 +24643,7 @@ const Pokedex = [
       speed: "109",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0632",
     genderRatios: [],
     description: "",
     evolution: [
@@ -27206,11 +24682,7 @@ const Pokedex = [
       speed: "38",
     },
     eggGroups: ["Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0633",
     genderRatios: [],
     description: "",
     evolution: [
@@ -27249,11 +24721,7 @@ const Pokedex = [
       speed: "58",
     },
     eggGroups: ["Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0634",
     genderRatios: [],
     description: "",
     evolution: [
@@ -27292,11 +24760,7 @@ const Pokedex = [
       speed: "98",
     },
     eggGroups: ["Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0635",
     genderRatios: [],
     description: "",
     evolution: [
@@ -27335,11 +24799,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0636",
     genderRatios: [],
     description: "",
     evolution: [
@@ -27378,11 +24838,7 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0637",
     genderRatios: [],
     description: "",
     evolution: [
@@ -27421,11 +24877,7 @@ const Pokedex = [
       speed: "108",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0638",
     genderRatios: [],
     description: "",
     evolution: [
@@ -27464,11 +24916,7 @@ const Pokedex = [
       speed: "108",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0639",
     genderRatios: [],
     description: "",
     evolution: [
@@ -27507,11 +24955,7 @@ const Pokedex = [
       speed: "108",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0640",
     genderRatios: [],
     description: "",
     evolution: [
@@ -27550,11 +24994,7 @@ const Pokedex = [
       speed: "111",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0641",
     genderRatios: [],
     description: "",
     evolution: [
@@ -27593,11 +25033,7 @@ const Pokedex = [
       speed: "111",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0642",
     genderRatios: [],
     description: "",
     evolution: [
@@ -27636,11 +25072,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0643",
     genderRatios: [],
     description: "",
     evolution: [
@@ -27679,11 +25111,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0644",
     genderRatios: [],
     description: "",
     evolution: [
@@ -27722,11 +25150,7 @@ const Pokedex = [
       speed: "101",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0645",
     genderRatios: [],
     description: "",
     evolution: [
@@ -27765,11 +25189,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0646",
     genderRatios: [],
     description: "",
     evolution: [
@@ -27808,11 +25228,7 @@ const Pokedex = [
       speed: "108",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0647",
     genderRatios: [],
     description: "",
     evolution: [
@@ -27851,11 +25267,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0648",
     genderRatios: [],
     description: "",
     evolution: [
@@ -27894,11 +25306,7 @@ const Pokedex = [
       speed: "99",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0649",
     genderRatios: [],
     description: "",
     evolution: [
@@ -27937,11 +25345,7 @@ const Pokedex = [
       speed: "38",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0650",
     genderRatios: [],
     description: "",
     evolution: [
@@ -27980,11 +25384,7 @@ const Pokedex = [
       speed: "57",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0651",
     genderRatios: [],
     description: "",
     evolution: [
@@ -28023,11 +25423,7 @@ const Pokedex = [
       speed: "64",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0652",
     genderRatios: [],
     description: "",
     evolution: [
@@ -28066,11 +25462,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0653",
     genderRatios: [],
     description: "",
     evolution: [
@@ -28109,11 +25501,7 @@ const Pokedex = [
       speed: "73",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0654",
     genderRatios: [],
     description: "",
     evolution: [
@@ -28152,11 +25540,7 @@ const Pokedex = [
       speed: "104",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0655",
     genderRatios: [],
     description: "",
     evolution: [
@@ -28195,11 +25579,7 @@ const Pokedex = [
       speed: "71",
     },
     eggGroups: ["Water 1"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0656",
     genderRatios: [],
     description: "",
     evolution: [
@@ -28238,11 +25618,7 @@ const Pokedex = [
       speed: "97",
     },
     eggGroups: ["Water 1"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0657",
     genderRatios: [],
     description: "",
     evolution: [
@@ -28281,11 +25657,7 @@ const Pokedex = [
       speed: "122",
     },
     eggGroups: ["Water 1"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0658",
     genderRatios: [],
     description: "",
     evolution: [
@@ -28324,11 +25696,7 @@ const Pokedex = [
       speed: "57",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0659",
     genderRatios: [],
     description: "",
     evolution: [
@@ -28367,11 +25735,7 @@ const Pokedex = [
       speed: "78",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0660",
     genderRatios: [],
     description: "",
     evolution: [
@@ -28410,11 +25774,7 @@ const Pokedex = [
       speed: "62",
     },
     eggGroups: ["Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0661",
     genderRatios: [],
     description: "",
     evolution: [
@@ -28453,11 +25813,7 @@ const Pokedex = [
       speed: "84",
     },
     eggGroups: ["Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0662",
     genderRatios: [],
     description: "",
     evolution: [
@@ -28496,11 +25852,7 @@ const Pokedex = [
       speed: "126",
     },
     eggGroups: ["Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0663",
     genderRatios: [],
     description: "",
     evolution: [
@@ -28539,11 +25891,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0664",
     genderRatios: [],
     description: "",
     evolution: [
@@ -28582,11 +25930,7 @@ const Pokedex = [
       speed: "29",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0665",
     genderRatios: [],
     description: "",
     evolution: [
@@ -28625,11 +25969,7 @@ const Pokedex = [
       speed: "89",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0666",
     genderRatios: [],
     description: "",
     evolution: [
@@ -28668,11 +26008,7 @@ const Pokedex = [
       speed: "72",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0667",
     genderRatios: [],
     description: "",
     evolution: [
@@ -28711,11 +26047,7 @@ const Pokedex = [
       speed: "106",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0668",
     genderRatios: [],
     description: "",
     evolution: [
@@ -28754,11 +26086,7 @@ const Pokedex = [
       speed: "42",
     },
     eggGroups: ["Fairy"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0669",
     genderRatios: [],
     description: "",
     evolution: [
@@ -28797,11 +26125,7 @@ const Pokedex = [
       speed: "52",
     },
     eggGroups: ["Fairy"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0670",
     genderRatios: [],
     description: "",
     evolution: [
@@ -28840,11 +26164,7 @@ const Pokedex = [
       speed: "75",
     },
     eggGroups: ["Fairy"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0671",
     genderRatios: [],
     description: "",
     evolution: [
@@ -28883,11 +26203,7 @@ const Pokedex = [
       speed: "52",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0672",
     genderRatios: [],
     description: "",
     evolution: [
@@ -28926,11 +26242,7 @@ const Pokedex = [
       speed: "68",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0673",
     genderRatios: [],
     description: "",
     evolution: [
@@ -28969,11 +26281,7 @@ const Pokedex = [
       speed: "43",
     },
     eggGroups: ["Field", "Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0674",
     genderRatios: [],
     description: "",
     evolution: [
@@ -29012,11 +26320,7 @@ const Pokedex = [
       speed: "58",
     },
     eggGroups: ["Field", "Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0675",
     genderRatios: [],
     description: "",
     evolution: [
@@ -29055,11 +26359,7 @@ const Pokedex = [
       speed: "102",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0676",
     genderRatios: [],
     description: "",
     evolution: [
@@ -29098,11 +26398,7 @@ const Pokedex = [
       speed: "68",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0677",
     genderRatios: [],
     description: "",
     evolution: [
@@ -29141,11 +26437,7 @@ const Pokedex = [
       speed: "104",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0678",
     genderRatios: [],
     description: "",
     evolution: [
@@ -29184,11 +26476,7 @@ const Pokedex = [
       speed: "28",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0679",
     genderRatios: [],
     description: "",
     evolution: [
@@ -29227,11 +26515,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0680",
     genderRatios: [],
     description: "",
     evolution: [
@@ -29270,11 +26554,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0681",
     genderRatios: [],
     description: "",
     evolution: [
@@ -29313,11 +26593,7 @@ const Pokedex = [
       speed: "23",
     },
     eggGroups: ["Fairy"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0682",
     genderRatios: [],
     description: "",
     evolution: [
@@ -29356,11 +26632,7 @@ const Pokedex = [
       speed: "29",
     },
     eggGroups: ["Fairy"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0683",
     genderRatios: [],
     description: "",
     evolution: [
@@ -29399,11 +26671,7 @@ const Pokedex = [
       speed: "49",
     },
     eggGroups: ["Fairy"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0684",
     genderRatios: [],
     description: "",
     evolution: [
@@ -29442,11 +26710,7 @@ const Pokedex = [
       speed: "72",
     },
     eggGroups: ["Fairy"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0685",
     genderRatios: [],
     description: "",
     evolution: [
@@ -29485,11 +26749,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Water 1", "Water 2"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0686",
     genderRatios: [],
     description: "",
     evolution: [
@@ -29528,11 +26788,7 @@ const Pokedex = [
       speed: "73",
     },
     eggGroups: ["Water 1", "Water 2"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0687",
     genderRatios: [],
     description: "",
     evolution: [
@@ -29571,11 +26827,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Water 3"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0688",
     genderRatios: [],
     description: "",
     evolution: [
@@ -29614,11 +26866,7 @@ const Pokedex = [
       speed: "68",
     },
     eggGroups: ["Water 3"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0689",
     genderRatios: [],
     description: "",
     evolution: [
@@ -29657,11 +26905,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Water 1", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0690",
     genderRatios: [],
     description: "",
     evolution: [
@@ -29700,11 +26944,7 @@ const Pokedex = [
       speed: "44",
     },
     eggGroups: ["Water 1", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0691",
     genderRatios: [],
     description: "",
     evolution: [
@@ -29743,11 +26983,7 @@ const Pokedex = [
       speed: "44",
     },
     eggGroups: ["Water 1", "Water 3"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0692",
     genderRatios: [],
     description: "",
     evolution: [
@@ -29786,11 +27022,7 @@ const Pokedex = [
       speed: "59",
     },
     eggGroups: ["Water 1", "Water 3"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0693",
     genderRatios: [],
     description: "",
     evolution: [
@@ -29829,11 +27061,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Monster", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0694",
     genderRatios: [],
     description: "",
     evolution: [
@@ -29872,11 +27100,7 @@ const Pokedex = [
       speed: "109",
     },
     eggGroups: ["Monster", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0695",
     genderRatios: [],
     description: "",
     evolution: [
@@ -29915,11 +27139,7 @@ const Pokedex = [
       speed: "48",
     },
     eggGroups: ["Monster", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0696",
     genderRatios: [],
     description: "",
     evolution: [
@@ -29958,11 +27178,7 @@ const Pokedex = [
       speed: "71",
     },
     eggGroups: ["Monster", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0697",
     genderRatios: [],
     description: "",
     evolution: [
@@ -30001,11 +27217,7 @@ const Pokedex = [
       speed: "46",
     },
     eggGroups: ["Monster"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0698",
     genderRatios: [],
     description: "",
     evolution: [
@@ -30044,11 +27256,7 @@ const Pokedex = [
       speed: "58",
     },
     eggGroups: ["Monster"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0699",
     genderRatios: [],
     description: "",
     evolution: [
@@ -30087,11 +27295,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0700",
     genderRatios: [],
     description: "",
     evolution: [
@@ -30130,11 +27334,7 @@ const Pokedex = [
       speed: "118",
     },
     eggGroups: ["Flying*", "Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0701",
     genderRatios: [],
     description: "",
     evolution: [
@@ -30173,11 +27373,7 @@ const Pokedex = [
       speed: "101",
     },
     eggGroups: ["Field", "Fairy"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0702",
     genderRatios: [],
     description: "",
     evolution: [
@@ -30216,11 +27412,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Fairy", "Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0703",
     genderRatios: [],
     description: "",
     evolution: [
@@ -30259,11 +27451,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0704",
     genderRatios: [],
     description: "",
     evolution: [
@@ -30302,11 +27490,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0705",
     genderRatios: [],
     description: "",
     evolution: [
@@ -30345,11 +27529,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0706",
     genderRatios: [],
     description: "",
     evolution: [
@@ -30388,11 +27568,7 @@ const Pokedex = [
       speed: "75",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0707",
     genderRatios: [],
     description: "",
     evolution: [
@@ -30431,11 +27607,7 @@ const Pokedex = [
       speed: "38",
     },
     eggGroups: ["Grass", "Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0708",
     genderRatios: [],
     description: "",
     evolution: [
@@ -30474,11 +27646,7 @@ const Pokedex = [
       speed: "56",
     },
     eggGroups: ["Grass", "Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0709",
     genderRatios: [],
     description: "",
     evolution: [
@@ -30517,11 +27685,7 @@ const Pokedex = [
       speed: "51",
     },
     eggGroups: ["Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0710",
     genderRatios: [],
     description: "",
     evolution: [
@@ -30560,11 +27724,7 @@ const Pokedex = [
       speed: "84",
     },
     eggGroups: ["Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0711",
     genderRatios: [],
     description: "",
     evolution: [
@@ -30603,11 +27763,7 @@ const Pokedex = [
       speed: "28",
     },
     eggGroups: ["Monster", "Mineral*"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0712",
     genderRatios: [],
     description: "",
     evolution: [
@@ -30646,11 +27802,7 @@ const Pokedex = [
       speed: "28",
     },
     eggGroups: ["Monster", "Mineral*"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0713",
     genderRatios: [],
     description: "",
     evolution: [
@@ -30689,11 +27841,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Flying", "Dragon*"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0714",
     genderRatios: [],
     description: "",
     evolution: [
@@ -30732,11 +27880,7 @@ const Pokedex = [
       speed: "123",
     },
     eggGroups: ["Flying", "Dragon*"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0715",
     genderRatios: [],
     description: "",
     evolution: [
@@ -30775,11 +27919,7 @@ const Pokedex = [
       speed: "99",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0716",
     genderRatios: [],
     description: "",
     evolution: [
@@ -30818,11 +27958,7 @@ const Pokedex = [
       speed: "99",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0717",
     genderRatios: [],
     description: "",
     evolution: [
@@ -30861,11 +27997,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0718",
     genderRatios: [],
     description: "",
     evolution: [
@@ -30904,11 +28036,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0719",
     genderRatios: [],
     description: "",
     evolution: [
@@ -30947,11 +28075,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0720",
     genderRatios: [],
     description: "",
     evolution: [
@@ -30990,11 +28114,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0721",
     genderRatios: [],
     description: "",
     evolution: [
@@ -31033,11 +28153,7 @@ const Pokedex = [
       speed: "42",
     },
     eggGroups: ["Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0722",
     genderRatios: [],
     description: "",
     evolution: [
@@ -31076,11 +28192,7 @@ const Pokedex = [
       speed: "52",
     },
     eggGroups: ["Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0723",
     genderRatios: [],
     description: "",
     evolution: [
@@ -31119,11 +28231,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0724",
     genderRatios: [],
     description: "",
     evolution: [
@@ -31162,11 +28270,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0725",
     genderRatios: [],
     description: "",
     evolution: [
@@ -31205,11 +28309,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0726",
     genderRatios: [],
     description: "",
     evolution: [
@@ -31248,11 +28348,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0727",
     genderRatios: [],
     description: "",
     evolution: [
@@ -31291,11 +28387,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0728",
     genderRatios: [],
     description: "",
     evolution: [
@@ -31334,11 +28426,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0729",
     genderRatios: [],
     description: "",
     evolution: [
@@ -31377,11 +28465,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0730",
     genderRatios: [],
     description: "",
     evolution: [
@@ -31420,11 +28504,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0731",
     genderRatios: [],
     description: "",
     evolution: [
@@ -31463,11 +28543,7 @@ const Pokedex = [
       speed: "75",
     },
     eggGroups: ["Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0732",
     genderRatios: [],
     description: "",
     evolution: [
@@ -31506,11 +28582,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0733",
     genderRatios: [],
     description: "",
     evolution: [
@@ -31549,11 +28621,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0734",
     genderRatios: [],
     description: "",
     evolution: [
@@ -31592,11 +28660,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0735",
     genderRatios: [],
     description: "",
     evolution: [
@@ -31635,11 +28699,7 @@ const Pokedex = [
       speed: "46",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0736",
     genderRatios: [],
     description: "",
     evolution: [
@@ -31678,11 +28738,7 @@ const Pokedex = [
       speed: "36",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0737",
     genderRatios: [],
     description: "",
     evolution: [
@@ -31721,11 +28777,7 @@ const Pokedex = [
       speed: "43",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0738",
     genderRatios: [],
     description: "",
     evolution: [
@@ -31764,11 +28816,7 @@ const Pokedex = [
       speed: "63",
     },
     eggGroups: ["Water 3"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0739",
     genderRatios: [],
     description: "",
     evolution: [
@@ -31807,11 +28855,7 @@ const Pokedex = [
       speed: "43",
     },
     eggGroups: ["Water 3"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0740",
     genderRatios: [],
     description: "",
     evolution: [
@@ -31850,11 +28894,7 @@ const Pokedex = [
       speed: "93",
     },
     eggGroups: ["Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0741",
     genderRatios: [],
     description: "",
     evolution: [
@@ -31893,11 +28933,7 @@ const Pokedex = [
       speed: "84",
     },
     eggGroups: ["Bug", "Fairy"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0742",
     genderRatios: [],
     description: "",
     evolution: [
@@ -31936,11 +28972,7 @@ const Pokedex = [
       speed: "124",
     },
     eggGroups: ["Bug", "Fairy"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0743",
     genderRatios: [],
     description: "",
     evolution: [
@@ -31979,11 +29011,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0744",
     genderRatios: [],
     description: "",
     evolution: [
@@ -32022,11 +29050,7 @@ const Pokedex = [
       speed: "112",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0745",
     genderRatios: [],
     description: "",
     evolution: [
@@ -32065,11 +29089,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Water 2"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0746",
     genderRatios: [],
     description: "",
     evolution: [
@@ -32108,11 +29128,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Water 1"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0747",
     genderRatios: [],
     description: "",
     evolution: [
@@ -32151,11 +29167,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Water 1"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0748",
     genderRatios: [],
     description: "",
     evolution: [
@@ -32194,11 +29206,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0749",
     genderRatios: [],
     description: "",
     evolution: [
@@ -32237,11 +29245,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0750",
     genderRatios: [],
     description: "",
     evolution: [
@@ -32280,11 +29284,7 @@ const Pokedex = [
       speed: "27",
     },
     eggGroups: ["Water 1", "Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0751",
     genderRatios: [],
     description: "",
     evolution: [
@@ -32323,11 +29323,7 @@ const Pokedex = [
       speed: "42",
     },
     eggGroups: ["Water 1", "Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0752",
     genderRatios: [],
     description: "",
     evolution: [
@@ -32366,11 +29362,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0753",
     genderRatios: [],
     description: "",
     evolution: [
@@ -32409,11 +29401,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0754",
     genderRatios: [],
     description: "",
     evolution: [
@@ -32452,11 +29440,7 @@ const Pokedex = [
       speed: "15",
     },
     eggGroups: ["Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0755",
     genderRatios: [],
     description: "",
     evolution: [
@@ -32495,11 +29479,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0756",
     genderRatios: [],
     description: "",
     evolution: [
@@ -32538,11 +29518,7 @@ const Pokedex = [
       speed: "77",
     },
     eggGroups: ["Monster", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0757",
     genderRatios: [],
     description: "",
     evolution: [
@@ -32581,11 +29557,7 @@ const Pokedex = [
       speed: "117",
     },
     eggGroups: ["Monster", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0758",
     genderRatios: [],
     description: "",
     evolution: [
@@ -32624,11 +29596,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0759",
     genderRatios: [],
     description: "",
     evolution: [
@@ -32667,11 +29635,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0760",
     genderRatios: [],
     description: "",
     evolution: [
@@ -32710,11 +29674,7 @@ const Pokedex = [
       speed: "32",
     },
     eggGroups: ["Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0761",
     genderRatios: [],
     description: "",
     evolution: [
@@ -32753,11 +29713,7 @@ const Pokedex = [
       speed: "62",
     },
     eggGroups: ["Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0762",
     genderRatios: [],
     description: "",
     evolution: [
@@ -32796,11 +29752,7 @@ const Pokedex = [
       speed: "72",
     },
     eggGroups: ["Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0763",
     genderRatios: [],
     description: "",
     evolution: [
@@ -32839,11 +29791,7 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0764",
     genderRatios: [],
     description: "",
     evolution: [
@@ -32882,11 +29830,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0765",
     genderRatios: [],
     description: "",
     evolution: [
@@ -32925,11 +29869,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0766",
     genderRatios: [],
     description: "",
     evolution: [
@@ -32968,11 +29908,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Bug", "Water 3"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0767",
     genderRatios: [],
     description: "",
     evolution: [
@@ -33011,11 +29947,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Bug", "Water 3"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0768",
     genderRatios: [],
     description: "",
     evolution: [
@@ -33054,11 +29986,7 @@ const Pokedex = [
       speed: "15",
     },
     eggGroups: ["Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0769",
     genderRatios: [],
     description: "",
     evolution: [
@@ -33097,11 +30025,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0770",
     genderRatios: [],
     description: "",
     evolution: [
@@ -33140,11 +30064,7 @@ const Pokedex = [
       speed: "5",
     },
     eggGroups: ["Water 1"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0771",
     genderRatios: [],
     description: "",
     evolution: [
@@ -33183,11 +30103,7 @@ const Pokedex = [
       speed: "59",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0772",
     genderRatios: [],
     description: "",
     evolution: [
@@ -33226,11 +30142,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0773",
     genderRatios: [],
     description: "",
     evolution: [
@@ -33269,11 +30181,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0774",
     genderRatios: [],
     description: "",
     evolution: [
@@ -33312,11 +30220,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0775",
     genderRatios: [],
     description: "",
     evolution: [
@@ -33355,11 +30259,7 @@ const Pokedex = [
       speed: "36",
     },
     eggGroups: ["Monster", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0776",
     genderRatios: [],
     description: "",
     evolution: [
@@ -33398,11 +30298,7 @@ const Pokedex = [
       speed: "96",
     },
     eggGroups: ["Field", "Fairy"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0777",
     genderRatios: [],
     description: "",
     evolution: [
@@ -33441,11 +30337,7 @@ const Pokedex = [
       speed: "96",
     },
     eggGroups: ["Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0778",
     genderRatios: [],
     description: "",
     evolution: [
@@ -33484,11 +30376,7 @@ const Pokedex = [
       speed: "92",
     },
     eggGroups: ["Water 2"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0779",
     genderRatios: [],
     description: "",
     evolution: [
@@ -33527,11 +30415,7 @@ const Pokedex = [
       speed: "36",
     },
     eggGroups: ["Monster", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0780",
     genderRatios: [],
     description: "",
     evolution: [
@@ -33570,11 +30454,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0781",
     genderRatios: [],
     description: "",
     evolution: [
@@ -33613,11 +30493,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0782",
     genderRatios: [],
     description: "",
     evolution: [
@@ -33656,11 +30532,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0783",
     genderRatios: [],
     description: "",
     evolution: [
@@ -33699,11 +30571,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0784",
     genderRatios: [],
     description: "",
     evolution: [
@@ -33742,11 +30610,7 @@ const Pokedex = [
       speed: "130",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0785",
     genderRatios: [],
     description: "",
     evolution: [
@@ -33785,11 +30649,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0786",
     genderRatios: [],
     description: "",
     evolution: [
@@ -33828,11 +30688,7 @@ const Pokedex = [
       speed: "75",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0787",
     genderRatios: [],
     description: "",
     evolution: [
@@ -33871,11 +30727,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0788",
     genderRatios: [],
     description: "",
     evolution: [
@@ -33914,11 +30766,7 @@ const Pokedex = [
       speed: "37",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0789",
     genderRatios: [],
     description: "",
     evolution: [
@@ -33957,11 +30805,7 @@ const Pokedex = [
       speed: "37",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0790",
     genderRatios: [],
     description: "",
     evolution: [
@@ -34000,11 +30844,7 @@ const Pokedex = [
       speed: "97",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0791",
     genderRatios: [],
     description: "",
     evolution: [
@@ -34043,11 +30883,7 @@ const Pokedex = [
       speed: "97",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0792",
     genderRatios: [],
     description: "",
     evolution: [
@@ -34086,11 +30922,7 @@ const Pokedex = [
       speed: "103",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0793",
     genderRatios: [],
     description: "",
     evolution: [
@@ -34129,11 +30961,7 @@ const Pokedex = [
       speed: "79",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0794",
     genderRatios: [],
     description: "",
     evolution: [
@@ -34172,11 +31000,7 @@ const Pokedex = [
       speed: "151",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0795",
     genderRatios: [],
     description: "",
     evolution: [
@@ -34215,11 +31039,7 @@ const Pokedex = [
       speed: "83",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0796",
     genderRatios: [],
     description: "",
     evolution: [
@@ -34258,11 +31078,7 @@ const Pokedex = [
       speed: "61",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0797",
     genderRatios: [],
     description: "",
     evolution: [
@@ -34301,11 +31117,7 @@ const Pokedex = [
       speed: "109",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0798",
     genderRatios: [],
     description: "",
     evolution: [
@@ -34344,11 +31156,7 @@ const Pokedex = [
       speed: "43",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0799",
     genderRatios: [],
     description: "",
     evolution: [
@@ -34387,11 +31195,7 @@ const Pokedex = [
       speed: "79",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0800",
     genderRatios: [],
     description: "",
     evolution: [
@@ -34430,11 +31234,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0801",
     genderRatios: [],
     description: "",
     evolution: [
@@ -34473,11 +31273,7 @@ const Pokedex = [
       speed: "125",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0802",
     genderRatios: [],
     description: "",
     evolution: [
@@ -34516,11 +31312,7 @@ const Pokedex = [
       speed: "73",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0803",
     genderRatios: [],
     description: "",
     evolution: [
@@ -34559,11 +31351,7 @@ const Pokedex = [
       speed: "121",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0804",
     genderRatios: [],
     description: "",
     evolution: [
@@ -34602,11 +31390,7 @@ const Pokedex = [
       speed: "13",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0805",
     genderRatios: [],
     description: "",
     evolution: [
@@ -34645,11 +31429,7 @@ const Pokedex = [
       speed: "107",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0806",
     genderRatios: [],
     description: "",
     evolution: [
@@ -34688,11 +31468,7 @@ const Pokedex = [
       speed: "143",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0807",
     genderRatios: [],
     description: "",
     evolution: [
@@ -34731,11 +31507,7 @@ const Pokedex = [
       speed: "34",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0808",
     genderRatios: [],
     description: "",
     evolution: [
@@ -34774,11 +31546,7 @@ const Pokedex = [
       speed: "34",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0809",
     genderRatios: [],
     description: "",
     evolution: [
@@ -34817,11 +31585,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Field", "Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0810",
     genderRatios: [],
     description: "",
     evolution: [
@@ -34860,11 +31624,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Field", "Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0811",
     genderRatios: [],
     description: "",
     evolution: [
@@ -34903,11 +31663,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Field", "Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0812",
     genderRatios: [],
     description: "",
     evolution: [
@@ -34946,11 +31702,7 @@ const Pokedex = [
       speed: "69",
     },
     eggGroups: ["Field", "Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0813",
     genderRatios: [],
     description: "",
     evolution: [
@@ -34989,11 +31741,7 @@ const Pokedex = [
       speed: "94",
     },
     eggGroups: ["Field", "Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0814",
     genderRatios: [],
     description: "",
     evolution: [
@@ -35032,11 +31780,7 @@ const Pokedex = [
       speed: "119",
     },
     eggGroups: ["Field", "Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0815",
     genderRatios: [],
     description: "",
     evolution: [
@@ -35075,11 +31819,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0816",
     genderRatios: [],
     description: "",
     evolution: [
@@ -35118,11 +31858,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0817",
     genderRatios: [],
     description: "",
     evolution: [
@@ -35161,11 +31897,7 @@ const Pokedex = [
       speed: "120",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0818",
     genderRatios: [],
     description: "",
     evolution: [
@@ -35204,11 +31936,7 @@ const Pokedex = [
       speed: "25",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0819",
     genderRatios: [],
     description: "",
     evolution: [
@@ -35247,11 +31975,7 @@ const Pokedex = [
       speed: "20",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0820",
     genderRatios: [],
     description: "",
     evolution: [
@@ -35290,11 +32014,7 @@ const Pokedex = [
       speed: "57",
     },
     eggGroups: ["Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0821",
     genderRatios: [],
     description: "",
     evolution: [
@@ -35333,11 +32053,7 @@ const Pokedex = [
       speed: "77",
     },
     eggGroups: ["Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0822",
     genderRatios: [],
     description: "",
     evolution: [
@@ -35376,11 +32092,7 @@ const Pokedex = [
       speed: "67",
     },
     eggGroups: ["Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0823",
     genderRatios: [],
     description: "",
     evolution: [
@@ -35419,11 +32131,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0824",
     genderRatios: [],
     description: "",
     evolution: [
@@ -35462,11 +32170,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0825",
     genderRatios: [],
     description: "",
     evolution: [
@@ -35505,11 +32209,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0826",
     genderRatios: [],
     description: "",
     evolution: [
@@ -35548,11 +32248,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0827",
     genderRatios: [],
     description: "",
     evolution: [
@@ -35591,11 +32287,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0828",
     genderRatios: [],
     description: "",
     evolution: [
@@ -35634,11 +32326,7 @@ const Pokedex = [
       speed: "10",
     },
     eggGroups: ["Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0829",
     genderRatios: [],
     description: "",
     evolution: [
@@ -35677,11 +32365,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Grass"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0830",
     genderRatios: [],
     description: "",
     evolution: [
@@ -35720,11 +32404,7 @@ const Pokedex = [
       speed: "48",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0831",
     genderRatios: [],
     description: "",
     evolution: [
@@ -35763,11 +32443,7 @@ const Pokedex = [
       speed: "88",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0832",
     genderRatios: [],
     description: "",
     evolution: [
@@ -35806,11 +32482,7 @@ const Pokedex = [
       speed: "44",
     },
     eggGroups: ["Monster", "Water 1"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0833",
     genderRatios: [],
     description: "",
     evolution: [
@@ -35849,11 +32521,7 @@ const Pokedex = [
       speed: "74",
     },
     eggGroups: ["Monster", "Water 1"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0834",
     genderRatios: [],
     description: "",
     evolution: [
@@ -35892,11 +32560,7 @@ const Pokedex = [
       speed: "26",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0835",
     genderRatios: [],
     description: "",
     evolution: [
@@ -35935,11 +32599,7 @@ const Pokedex = [
       speed: "121",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0836",
     genderRatios: [],
     description: "",
     evolution: [
@@ -35978,11 +32638,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0837",
     genderRatios: [],
     description: "",
     evolution: [
@@ -36021,11 +32677,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0838",
     genderRatios: [],
     description: "",
     evolution: [
@@ -36064,11 +32716,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0839",
     genderRatios: [],
     description: "",
     evolution: [
@@ -36107,11 +32755,7 @@ const Pokedex = [
       speed: "20",
     },
     eggGroups: ["Grass", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0840",
     genderRatios: [],
     description: "",
     evolution: [
@@ -36150,11 +32794,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Grass", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0841",
     genderRatios: [],
     description: "",
     evolution: [
@@ -36193,11 +32833,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Grass", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0842",
     genderRatios: [],
     description: "",
     evolution: [
@@ -36236,11 +32872,7 @@ const Pokedex = [
       speed: "46",
     },
     eggGroups: ["Field", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0843",
     genderRatios: [],
     description: "",
     evolution: [
@@ -36279,11 +32911,7 @@ const Pokedex = [
       speed: "71",
     },
     eggGroups: ["Field", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0844",
     genderRatios: [],
     description: "",
     evolution: [
@@ -36322,11 +32950,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Water 1", "Flying"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0845",
     genderRatios: [],
     description: "",
     evolution: [
@@ -36365,11 +32989,7 @@ const Pokedex = [
       speed: "66",
     },
     eggGroups: ["Water 2"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0846",
     genderRatios: [],
     description: "",
     evolution: [
@@ -36408,11 +33028,7 @@ const Pokedex = [
       speed: "136",
     },
     eggGroups: ["Water 2"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0847",
     genderRatios: [],
     description: "",
     evolution: [
@@ -36451,11 +33067,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0848",
     genderRatios: [],
     description: "",
     evolution: [
@@ -36494,11 +33106,7 @@ const Pokedex = [
       speed: "75",
     },
     eggGroups: ["Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0849",
     genderRatios: [],
     description: "",
     evolution: [
@@ -36537,11 +33145,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0850",
     genderRatios: [],
     description: "",
     evolution: [
@@ -36580,11 +33184,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0851",
     genderRatios: [],
     description: "",
     evolution: [
@@ -36623,11 +33223,7 @@ const Pokedex = [
       speed: "32",
     },
     eggGroups: ["Water 1", "Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0852",
     genderRatios: [],
     description: "",
     evolution: [
@@ -36666,11 +33262,7 @@ const Pokedex = [
       speed: "42",
     },
     eggGroups: ["Water 1", "Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0853",
     genderRatios: [],
     description: "",
     evolution: [
@@ -36709,11 +33301,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Mineral", "Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0854",
     genderRatios: [],
     description: "",
     evolution: [
@@ -36752,11 +33340,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Mineral", "Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0855",
     genderRatios: [],
     description: "",
     evolution: [
@@ -36795,11 +33379,7 @@ const Pokedex = [
       speed: "39",
     },
     eggGroups: ["Fairy"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0856",
     genderRatios: [],
     description: "",
     evolution: [
@@ -36838,11 +33418,7 @@ const Pokedex = [
       speed: "49",
     },
     eggGroups: ["Fairy"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0857",
     genderRatios: [],
     description: "",
     evolution: [
@@ -36881,11 +33457,7 @@ const Pokedex = [
       speed: "29",
     },
     eggGroups: ["Fairy"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0858",
     genderRatios: [],
     description: "",
     evolution: [
@@ -36924,11 +33496,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Fairy", "Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0859",
     genderRatios: [],
     description: "",
     evolution: [
@@ -36967,11 +33535,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Fairy", "Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0860",
     genderRatios: [],
     description: "",
     evolution: [
@@ -37010,11 +33574,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Fairy", "Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0861",
     genderRatios: [],
     description: "",
     evolution: [
@@ -37053,11 +33613,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0862",
     genderRatios: [],
     description: "",
     evolution: [
@@ -37096,11 +33652,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0863",
     genderRatios: [],
     description: "",
     evolution: [
@@ -37139,11 +33691,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Water 1", "Water 3"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0864",
     genderRatios: [],
     description: "",
     evolution: [
@@ -37182,11 +33730,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Flying", "Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0865",
     genderRatios: [],
     description: "",
     evolution: [
@@ -37225,11 +33769,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Human-Like"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0866",
     genderRatios: [],
     description: "",
     evolution: [
@@ -37268,11 +33808,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Mineral", "Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0867",
     genderRatios: [],
     description: "",
     evolution: [
@@ -37311,11 +33847,7 @@ const Pokedex = [
       speed: "34",
     },
     eggGroups: ["Fairy", "Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0868",
     genderRatios: [],
     description: "",
     evolution: [
@@ -37354,11 +33886,7 @@ const Pokedex = [
       speed: "64",
     },
     eggGroups: ["Fairy", "Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0869",
     genderRatios: [],
     description: "",
     evolution: [
@@ -37397,11 +33925,7 @@ const Pokedex = [
       speed: "75",
     },
     eggGroups: ["Fairy", "Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0870",
     genderRatios: [],
     description: "",
     evolution: [
@@ -37440,11 +33964,7 @@ const Pokedex = [
       speed: "15",
     },
     eggGroups: ["Water 1", "Amorphous"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0871",
     genderRatios: [],
     description: "",
     evolution: [
@@ -37483,11 +34003,7 @@ const Pokedex = [
       speed: "20",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0872",
     genderRatios: [],
     description: "",
     evolution: [
@@ -37526,11 +34042,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Bug"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0873",
     genderRatios: [],
     description: "",
     evolution: [
@@ -37569,11 +34081,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0874",
     genderRatios: [],
     description: "",
     evolution: [
@@ -37612,11 +34120,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0875",
     genderRatios: [],
     description: "",
     evolution: [
@@ -37655,11 +34159,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["Fairy"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0876",
     genderRatios: [],
     description: "",
     evolution: [
@@ -37698,11 +34198,7 @@ const Pokedex = [
       speed: "97",
     },
     eggGroups: ["Field", "Fairy"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0877",
     genderRatios: [],
     description: "",
     evolution: [
@@ -37741,11 +34237,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Field", "Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0878",
     genderRatios: [],
     description: "",
     evolution: [
@@ -37784,11 +34276,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Field", "Mineral"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0879",
     genderRatios: [],
     description: "",
     evolution: [
@@ -37827,11 +34315,7 @@ const Pokedex = [
       speed: "75",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0880",
     genderRatios: [],
     description: "",
     evolution: [
@@ -37870,11 +34354,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0881",
     genderRatios: [],
     description: "",
     evolution: [
@@ -37913,11 +34393,7 @@ const Pokedex = [
       speed: "75",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0882",
     genderRatios: [],
     description: "",
     evolution: [
@@ -37956,11 +34432,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0883",
     genderRatios: [],
     description: "",
     evolution: [
@@ -37999,11 +34471,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Mineral", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0884",
     genderRatios: [],
     description: "",
     evolution: [
@@ -38042,11 +34510,7 @@ const Pokedex = [
       speed: "82",
     },
     eggGroups: ["Amorphous", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0885",
     genderRatios: [],
     description: "",
     evolution: [
@@ -38085,11 +34549,7 @@ const Pokedex = [
       speed: "102",
     },
     eggGroups: ["Amorphous", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0886",
     genderRatios: [],
     description: "",
     evolution: [
@@ -38128,11 +34588,7 @@ const Pokedex = [
       speed: "142",
     },
     eggGroups: ["Amorphous", "Dragon"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0887",
     genderRatios: [],
     description: "",
     evolution: [
@@ -38171,11 +34627,7 @@ const Pokedex = [
       speed: "138",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0888",
     genderRatios: [],
     description: "",
     evolution: [
@@ -38214,11 +34666,7 @@ const Pokedex = [
       speed: "138",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0889",
     genderRatios: [],
     description: "",
     evolution: [
@@ -38257,11 +34705,7 @@ const Pokedex = [
       speed: "130",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0890",
     genderRatios: [],
     description: "",
     evolution: [
@@ -38300,11 +34744,7 @@ const Pokedex = [
       speed: "72",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0891",
     genderRatios: [],
     description: "",
     evolution: [
@@ -38343,11 +34783,7 @@ const Pokedex = [
       speed: "97",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0892",
     genderRatios: [],
     description: "",
     evolution: [
@@ -38386,11 +34822,7 @@ const Pokedex = [
       speed: "105",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0893",
     genderRatios: [],
     description: "",
     evolution: [
@@ -38429,11 +34861,7 @@ const Pokedex = [
       speed: "200",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0894",
     genderRatios: [],
     description: "",
     evolution: [
@@ -38472,11 +34900,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0895",
     genderRatios: [],
     description: "",
     evolution: [
@@ -38515,11 +34939,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0896",
     genderRatios: [],
     description: "",
     evolution: [
@@ -38558,11 +34978,7 @@ const Pokedex = [
       speed: "130",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0897",
     genderRatios: [],
     description: "",
     evolution: [
@@ -38601,11 +35017,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: {
-      levels: [],
-      breeding: [],
-      machines: [],
-    },
+    learnsets: "0898",
     genderRatios: [],
     description: "",
     evolution: [
