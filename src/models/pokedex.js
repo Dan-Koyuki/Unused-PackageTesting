@@ -1,11 +1,3 @@
-// import { readFileSync } from 'fs';
-
-import Learnsets from "./utils/learnset.js";
-
-// const path = '../../res/json/pokedex.json';
-// const jsonString = readFileSync(path, 'utf-8');
-// const Pokedex = JSON.parse(jsonString);
-
 const Pokedex = [
   {
     id: "0001",
@@ -17,12 +9,14 @@ const Pokedex = [
       hidden: "Chlorophyll",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/bulbasaur.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/bulbasaur.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/bulbasaur.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/bulbasaur.gif",
     },
     stats: {
       hp: "45",
@@ -33,19 +27,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Monster", "Grass"],
-    learnsets: "0001",
-    genderRatios: [],
-    description:
-      "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun’s rays, the seed grows progressively larger.",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0002",
@@ -57,12 +39,14 @@ const Pokedex = [
       hidden: "Chlorophyll",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/ivysaur.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/ivysaur.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/ivysaur.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/ivysaur.gif",
     },
     stats: {
       hp: "60",
@@ -73,18 +57,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Monster", "Grass"],
-    learnsets: "0002",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0003",
@@ -96,12 +69,14 @@ const Pokedex = [
       hidden: "Chlorophyll",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/venusaur.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/venusaur.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/venusaur.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/venusaur.gif",
     },
     stats: {
       hp: "80",
@@ -112,18 +87,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Monster", "Grass"],
-    learnsets: "0003",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0004",
@@ -135,12 +99,14 @@ const Pokedex = [
       hidden: "Solar Power",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/charmander.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/charmander.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/charmander.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/charmander.gif",
     },
     stats: {
       hp: "39",
@@ -151,18 +117,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Monster", "Dragon"],
-    learnsets: "0004",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0005",
@@ -174,12 +129,14 @@ const Pokedex = [
       hidden: "Solar Power",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/charmeleon.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/charmeleon.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/charmeleon.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/charmeleon.gif",
     },
     stats: {
       hp: "58",
@@ -190,18 +147,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Monster", "Dragon"],
-    learnsets: "0005",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0006",
@@ -213,12 +159,14 @@ const Pokedex = [
       hidden: "Solar Power",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/charizard.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/charizard.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/charizard.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/charizard.gif",
     },
     stats: {
       hp: "78",
@@ -229,18 +177,7 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["Monster", "Dragon"],
-    learnsets: "0006",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0007",
@@ -252,12 +189,14 @@ const Pokedex = [
       hidden: "Rain Dish",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/squirtle.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/squirtle.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/squirtle.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/squirtle.gif",
     },
     stats: {
       hp: "44",
@@ -268,18 +207,7 @@ const Pokedex = [
       speed: "43",
     },
     eggGroups: ["Monster", "Water 1"],
-    learnsets: "0007",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0008",
@@ -291,12 +219,14 @@ const Pokedex = [
       hidden: "Rain Dish",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/wartortle.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/wartortle.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/wartortle.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/wartortle.gif",
     },
     stats: {
       hp: "59",
@@ -307,18 +237,7 @@ const Pokedex = [
       speed: "58",
     },
     eggGroups: ["Monster", "Water 1"],
-    learnsets: "0008",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0009",
@@ -330,12 +249,14 @@ const Pokedex = [
       hidden: "Rain Dish",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/blastoise.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/blastoise.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/blastoise.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/blastoise.gif",
     },
     stats: {
       hp: "79",
@@ -346,18 +267,7 @@ const Pokedex = [
       speed: "78",
     },
     eggGroups: ["Monster", "Water 1"],
-    learnsets: "0009",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0010",
@@ -369,12 +279,14 @@ const Pokedex = [
       hidden: "Run Away",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/caterpie.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/caterpie.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/caterpie.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/caterpie.gif",
     },
     stats: {
       hp: "45",
@@ -385,18 +297,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Bug"],
-    learnsets: "0010",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0011",
@@ -408,12 +309,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/metapod.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/metapod.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/metapod.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/metapod.gif",
     },
     stats: {
       hp: "50",
@@ -424,18 +327,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Bug"],
-    learnsets: "0011",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0012",
@@ -447,12 +339,14 @@ const Pokedex = [
       hidden: "Tinted Lens",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/butterfree.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/butterfree.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/butterfree.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/butterfree.gif",
     },
     stats: {
       hp: "60",
@@ -463,18 +357,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Bug"],
-    learnsets: "0012",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0013",
@@ -486,12 +369,14 @@ const Pokedex = [
       hidden: "Run Away",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/weedle.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/weedle.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/weedle.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/weedle.gif",
     },
     stats: {
       hp: "40",
@@ -502,18 +387,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Bug"],
-    learnsets: "0013",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0014",
@@ -525,12 +399,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/kakuna.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/kakuna.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/kakuna.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/kakuna.gif",
     },
     stats: {
       hp: "45",
@@ -541,18 +417,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Bug"],
-    learnsets: "0014",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0015",
@@ -564,12 +429,14 @@ const Pokedex = [
       hidden: "Sniper",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/beedrill.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/beedrill.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/beedrill.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/beedrill.gif",
     },
     stats: {
       hp: "65",
@@ -580,18 +447,7 @@ const Pokedex = [
       speed: "75",
     },
     eggGroups: ["Bug"],
-    learnsets: "0015",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0016",
@@ -603,12 +459,14 @@ const Pokedex = [
       hidden: "Big Pecks",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/pidgey.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/pidgey.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/pidgey.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/pidgey.gif",
     },
     stats: {
       hp: "40",
@@ -619,18 +477,7 @@ const Pokedex = [
       speed: "56",
     },
     eggGroups: ["Flying"],
-    learnsets: "0016",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0017",
@@ -642,12 +489,14 @@ const Pokedex = [
       hidden: "Big Pecks",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/pidgeotto.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/pidgeotto.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/pidgeotto.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/pidgeotto.gif",
     },
     stats: {
       hp: "63",
@@ -658,18 +507,7 @@ const Pokedex = [
       speed: "71",
     },
     eggGroups: ["Flying"],
-    learnsets: "0017",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0018",
@@ -681,12 +519,14 @@ const Pokedex = [
       hidden: "Big Pecks",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/pidgeot.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/pidgeot.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/pidgeot.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/pidgeot.gif",
     },
     stats: {
       hp: "83",
@@ -697,18 +537,7 @@ const Pokedex = [
       speed: "101",
     },
     eggGroups: ["Flying"],
-    learnsets: "0018",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0019",
@@ -720,12 +549,14 @@ const Pokedex = [
       hidden: "Hustle",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/rattata.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/rattata.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/rattata.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/rattata.gif",
     },
     stats: {
       hp: "30",
@@ -736,18 +567,7 @@ const Pokedex = [
       speed: "72",
     },
     eggGroups: ["Field"],
-    learnsets: "0019",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0020",
@@ -759,12 +579,14 @@ const Pokedex = [
       hidden: "Hustle",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/raticate.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/raticate.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/raticate.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/raticate.gif",
     },
     stats: {
       hp: "55",
@@ -775,18 +597,7 @@ const Pokedex = [
       speed: "97",
     },
     eggGroups: ["Field"],
-    learnsets: "0020",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0021",
@@ -798,12 +609,14 @@ const Pokedex = [
       hidden: "Sniper",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/spearow.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/spearow.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/spearow.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/spearow.gif",
     },
     stats: {
       hp: "40",
@@ -814,18 +627,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Flying"],
-    learnsets: "0021",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0022",
@@ -837,12 +639,14 @@ const Pokedex = [
       hidden: "Sniper",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/fearow.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/fearow.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/fearow.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/fearow.gif",
     },
     stats: {
       hp: "65",
@@ -853,18 +657,7 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["Flying"],
-    learnsets: "0022",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0023",
@@ -876,12 +669,14 @@ const Pokedex = [
       hidden: "Unnerve",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/ekans.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/ekans.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/ekans.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/ekans.gif",
     },
     stats: {
       hp: "35",
@@ -892,18 +687,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Field", "Dragon"],
-    learnsets: "0023",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0024",
@@ -915,12 +699,14 @@ const Pokedex = [
       hidden: "Unnerve",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/arbok.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/arbok.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/arbok.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/arbok.gif",
     },
     stats: {
       hp: "60",
@@ -931,18 +717,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Field", "Dragon"],
-    learnsets: "0024",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0025",
@@ -954,12 +729,14 @@ const Pokedex = [
       hidden: "Lightning Rod",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/pikachu.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/pikachu.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/pikachu.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/pikachu.gif",
     },
     stats: {
       hp: "35",
@@ -970,18 +747,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Field", "Fairy"],
-    learnsets: "0025",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0026",
@@ -993,12 +759,14 @@ const Pokedex = [
       hidden: "Lightning Rod",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/raichu.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/raichu.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/raichu.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/raichu.gif",
     },
     stats: {
       hp: "60",
@@ -1009,18 +777,7 @@ const Pokedex = [
       speed: "110",
     },
     eggGroups: ["Field", "Fairy"],
-    learnsets: "0026",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0027",
@@ -1032,12 +789,14 @@ const Pokedex = [
       hidden: "Sand Rush",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/sandshrew.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/sandshrew.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/sandshrew.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/sandshrew.gif",
     },
     stats: {
       hp: "50",
@@ -1048,18 +807,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Field"],
-    learnsets: "0027",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0028",
@@ -1071,12 +819,14 @@ const Pokedex = [
       hidden: "Sand Rush",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/sandslash.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/sandslash.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/sandslash.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/sandslash.gif",
     },
     stats: {
       hp: "75",
@@ -1087,18 +837,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Field"],
-    learnsets: "0028",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0029",
@@ -1110,12 +849,14 @@ const Pokedex = [
       hidden: "Hustle",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/nidoran f.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/nidoran f.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/nidoran f.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/nidoran f.gif",
     },
     stats: {
       hp: "55",
@@ -1126,18 +867,7 @@ const Pokedex = [
       speed: "41",
     },
     eggGroups: ["Monster", "Field"],
-    learnsets: "0029",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 100],
   },
   {
     id: "0030",
@@ -1149,12 +879,14 @@ const Pokedex = [
       hidden: "Hustle",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/nidorina.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/nidorina.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/nidorina.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/nidorina.gif",
     },
     stats: {
       hp: "70",
@@ -1165,18 +897,7 @@ const Pokedex = [
       speed: "56",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0030",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 100],
   },
   {
     id: "0031",
@@ -1188,12 +909,14 @@ const Pokedex = [
       hidden: "Sheer Force",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/nidoqueen.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/nidoqueen.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/nidoqueen.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/nidoqueen.gif",
     },
     stats: {
       hp: "90",
@@ -1204,18 +927,7 @@ const Pokedex = [
       speed: "76",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0031",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 100],
   },
   {
     id: "0032",
@@ -1227,12 +939,14 @@ const Pokedex = [
       hidden: "Hustle",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/nidoran m.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/nidoran m.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/nidoran m.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/nidoran m.gif",
     },
     stats: {
       hp: "46",
@@ -1243,18 +957,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Monster", "Field"],
-    learnsets: "0032",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [100, 0],
   },
   {
     id: "0033",
@@ -1266,12 +969,14 @@ const Pokedex = [
       hidden: "Hustle",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/nidorino.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/nidorino.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/nidorino.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/nidorino.gif",
     },
     stats: {
       hp: "61",
@@ -1282,18 +987,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Monster", "Field"],
-    learnsets: "0033",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [100, 0],
   },
   {
     id: "0034",
@@ -1305,12 +999,14 @@ const Pokedex = [
       hidden: "Sheer Force",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/nidoking.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/nidoking.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/nidoking.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/nidoking.gif",
     },
     stats: {
       hp: "81",
@@ -1321,18 +1017,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Monster", "Field"],
-    learnsets: "0034",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [100, 0],
   },
   {
     id: "0035",
@@ -1344,12 +1029,14 @@ const Pokedex = [
       hidden: "Friend Guard",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/clefairy.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/clefairy.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/clefairy.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/clefairy.gif",
     },
     stats: {
       hp: "70",
@@ -1360,18 +1047,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Fairy"],
-    learnsets: "0035",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [25, 75],
   },
   {
     id: "0036",
@@ -1383,12 +1059,14 @@ const Pokedex = [
       hidden: "Unaware",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/clefable.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/clefable.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/clefable.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/clefable.gif",
     },
     stats: {
       hp: "95",
@@ -1399,18 +1077,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Fairy"],
-    learnsets: "0036",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [25, 75],
   },
   {
     id: "0037",
@@ -1422,12 +1089,14 @@ const Pokedex = [
       hidden: "Drought",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/vulpix.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/vulpix.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/vulpix.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/vulpix.gif",
     },
     stats: {
       hp: "38",
@@ -1438,18 +1107,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Field"],
-    learnsets: "0037",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [25, 75],
   },
   {
     id: "0038",
@@ -1461,12 +1119,14 @@ const Pokedex = [
       hidden: "Drought",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/ninetales.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/ninetales.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/ninetales.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/ninetales.gif",
     },
     stats: {
       hp: "73",
@@ -1477,18 +1137,7 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["Field"],
-    learnsets: "0038",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [25, 75],
   },
   {
     id: "0039",
@@ -1500,12 +1149,14 @@ const Pokedex = [
       hidden: "Friend Guard",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/jigglypuff.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/jigglypuff.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/jigglypuff.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/jigglypuff.gif",
     },
     stats: {
       hp: "115",
@@ -1516,18 +1167,7 @@ const Pokedex = [
       speed: "20",
     },
     eggGroups: ["Fairy"],
-    learnsets: "0039",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [25, 75],
   },
   {
     id: "0040",
@@ -1539,12 +1179,14 @@ const Pokedex = [
       hidden: "Frisk",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/wigglytuff.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/wigglytuff.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/wigglytuff.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/wigglytuff.gif",
     },
     stats: {
       hp: "140",
@@ -1555,18 +1197,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Fairy"],
-    learnsets: "0040",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [25, 75],
   },
   {
     id: "0041",
@@ -1578,12 +1209,14 @@ const Pokedex = [
       hidden: "Infiltrator",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/zubat.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/zubat.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/zubat.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/zubat.gif",
     },
     stats: {
       hp: "40",
@@ -1594,18 +1227,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Flying"],
-    learnsets: "0041",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0042",
@@ -1617,12 +1239,14 @@ const Pokedex = [
       hidden: "Infiltrator",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/golbat.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/golbat.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/golbat.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/golbat.gif",
     },
     stats: {
       hp: "75",
@@ -1633,18 +1257,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Flying"],
-    learnsets: "0042",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0043",
@@ -1656,12 +1269,14 @@ const Pokedex = [
       hidden: "Run Away",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/oddish.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/oddish.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/oddish.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/oddish.gif",
     },
     stats: {
       hp: "45",
@@ -1672,18 +1287,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Grass"],
-    learnsets: "0043",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0044",
@@ -1695,12 +1299,14 @@ const Pokedex = [
       hidden: "Stench",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/gloom.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/gloom.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/gloom.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/gloom.gif",
     },
     stats: {
       hp: "60",
@@ -1711,18 +1317,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Grass"],
-    learnsets: "0044",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0045",
@@ -1734,12 +1329,14 @@ const Pokedex = [
       hidden: "Effect Spore",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/vileplume.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/vileplume.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/vileplume.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/vileplume.gif",
     },
     stats: {
       hp: "75",
@@ -1750,18 +1347,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Grass"],
-    learnsets: "0045",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0046",
@@ -1773,12 +1359,14 @@ const Pokedex = [
       hidden: "Damp",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/paras.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/paras.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/paras.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/paras.gif",
     },
     stats: {
       hp: "35",
@@ -1789,18 +1377,7 @@ const Pokedex = [
       speed: "25",
     },
     eggGroups: ["Bug", "Grass"],
-    learnsets: "0046",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0047",
@@ -1812,12 +1389,14 @@ const Pokedex = [
       hidden: "Damp",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/parasect.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/parasect.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/parasect.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/parasect.gif",
     },
     stats: {
       hp: "60",
@@ -1828,18 +1407,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Bug", "Grass"],
-    learnsets: "0047",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0048",
@@ -1851,12 +1419,14 @@ const Pokedex = [
       hidden: "Run Away",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/venonat.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/venonat.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/venonat.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/venonat.gif",
     },
     stats: {
       hp: "60",
@@ -1867,18 +1437,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Bug"],
-    learnsets: "0048",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0049",
@@ -1890,12 +1449,14 @@ const Pokedex = [
       hidden: "Wonder Skin",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/venomoth.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/venomoth.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/venomoth.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/venomoth.gif",
     },
     stats: {
       hp: "70",
@@ -1906,18 +1467,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Bug"],
-    learnsets: "0049",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0050",
@@ -1929,12 +1479,14 @@ const Pokedex = [
       hidden: "Sand Force",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/diglett.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/diglett.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/diglett.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/diglett.gif",
     },
     stats: {
       hp: "10",
@@ -1945,18 +1497,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["Field"],
-    learnsets: "0050",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0051",
@@ -1968,12 +1509,14 @@ const Pokedex = [
       hidden: "Sand Force",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/dugtrio.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/dugtrio.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/dugtrio.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/dugtrio.gif",
     },
     stats: {
       hp: "35",
@@ -1984,18 +1527,7 @@ const Pokedex = [
       speed: "120",
     },
     eggGroups: ["Field"],
-    learnsets: "0051",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0052",
@@ -2007,12 +1539,14 @@ const Pokedex = [
       hidden: "Unnerve",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/meowth.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/meowth.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/meowth.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/meowth.gif",
     },
     stats: {
       hp: "40",
@@ -2023,18 +1557,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Field"],
-    learnsets: "0052",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0053",
@@ -2046,12 +1569,14 @@ const Pokedex = [
       hidden: "Unnerve",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/persian.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/persian.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/persian.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/persian.gif",
     },
     stats: {
       hp: "65",
@@ -2062,18 +1587,7 @@ const Pokedex = [
       speed: "115",
     },
     eggGroups: ["Field"],
-    learnsets: "0053",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0054",
@@ -2085,12 +1599,14 @@ const Pokedex = [
       hidden: "Swift Swim",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/psyduck.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/psyduck.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/psyduck.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/psyduck.gif",
     },
     stats: {
       hp: "50",
@@ -2101,18 +1617,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: "0054",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0055",
@@ -2124,12 +1629,14 @@ const Pokedex = [
       hidden: "Swift Swim",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/golduck.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/golduck.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/golduck.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/golduck.gif",
     },
     stats: {
       hp: "80",
@@ -2140,18 +1647,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: "0055",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0056",
@@ -2163,12 +1659,14 @@ const Pokedex = [
       hidden: "Defiant",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/mankey.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/mankey.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/mankey.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/mankey.gif",
     },
     stats: {
       hp: "40",
@@ -2179,18 +1677,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Field"],
-    learnsets: "0056",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0057",
@@ -2202,12 +1689,14 @@ const Pokedex = [
       hidden: "Defiant",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/primeape.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/primeape.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/primeape.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/primeape.gif",
     },
     stats: {
       hp: "65",
@@ -2218,18 +1707,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["Field"],
-    learnsets: "0057",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0058",
@@ -2241,12 +1719,14 @@ const Pokedex = [
       hidden: "Justified",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/growlithe.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/growlithe.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/growlithe.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/growlithe.gif",
     },
     stats: {
       hp: "55",
@@ -2257,18 +1737,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Field"],
-    learnsets: "0058",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [75, 25],
   },
   {
     id: "0059",
@@ -2280,12 +1749,14 @@ const Pokedex = [
       hidden: "Justified",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/arcanine.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/arcanine.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/arcanine.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/arcanine.gif",
     },
     stats: {
       hp: "90",
@@ -2296,18 +1767,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["Field"],
-    learnsets: "0059",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [75, 25],
   },
   {
     id: "0060",
@@ -2319,12 +1779,14 @@ const Pokedex = [
       hidden: "Swift Swim",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/poliwag.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/poliwag.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/poliwag.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/poliwag.gif",
     },
     stats: {
       hp: "40",
@@ -2335,18 +1797,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Water 1"],
-    learnsets: "0060",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0061",
@@ -2358,12 +1809,14 @@ const Pokedex = [
       hidden: "Swift Swim",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/poliwhirl.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/poliwhirl.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/poliwhirl.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/poliwhirl.gif",
     },
     stats: {
       hp: "65",
@@ -2374,18 +1827,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Water 1"],
-    learnsets: "0061",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0062",
@@ -2397,12 +1839,14 @@ const Pokedex = [
       hidden: "Swift Swim",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/poliwrath.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/poliwrath.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/poliwrath.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/poliwrath.gif",
     },
     stats: {
       hp: "90",
@@ -2413,18 +1857,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Water 1"],
-    learnsets: "0062",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0063",
@@ -2436,12 +1869,14 @@ const Pokedex = [
       hidden: "Magic Guard",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/abra.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/abra.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/abra.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/abra.gif",
     },
     stats: {
       hp: "25",
@@ -2452,18 +1887,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Human-Like"],
-    learnsets: "0063",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [75, 25],
   },
   {
     id: "0064",
@@ -2475,12 +1899,14 @@ const Pokedex = [
       hidden: "Magic Guard",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/kadabra.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/kadabra.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/kadabra.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/kadabra.gif",
     },
     stats: {
       hp: "40",
@@ -2491,18 +1917,7 @@ const Pokedex = [
       speed: "105",
     },
     eggGroups: ["Human-Like"],
-    learnsets: "0064",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [75, 25],
   },
   {
     id: "0065",
@@ -2514,12 +1929,14 @@ const Pokedex = [
       hidden: "Magic Guard",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/alakazam.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/alakazam.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/alakazam.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/alakazam.gif",
     },
     stats: {
       hp: "55",
@@ -2530,18 +1947,7 @@ const Pokedex = [
       speed: "120",
     },
     eggGroups: ["Human-Like"],
-    learnsets: "0065",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [75, 25],
   },
   {
     id: "0066",
@@ -2553,12 +1959,14 @@ const Pokedex = [
       hidden: "Steadfast",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/machop.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/machop.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/machop.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/machop.gif",
     },
     stats: {
       hp: "70",
@@ -2569,18 +1977,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Human-Like"],
-    learnsets: "0066",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [75, 25],
   },
   {
     id: "0067",
@@ -2592,12 +1989,14 @@ const Pokedex = [
       hidden: "Steadfast",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/machoke.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/machoke.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/machoke.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/machoke.gif",
     },
     stats: {
       hp: "80",
@@ -2608,18 +2007,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Human-Like"],
-    learnsets: "0067",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [75, 25],
   },
   {
     id: "0068",
@@ -2631,12 +2019,14 @@ const Pokedex = [
       hidden: "Steadfast",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/machamp.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/machamp.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/machamp.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/machamp.gif",
     },
     stats: {
       hp: "90",
@@ -2647,18 +2037,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Human-Like"],
-    learnsets: "0068",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [75, 25],
   },
   {
     id: "0069",
@@ -2670,12 +2049,14 @@ const Pokedex = [
       hidden: "Gluttony",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/bellsprout.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/bellsprout.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/bellsprout.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/bellsprout.gif",
     },
     stats: {
       hp: "50",
@@ -2686,18 +2067,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Grass"],
-    learnsets: "0069",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0070",
@@ -2709,12 +2079,14 @@ const Pokedex = [
       hidden: "Gluttony",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/weepinbell.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/weepinbell.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/weepinbell.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/weepinbell.gif",
     },
     stats: {
       hp: "65",
@@ -2725,18 +2097,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Grass"],
-    learnsets: "0070",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0071",
@@ -2748,12 +2109,14 @@ const Pokedex = [
       hidden: "Gluttony",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/victreebel.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/victreebel.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/victreebel.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/victreebel.gif",
     },
     stats: {
       hp: "80",
@@ -2764,18 +2127,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Grass"],
-    learnsets: "0071",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0072",
@@ -2787,12 +2139,14 @@ const Pokedex = [
       hidden: "Rain Dish",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/tentacool.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/tentacool.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/tentacool.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/tentacool.gif",
     },
     stats: {
       hp: "40",
@@ -2803,18 +2157,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Water 3"],
-    learnsets: "0072",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0073",
@@ -2826,12 +2169,14 @@ const Pokedex = [
       hidden: "Rain Dish",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/tentacruel.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/tentacruel.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/tentacruel.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/tentacruel.gif",
     },
     stats: {
       hp: "80",
@@ -2842,18 +2187,7 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["Water 3"],
-    learnsets: "0073",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0074",
@@ -2865,12 +2199,14 @@ const Pokedex = [
       hidden: "Sand Veil",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/geodude.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/geodude.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/geodude.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/geodude.gif",
     },
     stats: {
       hp: "40",
@@ -2881,18 +2217,7 @@ const Pokedex = [
       speed: "20",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0074",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0075",
@@ -2904,12 +2229,14 @@ const Pokedex = [
       hidden: "Sand Veil",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/graveler.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/graveler.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/graveler.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/graveler.gif",
     },
     stats: {
       hp: "55",
@@ -2920,18 +2247,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0075",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0076",
@@ -2943,12 +2259,14 @@ const Pokedex = [
       hidden: "Sand Veil",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/golem.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/golem.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/golem.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/golem.gif",
     },
     stats: {
       hp: "80",
@@ -2959,18 +2277,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0076",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0077",
@@ -2982,12 +2289,14 @@ const Pokedex = [
       hidden: "Flame Body",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/ponyta.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/ponyta.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/ponyta.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/ponyta.gif",
     },
     stats: {
       hp: "50",
@@ -2998,18 +2307,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Field"],
-    learnsets: "0077",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0078",
@@ -3021,12 +2319,14 @@ const Pokedex = [
       hidden: "Flame Body",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/rapidash.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/rapidash.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/rapidash.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/rapidash.gif",
     },
     stats: {
       hp: "65",
@@ -3037,18 +2337,7 @@ const Pokedex = [
       speed: "105",
     },
     eggGroups: ["Field"],
-    learnsets: "0078",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0079",
@@ -3060,12 +2349,14 @@ const Pokedex = [
       hidden: "Regenerator",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/slowpoke.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/slowpoke.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/slowpoke.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/slowpoke.gif",
     },
     stats: {
       hp: "90",
@@ -3076,18 +2367,7 @@ const Pokedex = [
       speed: "15",
     },
     eggGroups: ["Monster", "Water 1"],
-    learnsets: "0079",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0080",
@@ -3099,12 +2379,14 @@ const Pokedex = [
       hidden: "Regenerator",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/slowbro.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/slowbro.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/slowbro.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/slowbro.gif",
     },
     stats: {
       hp: "95",
@@ -3115,18 +2397,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Monster", "Water 1"],
-    learnsets: "0080",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0081",
@@ -3138,12 +2409,14 @@ const Pokedex = [
       hidden: "Analytic",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/magnemite.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/magnemite.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/magnemite.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/magnemite.gif",
     },
     stats: {
       hp: "25",
@@ -3154,18 +2427,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0081",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0082",
@@ -3177,12 +2439,14 @@ const Pokedex = [
       hidden: "Analytic",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/magneton.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/magneton.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/magneton.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/magneton.gif",
     },
     stats: {
       hp: "50",
@@ -3193,18 +2457,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0082",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0083",
@@ -3216,12 +2469,14 @@ const Pokedex = [
       hidden: "Defiant",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/farfetchd.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/farfetchd.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/farfetchd.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/farfetchd.gif",
     },
     stats: {
       hp: "52",
@@ -3232,18 +2487,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Flying", "Field"],
-    learnsets: "0083",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0084",
@@ -3255,12 +2499,14 @@ const Pokedex = [
       hidden: "Tangled Feet",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/doduo.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/doduo.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/doduo.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/doduo.gif",
     },
     stats: {
       hp: "35",
@@ -3271,18 +2517,7 @@ const Pokedex = [
       speed: "75",
     },
     eggGroups: ["Flying"],
-    learnsets: "0084",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0085",
@@ -3294,12 +2529,14 @@ const Pokedex = [
       hidden: "Tangled Feet",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/dodrio.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/dodrio.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/dodrio.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/dodrio.gif",
     },
     stats: {
       hp: "60",
@@ -3310,18 +2547,7 @@ const Pokedex = [
       speed: "110",
     },
     eggGroups: ["Flying"],
-    learnsets: "0085",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0086",
@@ -3333,12 +2559,14 @@ const Pokedex = [
       hidden: "Ice Body",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/seel.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/seel.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/seel.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/seel.gif",
     },
     stats: {
       hp: "65",
@@ -3349,18 +2577,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: "0086",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0087",
@@ -3372,12 +2589,14 @@ const Pokedex = [
       hidden: "Ice Body",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/dewgong.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/dewgong.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/dewgong.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/dewgong.gif",
     },
     stats: {
       hp: "90",
@@ -3388,18 +2607,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: "0087",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0088",
@@ -3411,12 +2619,14 @@ const Pokedex = [
       hidden: "Poison Touch",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/grimer.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/grimer.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/grimer.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/grimer.gif",
     },
     stats: {
       hp: "80",
@@ -3427,18 +2637,7 @@ const Pokedex = [
       speed: "25",
     },
     eggGroups: ["Amorphous"],
-    learnsets: "0088",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0089",
@@ -3450,12 +2649,14 @@ const Pokedex = [
       hidden: "Poison Touch",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/muk.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/muk.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/muk.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/muk.gif",
     },
     stats: {
       hp: "105",
@@ -3466,18 +2667,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Amorphous"],
-    learnsets: "0089",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0090",
@@ -3489,12 +2679,14 @@ const Pokedex = [
       hidden: "Overcoat",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/shellder.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/shellder.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/shellder.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/shellder.gif",
     },
     stats: {
       hp: "30",
@@ -3505,18 +2697,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Water 3"],
-    learnsets: "0090",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0091",
@@ -3528,12 +2709,14 @@ const Pokedex = [
       hidden: "Overcoat",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/cloyster.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/cloyster.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/cloyster.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/cloyster.gif",
     },
     stats: {
       hp: "50",
@@ -3544,18 +2727,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Water 3"],
-    learnsets: "0091",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0092",
@@ -3567,12 +2739,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/gastly.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/gastly.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/gastly.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/gastly.gif",
     },
     stats: {
       hp: "30",
@@ -3583,18 +2757,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Amorphous"],
-    learnsets: "0092",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0093",
@@ -3606,12 +2769,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/haunter.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/haunter.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/haunter.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/haunter.gif",
     },
     stats: {
       hp: "45",
@@ -3622,18 +2787,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["Amorphous"],
-    learnsets: "0093",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0094",
@@ -3641,16 +2795,18 @@ const Pokedex = [
     region: "Kanto",
     types: ["Ghost", "Poison"],
     abilities: {
-      normal: ["Cursed BodyGen VII+"],
+      normal: ["Cursed Body"],
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/gengar.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/gengar.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/gengar.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/gengar.gif",
     },
     stats: {
       hp: "60",
@@ -3661,18 +2817,7 @@ const Pokedex = [
       speed: "110",
     },
     eggGroups: ["Amorphous"],
-    learnsets: "0094",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0095",
@@ -3684,12 +2829,14 @@ const Pokedex = [
       hidden: "Weak Armor",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/onix.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/onix.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/onix.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/onix.gif",
     },
     stats: {
       hp: "35",
@@ -3700,18 +2847,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0095",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0096",
@@ -3723,12 +2859,14 @@ const Pokedex = [
       hidden: "Inner Focus",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/drowzee.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/drowzee.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/drowzee.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/drowzee.gif",
     },
     stats: {
       hp: "60",
@@ -3739,18 +2877,7 @@ const Pokedex = [
       speed: "42",
     },
     eggGroups: ["Human-Like"],
-    learnsets: "0096",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0097",
@@ -3762,12 +2889,14 @@ const Pokedex = [
       hidden: "Inner Focus",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/hypno.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/hypno.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/hypno.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/hypno.gif",
     },
     stats: {
       hp: "85",
@@ -3778,18 +2907,7 @@ const Pokedex = [
       speed: "67",
     },
     eggGroups: ["Human-Like"],
-    learnsets: "0097",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0098",
@@ -3801,12 +2919,14 @@ const Pokedex = [
       hidden: "Sheer Force",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/krabby.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/krabby.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/krabby.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/krabby.gif",
     },
     stats: {
       hp: "30",
@@ -3817,18 +2937,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Water 3"],
-    learnsets: "0098",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0099",
@@ -3840,12 +2949,14 @@ const Pokedex = [
       hidden: "Sheer Force",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/kingler.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/kingler.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/kingler.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/kingler.gif",
     },
     stats: {
       hp: "55",
@@ -3856,18 +2967,7 @@ const Pokedex = [
       speed: "75",
     },
     eggGroups: ["Water 3"],
-    learnsets: "0099",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0100",
@@ -3879,12 +2979,14 @@ const Pokedex = [
       hidden: "Aftermath",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/voltorb.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/voltorb.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/voltorb.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/voltorb.gif",
     },
     stats: {
       hp: "40",
@@ -3895,18 +2997,7 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0100",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0101",
@@ -3918,12 +3009,14 @@ const Pokedex = [
       hidden: "Aftermath",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/electrode.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/electrode.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/electrode.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/electrode.gif",
     },
     stats: {
       hp: "60",
@@ -3934,18 +3027,7 @@ const Pokedex = [
       speed: "150",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0101",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0102",
@@ -3957,12 +3039,14 @@ const Pokedex = [
       hidden: "Harvest",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/exeggcute.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/exeggcute.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/exeggcute.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/exeggcute.gif",
     },
     stats: {
       hp: "60",
@@ -3973,18 +3057,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Grass"],
-    learnsets: "0102",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0103",
@@ -3996,12 +3069,14 @@ const Pokedex = [
       hidden: "Harvest",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/exeggutor.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/exeggutor.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/exeggutor.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/exeggutor.gif",
     },
     stats: {
       hp: "95",
@@ -4012,18 +3087,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Grass"],
-    learnsets: "0103",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0104",
@@ -4035,12 +3099,14 @@ const Pokedex = [
       hidden: "Battle Armor",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/cubone.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/cubone.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/cubone.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/cubone.gif",
     },
     stats: {
       hp: "50",
@@ -4051,18 +3117,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Monster"],
-    learnsets: "0104",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0105",
@@ -4074,12 +3129,14 @@ const Pokedex = [
       hidden: "Battle Armor",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/marowak.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/marowak.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/marowak.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/marowak.gif",
     },
     stats: {
       hp: "60",
@@ -4090,18 +3147,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Monster"],
-    learnsets: "0105",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0106",
@@ -4113,12 +3159,14 @@ const Pokedex = [
       hidden: "Unburden",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/hitmonlee.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/hitmonlee.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/hitmonlee.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/hitmonlee.gif",
     },
     stats: {
       hp: "50",
@@ -4129,18 +3177,7 @@ const Pokedex = [
       speed: "87",
     },
     eggGroups: ["Human-Like"],
-    learnsets: "0106",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [100, 0],
   },
   {
     id: "0107",
@@ -4152,12 +3189,14 @@ const Pokedex = [
       hidden: "Inner Focus",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/hitmonchan.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/hitmonchan.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/hitmonchan.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/hitmonchan.gif",
     },
     stats: {
       hp: "50",
@@ -4168,18 +3207,7 @@ const Pokedex = [
       speed: "76",
     },
     eggGroups: ["Human-Like"],
-    learnsets: "0107",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [100, 0],
   },
   {
     id: "0108",
@@ -4191,12 +3219,14 @@ const Pokedex = [
       hidden: "Cloud Nine",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/lickitung.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/lickitung.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/lickitung.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/lickitung.gif",
     },
     stats: {
       hp: "90",
@@ -4207,18 +3237,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Monster"],
-    learnsets: "0108",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0109",
@@ -4226,16 +3245,18 @@ const Pokedex = [
     region: "Kanto",
     types: ["Poison"],
     abilities: {
-      normal: ["Levitate", "Neutralizing GasGen VIII+"],
-      hidden: "StenchGen VIII+",
+      normal: ["Levitate", "Neutralizing Gas"],
+      hidden: "Stench",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/koffing.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/koffing.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/koffing.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/koffing.gif",
     },
     stats: {
       hp: "40",
@@ -4246,18 +3267,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Amorphous"],
-    learnsets: "0109",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0110",
@@ -4265,16 +3275,18 @@ const Pokedex = [
     region: "Kanto",
     types: ["Poison"],
     abilities: {
-      normal: ["Levitate", "Neutralizing GasGen VIII+"],
-      hidden: "StenchGen VIII+",
+      normal: ["Levitate", "Neutralizing Gas"],
+      hidden: "Stench",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/weezing.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/weezing.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/weezing.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/weezing.gif",
     },
     stats: {
       hp: "65",
@@ -4285,18 +3297,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Amorphous"],
-    learnsets: "0110",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0111",
@@ -4308,12 +3309,14 @@ const Pokedex = [
       hidden: "Reckless",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/rhyhorn.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/rhyhorn.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/rhyhorn.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/rhyhorn.gif",
     },
     stats: {
       hp: "80",
@@ -4324,18 +3327,7 @@ const Pokedex = [
       speed: "25",
     },
     eggGroups: ["Monster", "Field"],
-    learnsets: "0111",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0112",
@@ -4347,12 +3339,14 @@ const Pokedex = [
       hidden: "Reckless",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/rhydon.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/rhydon.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/rhydon.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/rhydon.gif",
     },
     stats: {
       hp: "105",
@@ -4363,18 +3357,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Monster", "Field"],
-    learnsets: "0112",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0113",
@@ -4386,12 +3369,14 @@ const Pokedex = [
       hidden: "Healer",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/chansey.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/chansey.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/chansey.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/chansey.gif",
     },
     stats: {
       hp: "250",
@@ -4402,18 +3387,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Fairy"],
-    learnsets: "0113",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 100],
   },
   {
     id: "0114",
@@ -4425,12 +3399,14 @@ const Pokedex = [
       hidden: "Regenerator",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/tangela.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/tangela.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/tangela.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/tangela.gif",
     },
     stats: {
       hp: "65",
@@ -4441,18 +3417,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Grass"],
-    learnsets: "0114",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [null, null],
   },
   {
     id: "0115",
@@ -4464,12 +3429,14 @@ const Pokedex = [
       hidden: "Inner Focus",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/kangaskhan.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/kangaskhan.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/kangaskhan.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/kangaskhan.gif",
     },
     stats: {
       hp: "105",
@@ -4480,18 +3447,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Monster"],
-    learnsets: "0115",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 100],
   },
   {
     id: "0116",
@@ -4503,12 +3459,14 @@ const Pokedex = [
       hidden: "Damp",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/horsea.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/horsea.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/horsea.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/horsea.gif",
     },
     stats: {
       hp: "30",
@@ -4519,18 +3477,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Water 1", "Dragon"],
-    learnsets: "0116",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0117",
@@ -4542,12 +3489,14 @@ const Pokedex = [
       hidden: "Damp",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/seadra.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/seadra.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/seadra.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/seadra.gif",
     },
     stats: {
       hp: "55",
@@ -4558,18 +3507,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Water 1", "Dragon"],
-    learnsets: "0117",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0118",
@@ -4581,12 +3519,14 @@ const Pokedex = [
       hidden: "Lightning Rod",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/goldeen.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/goldeen.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/goldeen.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/goldeen.gif",
     },
     stats: {
       hp: "45",
@@ -4597,18 +3537,7 @@ const Pokedex = [
       speed: "63",
     },
     eggGroups: ["Water 2"],
-    learnsets: "0118",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0119",
@@ -4620,12 +3549,14 @@ const Pokedex = [
       hidden: "Lightning Rod",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/seaking.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/seaking.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/seaking.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/seaking.gif",
     },
     stats: {
       hp: "80",
@@ -4636,18 +3567,7 @@ const Pokedex = [
       speed: "68",
     },
     eggGroups: ["Water 2"],
-    learnsets: "0119",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0120",
@@ -4659,12 +3579,14 @@ const Pokedex = [
       hidden: "Analytic",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/staryu.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/staryu.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/staryu.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/staryu.gif",
     },
     stats: {
       hp: "30",
@@ -4675,18 +3597,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Water 3"],
-    learnsets: "0120",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0121",
@@ -4698,12 +3609,14 @@ const Pokedex = [
       hidden: "Analytic",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/starmie.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/starmie.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/starmie.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/starmie.gif",
     },
     stats: {
       hp: "60",
@@ -4714,22 +3627,11 @@ const Pokedex = [
       speed: "115",
     },
     eggGroups: ["Water 3"],
-    learnsets: "0121",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0122",
-    name: "Mr Mime",
+    name: "Mr.Mime",
     region: "Kanto",
     types: ["Psychic", "Fairy"],
     abilities: {
@@ -4737,12 +3639,14 @@ const Pokedex = [
       hidden: "Technician",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/mr.mime.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/mr.mime.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/mr.mime.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/mr.mime.gif",
     },
     stats: {
       hp: "40",
@@ -4753,18 +3657,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Human-Like"],
-    learnsets: "0122",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0123",
@@ -4776,12 +3669,14 @@ const Pokedex = [
       hidden: "Steadfast",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/scyther.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/scyther.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/scyther.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/scyther.gif",
     },
     stats: {
       hp: "70",
@@ -4792,18 +3687,7 @@ const Pokedex = [
       speed: "105",
     },
     eggGroups: ["Bug"],
-    learnsets: "0123",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0124",
@@ -4815,12 +3699,14 @@ const Pokedex = [
       hidden: "Dry Skin",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/jynx.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/jynx.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/jynx.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/jynx.gif",
     },
     stats: {
       hp: "65",
@@ -4831,18 +3717,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["Human-Like"],
-    learnsets: "0124",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 100],
   },
   {
     id: "0125",
@@ -4854,12 +3729,14 @@ const Pokedex = [
       hidden: "Vital Spirit",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/electabuzz.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/electabuzz.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/electabuzz.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/electabuzz.gif",
     },
     stats: {
       hp: "65",
@@ -4870,18 +3747,7 @@ const Pokedex = [
       speed: "105",
     },
     eggGroups: ["Human-Like"],
-    learnsets: "0125",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [75, 25],
   },
   {
     id: "0126",
@@ -4893,12 +3759,14 @@ const Pokedex = [
       hidden: "Vital Spirit",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/magmar.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/magmar.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/magmar.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/magmar.gif",
     },
     stats: {
       hp: "65",
@@ -4909,18 +3777,7 @@ const Pokedex = [
       speed: "93",
     },
     eggGroups: ["Human-Like"],
-    learnsets: "0126",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [75, 25],
   },
   {
     id: "0127",
@@ -4932,12 +3789,14 @@ const Pokedex = [
       hidden: "Moxie",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/pinsir.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/pinsir.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/pinsir.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/pinsir.gif",
     },
     stats: {
       hp: "65",
@@ -4948,18 +3807,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Bug"],
-    learnsets: "0127",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [null, null],
   },
   {
     id: "0128",
@@ -4971,12 +3819,14 @@ const Pokedex = [
       hidden: "Sheer Force",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/tauros.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/tauros.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/tauros.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/tauros.gif",
     },
     stats: {
       hp: "75",
@@ -4987,18 +3837,7 @@ const Pokedex = [
       speed: "110",
     },
     eggGroups: ["Field"],
-    learnsets: "0128",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [100, 0],
   },
   {
     id: "0129",
@@ -5010,12 +3849,14 @@ const Pokedex = [
       hidden: "Rattled",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/magikarp.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/magikarp.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/magikarp.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/magikarp.gif",
     },
     stats: {
       hp: "20",
@@ -5026,18 +3867,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Water 2", "Dragon"],
-    learnsets: "0129",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0130",
@@ -5049,12 +3879,14 @@ const Pokedex = [
       hidden: "Moxie",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/gyarados.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/gyarados.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/gyarados.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/gyarados.gif",
     },
     stats: {
       hp: "95",
@@ -5065,18 +3897,7 @@ const Pokedex = [
       speed: "81",
     },
     eggGroups: ["Water 2", "Dragon"],
-    learnsets: "0130",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0131",
@@ -5088,12 +3909,14 @@ const Pokedex = [
       hidden: "Hydration",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/lapras.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/lapras.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/lapras.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/lapras.gif",
     },
     stats: {
       hp: "130",
@@ -5104,18 +3927,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Monster", "Water 1"],
-    learnsets: "0131",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0132",
@@ -5127,12 +3939,14 @@ const Pokedex = [
       hidden: "Imposter",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/ditto.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/ditto.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/ditto.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/ditto.gif",
     },
     stats: {
       hp: "48",
@@ -5143,18 +3957,7 @@ const Pokedex = [
       speed: "48",
     },
     eggGroups: ["Ditto"],
-    learnsets: "0132",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0133",
@@ -5166,12 +3969,14 @@ const Pokedex = [
       hidden: "Anticipation",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/eevee.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/eevee.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/eevee.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/eevee.gif",
     },
     stats: {
       hp: "55",
@@ -5182,18 +3987,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Field"],
-    learnsets: "0133",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0134",
@@ -5205,12 +3999,14 @@ const Pokedex = [
       hidden: "Hydration",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/vaporeon.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/vaporeon.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/vaporeon.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/vaporeon.gif",
     },
     stats: {
       hp: "130",
@@ -5221,18 +4017,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Field"],
-    learnsets: "0134",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0135",
@@ -5244,12 +4029,14 @@ const Pokedex = [
       hidden: "Quick Feet",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/jolteon.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/jolteon.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/jolteon.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/jolteon.gif",
     },
     stats: {
       hp: "65",
@@ -5260,18 +4047,7 @@ const Pokedex = [
       speed: "130",
     },
     eggGroups: ["Field"],
-    learnsets: "0135",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0136",
@@ -5283,12 +4059,14 @@ const Pokedex = [
       hidden: "Guts",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/flareon.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/flareon.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/flareon.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/flareon.gif",
     },
     stats: {
       hp: "65",
@@ -5299,18 +4077,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Field"],
-    learnsets: "0136",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0137",
@@ -5322,12 +4089,14 @@ const Pokedex = [
       hidden: "Analytic",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/porygon.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/porygon.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/porygon.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/porygon.gif",
     },
     stats: {
       hp: "65",
@@ -5338,18 +4107,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0137",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0138",
@@ -5361,12 +4119,14 @@ const Pokedex = [
       hidden: "Weak Armor",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/omanyte.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/omanyte.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/omanyte.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/omanyte.gif",
     },
     stats: {
       hp: "35",
@@ -5377,18 +4137,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Water 1", "Water 3"],
-    learnsets: "0138",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0139",
@@ -5400,12 +4149,14 @@ const Pokedex = [
       hidden: "Weak Armor",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/omastar.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/omastar.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/omastar.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/omastar.gif",
     },
     stats: {
       hp: "70",
@@ -5416,18 +4167,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Water 1", "Water 3"],
-    learnsets: "0139",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0140",
@@ -5439,12 +4179,14 @@ const Pokedex = [
       hidden: "Weak Armor",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/kabuto.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/kabuto.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/kabuto.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/kabuto.gif",
     },
     stats: {
       hp: "30",
@@ -5455,18 +4197,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Water 1", "Water 3"],
-    learnsets: "0140",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0141",
@@ -5478,12 +4209,14 @@ const Pokedex = [
       hidden: "Weak Armor",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/kabutops.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/kabutops.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/kabutops.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/kabutops.gif",
     },
     stats: {
       hp: "60",
@@ -5494,18 +4227,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Water 1", "Water 3"],
-    learnsets: "0141",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0142",
@@ -5517,12 +4239,14 @@ const Pokedex = [
       hidden: "Unnerve",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/aerodactyl.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/aerodactyl.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/aerodactyl.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/aerodactyl.gif",
     },
     stats: {
       hp: "80",
@@ -5533,18 +4257,7 @@ const Pokedex = [
       speed: "130",
     },
     eggGroups: ["Flying"],
-    learnsets: "0142",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0143",
@@ -5556,12 +4269,14 @@ const Pokedex = [
       hidden: "Gluttony",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/snorlax.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/snorlax.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/snorlax.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/snorlax.gif",
     },
     stats: {
       hp: "160",
@@ -5572,18 +4287,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Monster"],
-    learnsets: "0143",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0144",
@@ -5595,12 +4299,14 @@ const Pokedex = [
       hidden: "Snow Cloak",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/articuno.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/articuno.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/articuno.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/articuno.gif",
     },
     stats: {
       hp: "90",
@@ -5611,18 +4317,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0144",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0145",
@@ -5634,12 +4329,14 @@ const Pokedex = [
       hidden: "Static",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/zapdos.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/zapdos.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/zapdos.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/zapdos.gif",
     },
     stats: {
       hp: "90",
@@ -5650,18 +4347,7 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0145",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0146",
@@ -5673,12 +4359,14 @@ const Pokedex = [
       hidden: "Flame Body",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/moltres.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/moltres.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/moltres.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/moltres.gif",
     },
     stats: {
       hp: "90",
@@ -5689,18 +4377,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0146",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0147",
@@ -5712,12 +4389,14 @@ const Pokedex = [
       hidden: "Marvel Scale",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/dratini.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/dratini.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/dratini.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/dratini.gif",
     },
     stats: {
       hp: "41",
@@ -5728,18 +4407,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Water 1", "Dragon"],
-    learnsets: "0147",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0148",
@@ -5751,12 +4419,14 @@ const Pokedex = [
       hidden: "Marvel Scale",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/dragonair.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/dragonair.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/dragonair.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/dragonair.gif",
     },
     stats: {
       hp: "61",
@@ -5767,18 +4437,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Water 1", "Dragon"],
-    learnsets: "0148",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0149",
@@ -5790,12 +4449,14 @@ const Pokedex = [
       hidden: "Multiscale",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/dragonite.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/dragonite.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/dragonite.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/dragonite.gif",
     },
     stats: {
       hp: "91",
@@ -5806,18 +4467,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Water 1", "Dragon"],
-    learnsets: "0149",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0150",
@@ -5829,12 +4479,14 @@ const Pokedex = [
       hidden: "Unnerve",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/mewtwo.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/mewtwo.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/mewtwo.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/mewtwo.gif",
     },
     stats: {
       hp: "106",
@@ -5845,18 +4497,7 @@ const Pokedex = [
       speed: "130",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0150",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0151",
@@ -5868,12 +4509,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/mew.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/mew.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/mew.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/mew.gif",
     },
     stats: {
       hp: "100",
@@ -5884,18 +4527,7 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0151",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0152",
@@ -5907,12 +4539,14 @@ const Pokedex = [
       hidden: "Leaf Guard",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/chikorita.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/chikorita.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/chikorita.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/chikorita.gif",
     },
     stats: {
       hp: "45",
@@ -5923,18 +4557,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Monster", "Grass"],
-    learnsets: "0152",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0153",
@@ -5946,12 +4569,14 @@ const Pokedex = [
       hidden: "Leaf Guard",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/bayleef.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/bayleef.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/bayleef.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/bayleef.gif",
     },
     stats: {
       hp: "60",
@@ -5962,18 +4587,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Monster", "Grass"],
-    learnsets: "0153",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0154",
@@ -5985,12 +4599,14 @@ const Pokedex = [
       hidden: "Leaf Guard",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/meganium.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/meganium.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/meganium.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/meganium.gif",
     },
     stats: {
       hp: "80",
@@ -6001,18 +4617,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Monster", "Grass"],
-    learnsets: "0154",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0155",
@@ -6024,12 +4629,14 @@ const Pokedex = [
       hidden: "Flash Fire",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/cyndaquil.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/cyndaquil.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/cyndaquil.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/cyndaquil.gif",
     },
     stats: {
       hp: "39",
@@ -6040,18 +4647,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Field"],
-    learnsets: "0155",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0156",
@@ -6063,12 +4659,14 @@ const Pokedex = [
       hidden: "Flash Fire",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/quilava.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/quilava.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/quilava.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/quilava.gif",
     },
     stats: {
       hp: "58",
@@ -6079,18 +4677,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Field"],
-    learnsets: "0156",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0157",
@@ -6102,12 +4689,14 @@ const Pokedex = [
       hidden: "Flash Fire",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/typhlosion.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/typhlosion.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/typhlosion.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/typhlosion.gif",
     },
     stats: {
       hp: "78",
@@ -6118,18 +4707,7 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["Field"],
-    learnsets: "0157",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0158",
@@ -6141,12 +4719,14 @@ const Pokedex = [
       hidden: "Sheer Force",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/totodile.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/totodile.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/totodile.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/totodile.gif",
     },
     stats: {
       hp: "50",
@@ -6157,18 +4737,7 @@ const Pokedex = [
       speed: "43",
     },
     eggGroups: ["Monster", "Water 1"],
-    learnsets: "0158",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0159",
@@ -6180,12 +4749,14 @@ const Pokedex = [
       hidden: "Sheer Force",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/croconaw.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/croconaw.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/croconaw.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/croconaw.gif",
     },
     stats: {
       hp: "65",
@@ -6196,18 +4767,7 @@ const Pokedex = [
       speed: "58",
     },
     eggGroups: ["Monster", "Water 1"],
-    learnsets: "0159",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0160",
@@ -6219,12 +4779,14 @@ const Pokedex = [
       hidden: "Sheer Force",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/feraligatr.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/feraligatr.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/feraligatr.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/feraligatr.gif",
     },
     stats: {
       hp: "85",
@@ -6235,18 +4797,7 @@ const Pokedex = [
       speed: "78",
     },
     eggGroups: ["Monster", "Water 1"],
-    learnsets: "0160",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0161",
@@ -6258,12 +4809,14 @@ const Pokedex = [
       hidden: "Frisk",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/sentret.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/sentret.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/sentret.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/sentret.gif",
     },
     stats: {
       hp: "35",
@@ -6274,18 +4827,7 @@ const Pokedex = [
       speed: "20",
     },
     eggGroups: ["Field"],
-    learnsets: "0161",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0162",
@@ -6297,12 +4839,14 @@ const Pokedex = [
       hidden: "Frisk",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/furret.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/furret.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/furret.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/furret.gif",
     },
     stats: {
       hp: "85",
@@ -6313,18 +4857,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Field"],
-    learnsets: "0162",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0163",
@@ -6336,12 +4869,14 @@ const Pokedex = [
       hidden: "Tinted Lens",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/hoothoot.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/hoothoot.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/hoothoot.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/hoothoot.gif",
     },
     stats: {
       hp: "60",
@@ -6352,18 +4887,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Flying"],
-    learnsets: "0163",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0164",
@@ -6375,12 +4899,14 @@ const Pokedex = [
       hidden: "Tinted Lens",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/noctowl.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/noctowl.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/noctowl.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/noctowl.gif",
     },
     stats: {
       hp: "100",
@@ -6391,18 +4917,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Flying"],
-    learnsets: "0164",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0165",
@@ -6414,12 +4929,14 @@ const Pokedex = [
       hidden: "Rattled",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/ledyba.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/ledyba.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/ledyba.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/ledyba.gif",
     },
     stats: {
       hp: "40",
@@ -6430,18 +4947,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Bug"],
-    learnsets: "0165",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0166",
@@ -6453,12 +4959,14 @@ const Pokedex = [
       hidden: "Iron Fist",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/ledian.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/ledian.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/ledian.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/ledian.gif",
     },
     stats: {
       hp: "55",
@@ -6469,18 +4977,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Bug"],
-    learnsets: "0166",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0167",
@@ -6492,12 +4989,14 @@ const Pokedex = [
       hidden: "Sniper",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/spinarak.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/spinarak.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/spinarak.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/spinarak.gif",
     },
     stats: {
       hp: "40",
@@ -6508,18 +5007,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Bug"],
-    learnsets: "0167",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0168",
@@ -6531,12 +5019,14 @@ const Pokedex = [
       hidden: "Sniper",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/ariados.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/ariados.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/ariados.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/ariados.gif",
     },
     stats: {
       hp: "70",
@@ -6547,18 +5037,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Bug"],
-    learnsets: "0168",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0169",
@@ -6570,12 +5049,14 @@ const Pokedex = [
       hidden: "Infiltrator",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/crobat.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/crobat.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/crobat.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/crobat.gif",
     },
     stats: {
       hp: "85",
@@ -6586,18 +5067,7 @@ const Pokedex = [
       speed: "130",
     },
     eggGroups: ["Flying"],
-    learnsets: "0169",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0170",
@@ -6609,12 +5079,14 @@ const Pokedex = [
       hidden: "Water Absorb",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/chinchou.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/chinchou.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/chinchou.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/chinchou.gif",
     },
     stats: {
       hp: "75",
@@ -6625,18 +5097,7 @@ const Pokedex = [
       speed: "67",
     },
     eggGroups: ["Water 2"],
-    learnsets: "0170",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0171",
@@ -6648,12 +5109,14 @@ const Pokedex = [
       hidden: "Water Absorb",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/lanturn.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/lanturn.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/lanturn.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/lanturn.gif",
     },
     stats: {
       hp: "125",
@@ -6664,18 +5127,7 @@ const Pokedex = [
       speed: "67",
     },
     eggGroups: ["Water 2"],
-    learnsets: "0171",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0172",
@@ -6687,12 +5139,14 @@ const Pokedex = [
       hidden: "Lightning Rod",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/pichu.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/pichu.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/pichu.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/pichu.gif",
     },
     stats: {
       hp: "20",
@@ -6703,18 +5157,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0172",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0173",
@@ -6726,12 +5169,14 @@ const Pokedex = [
       hidden: "Friend Guard",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/cleffa.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/cleffa.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/cleffa.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/cleffa.gif",
     },
     stats: {
       hp: "50",
@@ -6742,18 +5187,7 @@ const Pokedex = [
       speed: "15",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0173",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [25, 75],
   },
   {
     id: "0174",
@@ -6765,12 +5199,14 @@ const Pokedex = [
       hidden: "Friend Guard",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/igglybuff.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/igglybuff.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/igglybuff.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/igglybuff.gif",
     },
     stats: {
       hp: "90",
@@ -6781,18 +5217,7 @@ const Pokedex = [
       speed: "15",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0174",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [25, 75],
   },
   {
     id: "0175",
@@ -6804,12 +5229,14 @@ const Pokedex = [
       hidden: "Super Luck",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/togepi.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/togepi.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/togepi.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/togepi.gif",
     },
     stats: {
       hp: "35",
@@ -6820,18 +5247,7 @@ const Pokedex = [
       speed: "20",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0175",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0176",
@@ -6843,12 +5259,14 @@ const Pokedex = [
       hidden: "Super Luck",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/togetic.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/togetic.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/togetic.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/togetic.gif",
     },
     stats: {
       hp: "55",
@@ -6859,18 +5277,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Flying", "Fairy"],
-    learnsets: "0176",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0177",
@@ -6882,12 +5289,14 @@ const Pokedex = [
       hidden: "Magic Bounce",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/natu.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/natu.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/natu.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/natu.gif",
     },
     stats: {
       hp: "40",
@@ -6898,18 +5307,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Flying"],
-    learnsets: "0177",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0178",
@@ -6921,12 +5319,14 @@ const Pokedex = [
       hidden: "Magic Bounce",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/xatu.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/xatu.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/xatu.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/xatu.gif",
     },
     stats: {
       hp: "65",
@@ -6937,18 +5337,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["Flying"],
-    learnsets: "0178",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0179",
@@ -6960,12 +5349,14 @@ const Pokedex = [
       hidden: "Plus",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/mareep.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/mareep.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/mareep.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/mareep.gif",
     },
     stats: {
       hp: "55",
@@ -6976,18 +5367,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Monster", "Field"],
-    learnsets: "0179",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0180",
@@ -6999,12 +5379,14 @@ const Pokedex = [
       hidden: "Plus",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/flaaffy.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/flaaffy.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/flaaffy.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/flaaffy.gif",
     },
     stats: {
       hp: "70",
@@ -7015,18 +5397,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Monster", "Field"],
-    learnsets: "0180",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0181",
@@ -7038,12 +5409,14 @@ const Pokedex = [
       hidden: "Plus",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/ampharos.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/ampharos.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/ampharos.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/ampharos.gif",
     },
     stats: {
       hp: "90",
@@ -7054,18 +5427,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Monster", "Field"],
-    learnsets: "0181",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0182",
@@ -7077,12 +5439,14 @@ const Pokedex = [
       hidden: "Healer",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/bellossom.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/bellossom.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/bellossom.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/bellossom.gif",
     },
     stats: {
       hp: "75",
@@ -7093,18 +5457,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Grass"],
-    learnsets: "0182",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0183",
@@ -7116,12 +5469,14 @@ const Pokedex = [
       hidden: "Sap Sipper",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/marill.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/marill.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/marill.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/marill.gif",
     },
     stats: {
       hp: "70",
@@ -7132,18 +5487,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Water 1", "Fairy"],
-    learnsets: "0183",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0184",
@@ -7155,12 +5499,14 @@ const Pokedex = [
       hidden: "Sap Sipper",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/azumarill.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/azumarill.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/azumarill.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/azumarill.gif",
     },
     stats: {
       hp: "100",
@@ -7171,18 +5517,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Water 1", "Fairy"],
-    learnsets: "0184",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0185",
@@ -7194,12 +5529,14 @@ const Pokedex = [
       hidden: "Rattled",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/sudowoodo.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/sudowoodo.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/sudowoodo.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/sudowoodo.gif",
     },
     stats: {
       hp: "70",
@@ -7210,18 +5547,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0185",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0186",
@@ -7233,12 +5559,14 @@ const Pokedex = [
       hidden: "Drizzle",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/politoed.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/politoed.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/politoed.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/politoed.gif",
     },
     stats: {
       hp: "90",
@@ -7249,18 +5577,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Water 1"],
-    learnsets: "0186",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0187",
@@ -7268,16 +5585,18 @@ const Pokedex = [
     region: "Johto",
     types: ["Grass", "Flying"],
     abilities: {
-      normal: ["Chlorophyll", "Leaf GuardGen IV+"],
+      normal: ["Chlorophyll", "Leaf Guard"],
       hidden: "Infiltrator",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/hoppip.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/hoppip.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/hoppip.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/hoppip.gif",
     },
     stats: {
       hp: "35",
@@ -7288,18 +5607,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Fairy", "Grass"],
-    learnsets: "0187",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0188",
@@ -7307,16 +5615,18 @@ const Pokedex = [
     region: "Johto",
     types: ["Grass", "Flying"],
     abilities: {
-      normal: ["Chlorophyll", "Leaf GuardGen IV+"],
+      normal: ["Chlorophyll", "Leaf Guard"],
       hidden: "Infiltrator",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/skiploom.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/skiploom.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/skiploom.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/skiploom.gif",
     },
     stats: {
       hp: "55",
@@ -7327,18 +5637,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Fairy", "Grass"],
-    learnsets: "0188",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0189",
@@ -7346,16 +5645,18 @@ const Pokedex = [
     region: "Johto",
     types: ["Grass", "Flying"],
     abilities: {
-      normal: ["Chlorophyll", "Leaf GuardGen IV+"],
+      normal: ["Chlorophyll", "Leaf Guard"],
       hidden: "Infiltrator",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/jumpluff.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/jumpluff.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/jumpluff.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/jumpluff.gif",
     },
     stats: {
       hp: "75",
@@ -7366,18 +5667,7 @@ const Pokedex = [
       speed: "110",
     },
     eggGroups: ["Fairy", "Grass"],
-    learnsets: "0189",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0190",
@@ -7389,12 +5679,14 @@ const Pokedex = [
       hidden: "Skill Link",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/aipom.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/aipom.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/aipom.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/aipom.gif",
     },
     stats: {
       hp: "55",
@@ -7405,18 +5697,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Field"],
-    learnsets: "0190",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0191",
@@ -7424,16 +5705,18 @@ const Pokedex = [
     region: "Johto",
     types: ["Grass"],
     abilities: {
-      normal: ["Chlorophyll", "Solar PowerGen IV+"],
+      normal: ["Chlorophyll", "Solar Power"],
       hidden: "Early Bird",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/sunkern.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/sunkern.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/sunkern.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/sunkern.gif",
     },
     stats: {
       hp: "30",
@@ -7444,18 +5727,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Grass"],
-    learnsets: "0191",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0192",
@@ -7463,16 +5735,18 @@ const Pokedex = [
     region: "Johto",
     types: ["Grass"],
     abilities: {
-      normal: ["Chlorophyll", "Solar PowerGen IV+"],
+      normal: ["Chlorophyll", "Solar Power"],
       hidden: "Early Bird",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/sunflora.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/sunflora.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/sunflora.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/sunflora.gif",
     },
     stats: {
       hp: "75",
@@ -7483,18 +5757,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Grass"],
-    learnsets: "0192",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0193",
@@ -7506,12 +5769,14 @@ const Pokedex = [
       hidden: "Frisk",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/yanma.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/yanma.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/yanma.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/yanma.gif",
     },
     stats: {
       hp: "65",
@@ -7522,18 +5787,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["Bug"],
-    learnsets: "0193",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0194",
@@ -7545,12 +5799,14 @@ const Pokedex = [
       hidden: "Unaware",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/wooper.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/wooper.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/wooper.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/wooper.gif",
     },
     stats: {
       hp: "55",
@@ -7561,18 +5817,7 @@ const Pokedex = [
       speed: "15",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: "0194",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0195",
@@ -7584,12 +5829,14 @@ const Pokedex = [
       hidden: "Unaware",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/quagsire.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/quagsire.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/quagsire.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/quagsire.gif",
     },
     stats: {
       hp: "95",
@@ -7600,18 +5847,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: "0195",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0196",
@@ -7623,12 +5859,14 @@ const Pokedex = [
       hidden: "Magic Bounce",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/espeon.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/espeon.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/espeon.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/espeon.gif",
     },
     stats: {
       hp: "65",
@@ -7639,18 +5877,7 @@ const Pokedex = [
       speed: "110",
     },
     eggGroups: ["Field"],
-    learnsets: "0196",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0197",
@@ -7662,12 +5889,14 @@ const Pokedex = [
       hidden: "Inner Focus",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/umbreon.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/umbreon.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/umbreon.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/umbreon.gif",
     },
     stats: {
       hp: "95",
@@ -7678,18 +5907,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Field"],
-    learnsets: "0197",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0198",
@@ -7697,16 +5915,18 @@ const Pokedex = [
     region: "Johto",
     types: ["Dark", "Flying"],
     abilities: {
-      normal: ["Insomnia", "Super LuckGen IV+"],
+      normal: ["Insomnia", "Super Luck"],
       hidden: "Prankster",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/murkrow.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/murkrow.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/murkrow.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/murkrow.gif",
     },
     stats: {
       hp: "60",
@@ -7717,18 +5937,7 @@ const Pokedex = [
       speed: "91",
     },
     eggGroups: ["Flying"],
-    learnsets: "0198",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0199",
@@ -7740,12 +5949,14 @@ const Pokedex = [
       hidden: "Regenerator",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/slowking.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/slowking.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/slowking.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/slowking.gif",
     },
     stats: {
       hp: "95",
@@ -7756,18 +5967,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Monster", "Water 1"],
-    learnsets: "0199",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0200",
@@ -7779,12 +5979,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/misdreavus.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/misdreavus.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/misdreavus.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/misdreavus.gif",
     },
     stats: {
       hp: "60",
@@ -7795,18 +5997,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Amorphous"],
-    learnsets: "0200",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0201",
@@ -7818,12 +6009,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/unown.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/unown.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/unown.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/unown.gif",
     },
     stats: {
       hp: "48",
@@ -7834,18 +6027,7 @@ const Pokedex = [
       speed: "48",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0201",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0202",
@@ -7857,12 +6039,14 @@ const Pokedex = [
       hidden: "Telepathy",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/wobbuffet.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/wobbuffet.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/wobbuffet.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/wobbuffet.gif",
     },
     stats: {
       hp: "190",
@@ -7873,18 +6057,7 @@ const Pokedex = [
       speed: "33",
     },
     eggGroups: ["Amorphous"],
-    learnsets: "0202",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0203",
@@ -7896,12 +6069,14 @@ const Pokedex = [
       hidden: "Sap Sipper",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/girafarig.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/girafarig.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/girafarig.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/girafarig.gif",
     },
     stats: {
       hp: "70",
@@ -7912,18 +6087,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Field"],
-    learnsets: "0203",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0204",
@@ -7935,12 +6099,14 @@ const Pokedex = [
       hidden: "Overcoat",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/pineco.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/pineco.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/pineco.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/pineco.gif",
     },
     stats: {
       hp: "50",
@@ -7951,18 +6117,7 @@ const Pokedex = [
       speed: "15",
     },
     eggGroups: ["Bug"],
-    learnsets: "0204",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0205",
@@ -7974,12 +6129,14 @@ const Pokedex = [
       hidden: "Overcoat",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/forretress.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/forretress.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/forretress.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/forretress.gif",
     },
     stats: {
       hp: "75",
@@ -7990,18 +6147,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Bug"],
-    learnsets: "0205",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0206",
@@ -8013,12 +6159,14 @@ const Pokedex = [
       hidden: "Rattled",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/dunsparce.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/dunsparce.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/dunsparce.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/dunsparce.gif",
     },
     stats: {
       hp: "100",
@@ -8029,18 +6177,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Field"],
-    learnsets: "0206",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0207",
@@ -8052,12 +6189,14 @@ const Pokedex = [
       hidden: "Immunity",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/gligar.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/gligar.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/gligar.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/gligar.gif",
     },
     stats: {
       hp: "65",
@@ -8068,18 +6207,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Bug"],
-    learnsets: "0207",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0208",
@@ -8091,12 +6219,14 @@ const Pokedex = [
       hidden: "Sheer Force",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/steelix.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/steelix.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/steelix.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/steelix.gif",
     },
     stats: {
       hp: "75",
@@ -8107,18 +6237,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0208",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0209",
@@ -8130,12 +6249,14 @@ const Pokedex = [
       hidden: "Rattled",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/snubbull.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/snubbull.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/snubbull.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/snubbull.gif",
     },
     stats: {
       hp: "60",
@@ -8146,18 +6267,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Field", "Fairy"],
-    learnsets: "0209",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [25, 75],
   },
   {
     id: "0210",
@@ -8165,16 +6275,18 @@ const Pokedex = [
     region: "Johto",
     types: ["Fairy"],
     abilities: {
-      normal: ["Intimidate", "Quick FeetGen IV+"],
+      normal: ["Intimidate", "Quick Feet"],
       hidden: "Rattled",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/granbull.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/granbull.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/granbull.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/granbull.gif",
     },
     stats: {
       hp: "90",
@@ -8185,18 +6297,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Field", "Fairy"],
-    learnsets: "0210",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [25, 75],
   },
   {
     id: "0211",
@@ -8208,12 +6309,14 @@ const Pokedex = [
       hidden: "Intimidate",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/qwilfish.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/qwilfish.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/qwilfish.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/qwilfish.gif",
     },
     stats: {
       hp: "65",
@@ -8224,18 +6327,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Water 2"],
-    learnsets: "0211",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0212",
@@ -8247,12 +6339,14 @@ const Pokedex = [
       hidden: "Light Metal",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/scizor.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/scizor.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/scizor.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/scizor.gif",
     },
     stats: {
       hp: "70",
@@ -8263,18 +6357,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Bug"],
-    learnsets: "0212",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0213",
@@ -8282,16 +6365,18 @@ const Pokedex = [
     region: "Johto",
     types: ["Bug", "Rock"],
     abilities: {
-      normal: ["Sturdy", "GluttonyGen IV+"],
+      normal: ["Sturdy", "Gluttony"],
       hidden: "Contrary",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/shuckle.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/shuckle.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/shuckle.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/shuckle.gif",
     },
     stats: {
       hp: "20",
@@ -8302,18 +6387,7 @@ const Pokedex = [
       speed: "5",
     },
     eggGroups: ["Bug"],
-    learnsets: "0213",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0214",
@@ -8325,12 +6399,14 @@ const Pokedex = [
       hidden: "Moxie",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/heracross.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/heracross.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/heracross.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/heracross.gif",
     },
     stats: {
       hp: "80",
@@ -8341,18 +6417,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Bug"],
-    learnsets: "0214",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0215",
@@ -8364,12 +6429,14 @@ const Pokedex = [
       hidden: "Pickpocket",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/sneasel.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/sneasel.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/sneasel.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/sneasel.gif",
     },
     stats: {
       hp: "55",
@@ -8380,18 +6447,7 @@ const Pokedex = [
       speed: "115",
     },
     eggGroups: ["Field"],
-    learnsets: "0215",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0216",
@@ -8399,16 +6455,18 @@ const Pokedex = [
     region: "Johto",
     types: ["Normal"],
     abilities: {
-      normal: ["Pickup", "Quick FeetGen IV+"],
+      normal: ["Pickup", "Quick Feet"],
       hidden: "Honey Gather",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/teddiursa.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/teddiursa.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/teddiursa.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/teddiursa.gif",
     },
     stats: {
       hp: "60",
@@ -8419,18 +6477,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Field"],
-    learnsets: "0216",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0217",
@@ -8438,16 +6485,18 @@ const Pokedex = [
     region: "Johto",
     types: ["Normal"],
     abilities: {
-      normal: ["Guts", "Quick FeetGen IV+"],
+      normal: ["Guts", "Quick Feet"],
       hidden: "Unnerve",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/ursaring.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/ursaring.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/ursaring.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/ursaring.gif",
     },
     stats: {
       hp: "90",
@@ -8458,18 +6507,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Field"],
-    learnsets: "0217",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0218",
@@ -8481,12 +6519,14 @@ const Pokedex = [
       hidden: "Weak Armor",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/slugma.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/slugma.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/slugma.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/slugma.gif",
     },
     stats: {
       hp: "40",
@@ -8497,18 +6537,7 @@ const Pokedex = [
       speed: "20",
     },
     eggGroups: ["Amorphous"],
-    learnsets: "0218",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0219",
@@ -8520,12 +6549,14 @@ const Pokedex = [
       hidden: "Weak Armor",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/magcargo.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/magcargo.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/magcargo.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/magcargo.gif",
     },
     stats: {
       hp: "60",
@@ -8536,18 +6567,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Amorphous"],
-    learnsets: "0219",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0220",
@@ -8555,16 +6575,18 @@ const Pokedex = [
     region: "Johto",
     types: ["Ice", "Ground"],
     abilities: {
-      normal: ["Oblivious", "Snow CloakGen IV+"],
+      normal: ["Oblivious", "Snow Cloak"],
       hidden: "Thick Fat",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/swinub.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/swinub.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/swinub.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/swinub.gif",
     },
     stats: {
       hp: "50",
@@ -8575,18 +6597,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Field"],
-    learnsets: "0220",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0221",
@@ -8594,16 +6605,18 @@ const Pokedex = [
     region: "Johto",
     types: ["Ice", "Ground"],
     abilities: {
-      normal: ["Oblivious", "Snow CloakGen IV+"],
+      normal: ["Oblivious", "Snow Cloak"],
       hidden: "Thick Fat",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/piloswine.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/piloswine.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/piloswine.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/piloswine.gif",
     },
     stats: {
       hp: "100",
@@ -8614,18 +6627,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Field"],
-    learnsets: "0221",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0222",
@@ -8637,12 +6639,14 @@ const Pokedex = [
       hidden: "Regenerator",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/corsola.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/corsola.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/corsola.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/corsola.gif",
     },
     stats: {
       hp: "65",
@@ -8653,18 +6657,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Water 1", "Water 3"],
-    learnsets: "0222",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [25, 75],
   },
   {
     id: "0223",
@@ -8672,16 +6665,18 @@ const Pokedex = [
     region: "Johto",
     types: ["Water"],
     abilities: {
-      normal: ["Hustle", "SniperGen IV+"],
+      normal: ["Hustle", "Sniper"],
       hidden: "Moody",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/remoraid.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/remoraid.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/remoraid.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/remoraid.gif",
     },
     stats: {
       hp: "35",
@@ -8692,18 +6687,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Water 1", "Water 2"],
-    learnsets: "0223",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0224",
@@ -8711,16 +6695,18 @@ const Pokedex = [
     region: "Johto",
     types: ["Water"],
     abilities: {
-      normal: ["Suction Cups", "SniperGen IV+"],
+      normal: ["Suction Cups", "Sniper"],
       hidden: "Moody",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/octillery.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/octillery.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/octillery.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/octillery.gif",
     },
     stats: {
       hp: "75",
@@ -8731,18 +6717,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Water 1", "Water 2"],
-    learnsets: "0224",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0225",
@@ -8754,12 +6729,14 @@ const Pokedex = [
       hidden: "Insomnia",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/delibird.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/delibird.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/delibird.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/delibird.gif",
     },
     stats: {
       hp: "45",
@@ -8770,18 +6747,7 @@ const Pokedex = [
       speed: "75",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: "0225",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0226",
@@ -8793,12 +6759,14 @@ const Pokedex = [
       hidden: "Water Veil",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/mantine.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/mantine.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/mantine.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/mantine.gif",
     },
     stats: {
       hp: "85",
@@ -8809,18 +6777,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Water 1"],
-    learnsets: "0226",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0227",
@@ -8832,12 +6789,14 @@ const Pokedex = [
       hidden: "Weak Armor",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/skarmory.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/skarmory.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/skarmory.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/skarmory.gif",
     },
     stats: {
       hp: "65",
@@ -8848,18 +6807,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Flying"],
-    learnsets: "0227",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0228",
@@ -8871,12 +6819,14 @@ const Pokedex = [
       hidden: "Unnerve",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/houndour.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/houndour.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/houndour.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/houndour.gif",
     },
     stats: {
       hp: "45",
@@ -8887,18 +6837,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Field"],
-    learnsets: "0228",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0229",
@@ -8910,12 +6849,14 @@ const Pokedex = [
       hidden: "Unnerve",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/houndoom.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/houndoom.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/houndoom.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/houndoom.gif",
     },
     stats: {
       hp: "75",
@@ -8926,18 +6867,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["Field"],
-    learnsets: "0229",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0230",
@@ -8949,12 +6879,14 @@ const Pokedex = [
       hidden: "Damp",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/kingdra.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/kingdra.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/kingdra.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/kingdra.gif",
     },
     stats: {
       hp: "75",
@@ -8965,18 +6897,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Water 1", "Dragon"],
-    learnsets: "0230",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0231",
@@ -8988,12 +6909,14 @@ const Pokedex = [
       hidden: "Sand Veil",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/phanpy.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/phanpy.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/phanpy.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/phanpy.gif",
     },
     stats: {
       hp: "90",
@@ -9004,18 +6927,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Field"],
-    learnsets: "0231",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0232",
@@ -9027,12 +6939,14 @@ const Pokedex = [
       hidden: "Sand Veil",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/donphan.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/donphan.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/donphan.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/donphan.gif",
     },
     stats: {
       hp: "90",
@@ -9043,18 +6957,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Field"],
-    learnsets: "0232",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0233",
@@ -9066,12 +6969,14 @@ const Pokedex = [
       hidden: "Analytic",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/porygon2.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/porygon2.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/porygon2.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/porygon2.gif",
     },
     stats: {
       hp: "85",
@@ -9082,18 +6987,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0233",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0234",
@@ -9101,16 +6995,18 @@ const Pokedex = [
     region: "Johto",
     types: ["Normal"],
     abilities: {
-      normal: ["Intimidate", "FriskGen IV+"],
+      normal: ["Intimidate", "Frisk"],
       hidden: "Sap Sipper",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/stantler.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/stantler.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/stantler.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/stantler.gif",
     },
     stats: {
       hp: "73",
@@ -9121,18 +7017,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Field"],
-    learnsets: "0234",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0235",
@@ -9140,16 +7025,18 @@ const Pokedex = [
     region: "Johto",
     types: ["Normal"],
     abilities: {
-      normal: ["Own Tempo", "TechnicianGen IV+"],
+      normal: ["Own Tempo", "Technician"],
       hidden: "Moody",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/smeargle.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/smeargle.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/smeargle.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/smeargle.gif",
     },
     stats: {
       hp: "55",
@@ -9160,18 +7047,7 @@ const Pokedex = [
       speed: "75",
     },
     eggGroups: ["Field"],
-    learnsets: "0235",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0236",
@@ -9183,12 +7059,14 @@ const Pokedex = [
       hidden: "Vital Spirit",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/tyrogue.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/tyrogue.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/tyrogue.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/tyrogue.gif",
     },
     stats: {
       hp: "35",
@@ -9199,18 +7077,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0236",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [100, 0],
   },
   {
     id: "0237",
@@ -9222,12 +7089,14 @@ const Pokedex = [
       hidden: "Steadfast",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/hitmontop.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/hitmontop.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/hitmontop.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/hitmontop.gif",
     },
     stats: {
       hp: "50",
@@ -9238,18 +7107,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Human-Like"],
-    learnsets: "0237",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [100, 0],
   },
   {
     id: "0238",
@@ -9261,12 +7119,14 @@ const Pokedex = [
       hidden: "Hydration",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/smoochum.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/smoochum.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/smoochum.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/smoochum.gif",
     },
     stats: {
       hp: "45",
@@ -9277,18 +7137,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0238",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 100],
   },
   {
     id: "0239",
@@ -9300,12 +7149,14 @@ const Pokedex = [
       hidden: "Vital Spirit",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/elekid.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/elekid.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/elekid.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/elekid.gif",
     },
     stats: {
       hp: "45",
@@ -9316,18 +7167,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0239",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [75, 25],
   },
   {
     id: "0240",
@@ -9339,12 +7179,14 @@ const Pokedex = [
       hidden: "Vital Spirit",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/magby.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/magby.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/magby.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/magby.gif",
     },
     stats: {
       hp: "45",
@@ -9355,18 +7197,7 @@ const Pokedex = [
       speed: "83",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0240",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [75, 25],
   },
   {
     id: "0241",
@@ -9374,16 +7205,18 @@ const Pokedex = [
     region: "Johto",
     types: ["Normal"],
     abilities: {
-      normal: ["Thick Fat", "ScrappyGen IV+"],
+      normal: ["Thick Fat", "Scrappy"],
       hidden: "Sap Sipper",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/miltank.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/miltank.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/miltank.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/miltank.gif",
     },
     stats: {
       hp: "95",
@@ -9394,18 +7227,7 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["Field"],
-    learnsets: "0241",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 100],
   },
   {
     id: "0242",
@@ -9417,12 +7239,14 @@ const Pokedex = [
       hidden: "Healer",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/blissey.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/blissey.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/blissey.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/blissey.gif",
     },
     stats: {
       hp: "255",
@@ -9433,18 +7257,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Fairy"],
-    learnsets: "0242",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 100],
   },
   {
     id: "0243",
@@ -9453,15 +7266,17 @@ const Pokedex = [
     types: ["Electric"],
     abilities: {
       normal: ["Pressure"],
-      hidden: "Inner FocusGen VII+",
+      hidden: "Inner Focus",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/raikou.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/raikou.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/raikou.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/raikou.gif",
     },
     stats: {
       hp: "90",
@@ -9472,18 +7287,7 @@ const Pokedex = [
       speed: "115",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0243",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0244",
@@ -9492,15 +7296,17 @@ const Pokedex = [
     types: ["Fire"],
     abilities: {
       normal: ["Pressure"],
-      hidden: "Inner FocusGen VII+",
+      hidden: "Inner Focus",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/entei.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/entei.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/entei.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/entei.gif",
     },
     stats: {
       hp: "115",
@@ -9511,18 +7317,7 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0244",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0245",
@@ -9531,15 +7326,17 @@ const Pokedex = [
     types: ["Water"],
     abilities: {
       normal: ["Pressure"],
-      hidden: "Inner FocusGen VII+",
+      hidden: "Inner Focus",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/suicune.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/suicune.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/suicune.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/suicune.gif",
     },
     stats: {
       hp: "100",
@@ -9550,18 +7347,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0245",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0246",
@@ -9573,12 +7359,14 @@ const Pokedex = [
       hidden: "Sand Veil",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/larvitar.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/larvitar.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/larvitar.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/larvitar.gif",
     },
     stats: {
       hp: "50",
@@ -9589,18 +7377,7 @@ const Pokedex = [
       speed: "41",
     },
     eggGroups: ["Monster"],
-    learnsets: "0246",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0247",
@@ -9612,12 +7389,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/pupitar.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/pupitar.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/pupitar.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/pupitar.gif",
     },
     stats: {
       hp: "70",
@@ -9628,18 +7407,7 @@ const Pokedex = [
       speed: "51",
     },
     eggGroups: ["Monster"],
-    learnsets: "0247",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0248",
@@ -9651,12 +7419,14 @@ const Pokedex = [
       hidden: "Unnerve",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/tyranitar.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/tyranitar.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/tyranitar.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/tyranitar.gif",
     },
     stats: {
       hp: "100",
@@ -9667,18 +7437,7 @@ const Pokedex = [
       speed: "61",
     },
     eggGroups: ["Monster"],
-    learnsets: "0248",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0249",
@@ -9690,12 +7449,14 @@ const Pokedex = [
       hidden: "Multiscale",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/lugia.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/lugia.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/lugia.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/lugia.gif",
     },
     stats: {
       hp: "106",
@@ -9706,22 +7467,11 @@ const Pokedex = [
       speed: "110",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0249",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0250",
-    name: "Ho Oh",
+    name: "Ho-Oh",
     region: "Johto",
     types: ["Fire", "Flying"],
     abilities: {
@@ -9729,12 +7479,14 @@ const Pokedex = [
       hidden: "Regenerator",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/ho-oh.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/ho-oh.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/ho-oh.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/ho-oh.gif",
     },
     stats: {
       hp: "106",
@@ -9745,18 +7497,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0250",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0251",
@@ -9768,12 +7509,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/celebi.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/celebi.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/celebi.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/celebi.gif",
     },
     stats: {
       hp: "100",
@@ -9784,18 +7527,7 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0251",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0252",
@@ -9807,12 +7539,14 @@ const Pokedex = [
       hidden: "Unburden",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/treecko.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/treecko.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/treecko.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/treecko.gif",
     },
     stats: {
       hp: "40",
@@ -9823,18 +7557,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Monster", "Dragon"],
-    learnsets: "0252",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0253",
@@ -9846,12 +7569,14 @@ const Pokedex = [
       hidden: "Unburden",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/grovyle.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/grovyle.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/grovyle.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/grovyle.gif",
     },
     stats: {
       hp: "50",
@@ -9862,18 +7587,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["Monster", "Dragon"],
-    learnsets: "0253",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0254",
@@ -9885,12 +7599,14 @@ const Pokedex = [
       hidden: "Unburden",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/sceptile.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/sceptile.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/sceptile.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/sceptile.gif",
     },
     stats: {
       hp: "70",
@@ -9901,18 +7617,7 @@ const Pokedex = [
       speed: "120",
     },
     eggGroups: ["Monster", "Dragon"],
-    learnsets: "0254",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0255",
@@ -9924,12 +7629,14 @@ const Pokedex = [
       hidden: "Speed Boost",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/torchic.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/torchic.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/torchic.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/torchic.gif",
     },
     stats: {
       hp: "45",
@@ -9940,18 +7647,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Field"],
-    learnsets: "0255",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0256",
@@ -9963,12 +7659,14 @@ const Pokedex = [
       hidden: "Speed Boost",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/combusken.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/combusken.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/combusken.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/combusken.gif",
     },
     stats: {
       hp: "60",
@@ -9979,18 +7677,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Field"],
-    learnsets: "0256",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0257",
@@ -10002,12 +7689,14 @@ const Pokedex = [
       hidden: "Speed Boost",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/blaziken.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/blaziken.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/blaziken.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/blaziken.gif",
     },
     stats: {
       hp: "80",
@@ -10018,18 +7707,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Field"],
-    learnsets: "0257",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0258",
@@ -10041,12 +7719,14 @@ const Pokedex = [
       hidden: "Damp",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/mudkip.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/mudkip.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/mudkip.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/mudkip.gif",
     },
     stats: {
       hp: "50",
@@ -10057,18 +7737,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Monster", "Water 1"],
-    learnsets: "0258",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0259",
@@ -10080,12 +7749,14 @@ const Pokedex = [
       hidden: "Damp",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/marshtomp.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/marshtomp.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/marshtomp.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/marshtomp.gif",
     },
     stats: {
       hp: "70",
@@ -10096,18 +7767,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Monster", "Water 1"],
-    learnsets: "0259",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0260",
@@ -10119,12 +7779,14 @@ const Pokedex = [
       hidden: "Damp",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/swampert.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/swampert.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/swampert.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/swampert.gif",
     },
     stats: {
       hp: "100",
@@ -10135,18 +7797,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Monster", "Water 1"],
-    learnsets: "0260",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0261",
@@ -10154,16 +7805,18 @@ const Pokedex = [
     region: "Hoenn",
     types: ["Dark"],
     abilities: {
-      normal: ["Run Away", "Quick FeetGen IV+"],
+      normal: ["Run Away", "Quick Feet"],
       hidden: "Rattled",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/poochyena.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/poochyena.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/poochyena.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/poochyena.gif",
     },
     stats: {
       hp: "35",
@@ -10174,18 +7827,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Field"],
-    learnsets: "0261",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0262",
@@ -10193,16 +7835,18 @@ const Pokedex = [
     region: "Hoenn",
     types: ["Dark"],
     abilities: {
-      normal: ["Intimidate", "Quick FeetGen IV+"],
+      normal: ["Intimidate", "Quick Feet"],
       hidden: "Moxie",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/mightyena.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/mightyena.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/mightyena.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/mightyena.gif",
     },
     stats: {
       hp: "70",
@@ -10213,18 +7857,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Field"],
-    learnsets: "0262",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0263",
@@ -10232,16 +7865,18 @@ const Pokedex = [
     region: "Hoenn",
     types: ["Normal"],
     abilities: {
-      normal: ["Pickup", "GluttonyGen IV+"],
+      normal: ["Pickup", "Gluttony"],
       hidden: "Quick Feet",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/zigzagoon.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/zigzagoon.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/zigzagoon.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/zigzagoon.gif",
     },
     stats: {
       hp: "38",
@@ -10252,18 +7887,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Field"],
-    learnsets: "0263",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0264",
@@ -10271,16 +7895,18 @@ const Pokedex = [
     region: "Hoenn",
     types: ["Normal"],
     abilities: {
-      normal: ["Pickup", "GluttonyGen IV+"],
+      normal: ["Pickup", "Gluttony"],
       hidden: "Quick Feet",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/linoone.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/linoone.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/linoone.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/linoone.gif",
     },
     stats: {
       hp: "78",
@@ -10291,18 +7917,7 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["Field"],
-    learnsets: "0264",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0265",
@@ -10314,12 +7929,14 @@ const Pokedex = [
       hidden: "Run Away",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/wurmple.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/wurmple.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/wurmple.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/wurmple.gif",
     },
     stats: {
       hp: "45",
@@ -10330,18 +7947,7 @@ const Pokedex = [
       speed: "20",
     },
     eggGroups: ["Bug"],
-    learnsets: "0265",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0266",
@@ -10353,12 +7959,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/silcoon.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/silcoon.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/silcoon.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/silcoon.gif",
     },
     stats: {
       hp: "50",
@@ -10369,18 +7977,7 @@ const Pokedex = [
       speed: "15",
     },
     eggGroups: ["Bug"],
-    learnsets: "0266",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0267",
@@ -10392,12 +7989,14 @@ const Pokedex = [
       hidden: "Rivalry",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/beautifly.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/beautifly.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/beautifly.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/beautifly.gif",
     },
     stats: {
       hp: "60",
@@ -10408,18 +8007,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Bug"],
-    learnsets: "0267",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0268",
@@ -10431,12 +8019,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/cascoon.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/cascoon.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/cascoon.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/cascoon.gif",
     },
     stats: {
       hp: "50",
@@ -10447,18 +8037,7 @@ const Pokedex = [
       speed: "15",
     },
     eggGroups: ["Bug"],
-    learnsets: "0268",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0269",
@@ -10470,12 +8049,14 @@ const Pokedex = [
       hidden: "Compound Eyes",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/dustox.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/dustox.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/dustox.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/dustox.gif",
     },
     stats: {
       hp: "60",
@@ -10486,18 +8067,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Bug"],
-    learnsets: "0269",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0270",
@@ -10509,12 +8079,14 @@ const Pokedex = [
       hidden: "Own Tempo",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/lotad.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/lotad.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/lotad.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/lotad.gif",
     },
     stats: {
       hp: "40",
@@ -10525,18 +8097,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Water 1", "Grass"],
-    learnsets: "0270",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0271",
@@ -10548,12 +8109,14 @@ const Pokedex = [
       hidden: "Own Tempo",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/lombre.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/lombre.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/lombre.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/lombre.gif",
     },
     stats: {
       hp: "60",
@@ -10564,18 +8127,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Water 1", "Grass"],
-    learnsets: "0271",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0272",
@@ -10587,12 +8139,14 @@ const Pokedex = [
       hidden: "Own Tempo",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/ludicolo.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/ludicolo.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/ludicolo.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/ludicolo.gif",
     },
     stats: {
       hp: "80",
@@ -10603,18 +8157,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Water 1", "Grass"],
-    learnsets: "0272",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0273",
@@ -10626,12 +8169,14 @@ const Pokedex = [
       hidden: "Pickpocket",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/seedot.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/seedot.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/seedot.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/seedot.gif",
     },
     stats: {
       hp: "40",
@@ -10642,18 +8187,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Field", "Grass"],
-    learnsets: "0273",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0274",
@@ -10665,12 +8199,14 @@ const Pokedex = [
       hidden: "Pickpocket",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/nuzleaf.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/nuzleaf.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/nuzleaf.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/nuzleaf.gif",
     },
     stats: {
       hp: "70",
@@ -10681,18 +8217,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Field", "Grass"],
-    learnsets: "0274",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0275",
@@ -10700,16 +8225,18 @@ const Pokedex = [
     region: "Hoenn",
     types: ["Grass", "Dark"],
     abilities: {
-      normal: ["Chlorophyll", "Wind RiderGen IX+"],
+      normal: ["Chlorophyll", "Wind Rider"],
       hidden: "Pickpocket",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/shiftry.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/shiftry.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/shiftry.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/shiftry.gif",
     },
     stats: {
       hp: "90",
@@ -10720,18 +8247,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Field", "Grass"],
-    learnsets: "0275",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0276",
@@ -10743,12 +8259,14 @@ const Pokedex = [
       hidden: "Scrappy",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/taillow.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/taillow.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/taillow.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/taillow.gif",
     },
     stats: {
       hp: "40",
@@ -10759,18 +8277,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Flying"],
-    learnsets: "0276",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0277",
@@ -10782,12 +8289,14 @@ const Pokedex = [
       hidden: "Scrappy",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/swellow.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/swellow.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/swellow.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/swellow.gif",
     },
     stats: {
       hp: "60",
@@ -10798,18 +8307,7 @@ const Pokedex = [
       speed: "125",
     },
     eggGroups: ["Flying"],
-    learnsets: "0277",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0278",
@@ -10817,16 +8315,18 @@ const Pokedex = [
     region: "Hoenn",
     types: ["Water", "Flying"],
     abilities: {
-      normal: ["Keen Eye", "HydrationGen VII+"],
+      normal: ["Keen Eye", "Hydration"],
       hidden: "Rain Dish",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/wingull.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/wingull.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/wingull.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/wingull.gif",
     },
     stats: {
       hp: "40",
@@ -10837,18 +8337,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Water 1", "Flying"],
-    learnsets: "0278",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0279",
@@ -10856,16 +8345,18 @@ const Pokedex = [
     region: "Hoenn",
     types: ["Water", "Flying"],
     abilities: {
-      normal: ["Keen Eye", "DrizzleGen VII+"],
+      normal: ["Keen Eye", "Drizzle"],
       hidden: "Rain Dish",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/pelipper.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/pelipper.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/pelipper.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/pelipper.gif",
     },
     stats: {
       hp: "60",
@@ -10876,18 +8367,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Water 1", "Flying"],
-    learnsets: "0279",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0280",
@@ -10899,12 +8379,14 @@ const Pokedex = [
       hidden: "Telepathy",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/ralts.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/ralts.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/ralts.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/ralts.gif",
     },
     stats: {
       hp: "28",
@@ -10914,19 +8396,8 @@ const Pokedex = [
       spd: "35",
       speed: "40",
     },
-    eggGroups: ["Human-Like*", "Amorphous"],
-    learnsets: "0280",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    eggGroups: ["Human-Like", "Amorphous"],
+    genderRatios: [50, 50],
   },
   {
     id: "0281",
@@ -10938,12 +8409,14 @@ const Pokedex = [
       hidden: "Telepathy",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/kirlia.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/kirlia.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/kirlia.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/kirlia.gif",
     },
     stats: {
       hp: "38",
@@ -10953,19 +8426,8 @@ const Pokedex = [
       spd: "55",
       speed: "50",
     },
-    eggGroups: ["Human-Like*", "Amorphous"],
-    learnsets: "0281",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    eggGroups: ["Human-Like", "Amorphous"],
+    genderRatios: [50, 50],
   },
   {
     id: "0282",
@@ -10977,12 +8439,14 @@ const Pokedex = [
       hidden: "Telepathy",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/gardevoir.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/gardevoir.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/gardevoir.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/gardevoir.gif",
     },
     stats: {
       hp: "68",
@@ -10992,19 +8456,8 @@ const Pokedex = [
       spd: "115",
       speed: "80",
     },
-    eggGroups: ["Human-Like*", "Amorphous"],
-    learnsets: "0282",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    eggGroups: ["Human-Like", "Amorphous"],
+    genderRatios: [50, 50],
   },
   {
     id: "0283",
@@ -11016,12 +8469,14 @@ const Pokedex = [
       hidden: "Rain Dish",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/surskit.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/surskit.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/surskit.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/surskit.gif",
     },
     stats: {
       hp: "40",
@@ -11032,18 +8487,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Water 1", "Bug"],
-    learnsets: "0283",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0284",
@@ -11055,12 +8499,14 @@ const Pokedex = [
       hidden: "Unnerve",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/masquerain.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/masquerain.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/masquerain.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/masquerain.gif",
     },
     stats: {
       hp: "70",
@@ -11071,18 +8517,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Water 1", "Bug"],
-    learnsets: "0284",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0285",
@@ -11090,16 +8525,18 @@ const Pokedex = [
     region: "Hoenn",
     types: ["Grass"],
     abilities: {
-      normal: ["Effect Spore", "Poison HealGen IV+"],
+      normal: ["Effect Spore", "Poison Heal"],
       hidden: "Quick Feet",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/shroomish.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/shroomish.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/shroomish.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/shroomish.gif",
     },
     stats: {
       hp: "60",
@@ -11110,18 +8547,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Fairy", "Grass"],
-    learnsets: "0285",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0286",
@@ -11129,16 +8555,18 @@ const Pokedex = [
     region: "Hoenn",
     types: ["Grass", "Fighting"],
     abilities: {
-      normal: ["Effect Spore", "Poison HealGen IV+"],
+      normal: ["Effect Spore", "Poison Heal"],
       hidden: "Technician",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/breloom.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/breloom.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/breloom.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/breloom.gif",
     },
     stats: {
       hp: "60",
@@ -11149,18 +8577,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Fairy", "Grass"],
-    learnsets: "0286",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0287",
@@ -11172,12 +8589,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/slakoth.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/slakoth.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/slakoth.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/slakoth.gif",
     },
     stats: {
       hp: "60",
@@ -11188,18 +8607,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Field"],
-    learnsets: "0287",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0288",
@@ -11211,12 +8619,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/vigoroth.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/vigoroth.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/vigoroth.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/vigoroth.gif",
     },
     stats: {
       hp: "80",
@@ -11227,18 +8637,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Field"],
-    learnsets: "0288",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0289",
@@ -11250,12 +8649,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/slaking.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/slaking.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/slaking.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/slaking.gif",
     },
     stats: {
       hp: "150",
@@ -11266,18 +8667,7 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["Field"],
-    learnsets: "0289",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0290",
@@ -11289,12 +8679,14 @@ const Pokedex = [
       hidden: "Run Away",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/nincada.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/nincada.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/nincada.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/nincada.gif",
     },
     stats: {
       hp: "31",
@@ -11305,18 +8697,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Bug"],
-    learnsets: "0290",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0291",
@@ -11328,12 +8709,14 @@ const Pokedex = [
       hidden: "Infiltrator",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/ninjask.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/ninjask.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/ninjask.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/ninjask.gif",
     },
     stats: {
       hp: "61",
@@ -11344,18 +8727,7 @@ const Pokedex = [
       speed: "160",
     },
     eggGroups: ["Bug"],
-    learnsets: "0291",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0292",
@@ -11367,12 +8739,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/shedinja.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/shedinja.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/shedinja.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/shedinja.gif",
     },
     stats: {
       hp: "1",
@@ -11383,18 +8757,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0292",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0293",
@@ -11406,12 +8769,14 @@ const Pokedex = [
       hidden: "Rattled",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/whismur.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/whismur.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/whismur.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/whismur.gif",
     },
     stats: {
       hp: "64",
@@ -11422,18 +8787,7 @@ const Pokedex = [
       speed: "28",
     },
     eggGroups: ["Monster", "Field"],
-    learnsets: "0293",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0294",
@@ -11445,12 +8799,14 @@ const Pokedex = [
       hidden: "Scrappy",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/loudred.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/loudred.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/loudred.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/loudred.gif",
     },
     stats: {
       hp: "84",
@@ -11461,18 +8817,7 @@ const Pokedex = [
       speed: "48",
     },
     eggGroups: ["Monster", "Field"],
-    learnsets: "0294",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0295",
@@ -11484,12 +8829,14 @@ const Pokedex = [
       hidden: "Scrappy",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/exploud.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/exploud.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/exploud.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/exploud.gif",
     },
     stats: {
       hp: "104",
@@ -11500,18 +8847,7 @@ const Pokedex = [
       speed: "68",
     },
     eggGroups: ["Monster", "Field"],
-    learnsets: "0295",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0296",
@@ -11523,12 +8859,14 @@ const Pokedex = [
       hidden: "Sheer Force",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/makuhita.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/makuhita.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/makuhita.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/makuhita.gif",
     },
     stats: {
       hp: "72",
@@ -11539,18 +8877,7 @@ const Pokedex = [
       speed: "25",
     },
     eggGroups: ["Human-Like"],
-    learnsets: "0296",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [75, 25],
   },
   {
     id: "0297",
@@ -11562,12 +8889,14 @@ const Pokedex = [
       hidden: "Sheer Force",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/hariyama.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/hariyama.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/hariyama.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/hariyama.gif",
     },
     stats: {
       hp: "144",
@@ -11578,18 +8907,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Human-Like"],
-    learnsets: "0297",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [75, 25],
   },
   {
     id: "0298",
@@ -11601,12 +8919,14 @@ const Pokedex = [
       hidden: "Sap Sipper",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/azurill.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/azurill.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/azurill.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/azurill.gif",
     },
     stats: {
       hp: "50",
@@ -11617,18 +8937,7 @@ const Pokedex = [
       speed: "20",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0298",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [25, 75],
   },
   {
     id: "0299",
@@ -11640,12 +8949,14 @@ const Pokedex = [
       hidden: "Sand Force",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/nosepass.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/nosepass.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/nosepass.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/nosepass.gif",
     },
     stats: {
       hp: "30",
@@ -11656,18 +8967,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0299",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [null, null],
   },
   {
     id: "0300",
@@ -11675,16 +8975,18 @@ const Pokedex = [
     region: "Hoenn",
     types: ["Normal"],
     abilities: {
-      normal: ["Cute Charm", "NormalizeGen IV+"],
+      normal: ["Cute Charm", "Normalize"],
       hidden: "Wonder Skin",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/skitty.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/skitty.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/skitty.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/skitty.gif",
     },
     stats: {
       hp: "50",
@@ -11695,18 +8997,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Field", "Fairy"],
-    learnsets: "0300",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [25, 75],
   },
   {
     id: "0301",
@@ -11714,16 +9005,18 @@ const Pokedex = [
     region: "Hoenn",
     types: ["Normal"],
     abilities: {
-      normal: ["Cute Charm", "NormalizeGen IV+"],
+      normal: ["Cute Charm", "Normalize"],
       hidden: "Wonder Skin",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/delcatty.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/delcatty.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/delcatty.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/delcatty.gif",
     },
     stats: {
       hp: "70",
@@ -11734,18 +9027,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Field", "Fairy"],
-    learnsets: "0301",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [25, 75],
   },
   {
     id: "0302",
@@ -11753,16 +9035,18 @@ const Pokedex = [
     region: "Hoenn",
     types: ["Dark", "Ghost"],
     abilities: {
-      normal: ["Keen Eye", "StallGen IV+"],
+      normal: ["Keen Eye", "Stall"],
       hidden: "Prankster",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/sableye.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/sableye.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/sableye.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/sableye.gif",
     },
     stats: {
       hp: "50",
@@ -11773,18 +9057,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Human-Like"],
-    learnsets: "0302",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0303",
@@ -11796,12 +9069,14 @@ const Pokedex = [
       hidden: "Sheer Force",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/mawile.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/mawile.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/mawile.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/mawile.gif",
     },
     stats: {
       hp: "50",
@@ -11812,18 +9087,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Field", "Fairy"],
-    learnsets: "0303",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0304",
@@ -11835,12 +9099,14 @@ const Pokedex = [
       hidden: "Heavy Metal",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/aron.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/aron.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/aron.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/aron.gif",
     },
     stats: {
       hp: "50",
@@ -11851,18 +9117,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Monster"],
-    learnsets: "0304",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0305",
@@ -11874,12 +9129,14 @@ const Pokedex = [
       hidden: "Heavy Metal",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/lairon.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/lairon.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/lairon.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/lairon.gif",
     },
     stats: {
       hp: "60",
@@ -11890,18 +9147,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Monster"],
-    learnsets: "0305",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0306",
@@ -11913,12 +9159,14 @@ const Pokedex = [
       hidden: "Heavy Metal",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/aggron.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/aggron.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/aggron.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/aggron.gif",
     },
     stats: {
       hp: "70",
@@ -11929,18 +9177,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Monster"],
-    learnsets: "0306",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0307",
@@ -11952,12 +9189,14 @@ const Pokedex = [
       hidden: "Telepathy",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/meditite.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/meditite.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/meditite.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/meditite.gif",
     },
     stats: {
       hp: "30",
@@ -11968,18 +9207,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Human-Like"],
-    learnsets: "0307",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0308",
@@ -11991,12 +9219,14 @@ const Pokedex = [
       hidden: "Telepathy",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/medicham.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/medicham.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/medicham.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/medicham.gif",
     },
     stats: {
       hp: "60",
@@ -12007,18 +9237,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Human-Like"],
-    learnsets: "0308",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0309",
@@ -12030,12 +9249,14 @@ const Pokedex = [
       hidden: "Minus",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/electrike.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/electrike.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/electrike.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/electrike.gif",
     },
     stats: {
       hp: "40",
@@ -12046,18 +9267,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Field"],
-    learnsets: "0309",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0310",
@@ -12069,12 +9279,14 @@ const Pokedex = [
       hidden: "Minus",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/manectric.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/manectric.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/manectric.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/manectric.gif",
     },
     stats: {
       hp: "70",
@@ -12085,18 +9297,7 @@ const Pokedex = [
       speed: "105",
     },
     eggGroups: ["Field"],
-    learnsets: "0310",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0311",
@@ -12105,15 +9306,17 @@ const Pokedex = [
     types: ["Electric"],
     abilities: {
       normal: ["Plus"],
-      hidden: "Lightning RodGen VI+",
+      hidden: "Lightning Rod",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/plusle.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/plusle.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/plusle.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/plusle.gif",
     },
     stats: {
       hp: "60",
@@ -12124,18 +9327,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["Fairy"],
-    learnsets: "0311",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0312",
@@ -12144,15 +9336,17 @@ const Pokedex = [
     types: ["Electric"],
     abilities: {
       normal: ["Minus"],
-      hidden: "Volt AbsorbGen VI+",
+      hidden: "Volt Absorb",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/minun.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/minun.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/minun.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/minun.gif",
     },
     stats: {
       hp: "60",
@@ -12163,18 +9357,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["Fairy"],
-    learnsets: "0312",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0313",
@@ -12186,12 +9369,14 @@ const Pokedex = [
       hidden: "Prankster",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/volbeat.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/volbeat.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/volbeat.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/volbeat.gif",
     },
     stats: {
       hp: "65",
@@ -12202,18 +9387,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Bug", "Human-Like"],
-    learnsets: "0313",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [100, 0],
   },
   {
     id: "0314",
@@ -12221,16 +9395,18 @@ const Pokedex = [
     region: "Hoenn",
     types: ["Bug"],
     abilities: {
-      normal: ["Oblivious", "Tinted LensGen IV+"],
+      normal: ["Oblivious", "Tinted Lens"],
       hidden: "Prankster",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/illumise.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/illumise.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/illumise.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/illumise.gif",
     },
     stats: {
       hp: "65",
@@ -12241,18 +9417,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Bug", "Human-Like"],
-    learnsets: "0314",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 100],
   },
   {
     id: "0315",
@@ -12264,12 +9429,14 @@ const Pokedex = [
       hidden: "Leaf Guard",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/roselia.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/roselia.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/roselia.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/roselia.gif",
     },
     stats: {
       hp: "50",
@@ -12280,18 +9447,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Fairy", "Grass"],
-    learnsets: "0315",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0316",
@@ -12303,12 +9459,14 @@ const Pokedex = [
       hidden: "Gluttony",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/gulpin.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/gulpin.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/gulpin.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/gulpin.gif",
     },
     stats: {
       hp: "70",
@@ -12319,18 +9477,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Amorphous"],
-    learnsets: "0316",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0317",
@@ -12342,12 +9489,14 @@ const Pokedex = [
       hidden: "Gluttony",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/swalot.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/swalot.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/swalot.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/swalot.gif",
     },
     stats: {
       hp: "100",
@@ -12358,18 +9507,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Amorphous"],
-    learnsets: "0317",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0318",
@@ -12381,12 +9519,14 @@ const Pokedex = [
       hidden: "Speed Boost",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/carvanha.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/carvanha.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/carvanha.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/carvanha.gif",
     },
     stats: {
       hp: "45",
@@ -12397,18 +9537,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Water 2"],
-    learnsets: "0318",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0319",
@@ -12420,12 +9549,14 @@ const Pokedex = [
       hidden: "Speed Boost",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/sharpedo.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/sharpedo.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/sharpedo.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/sharpedo.gif",
     },
     stats: {
       hp: "70",
@@ -12436,18 +9567,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["Water 2"],
-    learnsets: "0319",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0320",
@@ -12459,12 +9579,14 @@ const Pokedex = [
       hidden: "Pressure",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/wailmer.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/wailmer.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/wailmer.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/wailmer.gif",
     },
     stats: {
       hp: "130",
@@ -12475,18 +9597,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Field", "Water 2"],
-    learnsets: "0320",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0321",
@@ -12498,12 +9609,14 @@ const Pokedex = [
       hidden: "Pressure",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/wailord.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/wailord.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/wailord.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/wailord.gif",
     },
     stats: {
       hp: "170",
@@ -12514,18 +9627,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Field", "Water 2"],
-    learnsets: "0321",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0322",
@@ -12533,16 +9635,18 @@ const Pokedex = [
     region: "Hoenn",
     types: ["Fire", "Ground"],
     abilities: {
-      normal: ["Oblivious", "SimpleGen IV+"],
+      normal: ["Oblivious", "Simple"],
       hidden: "Own Tempo",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/numel.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/numel.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/numel.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/numel.gif",
     },
     stats: {
       hp: "60",
@@ -12553,18 +9657,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Field"],
-    learnsets: "0322",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0323",
@@ -12572,16 +9665,18 @@ const Pokedex = [
     region: "Hoenn",
     types: ["Fire", "Ground"],
     abilities: {
-      normal: ["Magma Armor", "Solid RockGen IV+"],
+      normal: ["Magma Armor", "Solid Rock"],
       hidden: "Anger Point",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/camerupt.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/camerupt.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/camerupt.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/camerupt.gif",
     },
     stats: {
       hp: "70",
@@ -12592,18 +9687,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Field"],
-    learnsets: "0323",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0324",
@@ -12611,16 +9695,18 @@ const Pokedex = [
     region: "Hoenn",
     types: ["Fire"],
     abilities: {
-      normal: ["White Smoke", "DroughtGen VII+"],
+      normal: ["White Smoke", "Drought"],
       hidden: "Shell Armor",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/torkoal.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/torkoal.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/torkoal.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/torkoal.gif",
     },
     stats: {
       hp: "70",
@@ -12631,18 +9717,7 @@ const Pokedex = [
       speed: "20",
     },
     eggGroups: ["Field"],
-    learnsets: "0324",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0325",
@@ -12654,12 +9729,14 @@ const Pokedex = [
       hidden: "Gluttony",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/spoink.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/spoink.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/spoink.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/spoink.gif",
     },
     stats: {
       hp: "60",
@@ -12670,18 +9747,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Field"],
-    learnsets: "0325",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0326",
@@ -12693,12 +9759,14 @@ const Pokedex = [
       hidden: "Gluttony",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/grumpig.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/grumpig.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/grumpig.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/grumpig.gif",
     },
     stats: {
       hp: "80",
@@ -12709,18 +9777,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Field"],
-    learnsets: "0326",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0327",
@@ -12728,16 +9785,18 @@ const Pokedex = [
     region: "Hoenn",
     types: ["Normal"],
     abilities: {
-      normal: ["Own Tempo", "Tangled FeetGen IV+"],
+      normal: ["Own Tempo", "Tangled Feet"],
       hidden: "Contrary",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/spinda.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/spinda.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/spinda.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/spinda.gif",
     },
     stats: {
       hp: "60",
@@ -12748,18 +9807,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Field", "Human-Like"],
-    learnsets: "0327",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0328",
@@ -12771,12 +9819,14 @@ const Pokedex = [
       hidden: "Sheer Force",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/trapinch.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/trapinch.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/trapinch.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/trapinch.gif",
     },
     stats: {
       hp: "45",
@@ -12786,19 +9836,8 @@ const Pokedex = [
       spd: "45",
       speed: "10",
     },
-    eggGroups: ["Bug", "Dragon*"],
-    learnsets: "0328",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    eggGroups: ["Bug", "Dragon"],
+    genderRatios: [50, 50],
   },
   {
     id: "0329",
@@ -12810,12 +9849,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/vibrava.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/vibrava.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/vibrava.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/vibrava.gif",
     },
     stats: {
       hp: "50",
@@ -12825,19 +9866,8 @@ const Pokedex = [
       spd: "50",
       speed: "70",
     },
-    eggGroups: ["Bug", "Dragon*"],
-    learnsets: "0329",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    eggGroups: ["Bug", "Dragon"],
+    genderRatios: [50, 50],
   },
   {
     id: "0330",
@@ -12849,12 +9879,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/flygon.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/flygon.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/flygon.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/flygon.gif",
     },
     stats: {
       hp: "80",
@@ -12864,19 +9896,8 @@ const Pokedex = [
       spd: "80",
       speed: "100",
     },
-    eggGroups: ["Bug", "Dragon*"],
-    learnsets: "0330",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    eggGroups: ["Bug", "Dragon"],
+    genderRatios: [50, 50],
   },
   {
     id: "0331",
@@ -12888,12 +9909,14 @@ const Pokedex = [
       hidden: "Water Absorb",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/cacnea.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/cacnea.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/cacnea.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/cacnea.gif",
     },
     stats: {
       hp: "50",
@@ -12904,18 +9927,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Grass", "Human-Like"],
-    learnsets: "0331",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0332",
@@ -12927,12 +9939,14 @@ const Pokedex = [
       hidden: "Water Absorb",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/cacturne.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/cacturne.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/cacturne.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/cacturne.gif",
     },
     stats: {
       hp: "70",
@@ -12943,18 +9957,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Grass", "Human-Like"],
-    learnsets: "0332",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0333",
@@ -12966,12 +9969,14 @@ const Pokedex = [
       hidden: "Cloud Nine",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/swablu.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/swablu.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/swablu.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/swablu.gif",
     },
     stats: {
       hp: "45",
@@ -12982,18 +9987,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Flying", "Dragon"],
-    learnsets: "0333",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0334",
@@ -13005,12 +9999,14 @@ const Pokedex = [
       hidden: "Cloud Nine",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/altaria.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/altaria.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/altaria.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/altaria.gif",
     },
     stats: {
       hp: "75",
@@ -13021,18 +10017,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Flying", "Dragon"],
-    learnsets: "0334",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0335",
@@ -13044,12 +10029,14 @@ const Pokedex = [
       hidden: "Toxic Boost",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/zangoose.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/zangoose.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/zangoose.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/zangoose.gif",
     },
     stats: {
       hp: "73",
@@ -13060,18 +10047,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Field"],
-    learnsets: "0335",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0336",
@@ -13083,12 +10059,14 @@ const Pokedex = [
       hidden: "Infiltrator",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/seviper.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/seviper.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/seviper.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/seviper.gif",
     },
     stats: {
       hp: "73",
@@ -13099,18 +10077,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Field", "Dragon"],
-    learnsets: "0336",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0337",
@@ -13122,12 +10089,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/lunatone.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/lunatone.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/lunatone.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/lunatone.gif",
     },
     stats: {
       hp: "90",
@@ -13138,18 +10107,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0337",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0338",
@@ -13161,12 +10119,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/solrock.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/solrock.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/solrock.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/solrock.gif",
     },
     stats: {
       hp: "90",
@@ -13177,18 +10137,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0338",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0339",
@@ -13196,16 +10145,18 @@ const Pokedex = [
     region: "Hoenn",
     types: ["Water", "Ground"],
     abilities: {
-      normal: ["Oblivious", "AnticipationGen IV+"],
+      normal: ["Oblivious", "Anticipation"],
       hidden: "Hydration",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/barboach.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/barboach.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/barboach.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/barboach.gif",
     },
     stats: {
       hp: "50",
@@ -13216,18 +10167,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Water 2"],
-    learnsets: "0339",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0340",
@@ -13235,16 +10175,18 @@ const Pokedex = [
     region: "Hoenn",
     types: ["Water", "Ground"],
     abilities: {
-      normal: ["Oblivious", "AnticipationGen IV+"],
+      normal: ["Oblivious", "Anticipation"],
       hidden: "Hydration",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/whiscash.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/whiscash.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/whiscash.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/whiscash.gif",
     },
     stats: {
       hp: "110",
@@ -13255,18 +10197,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Water 2"],
-    learnsets: "0340",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0341",
@@ -13278,12 +10209,14 @@ const Pokedex = [
       hidden: "Adaptability",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/corphish.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/corphish.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/corphish.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/corphish.gif",
     },
     stats: {
       hp: "43",
@@ -13294,18 +10227,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Water 1", "Water 3"],
-    learnsets: "0341",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0342",
@@ -13317,12 +10239,14 @@ const Pokedex = [
       hidden: "Adaptability",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/crawdaunt.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/crawdaunt.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/crawdaunt.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/crawdaunt.gif",
     },
     stats: {
       hp: "63",
@@ -13333,18 +10257,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Water 1", "Water 3"],
-    learnsets: "0342",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0343",
@@ -13356,12 +10269,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/baltoy.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/baltoy.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/baltoy.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/baltoy.gif",
     },
     stats: {
       hp: "40",
@@ -13372,18 +10287,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0343",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0344",
@@ -13395,12 +10299,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/claydol.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/claydol.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/claydol.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/claydol.gif",
     },
     stats: {
       hp: "60",
@@ -13411,18 +10317,7 @@ const Pokedex = [
       speed: "75",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0344",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0345",
@@ -13434,12 +10329,14 @@ const Pokedex = [
       hidden: "Storm Drain",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/lileep.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/lileep.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/lileep.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/lileep.gif",
     },
     stats: {
       hp: "66",
@@ -13450,18 +10347,7 @@ const Pokedex = [
       speed: "23",
     },
     eggGroups: ["Water 3"],
-    learnsets: "0345",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0346",
@@ -13473,12 +10359,14 @@ const Pokedex = [
       hidden: "Storm Drain",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/cradily.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/cradily.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/cradily.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/cradily.gif",
     },
     stats: {
       hp: "86",
@@ -13489,18 +10377,7 @@ const Pokedex = [
       speed: "43",
     },
     eggGroups: ["Water 3"],
-    learnsets: "0346",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0347",
@@ -13512,12 +10389,14 @@ const Pokedex = [
       hidden: "Swift Swim",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/anorith.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/anorith.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/anorith.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/anorith.gif",
     },
     stats: {
       hp: "45",
@@ -13528,18 +10407,7 @@ const Pokedex = [
       speed: "75",
     },
     eggGroups: ["Water 3"],
-    learnsets: "0347",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0348",
@@ -13551,12 +10419,14 @@ const Pokedex = [
       hidden: "Swift Swim",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/armaldo.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/armaldo.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/armaldo.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/armaldo.gif",
     },
     stats: {
       hp: "75",
@@ -13567,18 +10437,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Water 3"],
-    learnsets: "0348",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0349",
@@ -13586,16 +10445,18 @@ const Pokedex = [
     region: "Hoenn",
     types: ["Water"],
     abilities: {
-      normal: ["Swift Swim", "ObliviousGen VI+"],
+      normal: ["Swift Swim", "Oblivious"],
       hidden: "Adaptability",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/feebas.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/feebas.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/feebas.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/feebas.gif",
     },
     stats: {
       hp: "20",
@@ -13606,18 +10467,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Water 1", "Dragon"],
-    learnsets: "0349",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0350",
@@ -13625,16 +10475,18 @@ const Pokedex = [
     region: "Hoenn",
     types: ["Water"],
     abilities: {
-      normal: ["Marvel Scale", "CompetitiveGen VI+"],
+      normal: ["Marvel Scale", "Competitive"],
       hidden: "Cute Charm",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/milotic.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/milotic.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/milotic.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/milotic.gif",
     },
     stats: {
       hp: "95",
@@ -13645,18 +10497,7 @@ const Pokedex = [
       speed: "81",
     },
     eggGroups: ["Water 1", "Dragon"],
-    learnsets: "0350",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0351",
@@ -13668,12 +10509,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/castform.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/castform.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/castform.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/castform.gif",
     },
     stats: {
       hp: "70",
@@ -13684,18 +10527,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Fairy", "Amorphous"],
-    learnsets: "0351",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0352",
@@ -13704,15 +10536,17 @@ const Pokedex = [
     types: ["Normal"],
     abilities: {
       normal: ["Color Change"],
-      hidden: "ProteanGen VI+",
+      hidden: "Protean",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/kecleon.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/kecleon.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/kecleon.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/kecleon.gif",
     },
     stats: {
       hp: "60",
@@ -13723,18 +10557,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Field"],
-    learnsets: "0352",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0353",
@@ -13742,16 +10565,18 @@ const Pokedex = [
     region: "Hoenn",
     types: ["Ghost"],
     abilities: {
-      normal: ["Insomnia", "FriskGen IV+"],
+      normal: ["Insomnia", "Frisk"],
       hidden: "Cursed Body",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/shuppet.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/shuppet.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/shuppet.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/shuppet.gif",
     },
     stats: {
       hp: "44",
@@ -13762,18 +10587,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Amorphous"],
-    learnsets: "0353",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0354",
@@ -13781,16 +10595,18 @@ const Pokedex = [
     region: "Hoenn",
     types: ["Ghost"],
     abilities: {
-      normal: ["Insomnia", "FriskGen IV+"],
+      normal: ["Insomnia", "Frisk"],
       hidden: "Cursed Body",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/banette.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/banette.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/banette.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/banette.gif",
     },
     stats: {
       hp: "64",
@@ -13801,18 +10617,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Amorphous"],
-    learnsets: "0354",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0355",
@@ -13821,15 +10626,17 @@ const Pokedex = [
     types: ["Ghost"],
     abilities: {
       normal: ["Levitate"],
-      hidden: "FriskGen VI+",
+      hidden: "Frisk",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/duskull.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/duskull.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/duskull.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/duskull.gif",
     },
     stats: {
       hp: "20",
@@ -13840,18 +10647,7 @@ const Pokedex = [
       speed: "25",
     },
     eggGroups: ["Amorphous"],
-    learnsets: "0355",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0356",
@@ -13860,15 +10656,17 @@ const Pokedex = [
     types: ["Ghost"],
     abilities: {
       normal: ["Pressure"],
-      hidden: "FriskGen VI+",
+      hidden: "Frisk",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/dusclops.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/dusclops.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/dusclops.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/dusclops.gif",
     },
     stats: {
       hp: "40",
@@ -13879,18 +10677,7 @@ const Pokedex = [
       speed: "25",
     },
     eggGroups: ["Amorphous"],
-    learnsets: "0356",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0357",
@@ -13898,16 +10685,18 @@ const Pokedex = [
     region: "Hoenn",
     types: ["Grass", "Flying"],
     abilities: {
-      normal: ["Chlorophyll", "Solar PowerGen IV+"],
+      normal: ["Chlorophyll", "Solar Power"],
       hidden: "Harvest",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/tropius.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/tropius.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/tropius.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/tropius.gif",
     },
     stats: {
       hp: "99",
@@ -13918,18 +10707,7 @@ const Pokedex = [
       speed: "51",
     },
     eggGroups: ["Monster", "Grass"],
-    learnsets: "0357",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0358",
@@ -13941,12 +10719,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/chimecho.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/chimecho.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/chimecho.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/chimecho.gif",
     },
     stats: {
       hp: "75",
@@ -13957,18 +10737,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Amorphous"],
-    learnsets: "0358",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0359",
@@ -13976,16 +10745,18 @@ const Pokedex = [
     region: "Hoenn",
     types: ["Dark"],
     abilities: {
-      normal: ["Pressure", "Super LuckGen IV+"],
+      normal: ["Pressure", "Super Luck"],
       hidden: "Justified",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/absol.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/absol.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/absol.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/absol.gif",
     },
     stats: {
       hp: "65",
@@ -13996,18 +10767,7 @@ const Pokedex = [
       speed: "75",
     },
     eggGroups: ["Field"],
-    learnsets: "0359",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0360",
@@ -14019,12 +10779,14 @@ const Pokedex = [
       hidden: "Telepathy",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/wynaut.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/wynaut.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/wynaut.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/wynaut.gif",
     },
     stats: {
       hp: "95",
@@ -14035,18 +10797,7 @@ const Pokedex = [
       speed: "23",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0360",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0361",
@@ -14054,16 +10805,18 @@ const Pokedex = [
     region: "Hoenn",
     types: ["Ice"],
     abilities: {
-      normal: ["Inner Focus", "Ice BodyGen IV+"],
+      normal: ["Inner Focus", "Ice Body"],
       hidden: "Moody",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/snorunt.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/snorunt.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/snorunt.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/snorunt.gif",
     },
     stats: {
       hp: "50",
@@ -14074,18 +10827,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Fairy", "Mineral"],
-    learnsets: "0361",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0362",
@@ -14093,16 +10835,18 @@ const Pokedex = [
     region: "Hoenn",
     types: ["Ice"],
     abilities: {
-      normal: ["Inner Focus", "Ice BodyGen IV+"],
+      normal: ["Inner Focus", "Ice Body"],
       hidden: "Moody",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/glalie.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/glalie.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/glalie.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/glalie.gif",
     },
     stats: {
       hp: "80",
@@ -14113,18 +10857,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Fairy", "Mineral"],
-    learnsets: "0362",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0363",
@@ -14132,16 +10865,18 @@ const Pokedex = [
     region: "Hoenn",
     types: ["Ice", "Water"],
     abilities: {
-      normal: ["Thick Fat", "Ice BodyGen IV+"],
+      normal: ["Thick Fat", "Ice Body"],
       hidden: "Oblivious",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/spheal.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/spheal.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/spheal.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/spheal.gif",
     },
     stats: {
       hp: "70",
@@ -14152,18 +10887,7 @@ const Pokedex = [
       speed: "25",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: "0363",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0364",
@@ -14171,16 +10895,18 @@ const Pokedex = [
     region: "Hoenn",
     types: ["Ice", "Water"],
     abilities: {
-      normal: ["Thick Fat", "Ice BodyGen IV+"],
+      normal: ["Thick Fat", "Ice Body"],
       hidden: "Oblivious",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/sealeo.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/sealeo.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/sealeo.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/sealeo.gif",
     },
     stats: {
       hp: "90",
@@ -14191,18 +10917,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: "0364",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0365",
@@ -14210,16 +10925,18 @@ const Pokedex = [
     region: "Hoenn",
     types: ["Ice", "Water"],
     abilities: {
-      normal: ["Thick Fat", "Ice BodyGen IV+"],
+      normal: ["Thick Fat", "Ice Body"],
       hidden: "Oblivious",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/walrein.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/walrein.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/walrein.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/walrein.gif",
     },
     stats: {
       hp: "110",
@@ -14230,18 +10947,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: "0365",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0366",
@@ -14253,12 +10959,14 @@ const Pokedex = [
       hidden: "Rattled",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/clamperl.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/clamperl.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/clamperl.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/clamperl.gif",
     },
     stats: {
       hp: "35",
@@ -14269,18 +10977,7 @@ const Pokedex = [
       speed: "32",
     },
     eggGroups: ["Water 1"],
-    learnsets: "0366",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0367",
@@ -14292,12 +10989,14 @@ const Pokedex = [
       hidden: "Water Veil",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/huntail.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/huntail.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/huntail.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/huntail.gif",
     },
     stats: {
       hp: "55",
@@ -14308,18 +11007,7 @@ const Pokedex = [
       speed: "52",
     },
     eggGroups: ["Water 1"],
-    learnsets: "0367",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0368",
@@ -14331,12 +11019,14 @@ const Pokedex = [
       hidden: "Hydration",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/gorebyss.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/gorebyss.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/gorebyss.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/gorebyss.gif",
     },
     stats: {
       hp: "55",
@@ -14347,18 +11037,7 @@ const Pokedex = [
       speed: "52",
     },
     eggGroups: ["Water 1"],
-    learnsets: "0368",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0369",
@@ -14370,12 +11049,14 @@ const Pokedex = [
       hidden: "Sturdy",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/relicanth.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/relicanth.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/relicanth.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/relicanth.gif",
     },
     stats: {
       hp: "100",
@@ -14386,18 +11067,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Water 1", "Water 2"],
-    learnsets: "0369",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0370",
@@ -14409,12 +11079,14 @@ const Pokedex = [
       hidden: "Hydration",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/luvdisc.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/luvdisc.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/luvdisc.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/luvdisc.gif",
     },
     stats: {
       hp: "43",
@@ -14425,18 +11097,7 @@ const Pokedex = [
       speed: "97",
     },
     eggGroups: ["Water 2"],
-    learnsets: "0370",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [25, 75],
   },
   {
     id: "0371",
@@ -14448,12 +11109,14 @@ const Pokedex = [
       hidden: "Sheer Force",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/bagon.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/bagon.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/bagon.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/bagon.gif",
     },
     stats: {
       hp: "45",
@@ -14464,18 +11127,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Dragon"],
-    learnsets: "0371",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0372",
@@ -14487,12 +11139,14 @@ const Pokedex = [
       hidden: "Overcoat",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/shelgon.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/shelgon.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/shelgon.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/shelgon.gif",
     },
     stats: {
       hp: "65",
@@ -14503,18 +11157,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Dragon"],
-    learnsets: "0372",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0373",
@@ -14526,12 +11169,14 @@ const Pokedex = [
       hidden: "Moxie",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/salamence.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/salamence.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/salamence.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/salamence.gif",
     },
     stats: {
       hp: "95",
@@ -14542,18 +11187,7 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["Dragon"],
-    learnsets: "0373",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0374",
@@ -14565,12 +11199,14 @@ const Pokedex = [
       hidden: "Light Metal",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/beldum.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/beldum.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/beldum.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/beldum.gif",
     },
     stats: {
       hp: "40",
@@ -14581,18 +11217,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0374",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0375",
@@ -14604,12 +11229,14 @@ const Pokedex = [
       hidden: "Light Metal",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/metang.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/metang.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/metang.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/metang.gif",
     },
     stats: {
       hp: "60",
@@ -14620,18 +11247,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0375",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0376",
@@ -14643,12 +11259,14 @@ const Pokedex = [
       hidden: "Light Metal",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/metagross.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/metagross.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/metagross.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/metagross.gif",
     },
     stats: {
       hp: "80",
@@ -14659,18 +11277,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0376",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0377",
@@ -14682,12 +11289,14 @@ const Pokedex = [
       hidden: "Sturdy",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/regirock.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/regirock.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/regirock.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/regirock.gif",
     },
     stats: {
       hp: "80",
@@ -14698,18 +11307,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0377",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0378",
@@ -14721,12 +11319,14 @@ const Pokedex = [
       hidden: "Ice Body",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/regice.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/regice.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/regice.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/regice.gif",
     },
     stats: {
       hp: "80",
@@ -14737,18 +11337,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0378",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0379",
@@ -14760,12 +11349,14 @@ const Pokedex = [
       hidden: "Light Metal",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/registeel.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/registeel.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/registeel.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/registeel.gif",
     },
     stats: {
       hp: "80",
@@ -14776,18 +11367,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0379",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0380",
@@ -14799,12 +11379,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/latias.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/latias.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/latias.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/latias.gif",
     },
     stats: {
       hp: "80",
@@ -14815,18 +11397,7 @@ const Pokedex = [
       speed: "110",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0380",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 100],
   },
   {
     id: "0381",
@@ -14838,12 +11409,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/latios.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/latios.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/latios.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/latios.gif",
     },
     stats: {
       hp: "80",
@@ -14854,18 +11427,7 @@ const Pokedex = [
       speed: "110",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0381",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [100, 0],
   },
   {
     id: "0382",
@@ -14877,12 +11439,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/kyogre.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/kyogre.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/kyogre.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/kyogre.gif",
     },
     stats: {
       hp: "100",
@@ -14893,18 +11457,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0382",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0383",
@@ -14916,12 +11469,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/groudon.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/groudon.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/groudon.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/groudon.gif",
     },
     stats: {
       hp: "100",
@@ -14932,18 +11487,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0383",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0384",
@@ -14955,12 +11499,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/rayquaza.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/rayquaza.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/rayquaza.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/rayquaza.gif",
     },
     stats: {
       hp: "105",
@@ -14971,18 +11517,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0384",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0385",
@@ -14994,12 +11529,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/jirachi.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/jirachi.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/jirachi.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/jirachi.gif",
     },
     stats: {
       hp: "100",
@@ -15010,22 +11547,11 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0385",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0386",
-    name: "Deoxys Normal",
+    name: "Deoxys",
     region: "Hoenn",
     types: ["Psychic"],
     abilities: {
@@ -15033,12 +11559,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/deoxys.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/deoxys.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/deoxys.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/deoxys.gif",
     },
     stats: {
       hp: "50",
@@ -15049,18 +11577,7 @@ const Pokedex = [
       speed: "150",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0386",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0387",
@@ -15072,12 +11589,14 @@ const Pokedex = [
       hidden: "Shell Armor",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/turtwig.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/turtwig.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/turtwig.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/turtwig.gif",
     },
     stats: {
       hp: "55",
@@ -15088,18 +11607,7 @@ const Pokedex = [
       speed: "31",
     },
     eggGroups: ["Monster", "Grass"],
-    learnsets: "0387",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0388",
@@ -15111,12 +11619,14 @@ const Pokedex = [
       hidden: "Shell Armor",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/grotle.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/grotle.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/grotle.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/grotle.gif",
     },
     stats: {
       hp: "75",
@@ -15127,18 +11637,7 @@ const Pokedex = [
       speed: "36",
     },
     eggGroups: ["Monster", "Grass"],
-    learnsets: "0388",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0389",
@@ -15150,12 +11649,14 @@ const Pokedex = [
       hidden: "Shell Armor",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/torterra.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/torterra.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/torterra.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/torterra.gif",
     },
     stats: {
       hp: "95",
@@ -15166,18 +11667,7 @@ const Pokedex = [
       speed: "56",
     },
     eggGroups: ["Monster", "Grass"],
-    learnsets: "0389",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0390",
@@ -15189,12 +11679,14 @@ const Pokedex = [
       hidden: "Iron Fist",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/chimchar.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/chimchar.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/chimchar.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/chimchar.gif",
     },
     stats: {
       hp: "44",
@@ -15205,18 +11697,7 @@ const Pokedex = [
       speed: "61",
     },
     eggGroups: ["Field", "Human-Like"],
-    learnsets: "0390",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0391",
@@ -15228,12 +11709,14 @@ const Pokedex = [
       hidden: "Iron Fist",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/monferno.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/monferno.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/monferno.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/monferno.gif",
     },
     stats: {
       hp: "64",
@@ -15244,18 +11727,7 @@ const Pokedex = [
       speed: "81",
     },
     eggGroups: ["Field", "Human-Like"],
-    learnsets: "0391",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0392",
@@ -15267,12 +11739,14 @@ const Pokedex = [
       hidden: "Iron Fist",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/infernape.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/infernape.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/infernape.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/infernape.gif",
     },
     stats: {
       hp: "76",
@@ -15283,18 +11757,7 @@ const Pokedex = [
       speed: "108",
     },
     eggGroups: ["Field", "Human-Like"],
-    learnsets: "0392",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0393",
@@ -15303,15 +11766,17 @@ const Pokedex = [
     types: ["Water"],
     abilities: {
       normal: ["Torrent"],
-      hidden: "CompetitiveGen IX+",
+      hidden: "Competitive",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/piplup.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/piplup.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/piplup.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/piplup.gif",
     },
     stats: {
       hp: "53",
@@ -15322,18 +11787,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: "0393",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0394",
@@ -15342,15 +11796,17 @@ const Pokedex = [
     types: ["Water"],
     abilities: {
       normal: ["Torrent"],
-      hidden: "CompetitiveGen IX+",
+      hidden: "Competitive",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/prinplup.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/prinplup.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/prinplup.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/prinplup.gif",
     },
     stats: {
       hp: "64",
@@ -15361,18 +11817,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: "0394",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0395",
@@ -15381,15 +11826,17 @@ const Pokedex = [
     types: ["Water", "Steel"],
     abilities: {
       normal: ["Torrent"],
-      hidden: "CompetitiveGen IX+",
+      hidden: "Competitive",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/empoleon.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/empoleon.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/empoleon.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/empoleon.gif",
     },
     stats: {
       hp: "84",
@@ -15400,18 +11847,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: "0395",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0396",
@@ -15420,15 +11856,17 @@ const Pokedex = [
     types: ["Normal", "Flying"],
     abilities: {
       normal: ["Keen Eye"],
-      hidden: "RecklessGen VI+",
+      hidden: "Reckless",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/starly.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/starly.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/starly.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/starly.gif",
     },
     stats: {
       hp: "40",
@@ -15439,18 +11877,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Flying"],
-    learnsets: "0396",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0397",
@@ -15462,12 +11889,14 @@ const Pokedex = [
       hidden: "Reckless",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/staravia.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/staravia.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/staravia.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/staravia.gif",
     },
     stats: {
       hp: "55",
@@ -15478,18 +11907,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Flying"],
-    learnsets: "0397",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0398",
@@ -15501,12 +11919,14 @@ const Pokedex = [
       hidden: "Reckless",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/staraptor.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/staraptor.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/staraptor.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/staraptor.gif",
     },
     stats: {
       hp: "85",
@@ -15517,18 +11937,7 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["Flying"],
-    learnsets: "0398",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0399",
@@ -15540,12 +11949,14 @@ const Pokedex = [
       hidden: "Moody",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/bidoof.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/bidoof.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/bidoof.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/bidoof.gif",
     },
     stats: {
       hp: "59",
@@ -15556,18 +11967,7 @@ const Pokedex = [
       speed: "31",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: "0399",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0400",
@@ -15579,12 +11979,14 @@ const Pokedex = [
       hidden: "Moody",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/bibarel.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/bibarel.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/bibarel.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/bibarel.gif",
     },
     stats: {
       hp: "79",
@@ -15595,18 +11997,7 @@ const Pokedex = [
       speed: "71",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: "0400",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0401",
@@ -15618,12 +12009,14 @@ const Pokedex = [
       hidden: "Run Away",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/kricketot.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/kricketot.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/kricketot.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/kricketot.gif",
     },
     stats: {
       hp: "37",
@@ -15634,18 +12027,7 @@ const Pokedex = [
       speed: "25",
     },
     eggGroups: ["Bug"],
-    learnsets: "0401",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0402",
@@ -15657,12 +12039,14 @@ const Pokedex = [
       hidden: "Technician",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/kricketune.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/kricketune.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/kricketune.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/kricketune.gif",
     },
     stats: {
       hp: "77",
@@ -15673,18 +12057,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Bug"],
-    learnsets: "0402",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0403",
@@ -15696,12 +12069,14 @@ const Pokedex = [
       hidden: "Guts",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/shinx.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/shinx.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/shinx.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/shinx.gif",
     },
     stats: {
       hp: "45",
@@ -15712,18 +12087,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Field"],
-    learnsets: "0403",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0404",
@@ -15735,12 +12099,14 @@ const Pokedex = [
       hidden: "Guts",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/luxio.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/luxio.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/luxio.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/luxio.gif",
     },
     stats: {
       hp: "60",
@@ -15751,18 +12117,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Field"],
-    learnsets: "0404",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0405",
@@ -15774,12 +12129,14 @@ const Pokedex = [
       hidden: "Guts",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/luxray.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/luxray.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/luxray.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/luxray.gif",
     },
     stats: {
       hp: "80",
@@ -15790,18 +12147,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Field"],
-    learnsets: "0405",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0406",
@@ -15813,12 +12159,14 @@ const Pokedex = [
       hidden: "Leaf Guard",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/budew.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/budew.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/budew.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/budew.gif",
     },
     stats: {
       hp: "40",
@@ -15829,18 +12177,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0406",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0407",
@@ -15852,12 +12189,14 @@ const Pokedex = [
       hidden: "Technician",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/roserade.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/roserade.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/roserade.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/roserade.gif",
     },
     stats: {
       hp: "60",
@@ -15868,18 +12207,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Fairy", "Grass"],
-    learnsets: "0407",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0408",
@@ -15891,12 +12219,14 @@ const Pokedex = [
       hidden: "Sheer Force",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/cranidos.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/cranidos.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/cranidos.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/cranidos.gif",
     },
     stats: {
       hp: "67",
@@ -15907,18 +12237,7 @@ const Pokedex = [
       speed: "58",
     },
     eggGroups: ["Monster"],
-    learnsets: "0408",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0409",
@@ -15930,12 +12249,14 @@ const Pokedex = [
       hidden: "Sheer Force",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/rampardos.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/rampardos.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/rampardos.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/rampardos.gif",
     },
     stats: {
       hp: "97",
@@ -15946,18 +12267,7 @@ const Pokedex = [
       speed: "58",
     },
     eggGroups: ["Monster"],
-    learnsets: "0409",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0410",
@@ -15969,12 +12279,14 @@ const Pokedex = [
       hidden: "Soundproof",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/shieldon.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/shieldon.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/shieldon.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/shieldon.gif",
     },
     stats: {
       hp: "30",
@@ -15985,18 +12297,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Monster"],
-    learnsets: "0410",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0411",
@@ -16008,12 +12309,14 @@ const Pokedex = [
       hidden: "Soundproof",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/bastiodon.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/bastiodon.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/bastiodon.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/bastiodon.gif",
     },
     stats: {
       hp: "60",
@@ -16024,18 +12327,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Monster"],
-    learnsets: "0411",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0412",
@@ -16047,12 +12339,14 @@ const Pokedex = [
       hidden: "Overcoat",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/burmy.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/burmy.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/burmy.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/burmy.gif",
     },
     stats: {
       hp: "40",
@@ -16063,22 +12357,11 @@ const Pokedex = [
       speed: "36",
     },
     eggGroups: ["Bug"],
-    learnsets: "0412",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0413",
-    name: "Wormadam Plant",
+    name: "Wormadam",
     region: "Sinnoh",
     types: ["Bug", "Grass"],
     abilities: {
@@ -16086,12 +12369,14 @@ const Pokedex = [
       hidden: "Overcoat",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/wormadam.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/wormadam.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/wormadam.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/wormadam.gif",
     },
     stats: {
       hp: "60",
@@ -16102,18 +12387,7 @@ const Pokedex = [
       speed: "36",
     },
     eggGroups: ["Bug"],
-    learnsets: "0413",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 100],
   },
   {
     id: "0414",
@@ -16125,12 +12399,14 @@ const Pokedex = [
       hidden: "Tinted Lens",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/mothim.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/mothim.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/mothim.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/mothim.gif",
     },
     stats: {
       hp: "70",
@@ -16141,18 +12417,7 @@ const Pokedex = [
       speed: "66",
     },
     eggGroups: ["Bug"],
-    learnsets: "0414",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [100, 0],
   },
   {
     id: "0415",
@@ -16164,12 +12429,14 @@ const Pokedex = [
       hidden: "Hustle",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/combee.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/combee.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/combee.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/combee.gif",
     },
     stats: {
       hp: "30",
@@ -16180,18 +12447,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Bug"],
-    learnsets: "0415",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0416",
@@ -16203,12 +12459,14 @@ const Pokedex = [
       hidden: "Unnerve",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/vespiquen.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/vespiquen.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/vespiquen.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/vespiquen.gif",
     },
     stats: {
       hp: "70",
@@ -16219,18 +12477,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Bug"],
-    learnsets: "0416",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 100],
   },
   {
     id: "0417",
@@ -16242,12 +12489,14 @@ const Pokedex = [
       hidden: "Volt Absorb",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/pachirisu.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/pachirisu.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/pachirisu.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/pachirisu.gif",
     },
     stats: {
       hp: "60",
@@ -16258,18 +12507,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["Field", "Fairy"],
-    learnsets: "0417",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0418",
@@ -16281,12 +12519,14 @@ const Pokedex = [
       hidden: "Water Veil",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/buizel.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/buizel.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/buizel.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/buizel.gif",
     },
     stats: {
       hp: "55",
@@ -16297,18 +12537,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: "0418",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0419",
@@ -16320,12 +12549,14 @@ const Pokedex = [
       hidden: "Water Veil",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/floatzel.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/floatzel.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/floatzel.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/floatzel.gif",
     },
     stats: {
       hp: "85",
@@ -16336,18 +12567,7 @@ const Pokedex = [
       speed: "115",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: "0419",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0420",
@@ -16359,12 +12579,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/cherubi.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/cherubi.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/cherubi.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/cherubi.gif",
     },
     stats: {
       hp: "45",
@@ -16375,18 +12597,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Fairy", "Grass"],
-    learnsets: "0420",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0421",
@@ -16398,12 +12609,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/cherrim.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/cherrim.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/cherrim.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/cherrim.gif",
     },
     stats: {
       hp: "70",
@@ -16414,18 +12627,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Fairy", "Grass"],
-    learnsets: "0421",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0422",
@@ -16437,12 +12639,14 @@ const Pokedex = [
       hidden: "Sand Force",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/shellos.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/shellos.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/shellos.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/shellos.gif",
     },
     stats: {
       hp: "76",
@@ -16453,18 +12657,7 @@ const Pokedex = [
       speed: "34",
     },
     eggGroups: ["Water 1", "Amorphous"],
-    learnsets: "0422",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0423",
@@ -16476,12 +12669,14 @@ const Pokedex = [
       hidden: "Sand Force",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/gastrodon.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/gastrodon.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/gastrodon.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/gastrodon.gif",
     },
     stats: {
       hp: "111",
@@ -16492,18 +12687,7 @@ const Pokedex = [
       speed: "39",
     },
     eggGroups: ["Water 1", "Amorphous"],
-    learnsets: "0423",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0424",
@@ -16515,12 +12699,14 @@ const Pokedex = [
       hidden: "Skill Link",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/ambipom.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/ambipom.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/ambipom.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/ambipom.gif",
     },
     stats: {
       hp: "75",
@@ -16531,18 +12717,7 @@ const Pokedex = [
       speed: "115",
     },
     eggGroups: ["Field"],
-    learnsets: "0424",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0425",
@@ -16554,12 +12729,14 @@ const Pokedex = [
       hidden: "Flare Boost",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/drifloon.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/drifloon.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/drifloon.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/drifloon.gif",
     },
     stats: {
       hp: "90",
@@ -16570,18 +12747,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Amorphous"],
-    learnsets: "0425",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0426",
@@ -16593,12 +12759,14 @@ const Pokedex = [
       hidden: "Flare Boost",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/drifblim.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/drifblim.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/drifblim.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/drifblim.gif",
     },
     stats: {
       hp: "150",
@@ -16609,18 +12777,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Amorphous"],
-    learnsets: "0426",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0427",
@@ -16632,12 +12789,14 @@ const Pokedex = [
       hidden: "Limber",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/buneary.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/buneary.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/buneary.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/buneary.gif",
     },
     stats: {
       hp: "55",
@@ -16648,18 +12807,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Field", "Human-Like"],
-    learnsets: "0427",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0428",
@@ -16671,12 +12819,14 @@ const Pokedex = [
       hidden: "Limber",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/lopunny.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/lopunny.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/lopunny.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/lopunny.gif",
     },
     stats: {
       hp: "65",
@@ -16687,18 +12837,7 @@ const Pokedex = [
       speed: "105",
     },
     eggGroups: ["Field", "Human-Like"],
-    learnsets: "0428",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0429",
@@ -16710,12 +12849,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/mismagius.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/mismagius.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/mismagius.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/mismagius.gif",
     },
     stats: {
       hp: "60",
@@ -16726,18 +12867,7 @@ const Pokedex = [
       speed: "105",
     },
     eggGroups: ["Amorphous"],
-    learnsets: "0429",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0430",
@@ -16749,12 +12879,14 @@ const Pokedex = [
       hidden: "Moxie",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/honchkrow.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/honchkrow.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/honchkrow.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/honchkrow.gif",
     },
     stats: {
       hp: "100",
@@ -16765,18 +12897,7 @@ const Pokedex = [
       speed: "71",
     },
     eggGroups: ["Flying"],
-    learnsets: "0430",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0431",
@@ -16788,12 +12909,14 @@ const Pokedex = [
       hidden: "Keen Eye",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/glameow.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/glameow.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/glameow.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/glameow.gif",
     },
     stats: {
       hp: "49",
@@ -16804,18 +12927,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Field"],
-    learnsets: "0431",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [25, 75],
   },
   {
     id: "0432",
@@ -16827,12 +12939,14 @@ const Pokedex = [
       hidden: "Defiant",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/purugly.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/purugly.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/purugly.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/purugly.gif",
     },
     stats: {
       hp: "71",
@@ -16843,18 +12957,7 @@ const Pokedex = [
       speed: "112",
     },
     eggGroups: ["Field"],
-    learnsets: "0432",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [25, 75],
   },
   {
     id: "0433",
@@ -16866,12 +12969,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/chingling.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/chingling.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/chingling.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/chingling.gif",
     },
     stats: {
       hp: "45",
@@ -16882,18 +12987,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0433",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0434",
@@ -16905,12 +12999,14 @@ const Pokedex = [
       hidden: "Keen Eye",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/stunky.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/stunky.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/stunky.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/stunky.gif",
     },
     stats: {
       hp: "63",
@@ -16921,18 +13017,7 @@ const Pokedex = [
       speed: "74",
     },
     eggGroups: ["Field"],
-    learnsets: "0434",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0435",
@@ -16944,12 +13029,14 @@ const Pokedex = [
       hidden: "Keen Eye",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/skuntank.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/skuntank.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/skuntank.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/skuntank.gif",
     },
     stats: {
       hp: "103",
@@ -16960,18 +13047,7 @@ const Pokedex = [
       speed: "84",
     },
     eggGroups: ["Field"],
-    learnsets: "0435",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0436",
@@ -16983,12 +13059,14 @@ const Pokedex = [
       hidden: "Heavy Metal",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/bronzor.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/bronzor.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/bronzor.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/bronzor.gif",
     },
     stats: {
       hp: "57",
@@ -16999,18 +13077,7 @@ const Pokedex = [
       speed: "23",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0436",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0437",
@@ -17022,12 +13089,14 @@ const Pokedex = [
       hidden: "Heavy Metal",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/bronzong.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/bronzong.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/bronzong.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/bronzong.gif",
     },
     stats: {
       hp: "67",
@@ -17038,18 +13107,7 @@ const Pokedex = [
       speed: "33",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0437",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0438",
@@ -17061,12 +13119,14 @@ const Pokedex = [
       hidden: "Rattled",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/bonsly.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/bonsly.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/bonsly.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/bonsly.gif",
     },
     stats: {
       hp: "50",
@@ -17077,18 +13137,7 @@ const Pokedex = [
       speed: "10",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0438",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0439",
@@ -17100,12 +13149,14 @@ const Pokedex = [
       hidden: "Technician",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/mime jr.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/mime jr.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/mime jr.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/mime jr.gif",
     },
     stats: {
       hp: "20",
@@ -17116,18 +13167,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0439",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0440",
@@ -17139,12 +13179,14 @@ const Pokedex = [
       hidden: "Friend Guard",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/happiny.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/happiny.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/happiny.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/happiny.gif",
     },
     stats: {
       hp: "100",
@@ -17155,18 +13197,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0440",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 100],
   },
   {
     id: "0441",
@@ -17178,12 +13209,14 @@ const Pokedex = [
       hidden: "Big Pecks",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/chatot.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/chatot.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/chatot.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/chatot.gif",
     },
     stats: {
       hp: "76",
@@ -17194,18 +13227,7 @@ const Pokedex = [
       speed: "91",
     },
     eggGroups: ["Flying"],
-    learnsets: "0441",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0442",
@@ -17217,12 +13239,14 @@ const Pokedex = [
       hidden: "Infiltrator",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/spiritomb.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/spiritomb.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/spiritomb.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/spiritomb.gif",
     },
     stats: {
       hp: "50",
@@ -17233,18 +13257,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Amorphous"],
-    learnsets: "0442",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0443",
@@ -17256,12 +13269,14 @@ const Pokedex = [
       hidden: "Rough Skin",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/gible.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/gible.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/gible.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/gible.gif",
     },
     stats: {
       hp: "58",
@@ -17272,18 +13287,7 @@ const Pokedex = [
       speed: "42",
     },
     eggGroups: ["Monster", "Dragon"],
-    learnsets: "0443",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0444",
@@ -17295,12 +13299,14 @@ const Pokedex = [
       hidden: "Rough Skin",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/gabite.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/gabite.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/gabite.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/gabite.gif",
     },
     stats: {
       hp: "68",
@@ -17311,18 +13317,7 @@ const Pokedex = [
       speed: "82",
     },
     eggGroups: ["Monster", "Dragon"],
-    learnsets: "0444",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0445",
@@ -17334,12 +13329,14 @@ const Pokedex = [
       hidden: "Rough Skin",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/garchomp.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/garchomp.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/garchomp.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/garchomp.gif",
     },
     stats: {
       hp: "108",
@@ -17350,18 +13347,7 @@ const Pokedex = [
       speed: "102",
     },
     eggGroups: ["Monster", "Dragon"],
-    learnsets: "0445",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0446",
@@ -17373,12 +13359,14 @@ const Pokedex = [
       hidden: "Gluttony",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/munchlax.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/munchlax.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/munchlax.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/munchlax.gif",
     },
     stats: {
       hp: "135",
@@ -17389,18 +13377,7 @@ const Pokedex = [
       speed: "5",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0446",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0447",
@@ -17412,12 +13389,14 @@ const Pokedex = [
       hidden: "Prankster",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/riolu.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/riolu.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/riolu.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/riolu.gif",
     },
     stats: {
       hp: "40",
@@ -17428,18 +13407,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0447",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0448",
@@ -17451,12 +13419,14 @@ const Pokedex = [
       hidden: "Justified",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/lucario.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/lucario.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/lucario.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/lucario.gif",
     },
     stats: {
       hp: "70",
@@ -17467,18 +13437,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Field", "Human-Like"],
-    learnsets: "0448",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0449",
@@ -17490,12 +13449,14 @@ const Pokedex = [
       hidden: "Sand Force",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/hippopotas.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/hippopotas.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/hippopotas.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/hippopotas.gif",
     },
     stats: {
       hp: "68",
@@ -17506,18 +13467,7 @@ const Pokedex = [
       speed: "32",
     },
     eggGroups: ["Field"],
-    learnsets: "0449",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0450",
@@ -17529,12 +13479,14 @@ const Pokedex = [
       hidden: "Sand Force",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/hippowdon.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/hippowdon.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/hippowdon.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/hippowdon.gif",
     },
     stats: {
       hp: "108",
@@ -17545,18 +13497,7 @@ const Pokedex = [
       speed: "47",
     },
     eggGroups: ["Field"],
-    learnsets: "0450",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0451",
@@ -17568,12 +13509,14 @@ const Pokedex = [
       hidden: "Keen Eye",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/skorupi.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/skorupi.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/skorupi.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/skorupi.gif",
     },
     stats: {
       hp: "40",
@@ -17584,18 +13527,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Bug", "Water 3"],
-    learnsets: "0451",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0452",
@@ -17607,12 +13539,14 @@ const Pokedex = [
       hidden: "Keen Eye",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/drapion.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/drapion.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/drapion.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/drapion.gif",
     },
     stats: {
       hp: "70",
@@ -17623,18 +13557,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["Bug", "Water 3"],
-    learnsets: "0452",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0453",
@@ -17646,12 +13569,14 @@ const Pokedex = [
       hidden: "Poison Touch",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/croagunk.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/croagunk.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/croagunk.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/croagunk.gif",
     },
     stats: {
       hp: "48",
@@ -17662,18 +13587,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Human-Like"],
-    learnsets: "0453",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0454",
@@ -17685,12 +13599,14 @@ const Pokedex = [
       hidden: "Poison Touch",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/toxicroak.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/toxicroak.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/toxicroak.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/toxicroak.gif",
     },
     stats: {
       hp: "83",
@@ -17701,18 +13617,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Human-Like"],
-    learnsets: "0454",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0455",
@@ -17724,12 +13629,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/carnivine.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/carnivine.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/carnivine.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/carnivine.gif",
     },
     stats: {
       hp: "74",
@@ -17740,18 +13647,7 @@ const Pokedex = [
       speed: "46",
     },
     eggGroups: ["Grass"],
-    learnsets: "0455",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0456",
@@ -17763,12 +13659,14 @@ const Pokedex = [
       hidden: "Water Veil",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/finneon.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/finneon.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/finneon.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/finneon.gif",
     },
     stats: {
       hp: "49",
@@ -17779,18 +13677,7 @@ const Pokedex = [
       speed: "66",
     },
     eggGroups: ["Water 2"],
-    learnsets: "0456",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0457",
@@ -17802,12 +13689,14 @@ const Pokedex = [
       hidden: "Water Veil",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/lumineon.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/lumineon.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/lumineon.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/lumineon.gif",
     },
     stats: {
       hp: "69",
@@ -17818,18 +13707,7 @@ const Pokedex = [
       speed: "91",
     },
     eggGroups: ["Water 2"],
-    learnsets: "0457",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0458",
@@ -17841,12 +13719,14 @@ const Pokedex = [
       hidden: "Water Veil",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/mantyke.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/mantyke.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/mantyke.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/mantyke.gif",
     },
     stats: {
       hp: "45",
@@ -17857,18 +13737,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0458",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0459",
@@ -17880,12 +13749,14 @@ const Pokedex = [
       hidden: "Soundproof",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/snover.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/snover.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/snover.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/snover.gif",
     },
     stats: {
       hp: "60",
@@ -17896,18 +13767,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Monster", "Grass"],
-    learnsets: "0459",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0460",
@@ -17919,12 +13779,14 @@ const Pokedex = [
       hidden: "Soundproof",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/abomasnow.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/abomasnow.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/abomasnow.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/abomasnow.gif",
     },
     stats: {
       hp: "90",
@@ -17935,18 +13797,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Monster", "Grass"],
-    learnsets: "0460",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0461",
@@ -17958,12 +13809,14 @@ const Pokedex = [
       hidden: "Pickpocket",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/weavile.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/weavile.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/weavile.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/weavile.gif",
     },
     stats: {
       hp: "70",
@@ -17974,18 +13827,7 @@ const Pokedex = [
       speed: "125",
     },
     eggGroups: ["Field"],
-    learnsets: "0461",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0462",
@@ -17997,12 +13839,14 @@ const Pokedex = [
       hidden: "Analytic",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/magnezone.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/magnezone.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/magnezone.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/magnezone.gif",
     },
     stats: {
       hp: "70",
@@ -18013,18 +13857,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0462",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0463",
@@ -18036,12 +13869,14 @@ const Pokedex = [
       hidden: "Cloud Nine",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/lickilicky.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/lickilicky.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/lickilicky.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/lickilicky.gif",
     },
     stats: {
       hp: "110",
@@ -18052,18 +13887,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Monster"],
-    learnsets: "0463",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0464",
@@ -18075,12 +13899,14 @@ const Pokedex = [
       hidden: "Reckless",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/rhyperior.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/rhyperior.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/rhyperior.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/rhyperior.gif",
     },
     stats: {
       hp: "115",
@@ -18091,18 +13917,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Monster", "Field"],
-    learnsets: "0464",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0465",
@@ -18114,12 +13929,14 @@ const Pokedex = [
       hidden: "Regenerator",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/tangrowth.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/tangrowth.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/tangrowth.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/tangrowth.gif",
     },
     stats: {
       hp: "100",
@@ -18130,18 +13947,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Grass"],
-    learnsets: "0465",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0466",
@@ -18153,12 +13959,14 @@ const Pokedex = [
       hidden: "Vital Spirit",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/electivire.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/electivire.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/electivire.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/electivire.gif",
     },
     stats: {
       hp: "75",
@@ -18169,18 +13977,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["Human-Like"],
-    learnsets: "0466",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [75, 25],
   },
   {
     id: "0467",
@@ -18192,12 +13989,14 @@ const Pokedex = [
       hidden: "Vital Spirit",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/magmortar.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/magmortar.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/magmortar.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/magmortar.gif",
     },
     stats: {
       hp: "75",
@@ -18208,18 +14007,7 @@ const Pokedex = [
       speed: "83",
     },
     eggGroups: ["Human-Like"],
-    learnsets: "0467",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [75, 25],
   },
   {
     id: "0468",
@@ -18231,12 +14019,14 @@ const Pokedex = [
       hidden: "Super Luck",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/togekiss.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/togekiss.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/togekiss.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/togekiss.gif",
     },
     stats: {
       hp: "85",
@@ -18247,18 +14037,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Flying", "Fairy"],
-    learnsets: "0468",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0469",
@@ -18270,12 +14049,14 @@ const Pokedex = [
       hidden: "Frisk",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/yanmega.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/yanmega.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/yanmega.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/yanmega.gif",
     },
     stats: {
       hp: "86",
@@ -18286,18 +14067,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["Bug"],
-    learnsets: "0469",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0470",
@@ -18309,12 +14079,14 @@ const Pokedex = [
       hidden: "Chlorophyll",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/leafeon.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/leafeon.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/leafeon.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/leafeon.gif",
     },
     stats: {
       hp: "65",
@@ -18325,18 +14097,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["Field"],
-    learnsets: "0470",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0471",
@@ -18348,12 +14109,14 @@ const Pokedex = [
       hidden: "Ice Body",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/glaceon.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/glaceon.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/glaceon.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/glaceon.gif",
     },
     stats: {
       hp: "65",
@@ -18364,18 +14127,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Field"],
-    learnsets: "0471",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0472",
@@ -18387,12 +14139,14 @@ const Pokedex = [
       hidden: "Poison Heal",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/gliscor.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/gliscor.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/gliscor.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/gliscor.gif",
     },
     stats: {
       hp: "75",
@@ -18403,18 +14157,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["Bug"],
-    learnsets: "0472",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0473",
@@ -18426,12 +14169,14 @@ const Pokedex = [
       hidden: "Thick Fat",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/mamoswine.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/mamoswine.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/mamoswine.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/mamoswine.gif",
     },
     stats: {
       hp: "110",
@@ -18442,22 +14187,11 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Field"],
-    learnsets: "0473",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0474",
-    name: "Porygon Z",
+    name: "Porygon-Z",
     region: "Sinnoh",
     types: ["Normal"],
     abilities: {
@@ -18465,12 +14199,14 @@ const Pokedex = [
       hidden: "Analytic",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/porygon-z.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/porygon-z.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/porygon-z.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/porygon-z.gif",
     },
     stats: {
       hp: "85",
@@ -18481,18 +14217,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0474",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0475",
@@ -18500,16 +14225,18 @@ const Pokedex = [
     region: "Sinnoh",
     types: ["Psychic", "Fighting"],
     abilities: {
-      normal: ["Steadfast", "SharpnessGen IX+"],
+      normal: ["Steadfast", "Sharpness"],
       hidden: "Justified",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/gallade.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/gallade.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/gallade.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/gallade.gif",
     },
     stats: {
       hp: "68",
@@ -18519,19 +14246,8 @@ const Pokedex = [
       spd: "115",
       speed: "80",
     },
-    eggGroups: ["Human-Like*", "Amorphous"],
-    learnsets: "0475",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    eggGroups: ["Human-Like", "Amorphous"],
+    genderRatios: [100, 0],
   },
   {
     id: "0476",
@@ -18543,12 +14259,14 @@ const Pokedex = [
       hidden: "Sand Force",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/probopass.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/probopass.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/probopass.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/probopass.gif",
     },
     stats: {
       hp: "60",
@@ -18559,18 +14277,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0476",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0477",
@@ -18579,15 +14286,17 @@ const Pokedex = [
     types: ["Ghost"],
     abilities: {
       normal: ["Pressure"],
-      hidden: "FriskGen VI+",
+      hidden: "Frisk",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/dusknoir.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/dusknoir.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/dusknoir.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/dusknoir.gif",
     },
     stats: {
       hp: "45",
@@ -18598,18 +14307,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Amorphous"],
-    learnsets: "0477",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0478",
@@ -18621,12 +14319,14 @@ const Pokedex = [
       hidden: "Cursed Body",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/froslass.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/froslass.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/froslass.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/froslass.gif",
     },
     stats: {
       hp: "70",
@@ -18637,18 +14337,7 @@ const Pokedex = [
       speed: "110",
     },
     eggGroups: ["Fairy", "Mineral"],
-    learnsets: "0478",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 100],
   },
   {
     id: "0479",
@@ -18660,12 +14349,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/rotom.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/rotom.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/rotom.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/rotom.gif",
     },
     stats: {
       hp: "50",
@@ -18676,18 +14367,7 @@ const Pokedex = [
       speed: "91",
     },
     eggGroups: ["Amorphous"],
-    learnsets: "0479",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0480",
@@ -18699,12 +14379,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/uxie.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/uxie.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/uxie.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/uxie.gif",
     },
     stats: {
       hp: "75",
@@ -18715,18 +14397,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0480",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0481",
@@ -18738,12 +14409,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/mesprit.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/mesprit.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/mesprit.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/mesprit.gif",
     },
     stats: {
       hp: "80",
@@ -18754,18 +14427,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0481",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0482",
@@ -18777,12 +14439,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/azelf.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/azelf.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/azelf.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/azelf.gif",
     },
     stats: {
       hp: "75",
@@ -18793,18 +14457,7 @@ const Pokedex = [
       speed: "115",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0482",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0483",
@@ -18816,12 +14469,14 @@ const Pokedex = [
       hidden: "Telepathy",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/dialga.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/dialga.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/dialga.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/dialga.gif",
     },
     stats: {
       hp: "100",
@@ -18832,18 +14487,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0483",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0484",
@@ -18855,12 +14499,14 @@ const Pokedex = [
       hidden: "Telepathy",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/palkia.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/palkia.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/palkia.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/palkia.gif",
     },
     stats: {
       hp: "90",
@@ -18871,18 +14517,7 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0484",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0485",
@@ -18894,12 +14529,14 @@ const Pokedex = [
       hidden: "Flame Body",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/heatran.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/heatran.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/heatran.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/heatran.gif",
     },
     stats: {
       hp: "91",
@@ -18910,18 +14547,7 @@ const Pokedex = [
       speed: "77",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0485",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0486",
@@ -18933,12 +14559,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/regigigas.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/regigigas.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/regigigas.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/regigigas.gif",
     },
     stats: {
       hp: "110",
@@ -18949,22 +14577,11 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0486",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0487",
-    name: "Giratina Altered",
+    name: "Giratina",
     region: "Sinnoh",
     types: ["Ghost", "Dragon"],
     abilities: {
@@ -18972,12 +14589,14 @@ const Pokedex = [
       hidden: "Telepathy",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/giratina.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/giratina.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/giratina.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/giratina.gif",
     },
     stats: {
       hp: "150",
@@ -18988,18 +14607,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0487",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0488",
@@ -19011,12 +14619,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/cresselia.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/cresselia.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/cresselia.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/cresselia.gif",
     },
     stats: {
       hp: "120",
@@ -19027,18 +14637,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0488",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 100],
   },
   {
     id: "0489",
@@ -19050,12 +14649,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/phione.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/phione.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/phione.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/phione.gif",
     },
     stats: {
       hp: "80",
@@ -19066,18 +14667,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Water 1", "Fairy"],
-    learnsets: "0489",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0490",
@@ -19089,12 +14679,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/manaphy.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/manaphy.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/manaphy.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/manaphy.gif",
     },
     stats: {
       hp: "100",
@@ -19105,18 +14697,7 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["Water 1", "Fairy"],
-    learnsets: "0490",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0491",
@@ -19128,12 +14709,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/darkrai.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/darkrai.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/darkrai.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/darkrai.gif",
     },
     stats: {
       hp: "70",
@@ -19144,22 +14727,11 @@ const Pokedex = [
       speed: "125",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0491",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0492",
-    name: "Shaymin Land",
+    name: "Shaymin",
     region: "Sinnoh",
     types: ["Grass"],
     abilities: {
@@ -19167,12 +14739,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/shaymin.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/shaymin.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/shaymin.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/shaymin.gif",
     },
     stats: {
       hp: "100",
@@ -19183,18 +14757,7 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0492",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0493",
@@ -19206,12 +14769,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/arceus.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/arceus.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/arceus.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/arceus.gif",
     },
     stats: {
       hp: "120",
@@ -19222,18 +14787,7 @@ const Pokedex = [
       speed: "120",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0493",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0494",
@@ -19245,12 +14799,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/victini.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/victini.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/victini.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/victini.gif",
     },
     stats: {
       hp: "100",
@@ -19261,18 +14817,7 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0494",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0495",
@@ -19284,12 +14829,14 @@ const Pokedex = [
       hidden: "Contrary",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/snivy.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/snivy.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/snivy.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/snivy.gif",
     },
     stats: {
       hp: "45",
@@ -19300,18 +14847,7 @@ const Pokedex = [
       speed: "63",
     },
     eggGroups: ["Field", "Grass"],
-    learnsets: "0495",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0496",
@@ -19323,12 +14859,14 @@ const Pokedex = [
       hidden: "Contrary",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/servine.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/servine.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/servine.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/servine.gif",
     },
     stats: {
       hp: "60",
@@ -19339,18 +14877,7 @@ const Pokedex = [
       speed: "83",
     },
     eggGroups: ["Field", "Grass"],
-    learnsets: "0496",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0497",
@@ -19362,12 +14889,14 @@ const Pokedex = [
       hidden: "Contrary",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/serperior.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/serperior.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/serperior.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/serperior.gif",
     },
     stats: {
       hp: "75",
@@ -19378,18 +14907,7 @@ const Pokedex = [
       speed: "113",
     },
     eggGroups: ["Field", "Grass"],
-    learnsets: "0497",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0498",
@@ -19401,12 +14919,14 @@ const Pokedex = [
       hidden: "Thick Fat",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/tepig.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/tepig.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/tepig.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/tepig.gif",
     },
     stats: {
       hp: "65",
@@ -19417,18 +14937,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Field"],
-    learnsets: "0498",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0499",
@@ -19440,12 +14949,14 @@ const Pokedex = [
       hidden: "Thick Fat",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/pignite.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/pignite.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/pignite.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/pignite.gif",
     },
     stats: {
       hp: "90",
@@ -19456,18 +14967,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Field"],
-    learnsets: "0499",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0500",
@@ -19479,12 +14979,14 @@ const Pokedex = [
       hidden: "Reckless",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/emboar.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/emboar.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/emboar.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/emboar.gif",
     },
     stats: {
       hp: "110",
@@ -19495,18 +14997,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Field"],
-    learnsets: "0500",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0501",
@@ -19518,12 +15009,14 @@ const Pokedex = [
       hidden: "Shell Armor",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/oshawott.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/oshawott.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/oshawott.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/oshawott.gif",
     },
     stats: {
       hp: "55",
@@ -19534,18 +15027,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Field"],
-    learnsets: "0501",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0502",
@@ -19557,12 +15039,14 @@ const Pokedex = [
       hidden: "Shell Armor",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/dewott.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/dewott.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/dewott.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/dewott.gif",
     },
     stats: {
       hp: "75",
@@ -19573,18 +15057,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Field"],
-    learnsets: "0502",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0503",
@@ -19596,12 +15069,14 @@ const Pokedex = [
       hidden: "Shell Armor",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/samurott.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/samurott.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/samurott.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/samurott.gif",
     },
     stats: {
       hp: "95",
@@ -19612,18 +15087,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Field"],
-    learnsets: "0503",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0504",
@@ -19635,12 +15099,14 @@ const Pokedex = [
       hidden: "Analytic",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/patrat.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/patrat.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/patrat.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/patrat.gif",
     },
     stats: {
       hp: "45",
@@ -19651,18 +15117,7 @@ const Pokedex = [
       speed: "42",
     },
     eggGroups: ["Field"],
-    learnsets: "0504",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0505",
@@ -19674,12 +15129,14 @@ const Pokedex = [
       hidden: "Analytic",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/watchog.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/watchog.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/watchog.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/watchog.gif",
     },
     stats: {
       hp: "60",
@@ -19690,18 +15147,7 @@ const Pokedex = [
       speed: "77",
     },
     eggGroups: ["Field"],
-    learnsets: "0505",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0506",
@@ -19713,12 +15159,14 @@ const Pokedex = [
       hidden: "Run Away",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/lillipup.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/lillipup.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/lillipup.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/lillipup.gif",
     },
     stats: {
       hp: "45",
@@ -19729,18 +15177,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Field"],
-    learnsets: "0506",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0507",
@@ -19752,12 +15189,14 @@ const Pokedex = [
       hidden: "Scrappy",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/herdier.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/herdier.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/herdier.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/herdier.gif",
     },
     stats: {
       hp: "65",
@@ -19768,18 +15207,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Field"],
-    learnsets: "0507",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0508",
@@ -19791,12 +15219,14 @@ const Pokedex = [
       hidden: "Scrappy",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/stoutland.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/stoutland.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/stoutland.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/stoutland.gif",
     },
     stats: {
       hp: "85",
@@ -19807,18 +15237,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Field"],
-    learnsets: "0508",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0509",
@@ -19830,12 +15249,14 @@ const Pokedex = [
       hidden: "Prankster",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/purrloin.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/purrloin.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/purrloin.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/purrloin.gif",
     },
     stats: {
       hp: "41",
@@ -19846,18 +15267,7 @@ const Pokedex = [
       speed: "66",
     },
     eggGroups: ["Field"],
-    learnsets: "0509",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0510",
@@ -19869,12 +15279,14 @@ const Pokedex = [
       hidden: "Prankster",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/liepard.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/liepard.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/liepard.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/liepard.gif",
     },
     stats: {
       hp: "64",
@@ -19885,18 +15297,7 @@ const Pokedex = [
       speed: "106",
     },
     eggGroups: ["Field"],
-    learnsets: "0510",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0511",
@@ -19908,12 +15309,14 @@ const Pokedex = [
       hidden: "Overgrow",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/pansage.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/pansage.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/pansage.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/pansage.gif",
     },
     stats: {
       hp: "50",
@@ -19924,18 +15327,7 @@ const Pokedex = [
       speed: "64",
     },
     eggGroups: ["Field"],
-    learnsets: "0511",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0512",
@@ -19947,12 +15339,14 @@ const Pokedex = [
       hidden: "Overgrow",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/simisage.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/simisage.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/simisage.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/simisage.gif",
     },
     stats: {
       hp: "75",
@@ -19963,18 +15357,7 @@ const Pokedex = [
       speed: "101",
     },
     eggGroups: ["Field"],
-    learnsets: "0512",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0513",
@@ -19986,12 +15369,14 @@ const Pokedex = [
       hidden: "Blaze",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/pansear.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/pansear.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/pansear.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/pansear.gif",
     },
     stats: {
       hp: "50",
@@ -20002,18 +15387,7 @@ const Pokedex = [
       speed: "64",
     },
     eggGroups: ["Field"],
-    learnsets: "0513",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0514",
@@ -20025,12 +15399,14 @@ const Pokedex = [
       hidden: "Blaze",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/simisear.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/simisear.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/simisear.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/simisear.gif",
     },
     stats: {
       hp: "75",
@@ -20041,18 +15417,7 @@ const Pokedex = [
       speed: "101",
     },
     eggGroups: ["Field"],
-    learnsets: "0514",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0515",
@@ -20064,12 +15429,14 @@ const Pokedex = [
       hidden: "Torrent",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/panpour.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/panpour.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/panpour.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/panpour.gif",
     },
     stats: {
       hp: "50",
@@ -20080,18 +15447,7 @@ const Pokedex = [
       speed: "64",
     },
     eggGroups: ["Field"],
-    learnsets: "0515",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0516",
@@ -20103,12 +15459,14 @@ const Pokedex = [
       hidden: "Torrent",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/simipour.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/simipour.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/simipour.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/simipour.gif",
     },
     stats: {
       hp: "75",
@@ -20119,18 +15477,7 @@ const Pokedex = [
       speed: "101",
     },
     eggGroups: ["Field"],
-    learnsets: "0516",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0517",
@@ -20142,12 +15489,14 @@ const Pokedex = [
       hidden: "Telepathy",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/munna.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/munna.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/munna.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/munna.gif",
     },
     stats: {
       hp: "76",
@@ -20158,18 +15507,7 @@ const Pokedex = [
       speed: "24",
     },
     eggGroups: ["Field"],
-    learnsets: "0517",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0518",
@@ -20181,12 +15519,14 @@ const Pokedex = [
       hidden: "Telepathy",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/musharna.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/musharna.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/musharna.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/musharna.gif",
     },
     stats: {
       hp: "116",
@@ -20197,18 +15537,7 @@ const Pokedex = [
       speed: "29",
     },
     eggGroups: ["Field"],
-    learnsets: "0518",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0519",
@@ -20220,12 +15549,14 @@ const Pokedex = [
       hidden: "Rivalry",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/pidove.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/pidove.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/pidove.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/pidove.gif",
     },
     stats: {
       hp: "50",
@@ -20236,18 +15567,7 @@ const Pokedex = [
       speed: "43",
     },
     eggGroups: ["Flying"],
-    learnsets: "0519",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0520",
@@ -20259,12 +15579,14 @@ const Pokedex = [
       hidden: "Rivalry",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/tranquill.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/tranquill.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/tranquill.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/tranquill.gif",
     },
     stats: {
       hp: "62",
@@ -20275,18 +15597,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Flying"],
-    learnsets: "0520",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0521",
@@ -20298,12 +15609,14 @@ const Pokedex = [
       hidden: "Rivalry",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/unfezant.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/unfezant.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/unfezant.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/unfezant.gif",
     },
     stats: {
       hp: "80",
@@ -20314,18 +15627,7 @@ const Pokedex = [
       speed: "93",
     },
     eggGroups: ["Flying"],
-    learnsets: "0521",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0522",
@@ -20337,12 +15639,14 @@ const Pokedex = [
       hidden: "Sap Sipper",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/blitzle.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/blitzle.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/blitzle.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/blitzle.gif",
     },
     stats: {
       hp: "45",
@@ -20353,18 +15657,7 @@ const Pokedex = [
       speed: "76",
     },
     eggGroups: ["Field"],
-    learnsets: "0522",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0523",
@@ -20376,12 +15669,14 @@ const Pokedex = [
       hidden: "Sap Sipper",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/zebstrika.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/zebstrika.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/zebstrika.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/zebstrika.gif",
     },
     stats: {
       hp: "75",
@@ -20392,18 +15687,7 @@ const Pokedex = [
       speed: "116",
     },
     eggGroups: ["Field"],
-    learnsets: "0523",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0524",
@@ -20411,16 +15695,18 @@ const Pokedex = [
     region: "Unova",
     types: ["Rock"],
     abilities: {
-      normal: ["Sturdy", "Weak ArmorGen VII+"],
+      normal: ["Sturdy", "Weak Armor"],
       hidden: "Sand Force",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/roggenrola.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/roggenrola.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/roggenrola.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/roggenrola.gif",
     },
     stats: {
       hp: "55",
@@ -20431,18 +15717,7 @@ const Pokedex = [
       speed: "15",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0524",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0525",
@@ -20450,16 +15725,18 @@ const Pokedex = [
     region: "Unova",
     types: ["Rock"],
     abilities: {
-      normal: ["Sturdy", "Weak ArmorGen VII+"],
+      normal: ["Sturdy", "Weak Armor"],
       hidden: "Sand Force",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/boldore.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/boldore.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/boldore.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/boldore.gif",
     },
     stats: {
       hp: "70",
@@ -20470,18 +15747,7 @@ const Pokedex = [
       speed: "20",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0525",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0526",
@@ -20489,16 +15755,18 @@ const Pokedex = [
     region: "Unova",
     types: ["Rock"],
     abilities: {
-      normal: ["Sturdy", "Sand StreamGen VII+"],
+      normal: ["Sturdy", "Sand Stream"],
       hidden: "Sand Force",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/gigalith.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/gigalith.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/gigalith.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/gigalith.gif",
     },
     stats: {
       hp: "85",
@@ -20509,18 +15777,7 @@ const Pokedex = [
       speed: "25",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0526",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0527",
@@ -20532,12 +15789,14 @@ const Pokedex = [
       hidden: "Simple",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/woobat.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/woobat.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/woobat.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/woobat.gif",
     },
     stats: {
       hp: "65",
@@ -20548,18 +15807,7 @@ const Pokedex = [
       speed: "72",
     },
     eggGroups: ["Field", "Flying"],
-    learnsets: "0527",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0528",
@@ -20571,12 +15819,14 @@ const Pokedex = [
       hidden: "Simple",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/swoobat.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/swoobat.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/swoobat.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/swoobat.gif",
     },
     stats: {
       hp: "67",
@@ -20587,18 +15837,7 @@ const Pokedex = [
       speed: "114",
     },
     eggGroups: ["Field", "Flying"],
-    learnsets: "0528",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0529",
@@ -20610,12 +15849,14 @@ const Pokedex = [
       hidden: "Mold Breaker",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/drilbur.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/drilbur.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/drilbur.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/drilbur.gif",
     },
     stats: {
       hp: "60",
@@ -20626,18 +15867,7 @@ const Pokedex = [
       speed: "68",
     },
     eggGroups: ["Field"],
-    learnsets: "0529",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0530",
@@ -20649,12 +15879,14 @@ const Pokedex = [
       hidden: "Mold Breaker",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/excadrill.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/excadrill.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/excadrill.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/excadrill.gif",
     },
     stats: {
       hp: "110",
@@ -20665,18 +15897,7 @@ const Pokedex = [
       speed: "88",
     },
     eggGroups: ["Field"],
-    learnsets: "0530",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0531",
@@ -20688,12 +15909,14 @@ const Pokedex = [
       hidden: "Klutz",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/audino.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/audino.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/audino.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/audino.gif",
     },
     stats: {
       hp: "103",
@@ -20704,18 +15927,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Fairy"],
-    learnsets: "0531",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0532",
@@ -20727,12 +15939,14 @@ const Pokedex = [
       hidden: "Iron Fist",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/timburr.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/timburr.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/timburr.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/timburr.gif",
     },
     stats: {
       hp: "75",
@@ -20743,18 +15957,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Human-Like"],
-    learnsets: "0532",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [75, 25],
   },
   {
     id: "0533",
@@ -20766,12 +15969,14 @@ const Pokedex = [
       hidden: "Iron Fist",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/gurdurr.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/gurdurr.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/gurdurr.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/gurdurr.gif",
     },
     stats: {
       hp: "85",
@@ -20782,18 +15987,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Human-Like"],
-    learnsets: "0533",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [75, 25],
   },
   {
     id: "0534",
@@ -20805,12 +15999,14 @@ const Pokedex = [
       hidden: "Iron Fist",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/conkeldurr.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/conkeldurr.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/conkeldurr.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/conkeldurr.gif",
     },
     stats: {
       hp: "105",
@@ -20821,18 +16017,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Human-Like"],
-    learnsets: "0534",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [75, 25],
   },
   {
     id: "0535",
@@ -20844,12 +16029,14 @@ const Pokedex = [
       hidden: "Water Absorb",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/tympole.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/tympole.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/tympole.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/tympole.gif",
     },
     stats: {
       hp: "50",
@@ -20860,18 +16047,7 @@ const Pokedex = [
       speed: "64",
     },
     eggGroups: ["Water 1"],
-    learnsets: "0535",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0536",
@@ -20883,12 +16059,14 @@ const Pokedex = [
       hidden: "Water Absorb",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/palpitoad.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/palpitoad.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/palpitoad.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/palpitoad.gif",
     },
     stats: {
       hp: "75",
@@ -20899,18 +16077,7 @@ const Pokedex = [
       speed: "69",
     },
     eggGroups: ["Water 1"],
-    learnsets: "0536",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0537",
@@ -20922,12 +16089,14 @@ const Pokedex = [
       hidden: "Water Absorb",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/seismitoad.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/seismitoad.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/seismitoad.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/seismitoad.gif",
     },
     stats: {
       hp: "105",
@@ -20938,18 +16107,7 @@ const Pokedex = [
       speed: "74",
     },
     eggGroups: ["Water 1"],
-    learnsets: "0537",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0538",
@@ -20961,12 +16119,14 @@ const Pokedex = [
       hidden: "Mold Breaker",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/throh.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/throh.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/throh.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/throh.gif",
     },
     stats: {
       hp: "120",
@@ -20977,18 +16137,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Human-Like"],
-    learnsets: "0538",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [100, 0],
   },
   {
     id: "0539",
@@ -21000,12 +16149,14 @@ const Pokedex = [
       hidden: "Mold Breaker",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/sawk.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/sawk.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/sawk.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/sawk.gif",
     },
     stats: {
       hp: "75",
@@ -21016,18 +16167,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Human-Like"],
-    learnsets: "0539",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [100, 0],
   },
   {
     id: "0540",
@@ -21039,12 +16179,14 @@ const Pokedex = [
       hidden: "Overcoat",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/sewaddle.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/sewaddle.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/sewaddle.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/sewaddle.gif",
     },
     stats: {
       hp: "45",
@@ -21055,18 +16197,7 @@ const Pokedex = [
       speed: "42",
     },
     eggGroups: ["Bug"],
-    learnsets: "0540",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0541",
@@ -21078,12 +16209,14 @@ const Pokedex = [
       hidden: "Overcoat",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/swadloon.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/swadloon.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/swadloon.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/swadloon.gif",
     },
     stats: {
       hp: "55",
@@ -21094,18 +16227,7 @@ const Pokedex = [
       speed: "42",
     },
     eggGroups: ["Bug"],
-    learnsets: "0541",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0542",
@@ -21117,12 +16239,14 @@ const Pokedex = [
       hidden: "Overcoat",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/leavanny.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/leavanny.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/leavanny.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/leavanny.gif",
     },
     stats: {
       hp: "75",
@@ -21133,18 +16257,7 @@ const Pokedex = [
       speed: "92",
     },
     eggGroups: ["Bug"],
-    learnsets: "0542",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0543",
@@ -21153,15 +16266,17 @@ const Pokedex = [
     types: ["Bug", "Poison"],
     abilities: {
       normal: ["Poison Point", "Swarm"],
-      hidden: "Speed BoostGen VI+",
+      hidden: "Speed Boost",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/venipede.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/venipede.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/venipede.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/venipede.gif",
     },
     stats: {
       hp: "30",
@@ -21172,18 +16287,7 @@ const Pokedex = [
       speed: "57",
     },
     eggGroups: ["Bug"],
-    learnsets: "0543",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0544",
@@ -21192,15 +16296,17 @@ const Pokedex = [
     types: ["Bug", "Poison"],
     abilities: {
       normal: ["Poison Point", "Swarm"],
-      hidden: "Speed BoostGen VI+",
+      hidden: "Speed Boost",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/whirlipede.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/whirlipede.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/whirlipede.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/whirlipede.gif",
     },
     stats: {
       hp: "40",
@@ -21211,18 +16317,7 @@ const Pokedex = [
       speed: "47",
     },
     eggGroups: ["Bug"],
-    learnsets: "0544",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0545",
@@ -21231,15 +16326,17 @@ const Pokedex = [
     types: ["Bug", "Poison"],
     abilities: {
       normal: ["Poison Point", "Swarm"],
-      hidden: "Speed BoostGen VI+",
+      hidden: "Speed Boost",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/scolipede.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/scolipede.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/scolipede.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/scolipede.gif",
     },
     stats: {
       hp: "60",
@@ -21250,18 +16347,7 @@ const Pokedex = [
       speed: "112",
     },
     eggGroups: ["Bug"],
-    learnsets: "0545",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0546",
@@ -21273,12 +16359,14 @@ const Pokedex = [
       hidden: "Chlorophyll",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/cottonee.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/cottonee.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/cottonee.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/cottonee.gif",
     },
     stats: {
       hp: "40",
@@ -21289,18 +16377,7 @@ const Pokedex = [
       speed: "66",
     },
     eggGroups: ["Grass", "Fairy"],
-    learnsets: "0546",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0547",
@@ -21312,12 +16389,14 @@ const Pokedex = [
       hidden: "Chlorophyll",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/whimsicott.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/whimsicott.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/whimsicott.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/whimsicott.gif",
     },
     stats: {
       hp: "60",
@@ -21328,18 +16407,7 @@ const Pokedex = [
       speed: "116",
     },
     eggGroups: ["Grass", "Fairy"],
-    learnsets: "0547",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0548",
@@ -21351,12 +16419,14 @@ const Pokedex = [
       hidden: "Leaf Guard",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/petilil.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/petilil.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/petilil.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/petilil.gif",
     },
     stats: {
       hp: "45",
@@ -21367,18 +16437,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Grass"],
-    learnsets: "0548",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 100],
   },
   {
     id: "0549",
@@ -21390,12 +16449,14 @@ const Pokedex = [
       hidden: "Leaf Guard",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/lilligant.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/lilligant.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/lilligant.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/lilligant.gif",
     },
     stats: {
       hp: "70",
@@ -21406,22 +16467,11 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Grass"],
-    learnsets: "0549",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 100],
   },
   {
     id: "0550",
-    name: "Basculin Red Striped",
+    name: "Basculin",
     region: "Unova",
     types: ["Water"],
     abilities: {
@@ -21429,12 +16479,14 @@ const Pokedex = [
       hidden: "Mold Breaker",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/basculin.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/basculin.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/basculin.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/basculin.gif",
     },
     stats: {
       hp: "70",
@@ -21445,18 +16497,7 @@ const Pokedex = [
       speed: "98",
     },
     eggGroups: ["Water 2"],
-    learnsets: "0550",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0551",
@@ -21468,12 +16509,14 @@ const Pokedex = [
       hidden: "Anger Point",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/sandile.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/sandile.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/sandile.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/sandile.gif",
     },
     stats: {
       hp: "50",
@@ -21484,18 +16527,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Field"],
-    learnsets: "0551",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0552",
@@ -21507,12 +16539,14 @@ const Pokedex = [
       hidden: "Anger Point",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/krokorok.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/krokorok.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/krokorok.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/krokorok.gif",
     },
     stats: {
       hp: "60",
@@ -21523,18 +16557,7 @@ const Pokedex = [
       speed: "74",
     },
     eggGroups: ["Field"],
-    learnsets: "0552",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0553",
@@ -21546,12 +16569,14 @@ const Pokedex = [
       hidden: "Anger Point",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/krookodile.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/krookodile.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/krookodile.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/krookodile.gif",
     },
     stats: {
       hp: "95",
@@ -21562,18 +16587,7 @@ const Pokedex = [
       speed: "92",
     },
     eggGroups: ["Field"],
-    learnsets: "0553",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0554",
@@ -21585,12 +16599,14 @@ const Pokedex = [
       hidden: "Inner Focus",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/darumaka.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/darumaka.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/darumaka.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/darumaka.gif",
     },
     stats: {
       hp: "70",
@@ -21601,22 +16617,11 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Field"],
-    learnsets: "0554",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0555",
-    name: "Darmanitan Standard",
+    name: "Darmanitan",
     region: "Unova",
     types: ["Fire"],
     abilities: {
@@ -21624,12 +16629,14 @@ const Pokedex = [
       hidden: "Zen Mode",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/darmanitan.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/darmanitan.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/darmanitan.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/darmanitan.gif",
     },
     stats: {
       hp: "105",
@@ -21640,18 +16647,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["Field"],
-    learnsets: "0555",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0556",
@@ -21663,12 +16659,14 @@ const Pokedex = [
       hidden: "Storm Drain",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/maractus.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/maractus.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/maractus.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/maractus.gif",
     },
     stats: {
       hp: "75",
@@ -21679,18 +16677,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Grass"],
-    learnsets: "0556",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0557",
@@ -21702,12 +16689,14 @@ const Pokedex = [
       hidden: "Weak Armor",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/dwebble.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/dwebble.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/dwebble.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/dwebble.gif",
     },
     stats: {
       hp: "50",
@@ -21718,18 +16707,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Bug", "Mineral"],
-    learnsets: "0557",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0558",
@@ -21741,12 +16719,14 @@ const Pokedex = [
       hidden: "Weak Armor",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/crustle.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/crustle.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/crustle.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/crustle.gif",
     },
     stats: {
       hp: "70",
@@ -21757,18 +16737,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Bug", "Mineral"],
-    learnsets: "0558",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0559",
@@ -21780,12 +16749,14 @@ const Pokedex = [
       hidden: "Intimidate",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/scraggy.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/scraggy.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/scraggy.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/scraggy.gif",
     },
     stats: {
       hp: "50",
@@ -21796,18 +16767,7 @@ const Pokedex = [
       speed: "48",
     },
     eggGroups: ["Field", "Dragon"],
-    learnsets: "0559",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0560",
@@ -21819,12 +16779,14 @@ const Pokedex = [
       hidden: "Intimidate",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/scrafty.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/scrafty.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/scrafty.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/scrafty.gif",
     },
     stats: {
       hp: "65",
@@ -21835,18 +16797,7 @@ const Pokedex = [
       speed: "58",
     },
     eggGroups: ["Field", "Dragon"],
-    learnsets: "0560",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0561",
@@ -21858,12 +16809,14 @@ const Pokedex = [
       hidden: "Tinted Lens",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/sigilyph.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/sigilyph.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/sigilyph.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/sigilyph.gif",
     },
     stats: {
       hp: "72",
@@ -21874,18 +16827,7 @@ const Pokedex = [
       speed: "97",
     },
     eggGroups: ["Flying"],
-    learnsets: "0561",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0562",
@@ -21897,12 +16839,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/yamask.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/yamask.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/yamask.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/yamask.gif",
     },
     stats: {
       hp: "38",
@@ -21913,18 +16857,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Mineral", "Amorphous"],
-    learnsets: "0562",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0563",
@@ -21936,12 +16869,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/cofagrigus.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/cofagrigus.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/cofagrigus.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/cofagrigus.gif",
     },
     stats: {
       hp: "58",
@@ -21952,18 +16887,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Mineral", "Amorphous"],
-    learnsets: "0563",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0564",
@@ -21975,12 +16899,14 @@ const Pokedex = [
       hidden: "Swift Swim",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/tirtouga.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/tirtouga.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/tirtouga.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/tirtouga.gif",
     },
     stats: {
       hp: "54",
@@ -21991,18 +16917,7 @@ const Pokedex = [
       speed: "22",
     },
     eggGroups: ["Water 1", "Water 3"],
-    learnsets: "0564",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0565",
@@ -22014,12 +16929,14 @@ const Pokedex = [
       hidden: "Swift Swim",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/carracosta.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/carracosta.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/carracosta.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/carracosta.gif",
     },
     stats: {
       hp: "74",
@@ -22030,18 +16947,7 @@ const Pokedex = [
       speed: "32",
     },
     eggGroups: ["Water 1", "Water 3"],
-    learnsets: "0565",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0566",
@@ -22053,12 +16959,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/archen.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/archen.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/archen.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/archen.gif",
     },
     stats: {
       hp: "55",
@@ -22069,18 +16977,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Flying", "Water 3"],
-    learnsets: "0566",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0567",
@@ -22092,12 +16989,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/archeops.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/archeops.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/archeops.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/archeops.gif",
     },
     stats: {
       hp: "75",
@@ -22108,18 +17007,7 @@ const Pokedex = [
       speed: "110",
     },
     eggGroups: ["Flying", "Water 3"],
-    learnsets: "0567",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0568",
@@ -22131,12 +17019,14 @@ const Pokedex = [
       hidden: "Aftermath",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/trubbish.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/trubbish.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/trubbish.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/trubbish.gif",
     },
     stats: {
       hp: "50",
@@ -22147,18 +17037,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0568",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0569",
@@ -22170,12 +17049,14 @@ const Pokedex = [
       hidden: "Aftermath",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/garbodor.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/garbodor.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/garbodor.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/garbodor.gif",
     },
     stats: {
       hp: "80",
@@ -22186,18 +17067,7 @@ const Pokedex = [
       speed: "75",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0569",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0570",
@@ -22209,12 +17079,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/zorua.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/zorua.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/zorua.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/zorua.gif",
     },
     stats: {
       hp: "40",
@@ -22225,18 +17097,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Field"],
-    learnsets: "0570",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0571",
@@ -22248,12 +17109,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/zoroark.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/zoroark.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/zoroark.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/zoroark.gif",
     },
     stats: {
       hp: "60",
@@ -22264,18 +17127,7 @@ const Pokedex = [
       speed: "105",
     },
     eggGroups: ["Field"],
-    learnsets: "0571",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0572",
@@ -22287,12 +17139,14 @@ const Pokedex = [
       hidden: "Skill Link",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/minccino.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/minccino.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/minccino.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/minccino.gif",
     },
     stats: {
       hp: "55",
@@ -22303,18 +17157,7 @@ const Pokedex = [
       speed: "75",
     },
     eggGroups: ["Field"],
-    learnsets: "0572",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [25, 75],
   },
   {
     id: "0573",
@@ -22326,12 +17169,14 @@ const Pokedex = [
       hidden: "Skill Link",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/cinccino.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/cinccino.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/cinccino.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/cinccino.gif",
     },
     stats: {
       hp: "75",
@@ -22342,18 +17187,7 @@ const Pokedex = [
       speed: "115",
     },
     eggGroups: ["Field"],
-    learnsets: "0573",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [25, 75],
   },
   {
     id: "0574",
@@ -22361,16 +17195,18 @@ const Pokedex = [
     region: "Unova",
     types: ["Psychic"],
     abilities: {
-      normal: ["Frisk", "CompetitiveGen VI+"],
+      normal: ["Frisk", "Competitive"],
       hidden: "Shadow Tag",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/gothita.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/gothita.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/gothita.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/gothita.gif",
     },
     stats: {
       hp: "45",
@@ -22381,18 +17217,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Human-Like"],
-    learnsets: "0574",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [25, 75],
   },
   {
     id: "0575",
@@ -22400,16 +17225,18 @@ const Pokedex = [
     region: "Unova",
     types: ["Psychic"],
     abilities: {
-      normal: ["Frisk", "CompetitiveGen VI+"],
+      normal: ["Frisk", "Competitive"],
       hidden: "Shadow Tag",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/gothorita.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/gothorita.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/gothorita.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/gothorita.gif",
     },
     stats: {
       hp: "60",
@@ -22420,18 +17247,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Human-Like"],
-    learnsets: "0575",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [25, 75],
   },
   {
     id: "0576",
@@ -22439,16 +17255,18 @@ const Pokedex = [
     region: "Unova",
     types: ["Psychic"],
     abilities: {
-      normal: ["Frisk", "CompetitiveGen VI+"],
+      normal: ["Frisk", "Competitive"],
       hidden: "Shadow Tag",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/gothitelle.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/gothitelle.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/gothitelle.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/gothitelle.gif",
     },
     stats: {
       hp: "70",
@@ -22459,18 +17277,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Human-Like"],
-    learnsets: "0576",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [25, 75],
   },
   {
     id: "0577",
@@ -22482,12 +17289,14 @@ const Pokedex = [
       hidden: "Regenerator",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/solosis.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/solosis.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/solosis.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/solosis.gif",
     },
     stats: {
       hp: "45",
@@ -22498,18 +17307,7 @@ const Pokedex = [
       speed: "20",
     },
     eggGroups: ["Amorphous"],
-    learnsets: "0577",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0578",
@@ -22521,12 +17319,14 @@ const Pokedex = [
       hidden: "Regenerator",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/duosion.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/duosion.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/duosion.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/duosion.gif",
     },
     stats: {
       hp: "65",
@@ -22537,18 +17337,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Amorphous"],
-    learnsets: "0578",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0579",
@@ -22560,12 +17349,14 @@ const Pokedex = [
       hidden: "Regenerator",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/reuniclus.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/reuniclus.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/reuniclus.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/reuniclus.gif",
     },
     stats: {
       hp: "110",
@@ -22576,18 +17367,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Amorphous"],
-    learnsets: "0579",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0580",
@@ -22599,12 +17379,14 @@ const Pokedex = [
       hidden: "Hydration",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/ducklett.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/ducklett.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/ducklett.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/ducklett.gif",
     },
     stats: {
       hp: "62",
@@ -22615,18 +17397,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Water 1", "Flying"],
-    learnsets: "0580",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0581",
@@ -22638,12 +17409,14 @@ const Pokedex = [
       hidden: "Hydration",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/swanna.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/swanna.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/swanna.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/swanna.gif",
     },
     stats: {
       hp: "75",
@@ -22654,18 +17427,7 @@ const Pokedex = [
       speed: "98",
     },
     eggGroups: ["Water 1", "Flying"],
-    learnsets: "0581",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0582",
@@ -22673,16 +17435,18 @@ const Pokedex = [
     region: "Unova",
     types: ["Ice"],
     abilities: {
-      normal: ["Ice Body", "Snow CloakGen VII+"],
+      normal: ["Ice Body", "Snow Cloak"],
       hidden: "Weak Armor",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/vanillite.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/vanillite.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/vanillite.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/vanillite.gif",
     },
     stats: {
       hp: "36",
@@ -22693,18 +17457,7 @@ const Pokedex = [
       speed: "44",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0582",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0583",
@@ -22712,16 +17465,18 @@ const Pokedex = [
     region: "Unova",
     types: ["Ice"],
     abilities: {
-      normal: ["Ice Body", "Snow CloakGen VII+"],
+      normal: ["Ice Body", "Snow Cloak"],
       hidden: "Weak Armor",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/vanillish.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/vanillish.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/vanillish.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/vanillish.gif",
     },
     stats: {
       hp: "51",
@@ -22732,18 +17487,7 @@ const Pokedex = [
       speed: "59",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0583",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0584",
@@ -22751,16 +17495,18 @@ const Pokedex = [
     region: "Unova",
     types: ["Ice"],
     abilities: {
-      normal: ["Ice Body", "Snow WarningGen VII+"],
+      normal: ["Ice Body", "Snow Warning"],
       hidden: "Weak Armor",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/vanilluxe.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/vanilluxe.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/vanilluxe.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/vanilluxe.gif",
     },
     stats: {
       hp: "71",
@@ -22771,18 +17517,7 @@ const Pokedex = [
       speed: "79",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0584",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0585",
@@ -22794,12 +17529,14 @@ const Pokedex = [
       hidden: "Serene Grace",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/deerling.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/deerling.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/deerling.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/deerling.gif",
     },
     stats: {
       hp: "60",
@@ -22810,18 +17547,7 @@ const Pokedex = [
       speed: "75",
     },
     eggGroups: ["Field"],
-    learnsets: "0585",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0586",
@@ -22833,12 +17559,14 @@ const Pokedex = [
       hidden: "Serene Grace",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/sawsbuck.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/sawsbuck.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/sawsbuck.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/sawsbuck.gif",
     },
     stats: {
       hp: "80",
@@ -22849,18 +17577,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["Field"],
-    learnsets: "0586",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0587",
@@ -22872,12 +17589,14 @@ const Pokedex = [
       hidden: "Motor Drive",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/emolga.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/emolga.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/emolga.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/emolga.gif",
     },
     stats: {
       hp: "55",
@@ -22888,18 +17607,7 @@ const Pokedex = [
       speed: "103",
     },
     eggGroups: ["Field"],
-    learnsets: "0587",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0588",
@@ -22911,12 +17619,14 @@ const Pokedex = [
       hidden: "No Guard",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/karrablast.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/karrablast.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/karrablast.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/karrablast.gif",
     },
     stats: {
       hp: "50",
@@ -22927,18 +17637,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Bug"],
-    learnsets: "0588",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0589",
@@ -22950,12 +17649,14 @@ const Pokedex = [
       hidden: "Overcoat",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/escavalier.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/escavalier.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/escavalier.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/escavalier.gif",
     },
     stats: {
       hp: "70",
@@ -22966,18 +17667,7 @@ const Pokedex = [
       speed: "20",
     },
     eggGroups: ["Bug"],
-    learnsets: "0589",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0590",
@@ -22989,12 +17679,14 @@ const Pokedex = [
       hidden: "Regenerator",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/foongus.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/foongus.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/foongus.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/foongus.gif",
     },
     stats: {
       hp: "69",
@@ -23005,18 +17697,7 @@ const Pokedex = [
       speed: "15",
     },
     eggGroups: ["Grass"],
-    learnsets: "0590",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0591",
@@ -23028,12 +17709,14 @@ const Pokedex = [
       hidden: "Regenerator",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/amoonguss.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/amoonguss.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/amoonguss.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/amoonguss.gif",
     },
     stats: {
       hp: "114",
@@ -23044,18 +17727,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Grass"],
-    learnsets: "0591",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0592",
@@ -23067,12 +17739,14 @@ const Pokedex = [
       hidden: "Damp",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/frillish.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/frillish.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/frillish.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/frillish.gif",
     },
     stats: {
       hp: "55",
@@ -23083,18 +17757,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Amorphous"],
-    learnsets: "0592",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0593",
@@ -23106,12 +17769,14 @@ const Pokedex = [
       hidden: "Damp",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/jellicent.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/jellicent.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/jellicent.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/jellicent.gif",
     },
     stats: {
       hp: "100",
@@ -23122,18 +17787,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Amorphous"],
-    learnsets: "0593",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0594",
@@ -23145,12 +17799,14 @@ const Pokedex = [
       hidden: "Regenerator",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/alomomola.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/alomomola.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/alomomola.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/alomomola.gif",
     },
     stats: {
       hp: "165",
@@ -23161,18 +17817,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Water 1", "Water 2"],
-    learnsets: "0594",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0595",
@@ -23184,12 +17829,14 @@ const Pokedex = [
       hidden: "Swarm",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/joltik.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/joltik.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/joltik.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/joltik.gif",
     },
     stats: {
       hp: "50",
@@ -23200,18 +17847,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Bug"],
-    learnsets: "0595",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0596",
@@ -23223,12 +17859,14 @@ const Pokedex = [
       hidden: "Swarm",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/galvantula.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/galvantula.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/galvantula.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/galvantula.gif",
     },
     stats: {
       hp: "70",
@@ -23239,18 +17877,7 @@ const Pokedex = [
       speed: "108",
     },
     eggGroups: ["Bug"],
-    learnsets: "0596",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0597",
@@ -23262,12 +17889,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/ferroseed.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/ferroseed.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/ferroseed.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/ferroseed.gif",
     },
     stats: {
       hp: "44",
@@ -23278,18 +17907,7 @@ const Pokedex = [
       speed: "10",
     },
     eggGroups: ["Grass", "Mineral"],
-    learnsets: "0597",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0598",
@@ -23298,15 +17916,17 @@ const Pokedex = [
     types: ["Grass", "Steel"],
     abilities: {
       normal: ["Iron Barbs"],
-      hidden: "AnticipationGen VI+",
+      hidden: "Anticipation",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/ferrothorn.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/ferrothorn.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/ferrothorn.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/ferrothorn.gif",
     },
     stats: {
       hp: "74",
@@ -23317,18 +17937,7 @@ const Pokedex = [
       speed: "20",
     },
     eggGroups: ["Grass", "Mineral"],
-    learnsets: "0598",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0599",
@@ -23340,12 +17949,14 @@ const Pokedex = [
       hidden: "Clear Body",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/klink.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/klink.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/klink.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/klink.gif",
     },
     stats: {
       hp: "40",
@@ -23356,18 +17967,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0599",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0600",
@@ -23379,12 +17979,14 @@ const Pokedex = [
       hidden: "Clear Body",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/klang.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/klang.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/klang.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/klang.gif",
     },
     stats: {
       hp: "60",
@@ -23395,18 +17997,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0600",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0601",
@@ -23418,12 +18009,14 @@ const Pokedex = [
       hidden: "Clear Body",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/klinklang.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/klinklang.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/klinklang.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/klinklang.gif",
     },
     stats: {
       hp: "60",
@@ -23434,18 +18027,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0601",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0602",
@@ -23457,12 +18039,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/tynamo.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/tynamo.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/tynamo.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/tynamo.gif",
     },
     stats: {
       hp: "35",
@@ -23473,18 +18057,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Amorphous"],
-    learnsets: "0602",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0603",
@@ -23496,12 +18069,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/eelektrik.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/eelektrik.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/eelektrik.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/eelektrik.gif",
     },
     stats: {
       hp: "65",
@@ -23512,18 +18087,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Amorphous"],
-    learnsets: "0603",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0604",
@@ -23535,12 +18099,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/eelektross.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/eelektross.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/eelektross.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/eelektross.gif",
     },
     stats: {
       hp: "85",
@@ -23551,18 +18117,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Amorphous"],
-    learnsets: "0604",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0605",
@@ -23574,12 +18129,14 @@ const Pokedex = [
       hidden: "Analytic",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/elgyem.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/elgyem.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/elgyem.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/elgyem.gif",
     },
     stats: {
       hp: "55",
@@ -23590,18 +18147,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Human-Like"],
-    learnsets: "0605",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0606",
@@ -23613,12 +18159,14 @@ const Pokedex = [
       hidden: "Analytic",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/beheeyem.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/beheeyem.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/beheeyem.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/beheeyem.gif",
     },
     stats: {
       hp: "75",
@@ -23629,18 +18177,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Human-Like"],
-    learnsets: "0606",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0607",
@@ -23649,15 +18186,17 @@ const Pokedex = [
     types: ["Ghost", "Fire"],
     abilities: {
       normal: ["Flash Fire", "Flame Body"],
-      hidden: "InfiltratorGen VI+",
+      hidden: "Infiltrator",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/litwick.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/litwick.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/litwick.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/litwick.gif",
     },
     stats: {
       hp: "50",
@@ -23668,18 +18207,7 @@ const Pokedex = [
       speed: "20",
     },
     eggGroups: ["Amorphous"],
-    learnsets: "0607",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0608",
@@ -23688,15 +18216,17 @@ const Pokedex = [
     types: ["Ghost", "Fire"],
     abilities: {
       normal: ["Flash Fire", "Flame Body"],
-      hidden: "InfiltratorGen VI+",
+      hidden: "Infiltrator",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/lampent.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/lampent.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/lampent.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/lampent.gif",
     },
     stats: {
       hp: "60",
@@ -23707,18 +18237,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Amorphous"],
-    learnsets: "0608",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0609",
@@ -23727,15 +18246,17 @@ const Pokedex = [
     types: ["Ghost", "Fire"],
     abilities: {
       normal: ["Flash Fire", "Flame Body"],
-      hidden: "InfiltratorGen VI+",
+      hidden: "Infiltrator",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/chandelure.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/chandelure.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/chandelure.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/chandelure.gif",
     },
     stats: {
       hp: "60",
@@ -23746,18 +18267,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Amorphous"],
-    learnsets: "0609",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0610",
@@ -23769,12 +18279,14 @@ const Pokedex = [
       hidden: "Unnerve",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/axew.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/axew.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/axew.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/axew.gif",
     },
     stats: {
       hp: "46",
@@ -23785,18 +18297,7 @@ const Pokedex = [
       speed: "57",
     },
     eggGroups: ["Monster", "Dragon"],
-    learnsets: "0610",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0611",
@@ -23808,12 +18309,14 @@ const Pokedex = [
       hidden: "Unnerve",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/fraxure.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/fraxure.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/fraxure.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/fraxure.gif",
     },
     stats: {
       hp: "66",
@@ -23824,18 +18327,7 @@ const Pokedex = [
       speed: "67",
     },
     eggGroups: ["Monster", "Dragon"],
-    learnsets: "0611",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0612",
@@ -23847,12 +18339,14 @@ const Pokedex = [
       hidden: "Unnerve",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/haxorus.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/haxorus.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/haxorus.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/haxorus.gif",
     },
     stats: {
       hp: "76",
@@ -23863,18 +18357,7 @@ const Pokedex = [
       speed: "97",
     },
     eggGroups: ["Monster", "Dragon"],
-    learnsets: "0612",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0613",
@@ -23882,16 +18365,18 @@ const Pokedex = [
     region: "Unova",
     types: ["Ice"],
     abilities: {
-      normal: ["Snow Cloak", "Slush RushGen VII+"],
+      normal: ["Snow Cloak", "Slush Rush"],
       hidden: "Rattled",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/cubchoo.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/cubchoo.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/cubchoo.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/cubchoo.gif",
     },
     stats: {
       hp: "55",
@@ -23902,18 +18387,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Field"],
-    learnsets: "0613",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0614",
@@ -23921,16 +18395,18 @@ const Pokedex = [
     region: "Unova",
     types: ["Ice"],
     abilities: {
-      normal: ["Snow Cloak", "Slush RushGen VII+"],
+      normal: ["Snow Cloak", "Slush Rush"],
       hidden: "Swift Swim",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/beartic.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/beartic.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/beartic.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/beartic.gif",
     },
     stats: {
       hp: "95",
@@ -23941,18 +18417,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Field"],
-    learnsets: "0614",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0615",
@@ -23964,12 +18429,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/cryogonal.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/cryogonal.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/cryogonal.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/cryogonal.gif",
     },
     stats: {
       hp: "80",
@@ -23980,18 +18447,7 @@ const Pokedex = [
       speed: "105",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0615",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0616",
@@ -24003,12 +18459,14 @@ const Pokedex = [
       hidden: "Overcoat",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/shelmet.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/shelmet.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/shelmet.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/shelmet.gif",
     },
     stats: {
       hp: "50",
@@ -24019,18 +18477,7 @@ const Pokedex = [
       speed: "25",
     },
     eggGroups: ["Bug"],
-    learnsets: "0616",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0617",
@@ -24042,12 +18489,14 @@ const Pokedex = [
       hidden: "Unburden",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/accelgor.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/accelgor.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/accelgor.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/accelgor.gif",
     },
     stats: {
       hp: "80",
@@ -24058,18 +18507,7 @@ const Pokedex = [
       speed: "145",
     },
     eggGroups: ["Bug"],
-    learnsets: "0617",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0618",
@@ -24081,12 +18519,14 @@ const Pokedex = [
       hidden: "Sand Veil",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/stunfisk.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/stunfisk.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/stunfisk.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/stunfisk.gif",
     },
     stats: {
       hp: "109",
@@ -24097,18 +18537,7 @@ const Pokedex = [
       speed: "32",
     },
     eggGroups: ["Water 1", "Amorphous"],
-    learnsets: "0618",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0619",
@@ -24120,12 +18549,14 @@ const Pokedex = [
       hidden: "Reckless",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/mienfoo.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/mienfoo.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/mienfoo.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/mienfoo.gif",
     },
     stats: {
       hp: "45",
@@ -24136,18 +18567,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Field", "Human-Like"],
-    learnsets: "0619",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0620",
@@ -24159,12 +18579,14 @@ const Pokedex = [
       hidden: "Reckless",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/mienshao.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/mienshao.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/mienshao.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/mienshao.gif",
     },
     stats: {
       hp: "65",
@@ -24175,18 +18597,7 @@ const Pokedex = [
       speed: "105",
     },
     eggGroups: ["Field", "Human-Like"],
-    learnsets: "0620",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0621",
@@ -24198,12 +18609,14 @@ const Pokedex = [
       hidden: "Mold Breaker",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/druddigon.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/druddigon.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/druddigon.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/druddigon.gif",
     },
     stats: {
       hp: "77",
@@ -24214,18 +18627,7 @@ const Pokedex = [
       speed: "48",
     },
     eggGroups: ["Dragon", "Monster"],
-    learnsets: "0621",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0622",
@@ -24237,12 +18639,14 @@ const Pokedex = [
       hidden: "No Guard",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/golett.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/golett.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/golett.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/golett.gif",
     },
     stats: {
       hp: "59",
@@ -24253,18 +18657,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0622",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0623",
@@ -24276,12 +18669,14 @@ const Pokedex = [
       hidden: "No Guard",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/golurk.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/golurk.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/golurk.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/golurk.gif",
     },
     stats: {
       hp: "89",
@@ -24292,18 +18687,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0623",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0624",
@@ -24315,12 +18699,14 @@ const Pokedex = [
       hidden: "Pressure",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/pawniard.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/pawniard.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/pawniard.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/pawniard.gif",
     },
     stats: {
       hp: "45",
@@ -24331,18 +18717,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Human-Like"],
-    learnsets: "0624",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0625",
@@ -24354,12 +18729,14 @@ const Pokedex = [
       hidden: "Pressure",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/bisharp.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/bisharp.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/bisharp.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/bisharp.gif",
     },
     stats: {
       hp: "65",
@@ -24370,18 +18747,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Human-Like"],
-    learnsets: "0625",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0626",
@@ -24393,12 +18759,14 @@ const Pokedex = [
       hidden: "Soundproof",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/bouffalant.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/bouffalant.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/bouffalant.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/bouffalant.gif",
     },
     stats: {
       hp: "95",
@@ -24409,18 +18777,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["Field"],
-    learnsets: "0626",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0627",
@@ -24432,12 +18789,14 @@ const Pokedex = [
       hidden: "Hustle",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/rufflet.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/rufflet.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/rufflet.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/rufflet.gif",
     },
     stats: {
       hp: "70",
@@ -24448,18 +18807,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Flying"],
-    learnsets: "0627",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [100, 0],
   },
   {
     id: "0628",
@@ -24471,12 +18819,14 @@ const Pokedex = [
       hidden: "Defiant",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/braviary.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/braviary.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/braviary.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/braviary.gif",
     },
     stats: {
       hp: "100",
@@ -24487,18 +18837,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Flying"],
-    learnsets: "0628",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [100, 0],
   },
   {
     id: "0629",
@@ -24510,12 +18849,14 @@ const Pokedex = [
       hidden: "Weak Armor",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/vullaby.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/vullaby.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/vullaby.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/vullaby.gif",
     },
     stats: {
       hp: "70",
@@ -24526,18 +18867,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Flying"],
-    learnsets: "0629",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 100],
   },
   {
     id: "0630",
@@ -24549,12 +18879,14 @@ const Pokedex = [
       hidden: "Weak Armor",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/mandibuzz.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/mandibuzz.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/mandibuzz.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/mandibuzz.gif",
     },
     stats: {
       hp: "110",
@@ -24565,18 +18897,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Flying"],
-    learnsets: "0630",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 100],
   },
   {
     id: "0631",
@@ -24588,12 +18909,14 @@ const Pokedex = [
       hidden: "White Smoke",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/heatmor.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/heatmor.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/heatmor.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/heatmor.gif",
     },
     stats: {
       hp: "85",
@@ -24604,18 +18927,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Field"],
-    learnsets: "0631",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0632",
@@ -24627,12 +18939,14 @@ const Pokedex = [
       hidden: "Truant",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/durant.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/durant.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/durant.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/durant.gif",
     },
     stats: {
       hp: "58",
@@ -24643,18 +18957,7 @@ const Pokedex = [
       speed: "109",
     },
     eggGroups: ["Bug"],
-    learnsets: "0632",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0633",
@@ -24666,12 +18969,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/deino.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/deino.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/deino.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/deino.gif",
     },
     stats: {
       hp: "52",
@@ -24682,18 +18987,7 @@ const Pokedex = [
       speed: "38",
     },
     eggGroups: ["Dragon"],
-    learnsets: "0633",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0634",
@@ -24705,12 +18999,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/zweilous.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/zweilous.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/zweilous.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/zweilous.gif",
     },
     stats: {
       hp: "72",
@@ -24721,18 +19017,7 @@ const Pokedex = [
       speed: "58",
     },
     eggGroups: ["Dragon"],
-    learnsets: "0634",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0635",
@@ -24744,12 +19029,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/hydreigon.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/hydreigon.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/hydreigon.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/hydreigon.gif",
     },
     stats: {
       hp: "92",
@@ -24760,18 +19047,7 @@ const Pokedex = [
       speed: "98",
     },
     eggGroups: ["Dragon"],
-    learnsets: "0635",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0636",
@@ -24783,12 +19059,14 @@ const Pokedex = [
       hidden: "Swarm",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/larvesta.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/larvesta.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/larvesta.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/larvesta.gif",
     },
     stats: {
       hp: "55",
@@ -24799,18 +19077,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Bug"],
-    learnsets: "0636",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0637",
@@ -24822,12 +19089,14 @@ const Pokedex = [
       hidden: "Swarm",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/volcarona.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/volcarona.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/volcarona.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/volcarona.gif",
     },
     stats: {
       hp: "85",
@@ -24838,18 +19107,7 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["Bug"],
-    learnsets: "0637",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0638",
@@ -24861,12 +19119,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/cobalion.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/cobalion.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/cobalion.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/cobalion.gif",
     },
     stats: {
       hp: "91",
@@ -24877,18 +19137,7 @@ const Pokedex = [
       speed: "108",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0638",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0639",
@@ -24900,12 +19149,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/terrakion.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/terrakion.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/terrakion.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/terrakion.gif",
     },
     stats: {
       hp: "91",
@@ -24916,18 +19167,7 @@ const Pokedex = [
       speed: "108",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0639",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0640",
@@ -24939,12 +19179,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/virizion.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/virizion.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/virizion.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/virizion.gif",
     },
     stats: {
       hp: "91",
@@ -24955,22 +19197,11 @@ const Pokedex = [
       speed: "108",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0640",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0641",
-    name: "Tornadus Incarnate",
+    name: "Tornadus",
     region: "Unova",
     types: ["Flying"],
     abilities: {
@@ -24978,12 +19209,14 @@ const Pokedex = [
       hidden: "Defiant",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/tornadus.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/tornadus.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/tornadus.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/tornadus.gif",
     },
     stats: {
       hp: "79",
@@ -24994,22 +19227,11 @@ const Pokedex = [
       speed: "111",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0641",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [100, 0],
   },
   {
     id: "0642",
-    name: "Thundurus Incarnate",
+    name: "Thundurus",
     region: "Unova",
     types: ["Electric", "Flying"],
     abilities: {
@@ -25017,12 +19239,14 @@ const Pokedex = [
       hidden: "Defiant",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/thundurus.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/thundurus.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/thundurus.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/thundurus.gif",
     },
     stats: {
       hp: "79",
@@ -25033,18 +19257,7 @@ const Pokedex = [
       speed: "111",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0642",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [100, 0],
   },
   {
     id: "0643",
@@ -25056,12 +19269,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/reshiram.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/reshiram.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/reshiram.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/reshiram.gif",
     },
     stats: {
       hp: "100",
@@ -25072,18 +19287,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0643",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0644",
@@ -25095,12 +19299,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/zekrom.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/zekrom.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/zekrom.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/zekrom.gif",
     },
     stats: {
       hp: "100",
@@ -25111,22 +19317,11 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0644",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0645",
-    name: "Landorus Incarnate",
+    name: "Landorus",
     region: "Unova",
     types: ["Ground", "Flying"],
     abilities: {
@@ -25134,12 +19329,14 @@ const Pokedex = [
       hidden: "Sheer Force",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/landorus.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/landorus.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/landorus.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/landorus.gif",
     },
     stats: {
       hp: "89",
@@ -25150,18 +19347,7 @@ const Pokedex = [
       speed: "101",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0645",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [100, 0],
   },
   {
     id: "0646",
@@ -25173,12 +19359,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/kyurem.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/kyurem.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/kyurem.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/kyurem.gif",
     },
     stats: {
       hp: "125",
@@ -25189,22 +19377,11 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0646",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0647",
-    name: "Keldeo Ordinary",
+    name: "Keldeo",
     region: "Unova",
     types: ["Water", "Fighting"],
     abilities: {
@@ -25212,12 +19389,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/keldeo.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/keldeo.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/keldeo.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/keldeo.gif",
     },
     stats: {
       hp: "91",
@@ -25228,22 +19407,11 @@ const Pokedex = [
       speed: "108",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0647",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0648",
-    name: "Meloetta Aria",
+    name: "Meloetta",
     region: "Unova",
     types: ["Normal", "Psychic"],
     abilities: {
@@ -25251,12 +19419,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/meloetta.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/meloetta.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/meloetta.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/meloetta.gif",
     },
     stats: {
       hp: "100",
@@ -25267,18 +19437,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0648",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0649",
@@ -25290,12 +19449,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/genesect.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/genesect.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/genesect.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/genesect.gif",
     },
     stats: {
       hp: "71",
@@ -25306,18 +19467,7 @@ const Pokedex = [
       speed: "99",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0649",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0650",
@@ -25329,12 +19479,14 @@ const Pokedex = [
       hidden: "Bulletproof",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/chespin.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/chespin.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/chespin.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/chespin.gif",
     },
     stats: {
       hp: "56",
@@ -25345,18 +19497,7 @@ const Pokedex = [
       speed: "38",
     },
     eggGroups: ["Field"],
-    learnsets: "0650",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0651",
@@ -25368,12 +19509,14 @@ const Pokedex = [
       hidden: "Bulletproof",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/quilladin.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/quilladin.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/quilladin.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/quilladin.gif",
     },
     stats: {
       hp: "61",
@@ -25384,18 +19527,7 @@ const Pokedex = [
       speed: "57",
     },
     eggGroups: ["Field"],
-    learnsets: "0651",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0652",
@@ -25407,12 +19539,14 @@ const Pokedex = [
       hidden: "Bulletproof",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/chesnaught.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/chesnaught.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/chesnaught.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/chesnaught.gif",
     },
     stats: {
       hp: "88",
@@ -25423,18 +19557,7 @@ const Pokedex = [
       speed: "64",
     },
     eggGroups: ["Field"],
-    learnsets: "0652",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0653",
@@ -25446,12 +19569,14 @@ const Pokedex = [
       hidden: "Magician",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/fennekin.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/fennekin.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/fennekin.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/fennekin.gif",
     },
     stats: {
       hp: "40",
@@ -25462,18 +19587,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Field"],
-    learnsets: "0653",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0654",
@@ -25485,12 +19599,14 @@ const Pokedex = [
       hidden: "Magician",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/braixen.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/braixen.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/braixen.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/braixen.gif",
     },
     stats: {
       hp: "59",
@@ -25501,18 +19617,7 @@ const Pokedex = [
       speed: "73",
     },
     eggGroups: ["Field"],
-    learnsets: "0654",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0655",
@@ -25524,12 +19629,14 @@ const Pokedex = [
       hidden: "Magician",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/delphox.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/delphox.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/delphox.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/delphox.gif",
     },
     stats: {
       hp: "75",
@@ -25540,18 +19647,7 @@ const Pokedex = [
       speed: "104",
     },
     eggGroups: ["Field"],
-    learnsets: "0655",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0656",
@@ -25563,12 +19659,14 @@ const Pokedex = [
       hidden: "Protean",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/froakie.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/froakie.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/froakie.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/froakie.gif",
     },
     stats: {
       hp: "41",
@@ -25579,18 +19677,7 @@ const Pokedex = [
       speed: "71",
     },
     eggGroups: ["Water 1"],
-    learnsets: "0656",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0657",
@@ -25602,12 +19689,14 @@ const Pokedex = [
       hidden: "Protean",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/frogadier.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/frogadier.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/frogadier.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/frogadier.gif",
     },
     stats: {
       hp: "54",
@@ -25618,18 +19707,7 @@ const Pokedex = [
       speed: "97",
     },
     eggGroups: ["Water 1"],
-    learnsets: "0657",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0658",
@@ -25641,12 +19719,14 @@ const Pokedex = [
       hidden: "Protean",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/greninja.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/greninja.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/greninja.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/greninja.gif",
     },
     stats: {
       hp: "72",
@@ -25657,18 +19737,7 @@ const Pokedex = [
       speed: "122",
     },
     eggGroups: ["Water 1"],
-    learnsets: "0658",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0659",
@@ -25680,12 +19749,14 @@ const Pokedex = [
       hidden: "Huge Power",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/bunnelby.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/bunnelby.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/bunnelby.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/bunnelby.gif",
     },
     stats: {
       hp: "38",
@@ -25696,18 +19767,7 @@ const Pokedex = [
       speed: "57",
     },
     eggGroups: ["Field"],
-    learnsets: "0659",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0660",
@@ -25719,12 +19779,14 @@ const Pokedex = [
       hidden: "Huge Power",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/diggersby.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/diggersby.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/diggersby.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/diggersby.gif",
     },
     stats: {
       hp: "85",
@@ -25735,18 +19797,7 @@ const Pokedex = [
       speed: "78",
     },
     eggGroups: ["Field"],
-    learnsets: "0660",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0661",
@@ -25758,12 +19809,14 @@ const Pokedex = [
       hidden: "Gale Wings",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/fletchling.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/fletchling.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/fletchling.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/fletchling.gif",
     },
     stats: {
       hp: "45",
@@ -25774,18 +19827,7 @@ const Pokedex = [
       speed: "62",
     },
     eggGroups: ["Flying"],
-    learnsets: "0661",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0662",
@@ -25797,12 +19839,14 @@ const Pokedex = [
       hidden: "Gale Wings",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/fletchinder.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/fletchinder.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/fletchinder.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/fletchinder.gif",
     },
     stats: {
       hp: "62",
@@ -25813,18 +19857,7 @@ const Pokedex = [
       speed: "84",
     },
     eggGroups: ["Flying"],
-    learnsets: "0662",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0663",
@@ -25836,12 +19869,14 @@ const Pokedex = [
       hidden: "Gale Wings",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/talonflame.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/talonflame.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/talonflame.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/talonflame.gif",
     },
     stats: {
       hp: "78",
@@ -25852,18 +19887,7 @@ const Pokedex = [
       speed: "126",
     },
     eggGroups: ["Flying"],
-    learnsets: "0663",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0664",
@@ -25875,12 +19899,14 @@ const Pokedex = [
       hidden: "Friend Guard",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/scatterbug.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/scatterbug.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/scatterbug.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/scatterbug.gif",
     },
     stats: {
       hp: "38",
@@ -25891,18 +19917,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Bug"],
-    learnsets: "0664",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0665",
@@ -25914,12 +19929,14 @@ const Pokedex = [
       hidden: "Friend Guard",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/spewpa.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/spewpa.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/spewpa.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/spewpa.gif",
     },
     stats: {
       hp: "45",
@@ -25930,18 +19947,7 @@ const Pokedex = [
       speed: "29",
     },
     eggGroups: ["Bug"],
-    learnsets: "0665",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0666",
@@ -25953,12 +19959,14 @@ const Pokedex = [
       hidden: "Friend Guard",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/vivillon.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/vivillon.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/vivillon.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/vivillon.gif",
     },
     stats: {
       hp: "80",
@@ -25969,18 +19977,7 @@ const Pokedex = [
       speed: "89",
     },
     eggGroups: ["Bug"],
-    learnsets: "0666",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0667",
@@ -25992,12 +19989,14 @@ const Pokedex = [
       hidden: "Moxie",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/litleo.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/litleo.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/litleo.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/litleo.gif",
     },
     stats: {
       hp: "62",
@@ -26008,18 +20007,7 @@ const Pokedex = [
       speed: "72",
     },
     eggGroups: ["Field"],
-    learnsets: "0667",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [12.5, 87.5],
   },
   {
     id: "0668",
@@ -26031,12 +20019,14 @@ const Pokedex = [
       hidden: "Moxie",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/pyroar.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/pyroar.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/pyroar.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/pyroar.gif",
     },
     stats: {
       hp: "86",
@@ -26047,18 +20037,7 @@ const Pokedex = [
       speed: "106",
     },
     eggGroups: ["Field"],
-    learnsets: "0668",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [12.5, 87.5],
   },
   {
     id: "0669",
@@ -26070,12 +20049,14 @@ const Pokedex = [
       hidden: "Symbiosis",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/flabebe.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/flabebe.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/flabebe.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/flabebe.gif",
     },
     stats: {
       hp: "44",
@@ -26086,18 +20067,7 @@ const Pokedex = [
       speed: "42",
     },
     eggGroups: ["Fairy"],
-    learnsets: "0669",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 100],
   },
   {
     id: "0670",
@@ -26109,12 +20079,14 @@ const Pokedex = [
       hidden: "Symbiosis",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/floette.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/floette.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/floette.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/floette.gif",
     },
     stats: {
       hp: "54",
@@ -26125,18 +20097,7 @@ const Pokedex = [
       speed: "52",
     },
     eggGroups: ["Fairy"],
-    learnsets: "0670",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 100],
   },
   {
     id: "0671",
@@ -26148,12 +20109,14 @@ const Pokedex = [
       hidden: "Symbiosis",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/florges.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/florges.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/florges.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/florges.gif",
     },
     stats: {
       hp: "78",
@@ -26164,18 +20127,7 @@ const Pokedex = [
       speed: "75",
     },
     eggGroups: ["Fairy"],
-    learnsets: "0671",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 100],
   },
   {
     id: "0672",
@@ -26187,12 +20139,14 @@ const Pokedex = [
       hidden: "Grass Pelt",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/skiddo.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/skiddo.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/skiddo.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/skiddo.gif",
     },
     stats: {
       hp: "66",
@@ -26203,18 +20157,7 @@ const Pokedex = [
       speed: "52",
     },
     eggGroups: ["Field"],
-    learnsets: "0672",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0673",
@@ -26226,12 +20169,14 @@ const Pokedex = [
       hidden: "Grass Pelt",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/gogoat.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/gogoat.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/gogoat.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/gogoat.gif",
     },
     stats: {
       hp: "123",
@@ -26242,18 +20187,7 @@ const Pokedex = [
       speed: "68",
     },
     eggGroups: ["Field"],
-    learnsets: "0673",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0674",
@@ -26265,12 +20199,14 @@ const Pokedex = [
       hidden: "Scrappy",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/pancham.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/pancham.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/pancham.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/pancham.gif",
     },
     stats: {
       hp: "67",
@@ -26281,18 +20217,7 @@ const Pokedex = [
       speed: "43",
     },
     eggGroups: ["Field", "Human-Like"],
-    learnsets: "0674",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0675",
@@ -26304,12 +20229,14 @@ const Pokedex = [
       hidden: "Scrappy",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/pangoro.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/pangoro.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/pangoro.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/pangoro.gif",
     },
     stats: {
       hp: "95",
@@ -26320,18 +20247,7 @@ const Pokedex = [
       speed: "58",
     },
     eggGroups: ["Field", "Human-Like"],
-    learnsets: "0675",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0676",
@@ -26343,12 +20259,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/furfrou.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/furfrou.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/furfrou.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/furfrou.gif",
     },
     stats: {
       hp: "75",
@@ -26359,18 +20277,7 @@ const Pokedex = [
       speed: "102",
     },
     eggGroups: ["Field"],
-    learnsets: "0676",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0677",
@@ -26382,12 +20289,14 @@ const Pokedex = [
       hidden: "Own Tempo",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/espurr.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/espurr.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/espurr.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/espurr.gif",
     },
     stats: {
       hp: "62",
@@ -26398,22 +20307,11 @@ const Pokedex = [
       speed: "68",
     },
     eggGroups: ["Field"],
-    learnsets: "0677",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0678",
-    name: "Meowstic Male",
+    name: "Meowstic",
     region: "Kalos",
     types: ["Psychic"],
     abilities: {
@@ -26421,12 +20319,14 @@ const Pokedex = [
       hidden: "Prankster",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/meowstic.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/meowstic.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/meowstic.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/meowstic.gif",
     },
     stats: {
       hp: "74",
@@ -26437,18 +20337,7 @@ const Pokedex = [
       speed: "104",
     },
     eggGroups: ["Field"],
-    learnsets: "0678",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0679",
@@ -26460,12 +20349,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/honedge.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/honedge.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/honedge.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/honedge.gif",
     },
     stats: {
       hp: "45",
@@ -26476,18 +20367,7 @@ const Pokedex = [
       speed: "28",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0679",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0680",
@@ -26499,12 +20379,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/doublade.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/doublade.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/doublade.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/doublade.gif",
     },
     stats: {
       hp: "59",
@@ -26515,22 +20397,11 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0680",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0681",
-    name: "Aegislash Shield",
+    name: "Aegislash",
     region: "Kalos",
     types: ["Steel", "Ghost"],
     abilities: {
@@ -26538,12 +20409,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/aegislash.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/aegislash.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/aegislash.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/aegislash.gif",
     },
     stats: {
       hp: "60",
@@ -26554,18 +20427,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0681",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0682",
@@ -26577,12 +20439,14 @@ const Pokedex = [
       hidden: "Aroma Veil",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/spritzee.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/spritzee.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/spritzee.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/spritzee.gif",
     },
     stats: {
       hp: "78",
@@ -26593,18 +20457,7 @@ const Pokedex = [
       speed: "23",
     },
     eggGroups: ["Fairy"],
-    learnsets: "0682",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0683",
@@ -26616,12 +20469,14 @@ const Pokedex = [
       hidden: "Aroma Veil",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/aromatisse.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/aromatisse.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/aromatisse.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/aromatisse.gif",
     },
     stats: {
       hp: "101",
@@ -26632,18 +20487,7 @@ const Pokedex = [
       speed: "29",
     },
     eggGroups: ["Fairy"],
-    learnsets: "0683",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0684",
@@ -26655,12 +20499,14 @@ const Pokedex = [
       hidden: "Unburden",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/swirlix.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/swirlix.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/swirlix.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/swirlix.gif",
     },
     stats: {
       hp: "62",
@@ -26671,18 +20517,7 @@ const Pokedex = [
       speed: "49",
     },
     eggGroups: ["Fairy"],
-    learnsets: "0684",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0685",
@@ -26694,12 +20529,14 @@ const Pokedex = [
       hidden: "Unburden",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/slurpuff.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/slurpuff.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/slurpuff.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/slurpuff.gif",
     },
     stats: {
       hp: "82",
@@ -26710,18 +20547,7 @@ const Pokedex = [
       speed: "72",
     },
     eggGroups: ["Fairy"],
-    learnsets: "0685",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0686",
@@ -26733,12 +20559,14 @@ const Pokedex = [
       hidden: "Infiltrator",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/inkay.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/inkay.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/inkay.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/inkay.gif",
     },
     stats: {
       hp: "53",
@@ -26749,18 +20577,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Water 1", "Water 2"],
-    learnsets: "0686",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0687",
@@ -26772,12 +20589,14 @@ const Pokedex = [
       hidden: "Infiltrator",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/malamar.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/malamar.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/malamar.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/malamar.gif",
     },
     stats: {
       hp: "86",
@@ -26788,18 +20607,7 @@ const Pokedex = [
       speed: "73",
     },
     eggGroups: ["Water 1", "Water 2"],
-    learnsets: "0687",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0688",
@@ -26811,12 +20619,14 @@ const Pokedex = [
       hidden: "Pickpocket",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/binacle.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/binacle.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/binacle.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/binacle.gif",
     },
     stats: {
       hp: "42",
@@ -26827,18 +20637,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Water 3"],
-    learnsets: "0688",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0689",
@@ -26850,12 +20649,14 @@ const Pokedex = [
       hidden: "Pickpocket",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/barbaracle.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/barbaracle.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/barbaracle.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/barbaracle.gif",
     },
     stats: {
       hp: "72",
@@ -26866,18 +20667,7 @@ const Pokedex = [
       speed: "68",
     },
     eggGroups: ["Water 3"],
-    learnsets: "0689",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0690",
@@ -26889,12 +20679,14 @@ const Pokedex = [
       hidden: "Adaptability",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/skrelp.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/skrelp.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/skrelp.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/skrelp.gif",
     },
     stats: {
       hp: "50",
@@ -26905,18 +20697,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Water 1", "Dragon"],
-    learnsets: "0690",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0691",
@@ -26928,12 +20709,14 @@ const Pokedex = [
       hidden: "Adaptability",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/dragalge.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/dragalge.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/dragalge.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/dragalge.gif",
     },
     stats: {
       hp: "65",
@@ -26944,18 +20727,7 @@ const Pokedex = [
       speed: "44",
     },
     eggGroups: ["Water 1", "Dragon"],
-    learnsets: "0691",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0692",
@@ -26967,12 +20739,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/clauncher.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/clauncher.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/clauncher.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/clauncher.gif",
     },
     stats: {
       hp: "50",
@@ -26983,18 +20757,7 @@ const Pokedex = [
       speed: "44",
     },
     eggGroups: ["Water 1", "Water 3"],
-    learnsets: "0692",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0693",
@@ -27006,12 +20769,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/clawitzer.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/clawitzer.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/clawitzer.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/clawitzer.gif",
     },
     stats: {
       hp: "71",
@@ -27022,18 +20787,7 @@ const Pokedex = [
       speed: "59",
     },
     eggGroups: ["Water 1", "Water 3"],
-    learnsets: "0693",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0694",
@@ -27045,12 +20799,14 @@ const Pokedex = [
       hidden: "Solar Power",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/helioptile.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/helioptile.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/helioptile.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/helioptile.gif",
     },
     stats: {
       hp: "44",
@@ -27061,18 +20817,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Monster", "Dragon"],
-    learnsets: "0694",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0695",
@@ -27084,12 +20829,14 @@ const Pokedex = [
       hidden: "Solar Power",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/heliolisk.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/heliolisk.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/heliolisk.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/heliolisk.gif",
     },
     stats: {
       hp: "62",
@@ -27100,18 +20847,7 @@ const Pokedex = [
       speed: "109",
     },
     eggGroups: ["Monster", "Dragon"],
-    learnsets: "0695",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0696",
@@ -27123,12 +20859,14 @@ const Pokedex = [
       hidden: "Sturdy",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/tyrunt.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/tyrunt.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/tyrunt.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/tyrunt.gif",
     },
     stats: {
       hp: "58",
@@ -27139,18 +20877,7 @@ const Pokedex = [
       speed: "48",
     },
     eggGroups: ["Monster", "Dragon"],
-    learnsets: "0696",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0697",
@@ -27162,12 +20889,14 @@ const Pokedex = [
       hidden: "Rock Head",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/tyrantrum.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/tyrantrum.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/tyrantrum.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/tyrantrum.gif",
     },
     stats: {
       hp: "82",
@@ -27178,18 +20907,7 @@ const Pokedex = [
       speed: "71",
     },
     eggGroups: ["Monster", "Dragon"],
-    learnsets: "0697",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0698",
@@ -27201,12 +20919,14 @@ const Pokedex = [
       hidden: "Snow Warning",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/amaura.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/amaura.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/amaura.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/amaura.gif",
     },
     stats: {
       hp: "77",
@@ -27217,18 +20937,7 @@ const Pokedex = [
       speed: "46",
     },
     eggGroups: ["Monster"],
-    learnsets: "0698",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0699",
@@ -27240,12 +20949,14 @@ const Pokedex = [
       hidden: "Snow Warning",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/aurorus.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/aurorus.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/aurorus.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/aurorus.gif",
     },
     stats: {
       hp: "123",
@@ -27256,18 +20967,7 @@ const Pokedex = [
       speed: "58",
     },
     eggGroups: ["Monster"],
-    learnsets: "0699",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0700",
@@ -27279,12 +20979,14 @@ const Pokedex = [
       hidden: "Pixilate",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/sylveon.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/sylveon.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/sylveon.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/sylveon.gif",
     },
     stats: {
       hp: "95",
@@ -27295,18 +20997,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Field"],
-    learnsets: "0700",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0701",
@@ -27318,12 +21009,14 @@ const Pokedex = [
       hidden: "Mold Breaker",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/hawlucha.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/hawlucha.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/hawlucha.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/hawlucha.gif",
     },
     stats: {
       hp: "78",
@@ -27333,19 +21026,8 @@ const Pokedex = [
       spd: "63",
       speed: "118",
     },
-    eggGroups: ["Flying*", "Human-Like"],
-    learnsets: "0701",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    eggGroups: ["Flying", "Human-Like"],
+    genderRatios: [50, 50],
   },
   {
     id: "0702",
@@ -27357,12 +21039,14 @@ const Pokedex = [
       hidden: "Plus",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/dedenne.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/dedenne.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/dedenne.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/dedenne.gif",
     },
     stats: {
       hp: "67",
@@ -27373,18 +21057,7 @@ const Pokedex = [
       speed: "101",
     },
     eggGroups: ["Field", "Fairy"],
-    learnsets: "0702",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0703",
@@ -27396,12 +21069,14 @@ const Pokedex = [
       hidden: "Sturdy",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/carbink.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/carbink.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/carbink.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/carbink.gif",
     },
     stats: {
       hp: "50",
@@ -27412,18 +21087,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Fairy", "Mineral"],
-    learnsets: "0703",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0704",
@@ -27435,12 +21099,14 @@ const Pokedex = [
       hidden: "Gooey",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/goomy.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/goomy.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/goomy.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/goomy.gif",
     },
     stats: {
       hp: "45",
@@ -27451,18 +21117,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Dragon"],
-    learnsets: "0704",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0705",
@@ -27474,12 +21129,14 @@ const Pokedex = [
       hidden: "Gooey",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/sliggoo.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/sliggoo.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/sliggoo.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/sliggoo.gif",
     },
     stats: {
       hp: "68",
@@ -27490,18 +21147,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Dragon"],
-    learnsets: "0705",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0706",
@@ -27513,12 +21159,14 @@ const Pokedex = [
       hidden: "Gooey",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/goodra.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/goodra.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/goodra.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/goodra.gif",
     },
     stats: {
       hp: "90",
@@ -27529,18 +21177,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Dragon"],
-    learnsets: "0706",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0707",
@@ -27552,12 +21189,14 @@ const Pokedex = [
       hidden: "Magician",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/klefki.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/klefki.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/klefki.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/klefki.gif",
     },
     stats: {
       hp: "57",
@@ -27568,18 +21207,7 @@ const Pokedex = [
       speed: "75",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0707",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0708",
@@ -27591,12 +21219,14 @@ const Pokedex = [
       hidden: "Harvest",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/phantump.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/phantump.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/phantump.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/phantump.gif",
     },
     stats: {
       hp: "43",
@@ -27607,18 +21237,7 @@ const Pokedex = [
       speed: "38",
     },
     eggGroups: ["Grass", "Amorphous"],
-    learnsets: "0708",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0709",
@@ -27630,12 +21249,14 @@ const Pokedex = [
       hidden: "Harvest",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/trevenant.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/trevenant.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/trevenant.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/trevenant.gif",
     },
     stats: {
       hp: "85",
@@ -27646,22 +21267,11 @@ const Pokedex = [
       speed: "56",
     },
     eggGroups: ["Grass", "Amorphous"],
-    learnsets: "0709",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0710",
-    name: "Pumpkaboo Average",
+    name: "Pumpkaboo",
     region: "Kalos",
     types: ["Ghost", "Grass"],
     abilities: {
@@ -27669,12 +21279,14 @@ const Pokedex = [
       hidden: "Insomnia",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/pumpkaboo.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/pumpkaboo.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/pumpkaboo.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/pumpkaboo.gif",
     },
     stats: {
       hp: "49",
@@ -27685,22 +21297,11 @@ const Pokedex = [
       speed: "51",
     },
     eggGroups: ["Amorphous"],
-    learnsets: "0710",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0711",
-    name: "Gourgeist Average",
+    name: "Gourgeist",
     region: "Kalos",
     types: ["Ghost", "Grass"],
     abilities: {
@@ -27708,12 +21309,14 @@ const Pokedex = [
       hidden: "Insomnia",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/gourgeist.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/gourgeist.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/gourgeist.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/gourgeist.gif",
     },
     stats: {
       hp: "65",
@@ -27724,18 +21327,7 @@ const Pokedex = [
       speed: "84",
     },
     eggGroups: ["Amorphous"],
-    learnsets: "0711",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0712",
@@ -27747,12 +21339,14 @@ const Pokedex = [
       hidden: "Sturdy",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/bergmite.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/bergmite.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/bergmite.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/bergmite.gif",
     },
     stats: {
       hp: "55",
@@ -27762,19 +21356,8 @@ const Pokedex = [
       spd: "35",
       speed: "28",
     },
-    eggGroups: ["Monster", "Mineral*"],
-    learnsets: "0712",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    eggGroups: ["Monster", "Mineral"],
+    genderRatios: [50, 50],
   },
   {
     id: "0713",
@@ -27786,12 +21369,14 @@ const Pokedex = [
       hidden: "Sturdy",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/avalugg.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/avalugg.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/avalugg.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/avalugg.gif",
     },
     stats: {
       hp: "95",
@@ -27801,19 +21386,8 @@ const Pokedex = [
       spd: "46",
       speed: "28",
     },
-    eggGroups: ["Monster", "Mineral*"],
-    learnsets: "0713",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    eggGroups: ["Monster", "Mineral"],
+    genderRatios: [50, 50],
   },
   {
     id: "0714",
@@ -27825,12 +21399,14 @@ const Pokedex = [
       hidden: "Telepathy",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/noibat.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/noibat.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/noibat.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/noibat.gif",
     },
     stats: {
       hp: "40",
@@ -27840,19 +21416,8 @@ const Pokedex = [
       spd: "40",
       speed: "55",
     },
-    eggGroups: ["Flying", "Dragon*"],
-    learnsets: "0714",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    eggGroups: ["Flying", "Dragon"],
+    genderRatios: [50, 50],
   },
   {
     id: "0715",
@@ -27864,12 +21429,14 @@ const Pokedex = [
       hidden: "Telepathy",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/noivern.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/noivern.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/noivern.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/noivern.gif",
     },
     stats: {
       hp: "85",
@@ -27879,19 +21446,8 @@ const Pokedex = [
       spd: "80",
       speed: "123",
     },
-    eggGroups: ["Flying", "Dragon*"],
-    learnsets: "0715",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    eggGroups: ["Flying", "Dragon"],
+    genderRatios: [50, 50],
   },
   {
     id: "0716",
@@ -27903,12 +21459,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/xerneas.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/xerneas.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/xerneas.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/xerneas.gif",
     },
     stats: {
       hp: "126",
@@ -27919,18 +21477,7 @@ const Pokedex = [
       speed: "99",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0716",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0717",
@@ -27942,12 +21489,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/yveltal.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/yveltal.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/yveltal.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/yveltal.gif",
     },
     stats: {
       hp: "126",
@@ -27958,35 +21507,26 @@ const Pokedex = [
       speed: "99",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0717",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0718",
-    name: "Zygarde 50",
+    name: "Zygarde",
     region: "Kalos",
     types: ["Dragon", "Ground"],
     abilities: {
-      normal: ["Aura Break", "Power ConstructGen VII+"],
+      normal: ["Aura Break", "Power Construct"],
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/zygarde.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/zygarde.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/zygarde.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/zygarde.gif",
     },
     stats: {
       hp: "108",
@@ -27997,18 +21537,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0718",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0719",
@@ -28020,12 +21549,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/diancie.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/diancie.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/diancie.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/diancie.gif",
     },
     stats: {
       hp: "50",
@@ -28036,18 +21567,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0719",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0720",
@@ -28059,12 +21579,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/hoopa.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/hoopa.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/hoopa.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/hoopa.gif",
     },
     stats: {
       hp: "80",
@@ -28075,18 +21597,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0720",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0721",
@@ -28098,12 +21609,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/volcanion.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/volcanion.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/volcanion.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/volcanion.gif",
     },
     stats: {
       hp: "80",
@@ -28114,18 +21627,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0721",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0722",
@@ -28137,12 +21639,14 @@ const Pokedex = [
       hidden: "Long Reach",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/rowlet.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/rowlet.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/rowlet.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/rowlet.gif",
     },
     stats: {
       hp: "68",
@@ -28153,18 +21657,7 @@ const Pokedex = [
       speed: "42",
     },
     eggGroups: ["Flying"],
-    learnsets: "0722",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0723",
@@ -28176,12 +21669,14 @@ const Pokedex = [
       hidden: "Long Reach",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/dartrix.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/dartrix.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/dartrix.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/dartrix.gif",
     },
     stats: {
       hp: "78",
@@ -28192,18 +21687,7 @@ const Pokedex = [
       speed: "52",
     },
     eggGroups: ["Flying"],
-    learnsets: "0723",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0724",
@@ -28215,12 +21699,14 @@ const Pokedex = [
       hidden: "Long Reach",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/decidueye.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/decidueye.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/decidueye.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/decidueye.gif",
     },
     stats: {
       hp: "78",
@@ -28231,18 +21717,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Flying"],
-    learnsets: "0724",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0725",
@@ -28254,12 +21729,14 @@ const Pokedex = [
       hidden: "Intimidate",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/litten.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/litten.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/litten.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/litten.gif",
     },
     stats: {
       hp: "45",
@@ -28270,18 +21747,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Field"],
-    learnsets: "0725",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0726",
@@ -28293,12 +21759,14 @@ const Pokedex = [
       hidden: "Intimidate",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/torracat.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/torracat.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/torracat.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/torracat.gif",
     },
     stats: {
       hp: "65",
@@ -28309,18 +21777,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Field"],
-    learnsets: "0726",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0727",
@@ -28332,12 +21789,14 @@ const Pokedex = [
       hidden: "Intimidate",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/incineroar.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/incineroar.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/incineroar.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/incineroar.gif",
     },
     stats: {
       hp: "95",
@@ -28348,18 +21807,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Field"],
-    learnsets: "0727",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0728",
@@ -28371,12 +21819,14 @@ const Pokedex = [
       hidden: "Liquid Voice",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/popplio.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/popplio.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/popplio.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/popplio.gif",
     },
     stats: {
       hp: "50",
@@ -28387,18 +21837,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: "0728",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0729",
@@ -28410,12 +21849,14 @@ const Pokedex = [
       hidden: "Liquid Voice",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/brionne.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/brionne.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/brionne.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/brionne.gif",
     },
     stats: {
       hp: "60",
@@ -28426,18 +21867,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: "0729",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0730",
@@ -28449,12 +21879,14 @@ const Pokedex = [
       hidden: "Liquid Voice",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/primarina.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/primarina.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/primarina.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/primarina.gif",
     },
     stats: {
       hp: "80",
@@ -28465,18 +21897,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: "0730",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0731",
@@ -28488,12 +21909,14 @@ const Pokedex = [
       hidden: "Pickup",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/pikipek.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/pikipek.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/pikipek.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/pikipek.gif",
     },
     stats: {
       hp: "35",
@@ -28504,18 +21927,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Flying"],
-    learnsets: "0731",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0732",
@@ -28527,12 +21939,14 @@ const Pokedex = [
       hidden: "Pickup",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/trumbeak.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/trumbeak.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/trumbeak.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/trumbeak.gif",
     },
     stats: {
       hp: "55",
@@ -28543,18 +21957,7 @@ const Pokedex = [
       speed: "75",
     },
     eggGroups: ["Flying"],
-    learnsets: "0732",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0733",
@@ -28566,12 +21969,14 @@ const Pokedex = [
       hidden: "Sheer Force",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/toucannon.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/toucannon.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/toucannon.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/toucannon.gif",
     },
     stats: {
       hp: "80",
@@ -28582,18 +21987,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Flying"],
-    learnsets: "0733",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0734",
@@ -28605,12 +21999,14 @@ const Pokedex = [
       hidden: "Adaptability",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/yungoos.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/yungoos.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/yungoos.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/yungoos.gif",
     },
     stats: {
       hp: "48",
@@ -28621,18 +22017,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Field"],
-    learnsets: "0734",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0735",
@@ -28644,12 +22029,14 @@ const Pokedex = [
       hidden: "Adaptability",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/gumshoos.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/gumshoos.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/gumshoos.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/gumshoos.gif",
     },
     stats: {
       hp: "88",
@@ -28660,18 +22047,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Field"],
-    learnsets: "0735",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0736",
@@ -28683,12 +22059,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/grubbin.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/grubbin.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/grubbin.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/grubbin.gif",
     },
     stats: {
       hp: "47",
@@ -28699,18 +22077,7 @@ const Pokedex = [
       speed: "46",
     },
     eggGroups: ["Bug"],
-    learnsets: "0736",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0737",
@@ -28722,12 +22089,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/charjabug.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/charjabug.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/charjabug.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/charjabug.gif",
     },
     stats: {
       hp: "57",
@@ -28738,18 +22107,7 @@ const Pokedex = [
       speed: "36",
     },
     eggGroups: ["Bug"],
-    learnsets: "0737",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0738",
@@ -28761,12 +22119,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/vikavolt.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/vikavolt.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/vikavolt.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/vikavolt.gif",
     },
     stats: {
       hp: "77",
@@ -28777,18 +22137,7 @@ const Pokedex = [
       speed: "43",
     },
     eggGroups: ["Bug"],
-    learnsets: "0738",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0739",
@@ -28800,12 +22149,14 @@ const Pokedex = [
       hidden: "Anger Point",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/crabrawler.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/crabrawler.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/crabrawler.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/crabrawler.gif",
     },
     stats: {
       hp: "47",
@@ -28816,18 +22167,7 @@ const Pokedex = [
       speed: "63",
     },
     eggGroups: ["Water 3"],
-    learnsets: "0739",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0740",
@@ -28839,12 +22179,15 @@ const Pokedex = [
       hidden: "Anger Point",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/normal-sprite/crabominable.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/crabominable.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/crabominable.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/crabominable.gif",
     },
     stats: {
       hp: "97",
@@ -28855,22 +22198,11 @@ const Pokedex = [
       speed: "43",
     },
     eggGroups: ["Water 3"],
-    learnsets: "0740",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0741",
-    name: "Oricorio Baile",
+    name: "Oricorio",
     region: "Alola",
     types: ["Fire", "Flying"],
     abilities: {
@@ -28878,12 +22210,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/oricorio.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/oricorio.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/oricorio.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/oricorio.gif",
     },
     stats: {
       hp: "75",
@@ -28894,18 +22228,7 @@ const Pokedex = [
       speed: "93",
     },
     eggGroups: ["Flying"],
-    learnsets: "0741",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [25, 75],
   },
   {
     id: "0742",
@@ -28917,12 +22240,14 @@ const Pokedex = [
       hidden: "Sweet Veil",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/cutiefly.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/cutiefly.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/cutiefly.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/cutiefly.gif",
     },
     stats: {
       hp: "40",
@@ -28933,18 +22258,7 @@ const Pokedex = [
       speed: "84",
     },
     eggGroups: ["Bug", "Fairy"],
-    learnsets: "0742",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0743",
@@ -28956,12 +22270,14 @@ const Pokedex = [
       hidden: "Sweet Veil",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/ribombee.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/ribombee.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/ribombee.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/ribombee.gif",
     },
     stats: {
       hp: "60",
@@ -28972,18 +22288,7 @@ const Pokedex = [
       speed: "124",
     },
     eggGroups: ["Bug", "Fairy"],
-    learnsets: "0743",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0744",
@@ -28995,12 +22300,14 @@ const Pokedex = [
       hidden: "Steadfast",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/rockruff.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/rockruff.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/rockruff.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/rockruff.gif",
     },
     stats: {
       hp: "45",
@@ -29011,22 +22318,11 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Field"],
-    learnsets: "0744",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0745",
-    name: "Lycanroc Midday",
+    name: "Lycanroc",
     region: "Alola",
     types: ["Rock"],
     abilities: {
@@ -29034,12 +22330,14 @@ const Pokedex = [
       hidden: "Steadfast",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/lycanroc.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/lycanroc.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/lycanroc.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/lycanroc.gif",
     },
     stats: {
       hp: "75",
@@ -29050,22 +22348,11 @@ const Pokedex = [
       speed: "112",
     },
     eggGroups: ["Field"],
-    learnsets: "0745",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0746",
-    name: "Wishiwashi Solo",
+    name: "Wishiwashi",
     region: "Alola",
     types: ["Water"],
     abilities: {
@@ -29073,12 +22360,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/wishiwashi.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/wishiwashi.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/wishiwashi.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/wishiwashi.gif",
     },
     stats: {
       hp: "45",
@@ -29089,18 +22378,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Water 2"],
-    learnsets: "0746",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0747",
@@ -29112,12 +22390,14 @@ const Pokedex = [
       hidden: "Regenerator",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/mareanie.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/mareanie.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/mareanie.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/mareanie.gif",
     },
     stats: {
       hp: "50",
@@ -29128,18 +22408,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Water 1"],
-    learnsets: "0747",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0748",
@@ -29151,12 +22420,14 @@ const Pokedex = [
       hidden: "Regenerator",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/toxapex.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/toxapex.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/toxapex.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/toxapex.gif",
     },
     stats: {
       hp: "50",
@@ -29167,18 +22438,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Water 1"],
-    learnsets: "0748",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0749",
@@ -29190,12 +22450,14 @@ const Pokedex = [
       hidden: "Inner Focus",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/mudbray.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/mudbray.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/mudbray.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/mudbray.gif",
     },
     stats: {
       hp: "70",
@@ -29206,18 +22468,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Field"],
-    learnsets: "0749",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0750",
@@ -29229,12 +22480,14 @@ const Pokedex = [
       hidden: "Inner Focus",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/mudsdale.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/mudsdale.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/mudsdale.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/mudsdale.gif",
     },
     stats: {
       hp: "100",
@@ -29245,18 +22498,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Field"],
-    learnsets: "0750",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0751",
@@ -29268,12 +22510,14 @@ const Pokedex = [
       hidden: "Water Absorb",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/dewpider.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/dewpider.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/dewpider.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/dewpider.gif",
     },
     stats: {
       hp: "38",
@@ -29284,18 +22528,7 @@ const Pokedex = [
       speed: "27",
     },
     eggGroups: ["Water 1", "Bug"],
-    learnsets: "0751",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0752",
@@ -29307,12 +22540,14 @@ const Pokedex = [
       hidden: "Water Absorb",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/araquanid.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/araquanid.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/araquanid.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/araquanid.gif",
     },
     stats: {
       hp: "68",
@@ -29323,18 +22558,7 @@ const Pokedex = [
       speed: "42",
     },
     eggGroups: ["Water 1", "Bug"],
-    learnsets: "0752",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0753",
@@ -29346,12 +22570,14 @@ const Pokedex = [
       hidden: "Contrary",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/fomantis.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/fomantis.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/fomantis.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/fomantis.gif",
     },
     stats: {
       hp: "40",
@@ -29362,18 +22588,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Grass"],
-    learnsets: "0753",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0754",
@@ -29385,12 +22600,14 @@ const Pokedex = [
       hidden: "Contrary",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/lurantis.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/lurantis.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/lurantis.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/lurantis.gif",
     },
     stats: {
       hp: "70",
@@ -29401,18 +22618,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Grass"],
-    learnsets: "0754",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0755",
@@ -29424,12 +22630,14 @@ const Pokedex = [
       hidden: "Rain Dish",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/morelull.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/morelull.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/morelull.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/morelull.gif",
     },
     stats: {
       hp: "40",
@@ -29440,18 +22648,7 @@ const Pokedex = [
       speed: "15",
     },
     eggGroups: ["Grass"],
-    learnsets: "0755",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0756",
@@ -29463,12 +22660,14 @@ const Pokedex = [
       hidden: "Rain Dish",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/shiinotic.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/shiinotic.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/shiinotic.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/shiinotic.gif",
     },
     stats: {
       hp: "60",
@@ -29479,18 +22678,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Grass"],
-    learnsets: "0756",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0757",
@@ -29502,12 +22690,14 @@ const Pokedex = [
       hidden: "Oblivious",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/salandit.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/salandit.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/salandit.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/salandit.gif",
     },
     stats: {
       hp: "48",
@@ -29518,18 +22708,7 @@ const Pokedex = [
       speed: "77",
     },
     eggGroups: ["Monster", "Dragon"],
-    learnsets: "0757",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0758",
@@ -29541,12 +22720,14 @@ const Pokedex = [
       hidden: "Oblivious",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/salazzle.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/salazzle.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/salazzle.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/salazzle.gif",
     },
     stats: {
       hp: "68",
@@ -29557,18 +22738,7 @@ const Pokedex = [
       speed: "117",
     },
     eggGroups: ["Monster", "Dragon"],
-    learnsets: "0758",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 100],
   },
   {
     id: "0759",
@@ -29580,12 +22750,14 @@ const Pokedex = [
       hidden: "Cute Charm",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/stufful.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/stufful.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/stufful.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/stufful.gif",
     },
     stats: {
       hp: "70",
@@ -29596,18 +22768,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Field"],
-    learnsets: "0759",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0760",
@@ -29619,12 +22780,14 @@ const Pokedex = [
       hidden: "Unnerve",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/bewear.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/bewear.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/bewear.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/bewear.gif",
     },
     stats: {
       hp: "120",
@@ -29635,18 +22798,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Field"],
-    learnsets: "0760",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0761",
@@ -29658,12 +22810,14 @@ const Pokedex = [
       hidden: "Sweet Veil",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/bounsweet.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/bounsweet.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/bounsweet.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/bounsweet.gif",
     },
     stats: {
       hp: "42",
@@ -29674,18 +22828,7 @@ const Pokedex = [
       speed: "32",
     },
     eggGroups: ["Grass"],
-    learnsets: "0761",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 100],
   },
   {
     id: "0762",
@@ -29697,12 +22840,14 @@ const Pokedex = [
       hidden: "Sweet Veil",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/steenee.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/steenee.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/steenee.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/steenee.gif",
     },
     stats: {
       hp: "52",
@@ -29713,18 +22858,7 @@ const Pokedex = [
       speed: "62",
     },
     eggGroups: ["Grass"],
-    learnsets: "0762",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 100],
   },
   {
     id: "0763",
@@ -29736,12 +22870,14 @@ const Pokedex = [
       hidden: "Sweet Veil",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/tsareena.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/tsareena.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/tsareena.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/tsareena.gif",
     },
     stats: {
       hp: "72",
@@ -29752,18 +22888,7 @@ const Pokedex = [
       speed: "72",
     },
     eggGroups: ["Grass"],
-    learnsets: "0763",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 100],
   },
   {
     id: "0764",
@@ -29775,12 +22900,14 @@ const Pokedex = [
       hidden: "Natural Cure",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/comfey.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/comfey.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/comfey.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/comfey.gif",
     },
     stats: {
       hp: "51",
@@ -29791,18 +22918,7 @@ const Pokedex = [
       speed: "100",
     },
     eggGroups: ["Grass"],
-    learnsets: "0764",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [25, 75],
   },
   {
     id: "0765",
@@ -29814,12 +22930,14 @@ const Pokedex = [
       hidden: "Symbiosis",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/oranguru.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/oranguru.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/oranguru.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/oranguru.gif",
     },
     stats: {
       hp: "90",
@@ -29830,18 +22948,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Field"],
-    learnsets: "0765",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0766",
@@ -29853,12 +22960,14 @@ const Pokedex = [
       hidden: "Defiant",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/passimian.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/passimian.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/passimian.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/passimian.gif",
     },
     stats: {
       hp: "100",
@@ -29869,18 +22978,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Field"],
-    learnsets: "0766",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0767",
@@ -29892,12 +22990,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/wimpod.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/wimpod.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/wimpod.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/wimpod.gif",
     },
     stats: {
       hp: "25",
@@ -29908,18 +23008,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Bug", "Water 3"],
-    learnsets: "0767",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0768",
@@ -29931,12 +23020,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/golisopod.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/golisopod.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/golisopod.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/golisopod.gif",
     },
     stats: {
       hp: "75",
@@ -29947,18 +23038,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Bug", "Water 3"],
-    learnsets: "0768",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0769",
@@ -29970,12 +23050,14 @@ const Pokedex = [
       hidden: "Sand Veil",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/sandygast.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/sandygast.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/sandygast.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/sandygast.gif",
     },
     stats: {
       hp: "55",
@@ -29986,18 +23068,7 @@ const Pokedex = [
       speed: "15",
     },
     eggGroups: ["Amorphous"],
-    learnsets: "0769",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0770",
@@ -30009,12 +23080,14 @@ const Pokedex = [
       hidden: "Sand Veil",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/palossand.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/palossand.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/palossand.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/palossand.gif",
     },
     stats: {
       hp: "85",
@@ -30025,18 +23098,7 @@ const Pokedex = [
       speed: "35",
     },
     eggGroups: ["Amorphous"],
-    learnsets: "0770",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0771",
@@ -30048,12 +23110,14 @@ const Pokedex = [
       hidden: "Unaware",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/pyukumuku.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/pyukumuku.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/pyukumuku.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/pyukumuku.gif",
     },
     stats: {
       hp: "55",
@@ -30064,18 +23128,7 @@ const Pokedex = [
       speed: "5",
     },
     eggGroups: ["Water 1"],
-    learnsets: "0771",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0772",
@@ -30087,12 +23140,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/type null.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/type null.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/type null.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/type null.gif",
     },
     stats: {
       hp: "95",
@@ -30103,18 +23158,7 @@ const Pokedex = [
       speed: "59",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0772",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0773",
@@ -30126,12 +23170,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/silvally.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/silvally.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/silvally.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/silvally.gif",
     },
     stats: {
       hp: "95",
@@ -30142,22 +23188,11 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0773",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0774",
-    name: "Minior Red Meteor",
+    name: "Minior",
     region: "Alola",
     types: ["Rock", "Flying"],
     abilities: {
@@ -30165,12 +23200,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/minior.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/minior.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/minior.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/minior.gif",
     },
     stats: {
       hp: "60",
@@ -30181,18 +23218,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0774",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0775",
@@ -30204,12 +23230,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/komala.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/komala.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/komala.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/komala.gif",
     },
     stats: {
       hp: "65",
@@ -30220,18 +23248,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Field"],
-    learnsets: "0775",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0776",
@@ -30243,12 +23260,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/turtonator.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/turtonator.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/turtonator.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/turtonator.gif",
     },
     stats: {
       hp: "60",
@@ -30259,18 +23278,7 @@ const Pokedex = [
       speed: "36",
     },
     eggGroups: ["Monster", "Dragon"],
-    learnsets: "0776",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0777",
@@ -30282,12 +23290,14 @@ const Pokedex = [
       hidden: "Sturdy",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/togedemaru.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/togedemaru.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/togedemaru.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/togedemaru.gif",
     },
     stats: {
       hp: "65",
@@ -30298,22 +23308,11 @@ const Pokedex = [
       speed: "96",
     },
     eggGroups: ["Field", "Fairy"],
-    learnsets: "0777",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0778",
-    name: "Mimikyu Disguised",
+    name: "Mimikyu",
     region: "Alola",
     types: ["Ghost", "Fairy"],
     abilities: {
@@ -30321,12 +23320,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/mimikyu.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/mimikyu.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/mimikyu.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/mimikyu.gif",
     },
     stats: {
       hp: "55",
@@ -30337,18 +23338,7 @@ const Pokedex = [
       speed: "96",
     },
     eggGroups: ["Amorphous"],
-    learnsets: "0778",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0779",
@@ -30360,12 +23350,14 @@ const Pokedex = [
       hidden: "Wonder Skin",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/bruxish.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/bruxish.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/bruxish.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/bruxish.gif",
     },
     stats: {
       hp: "68",
@@ -30376,18 +23368,7 @@ const Pokedex = [
       speed: "92",
     },
     eggGroups: ["Water 2"],
-    learnsets: "0779",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0780",
@@ -30399,12 +23380,14 @@ const Pokedex = [
       hidden: "Cloud Nine",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/drampa.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/drampa.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/drampa.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/drampa.gif",
     },
     stats: {
       hp: "78",
@@ -30415,18 +23398,7 @@ const Pokedex = [
       speed: "36",
     },
     eggGroups: ["Monster", "Dragon"],
-    learnsets: "0780",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0781",
@@ -30438,12 +23410,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/dhelmise.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/dhelmise.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/dhelmise.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/dhelmise.gif",
     },
     stats: {
       hp: "70",
@@ -30454,22 +23428,11 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0781",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0782",
-    name: "Jangmo O",
+    name: "Jangmo-O",
     region: "Alola",
     types: ["Dragon"],
     abilities: {
@@ -30477,12 +23440,14 @@ const Pokedex = [
       hidden: "Overcoat",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/jangmo-o.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/jangmo-o.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/jangmo-o.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/jangmo-o.gif",
     },
     stats: {
       hp: "45",
@@ -30493,22 +23458,11 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Dragon"],
-    learnsets: "0782",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0783",
-    name: "Hakamo O",
+    name: "Hakamo-O",
     region: "Alola",
     types: ["Dragon", "Fighting"],
     abilities: {
@@ -30516,12 +23470,14 @@ const Pokedex = [
       hidden: "Overcoat",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/hakamo-o.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/hakamo-o.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/hakamo-o.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/hakamo-o.gif",
     },
     stats: {
       hp: "55",
@@ -30532,22 +23488,11 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Dragon"],
-    learnsets: "0783",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0784",
-    name: "Kommo O",
+    name: "Kommo-O",
     region: "Alola",
     types: ["Dragon", "Fighting"],
     abilities: {
@@ -30555,12 +23500,14 @@ const Pokedex = [
       hidden: "Overcoat",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/kommo-o.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/kommo-o.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/kommo-o.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/kommo-o.gif",
     },
     stats: {
       hp: "75",
@@ -30571,18 +23518,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Dragon"],
-    learnsets: "0784",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0785",
@@ -30594,12 +23530,14 @@ const Pokedex = [
       hidden: "Telepathy",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/tapu koko.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/tapu koko.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/tapu koko.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/tapu koko.gif",
     },
     stats: {
       hp: "70",
@@ -30610,18 +23548,7 @@ const Pokedex = [
       speed: "130",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0785",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0786",
@@ -30633,12 +23560,14 @@ const Pokedex = [
       hidden: "Telepathy",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/tapu lele.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/tapu lele.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/tapu lele.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/tapu lele.gif",
     },
     stats: {
       hp: "70",
@@ -30649,18 +23578,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0786",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0787",
@@ -30672,12 +23590,14 @@ const Pokedex = [
       hidden: "Telepathy",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/tapu bulu.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/tapu bulu.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/tapu bulu.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/tapu bulu.gif",
     },
     stats: {
       hp: "70",
@@ -30688,18 +23608,7 @@ const Pokedex = [
       speed: "75",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0787",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0788",
@@ -30711,12 +23620,14 @@ const Pokedex = [
       hidden: "Telepathy",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/tapu fini.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/tapu fini.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/tapu fini.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/tapu fini.gif",
     },
     stats: {
       hp: "70",
@@ -30727,18 +23638,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0788",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0789",
@@ -30750,12 +23650,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/cosmog.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/cosmog.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/cosmog.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/cosmog.gif",
     },
     stats: {
       hp: "43",
@@ -30766,18 +23668,7 @@ const Pokedex = [
       speed: "37",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0789",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0790",
@@ -30789,12 +23680,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/cosmoem.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/cosmoem.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/cosmoem.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/cosmoem.gif",
     },
     stats: {
       hp: "43",
@@ -30805,18 +23698,7 @@ const Pokedex = [
       speed: "37",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0790",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0791",
@@ -30828,12 +23710,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/solgaleo.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/solgaleo.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/solgaleo.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/solgaleo.gif",
     },
     stats: {
       hp: "137",
@@ -30844,18 +23728,7 @@ const Pokedex = [
       speed: "97",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0791",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0792",
@@ -30867,12 +23740,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/lunala.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/lunala.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/lunala.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/lunala.gif",
     },
     stats: {
       hp: "137",
@@ -30883,18 +23758,7 @@ const Pokedex = [
       speed: "97",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0792",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0793",
@@ -30906,12 +23770,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/nihilego.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/nihilego.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/nihilego.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/nihilego.gif",
     },
     stats: {
       hp: "109",
@@ -30922,18 +23788,7 @@ const Pokedex = [
       speed: "103",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0793",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0794",
@@ -30945,12 +23800,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/buzzwole.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/buzzwole.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/buzzwole.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/buzzwole.gif",
     },
     stats: {
       hp: "107",
@@ -30961,18 +23818,7 @@ const Pokedex = [
       speed: "79",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0794",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0795",
@@ -30984,12 +23830,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/pheromosa.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/pheromosa.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/pheromosa.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/pheromosa.gif",
     },
     stats: {
       hp: "71",
@@ -31000,18 +23848,7 @@ const Pokedex = [
       speed: "151",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0795",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0796",
@@ -31023,12 +23860,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/xurkitree.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/xurkitree.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/xurkitree.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/xurkitree.gif",
     },
     stats: {
       hp: "83",
@@ -31039,18 +23878,7 @@ const Pokedex = [
       speed: "83",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0796",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0797",
@@ -31062,12 +23890,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/celesteela.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/celesteela.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/celesteela.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/celesteela.gif",
     },
     stats: {
       hp: "97",
@@ -31078,18 +23908,7 @@ const Pokedex = [
       speed: "61",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0797",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0798",
@@ -31101,12 +23920,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/kartana.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/kartana.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/kartana.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/kartana.gif",
     },
     stats: {
       hp: "59",
@@ -31117,18 +23938,7 @@ const Pokedex = [
       speed: "109",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0798",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0799",
@@ -31140,12 +23950,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/guzzlord.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/guzzlord.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/guzzlord.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/guzzlord.gif",
     },
     stats: {
       hp: "223",
@@ -31156,18 +23968,7 @@ const Pokedex = [
       speed: "43",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0799",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0800",
@@ -31179,12 +23980,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/necrozma.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/necrozma.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/necrozma.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/necrozma.gif",
     },
     stats: {
       hp: "97",
@@ -31195,18 +23998,7 @@ const Pokedex = [
       speed: "79",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0800",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0801",
@@ -31218,12 +24010,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/magearna.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/magearna.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/magearna.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/magearna.gif",
     },
     stats: {
       hp: "80",
@@ -31234,18 +24028,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0801",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0802",
@@ -31257,12 +24040,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/marshadow.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/marshadow.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/marshadow.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/marshadow.gif",
     },
     stats: {
       hp: "90",
@@ -31273,18 +24058,7 @@ const Pokedex = [
       speed: "125",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0802",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0803",
@@ -31296,12 +24070,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/poipole.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/poipole.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/poipole.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/poipole.gif",
     },
     stats: {
       hp: "67",
@@ -31312,18 +24088,7 @@ const Pokedex = [
       speed: "73",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0803",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0804",
@@ -31335,12 +24100,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/naganadel.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/naganadel.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/naganadel.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/naganadel.gif",
     },
     stats: {
       hp: "73",
@@ -31351,18 +24118,7 @@ const Pokedex = [
       speed: "121",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0804",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0805",
@@ -31374,12 +24130,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/stakataka.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/stakataka.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/stakataka.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/stakataka.gif",
     },
     stats: {
       hp: "61",
@@ -31390,18 +24148,7 @@ const Pokedex = [
       speed: "13",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0805",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0806",
@@ -31413,12 +24160,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/blacephalon.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/blacephalon.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/blacephalon.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/blacephalon.gif",
     },
     stats: {
       hp: "53",
@@ -31429,18 +24178,7 @@ const Pokedex = [
       speed: "107",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0806",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0807",
@@ -31452,12 +24190,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/zeraora.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/zeraora.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/zeraora.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/zeraora.gif",
     },
     stats: {
       hp: "88",
@@ -31468,18 +24208,7 @@ const Pokedex = [
       speed: "143",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0807",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0808",
@@ -31491,12 +24220,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/meltan.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/meltan.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/meltan.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/meltan.gif",
     },
     stats: {
       hp: "46",
@@ -31507,18 +24238,7 @@ const Pokedex = [
       speed: "34",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0808",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0809",
@@ -31530,12 +24250,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/melmetal.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/melmetal.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/melmetal.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/melmetal.gif",
     },
     stats: {
       hp: "135",
@@ -31546,18 +24268,7 @@ const Pokedex = [
       speed: "34",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0809",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0810",
@@ -31569,12 +24280,14 @@ const Pokedex = [
       hidden: "Grassy Surge",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/grookey.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/grookey.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/grookey.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/grookey.gif",
     },
     stats: {
       hp: "50",
@@ -31585,18 +24298,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Field", "Grass"],
-    learnsets: "0810",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0811",
@@ -31608,12 +24310,14 @@ const Pokedex = [
       hidden: "Grassy Surge",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/thwackey.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/thwackey.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/thwackey.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/thwackey.gif",
     },
     stats: {
       hp: "70",
@@ -31624,18 +24328,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["Field", "Grass"],
-    learnsets: "0811",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0812",
@@ -31647,12 +24340,14 @@ const Pokedex = [
       hidden: "Grassy Surge",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/rillaboom.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/rillaboom.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/rillaboom.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/rillaboom.gif",
     },
     stats: {
       hp: "100",
@@ -31663,18 +24358,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Field", "Grass"],
-    learnsets: "0812",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0813",
@@ -31686,12 +24370,14 @@ const Pokedex = [
       hidden: "Libero",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/scorbunny.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/scorbunny.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/scorbunny.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/scorbunny.gif",
     },
     stats: {
       hp: "50",
@@ -31702,18 +24388,7 @@ const Pokedex = [
       speed: "69",
     },
     eggGroups: ["Field", "Human-Like"],
-    learnsets: "0813",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0814",
@@ -31725,12 +24400,14 @@ const Pokedex = [
       hidden: "Libero",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/raboot.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/raboot.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/raboot.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/raboot.gif",
     },
     stats: {
       hp: "65",
@@ -31741,18 +24418,7 @@ const Pokedex = [
       speed: "94",
     },
     eggGroups: ["Field", "Human-Like"],
-    learnsets: "0814",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0815",
@@ -31764,12 +24430,14 @@ const Pokedex = [
       hidden: "Libero",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/cinderace.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/cinderace.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/cinderace.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/cinderace.gif",
     },
     stats: {
       hp: "80",
@@ -31780,18 +24448,7 @@ const Pokedex = [
       speed: "119",
     },
     eggGroups: ["Field", "Human-Like"],
-    learnsets: "0815",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0816",
@@ -31803,12 +24460,14 @@ const Pokedex = [
       hidden: "Sniper",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/sobble.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/sobble.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/sobble.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/sobble.gif",
     },
     stats: {
       hp: "50",
@@ -31819,18 +24478,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: "0816",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0817",
@@ -31842,12 +24490,14 @@ const Pokedex = [
       hidden: "Sniper",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/drizzile.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/drizzile.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/drizzile.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/drizzile.gif",
     },
     stats: {
       hp: "65",
@@ -31858,18 +24508,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: "0817",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0818",
@@ -31881,12 +24520,14 @@ const Pokedex = [
       hidden: "Sniper",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/inteleon.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/inteleon.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/inteleon.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/inteleon.gif",
     },
     stats: {
       hp: "70",
@@ -31897,18 +24538,7 @@ const Pokedex = [
       speed: "120",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: "0818",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0819",
@@ -31920,12 +24550,14 @@ const Pokedex = [
       hidden: "Gluttony",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/skwovet.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/skwovet.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/skwovet.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/skwovet.gif",
     },
     stats: {
       hp: "70",
@@ -31936,18 +24568,7 @@ const Pokedex = [
       speed: "25",
     },
     eggGroups: ["Field"],
-    learnsets: "0819",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0820",
@@ -31959,12 +24580,14 @@ const Pokedex = [
       hidden: "Gluttony",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/greedent.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/greedent.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/greedent.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/greedent.gif",
     },
     stats: {
       hp: "120",
@@ -31975,18 +24598,7 @@ const Pokedex = [
       speed: "20",
     },
     eggGroups: ["Field"],
-    learnsets: "0820",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0821",
@@ -31998,12 +24610,14 @@ const Pokedex = [
       hidden: "Big Pecks",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/rookidee.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/rookidee.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/rookidee.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/rookidee.gif",
     },
     stats: {
       hp: "38",
@@ -32014,18 +24628,7 @@ const Pokedex = [
       speed: "57",
     },
     eggGroups: ["Flying"],
-    learnsets: "0821",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0822",
@@ -32037,12 +24640,14 @@ const Pokedex = [
       hidden: "Big Pecks",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/corvisquire.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/corvisquire.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/corvisquire.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/corvisquire.gif",
     },
     stats: {
       hp: "68",
@@ -32053,18 +24658,7 @@ const Pokedex = [
       speed: "77",
     },
     eggGroups: ["Flying"],
-    learnsets: "0822",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0823",
@@ -32076,12 +24670,14 @@ const Pokedex = [
       hidden: "Mirror Armor",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/corviknight.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/corviknight.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/corviknight.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/corviknight.gif",
     },
     stats: {
       hp: "98",
@@ -32092,18 +24688,7 @@ const Pokedex = [
       speed: "67",
     },
     eggGroups: ["Flying"],
-    learnsets: "0823",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0824",
@@ -32115,12 +24700,14 @@ const Pokedex = [
       hidden: "Telepathy",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/blipbug.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/blipbug.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/blipbug.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/blipbug.gif",
     },
     stats: {
       hp: "25",
@@ -32131,18 +24718,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Bug"],
-    learnsets: "0824",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0825",
@@ -32154,12 +24730,14 @@ const Pokedex = [
       hidden: "Telepathy",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/dottler.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/dottler.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/dottler.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/dottler.gif",
     },
     stats: {
       hp: "50",
@@ -32170,18 +24748,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Bug"],
-    learnsets: "0825",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0826",
@@ -32193,12 +24760,14 @@ const Pokedex = [
       hidden: "Telepathy",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/orbeetle.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/orbeetle.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/orbeetle.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/orbeetle.gif",
     },
     stats: {
       hp: "60",
@@ -32209,18 +24778,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Bug"],
-    learnsets: "0826",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0827",
@@ -32232,12 +24790,14 @@ const Pokedex = [
       hidden: "Stakeout",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/nickit.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/nickit.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/nickit.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/nickit.gif",
     },
     stats: {
       hp: "40",
@@ -32248,18 +24808,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Field"],
-    learnsets: "0827",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0828",
@@ -32271,12 +24820,14 @@ const Pokedex = [
       hidden: "Stakeout",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/thievul.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/thievul.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/thievul.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/thievul.gif",
     },
     stats: {
       hp: "70",
@@ -32287,18 +24838,7 @@ const Pokedex = [
       speed: "90",
     },
     eggGroups: ["Field"],
-    learnsets: "0828",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0829",
@@ -32310,12 +24850,14 @@ const Pokedex = [
       hidden: "Effect Spore",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/gossifleur.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/gossifleur.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/gossifleur.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/gossifleur.gif",
     },
     stats: {
       hp: "40",
@@ -32326,18 +24868,7 @@ const Pokedex = [
       speed: "10",
     },
     eggGroups: ["Grass"],
-    learnsets: "0829",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0830",
@@ -32349,12 +24880,14 @@ const Pokedex = [
       hidden: "Effect Spore",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/eldegoss.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/eldegoss.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/eldegoss.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/eldegoss.gif",
     },
     stats: {
       hp: "60",
@@ -32365,18 +24898,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Grass"],
-    learnsets: "0830",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0831",
@@ -32388,12 +24910,14 @@ const Pokedex = [
       hidden: "Bulletproof",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/wooloo.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/wooloo.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/wooloo.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/wooloo.gif",
     },
     stats: {
       hp: "42",
@@ -32404,18 +24928,7 @@ const Pokedex = [
       speed: "48",
     },
     eggGroups: ["Field"],
-    learnsets: "0831",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0832",
@@ -32427,12 +24940,14 @@ const Pokedex = [
       hidden: "Bulletproof",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/dubwool.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/dubwool.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/dubwool.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/dubwool.gif",
     },
     stats: {
       hp: "72",
@@ -32443,18 +24958,7 @@ const Pokedex = [
       speed: "88",
     },
     eggGroups: ["Field"],
-    learnsets: "0832",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0833",
@@ -32466,12 +24970,14 @@ const Pokedex = [
       hidden: "Swift Swim",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/chewtle.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/chewtle.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/chewtle.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/chewtle.gif",
     },
     stats: {
       hp: "50",
@@ -32482,18 +24988,7 @@ const Pokedex = [
       speed: "44",
     },
     eggGroups: ["Monster", "Water 1"],
-    learnsets: "0833",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0834",
@@ -32505,12 +25000,14 @@ const Pokedex = [
       hidden: "Swift Swim",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/drednaw.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/drednaw.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/drednaw.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/drednaw.gif",
     },
     stats: {
       hp: "90",
@@ -32521,18 +25018,7 @@ const Pokedex = [
       speed: "74",
     },
     eggGroups: ["Monster", "Water 1"],
-    learnsets: "0834",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0835",
@@ -32544,12 +25030,14 @@ const Pokedex = [
       hidden: "Rattled",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/yamper.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/yamper.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/yamper.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/yamper.gif",
     },
     stats: {
       hp: "59",
@@ -32560,18 +25048,7 @@ const Pokedex = [
       speed: "26",
     },
     eggGroups: ["Field"],
-    learnsets: "0835",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0836",
@@ -32583,12 +25060,14 @@ const Pokedex = [
       hidden: "Competitive",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/boltund.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/boltund.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/boltund.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/boltund.gif",
     },
     stats: {
       hp: "69",
@@ -32599,18 +25078,7 @@ const Pokedex = [
       speed: "121",
     },
     eggGroups: ["Field"],
-    learnsets: "0836",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0837",
@@ -32622,12 +25090,14 @@ const Pokedex = [
       hidden: "Flash Fire",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/rolycoly.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/rolycoly.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/rolycoly.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/rolycoly.gif",
     },
     stats: {
       hp: "30",
@@ -32638,18 +25108,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0837",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0838",
@@ -32661,12 +25120,14 @@ const Pokedex = [
       hidden: "Flash Fire",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/carkol.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/carkol.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/carkol.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/carkol.gif",
     },
     stats: {
       hp: "80",
@@ -32677,18 +25138,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0838",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0839",
@@ -32700,12 +25150,14 @@ const Pokedex = [
       hidden: "Flash Fire",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/coalossal.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/coalossal.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/coalossal.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/coalossal.gif",
     },
     stats: {
       hp: "110",
@@ -32716,18 +25168,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0839",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0840",
@@ -32739,12 +25180,14 @@ const Pokedex = [
       hidden: "Bulletproof",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/applin.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/applin.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/applin.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/applin.gif",
     },
     stats: {
       hp: "40",
@@ -32755,18 +25198,7 @@ const Pokedex = [
       speed: "20",
     },
     eggGroups: ["Grass", "Dragon"],
-    learnsets: "0840",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0841",
@@ -32778,12 +25210,14 @@ const Pokedex = [
       hidden: "Hustle",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/flapple.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/flapple.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/flapple.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/flapple.gif",
     },
     stats: {
       hp: "70",
@@ -32794,18 +25228,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Grass", "Dragon"],
-    learnsets: "0841",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0842",
@@ -32817,12 +25240,14 @@ const Pokedex = [
       hidden: "Thick Fat",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/appletun.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/appletun.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/appletun.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/appletun.gif",
     },
     stats: {
       hp: "110",
@@ -32833,18 +25258,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Grass", "Dragon"],
-    learnsets: "0842",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0843",
@@ -32856,12 +25270,14 @@ const Pokedex = [
       hidden: "Sand Veil",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/silicobra.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/silicobra.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/silicobra.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/silicobra.gif",
     },
     stats: {
       hp: "52",
@@ -32872,18 +25288,7 @@ const Pokedex = [
       speed: "46",
     },
     eggGroups: ["Field", "Dragon"],
-    learnsets: "0843",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0844",
@@ -32895,12 +25300,14 @@ const Pokedex = [
       hidden: "Sand Veil",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/sandaconda.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/sandaconda.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/sandaconda.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/sandaconda.gif",
     },
     stats: {
       hp: "72",
@@ -32911,18 +25318,7 @@ const Pokedex = [
       speed: "71",
     },
     eggGroups: ["Field", "Dragon"],
-    learnsets: "0844",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0845",
@@ -32934,12 +25330,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/cramorant.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/cramorant.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/cramorant.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/cramorant.gif",
     },
     stats: {
       hp: "70",
@@ -32950,18 +25348,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Water 1", "Flying"],
-    learnsets: "0845",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0846",
@@ -32973,12 +25360,14 @@ const Pokedex = [
       hidden: "Propeller Tail",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/arrokuda.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/arrokuda.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/arrokuda.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/arrokuda.gif",
     },
     stats: {
       hp: "41",
@@ -32989,18 +25378,7 @@ const Pokedex = [
       speed: "66",
     },
     eggGroups: ["Water 2"],
-    learnsets: "0846",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0847",
@@ -33012,12 +25390,14 @@ const Pokedex = [
       hidden: "Propeller Tail",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/barraskewda.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/barraskewda.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/barraskewda.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/barraskewda.gif",
     },
     stats: {
       hp: "61",
@@ -33028,18 +25408,7 @@ const Pokedex = [
       speed: "136",
     },
     eggGroups: ["Water 2"],
-    learnsets: "0847",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0848",
@@ -33051,12 +25420,14 @@ const Pokedex = [
       hidden: "Klutz",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/toxel.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/toxel.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/toxel.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/toxel.gif",
     },
     stats: {
       hp: "40",
@@ -33067,18 +25438,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0848",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0849",
@@ -33090,12 +25450,16 @@ const Pokedex = [
       hidden: "Technician",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/normal-sprite/toxtricity amped.gif",
+      shiny:
+        "https://projectpokemon.org/images/shiny-sprite/toxtricity amped.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/toxtricity amped.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/toxtricity amped.gif",
     },
     stats: {
       hp: "75",
@@ -33106,18 +25470,7 @@ const Pokedex = [
       speed: "75",
     },
     eggGroups: ["Human-Like"],
-    learnsets: "0849",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0850",
@@ -33129,12 +25482,14 @@ const Pokedex = [
       hidden: "Flame Body",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/sizzlipede.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/sizzlipede.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/sizzlipede.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/sizzlipede.gif",
     },
     stats: {
       hp: "50",
@@ -33145,18 +25500,7 @@ const Pokedex = [
       speed: "45",
     },
     eggGroups: ["Bug"],
-    learnsets: "0850",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0851",
@@ -33168,12 +25512,14 @@ const Pokedex = [
       hidden: "Flame Body",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/centiskorch.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/centiskorch.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/centiskorch.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/centiskorch.gif",
     },
     stats: {
       hp: "100",
@@ -33184,18 +25530,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Bug"],
-    learnsets: "0851",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0852",
@@ -33207,12 +25542,14 @@ const Pokedex = [
       hidden: "Technician",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/clobbopus.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/clobbopus.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/clobbopus.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/clobbopus.gif",
     },
     stats: {
       hp: "50",
@@ -33223,18 +25560,7 @@ const Pokedex = [
       speed: "32",
     },
     eggGroups: ["Water 1", "Human-Like"],
-    learnsets: "0852",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0853",
@@ -33246,12 +25572,14 @@ const Pokedex = [
       hidden: "Technician",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/grapploct.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/grapploct.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/grapploct.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/grapploct.gif",
     },
     stats: {
       hp: "80",
@@ -33262,18 +25590,7 @@ const Pokedex = [
       speed: "42",
     },
     eggGroups: ["Water 1", "Human-Like"],
-    learnsets: "0853",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0854",
@@ -33285,12 +25602,14 @@ const Pokedex = [
       hidden: "Cursed Body",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/sinistea.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/sinistea.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/sinistea.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/sinistea.gif",
     },
     stats: {
       hp: "40",
@@ -33301,18 +25620,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Mineral", "Amorphous"],
-    learnsets: "0854",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0855",
@@ -33324,12 +25632,14 @@ const Pokedex = [
       hidden: "Cursed Body",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/polteageist.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/polteageist.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/polteageist.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/polteageist.gif",
     },
     stats: {
       hp: "60",
@@ -33340,18 +25650,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Mineral", "Amorphous"],
-    learnsets: "0855",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0856",
@@ -33363,12 +25662,14 @@ const Pokedex = [
       hidden: "Magic Bounce",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/hatenna.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/hatenna.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/hatenna.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/hatenna.gif",
     },
     stats: {
       hp: "42",
@@ -33379,18 +25680,7 @@ const Pokedex = [
       speed: "39",
     },
     eggGroups: ["Fairy"],
-    learnsets: "0856",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 100],
   },
   {
     id: "0857",
@@ -33402,12 +25692,14 @@ const Pokedex = [
       hidden: "Magic Bounce",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/hattrem.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/hattrem.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/hattrem.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/hattrem.gif",
     },
     stats: {
       hp: "57",
@@ -33418,18 +25710,7 @@ const Pokedex = [
       speed: "49",
     },
     eggGroups: ["Fairy"],
-    learnsets: "0857",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 100],
   },
   {
     id: "0858",
@@ -33441,12 +25722,14 @@ const Pokedex = [
       hidden: "Magic Bounce",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/hatterene.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/hatterene.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/hatterene.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/hatterene.gif",
     },
     stats: {
       hp: "57",
@@ -33457,18 +25740,7 @@ const Pokedex = [
       speed: "29",
     },
     eggGroups: ["Fairy"],
-    learnsets: "0858",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 100],
   },
   {
     id: "0859",
@@ -33480,12 +25752,14 @@ const Pokedex = [
       hidden: "Pickpocket",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/impidimp.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/impidimp.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/impidimp.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/impidimp.gif",
     },
     stats: {
       hp: "45",
@@ -33496,18 +25770,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Fairy", "Human-Like"],
-    learnsets: "0859",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [100, 0],
   },
   {
     id: "0860",
@@ -33519,12 +25782,14 @@ const Pokedex = [
       hidden: "Pickpocket",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/morgrem.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/morgrem.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/morgrem.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/morgrem.gif",
     },
     stats: {
       hp: "65",
@@ -33535,18 +25800,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Fairy", "Human-Like"],
-    learnsets: "0860",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [100, 0],
   },
   {
     id: "0861",
@@ -33558,12 +25812,14 @@ const Pokedex = [
       hidden: "Pickpocket",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/grimmsnarl.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/grimmsnarl.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/grimmsnarl.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/grimmsnarl.gif",
     },
     stats: {
       hp: "95",
@@ -33574,18 +25830,7 @@ const Pokedex = [
       speed: "60",
     },
     eggGroups: ["Fairy", "Human-Like"],
-    learnsets: "0861",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [100, 0],
   },
   {
     id: "0862",
@@ -33597,12 +25842,14 @@ const Pokedex = [
       hidden: "Defiant",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/obstagoon.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/obstagoon.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/obstagoon.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/obstagoon.gif",
     },
     stats: {
       hp: "93",
@@ -33613,18 +25860,7 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["Field"],
-    learnsets: "0862",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0863",
@@ -33636,12 +25872,14 @@ const Pokedex = [
       hidden: "Steely Spirit",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/perrserker.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/perrserker.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/perrserker.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/perrserker.gif",
     },
     stats: {
       hp: "70",
@@ -33652,18 +25890,7 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Field"],
-    learnsets: "0863",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0864",
@@ -33675,12 +25902,14 @@ const Pokedex = [
       hidden: "Perish Body",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/cursola.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/cursola.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/cursola.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/cursola.gif",
     },
     stats: {
       hp: "60",
@@ -33691,18 +25920,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Water 1", "Water 3"],
-    learnsets: "0864",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [25, 75],
   },
   {
     id: "0865",
@@ -33714,12 +25932,14 @@ const Pokedex = [
       hidden: "Scrappy",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/sirfetchd.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/sirfetchd.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/sirfetchd.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/sirfetchd.gif",
     },
     stats: {
       hp: "62",
@@ -33730,22 +25950,11 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Flying", "Field"],
-    learnsets: "0865",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0866",
-    name: "Mr Rime",
+    name: "Mr.Rime",
     region: "Galar",
     types: ["Ice", "Psychic"],
     abilities: {
@@ -33753,12 +25962,14 @@ const Pokedex = [
       hidden: "Ice Body",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/mr.rime.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/mr.rime.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/mr.rime.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/mr.rime.gif",
     },
     stats: {
       hp: "80",
@@ -33769,18 +25980,7 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Human-Like"],
-    learnsets: "0866",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0867",
@@ -33792,12 +25992,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/runerigus.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/runerigus.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/runerigus.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/runerigus.gif",
     },
     stats: {
       hp: "58",
@@ -33808,18 +26010,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Mineral", "Amorphous"],
-    learnsets: "0867",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0868",
@@ -33831,12 +26022,14 @@ const Pokedex = [
       hidden: "Aroma Veil",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/milcery.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/milcery.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/milcery.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/milcery.gif",
     },
     stats: {
       hp: "45",
@@ -33847,18 +26040,7 @@ const Pokedex = [
       speed: "34",
     },
     eggGroups: ["Fairy", "Amorphous"],
-    learnsets: "0868",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 100],
   },
   {
     id: "0869",
@@ -33870,12 +26052,14 @@ const Pokedex = [
       hidden: "Aroma Veil",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/alcremie.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/alcremie.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/alcremie.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/alcremie.gif",
     },
     stats: {
       hp: "65",
@@ -33886,18 +26070,7 @@ const Pokedex = [
       speed: "64",
     },
     eggGroups: ["Fairy", "Amorphous"],
-    learnsets: "0869",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 100],
   },
   {
     id: "0870",
@@ -33909,12 +26082,14 @@ const Pokedex = [
       hidden: "Defiant",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/falinks.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/falinks.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/falinks.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/falinks.gif",
     },
     stats: {
       hp: "65",
@@ -33925,18 +26100,7 @@ const Pokedex = [
       speed: "75",
     },
     eggGroups: ["Fairy", "Mineral"],
-    learnsets: "0870",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0871",
@@ -33948,12 +26112,14 @@ const Pokedex = [
       hidden: "Electric Surge",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/pincurchin.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/pincurchin.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/pincurchin.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/pincurchin.gif",
     },
     stats: {
       hp: "48",
@@ -33964,18 +26130,7 @@ const Pokedex = [
       speed: "15",
     },
     eggGroups: ["Water 1", "Amorphous"],
-    learnsets: "0871",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0872",
@@ -33987,12 +26142,14 @@ const Pokedex = [
       hidden: "Ice Scales",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/snom.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/snom.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/snom.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/snom.gif",
     },
     stats: {
       hp: "30",
@@ -34003,18 +26160,7 @@ const Pokedex = [
       speed: "20",
     },
     eggGroups: ["Bug"],
-    learnsets: "0872",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0873",
@@ -34026,12 +26172,14 @@ const Pokedex = [
       hidden: "Ice Scales",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/frosmoth.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/frosmoth.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/frosmoth.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/frosmoth.gif",
     },
     stats: {
       hp: "70",
@@ -34042,18 +26190,7 @@ const Pokedex = [
       speed: "65",
     },
     eggGroups: ["Bug"],
-    learnsets: "0873",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0874",
@@ -34065,12 +26202,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/stonjourner.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/stonjourner.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/stonjourner.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/stonjourner.gif",
     },
     stats: {
       hp: "100",
@@ -34081,22 +26220,11 @@ const Pokedex = [
       speed: "70",
     },
     eggGroups: ["Mineral"],
-    learnsets: "0874",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0875",
-    name: "Eiscue Ice",
+    name: "Eiscue",
     region: "Galar",
     types: ["Ice"],
     abilities: {
@@ -34104,12 +26232,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/eiscue.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/eiscue.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/eiscue.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/eiscue.gif",
     },
     stats: {
       hp: "75",
@@ -34120,22 +26250,11 @@ const Pokedex = [
       speed: "50",
     },
     eggGroups: ["Water 1", "Field"],
-    learnsets: "0875",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0876",
-    name: "Indeedee Male",
+    name: "Indeedee",
     region: "Galar",
     types: ["Psychic", "Normal"],
     abilities: {
@@ -34143,12 +26262,14 @@ const Pokedex = [
       hidden: "Psychic Surge",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/indeedee.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/indeedee.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/indeedee.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/indeedee.gif",
     },
     stats: {
       hp: "60",
@@ -34159,22 +26280,11 @@ const Pokedex = [
       speed: "95",
     },
     eggGroups: ["Fairy"],
-    learnsets: "0876",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0877",
-    name: "Morpeko Full Belly",
+    name: "Morpeko",
     region: "Galar",
     types: ["Electric", "Dark"],
     abilities: {
@@ -34182,12 +26292,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/morpeko.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/morpeko.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/morpeko.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/morpeko.gif",
     },
     stats: {
       hp: "58",
@@ -34198,18 +26310,7 @@ const Pokedex = [
       speed: "97",
     },
     eggGroups: ["Field", "Fairy"],
-    learnsets: "0877",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0878",
@@ -34221,12 +26322,14 @@ const Pokedex = [
       hidden: "Heavy Metal",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/cufant.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/cufant.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/cufant.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/cufant.gif",
     },
     stats: {
       hp: "72",
@@ -34237,18 +26340,7 @@ const Pokedex = [
       speed: "40",
     },
     eggGroups: ["Field", "Mineral"],
-    learnsets: "0878",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0879",
@@ -34260,12 +26352,14 @@ const Pokedex = [
       hidden: "Heavy Metal",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/copperajah.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/copperajah.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/copperajah.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/copperajah.gif",
     },
     stats: {
       hp: "122",
@@ -34276,18 +26370,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["Field", "Mineral"],
-    learnsets: "0879",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0880",
@@ -34299,12 +26382,14 @@ const Pokedex = [
       hidden: "Sand Rush",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/dracozolt.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/dracozolt.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/dracozolt.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/dracozolt.gif",
     },
     stats: {
       hp: "90",
@@ -34315,18 +26400,7 @@ const Pokedex = [
       speed: "75",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0880",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0881",
@@ -34338,12 +26412,14 @@ const Pokedex = [
       hidden: "Slush Rush",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/arctozolt.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/arctozolt.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/arctozolt.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/arctozolt.gif",
     },
     stats: {
       hp: "90",
@@ -34354,18 +26430,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0881",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0882",
@@ -34377,12 +26442,14 @@ const Pokedex = [
       hidden: "Sand Rush",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/dracovish.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/dracovish.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/dracovish.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/dracovish.gif",
     },
     stats: {
       hp: "90",
@@ -34393,18 +26460,7 @@ const Pokedex = [
       speed: "75",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0882",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0883",
@@ -34416,12 +26472,14 @@ const Pokedex = [
       hidden: "Slush Rush",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/arctovish.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/arctovish.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/arctovish.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/arctovish.gif",
     },
     stats: {
       hp: "90",
@@ -34432,18 +26490,7 @@ const Pokedex = [
       speed: "55",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0883",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0884",
@@ -34455,12 +26502,14 @@ const Pokedex = [
       hidden: "Stalwart",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/duraludon.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/duraludon.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/duraludon.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/duraludon.gif",
     },
     stats: {
       hp: "70",
@@ -34471,18 +26520,7 @@ const Pokedex = [
       speed: "85",
     },
     eggGroups: ["Mineral", "Dragon"],
-    learnsets: "0884",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0885",
@@ -34494,12 +26532,14 @@ const Pokedex = [
       hidden: "Cursed Body",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/dreepy.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/dreepy.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/dreepy.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/dreepy.gif",
     },
     stats: {
       hp: "28",
@@ -34510,18 +26550,7 @@ const Pokedex = [
       speed: "82",
     },
     eggGroups: ["Amorphous", "Dragon"],
-    learnsets: "0885",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0886",
@@ -34533,12 +26562,14 @@ const Pokedex = [
       hidden: "Cursed Body",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/drakloak.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/drakloak.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/drakloak.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/drakloak.gif",
     },
     stats: {
       hp: "68",
@@ -34549,18 +26580,7 @@ const Pokedex = [
       speed: "102",
     },
     eggGroups: ["Amorphous", "Dragon"],
-    learnsets: "0886",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0887",
@@ -34572,12 +26592,14 @@ const Pokedex = [
       hidden: "Cursed Body",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/dragapult.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/dragapult.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/dragapult.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/dragapult.gif",
     },
     stats: {
       hp: "88",
@@ -34588,18 +26610,7 @@ const Pokedex = [
       speed: "142",
     },
     eggGroups: ["Amorphous", "Dragon"],
-    learnsets: "0887",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [50, 50],
   },
   {
     id: "0888",
@@ -34611,12 +26622,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/zacian.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/zacian.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/zacian.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/zacian.gif",
     },
     stats: {
       hp: "92",
@@ -34627,18 +26640,7 @@ const Pokedex = [
       speed: "138",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0888",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0889",
@@ -34650,12 +26652,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/zamazenta.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/zamazenta.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/zamazenta.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/zamazenta.gif",
     },
     stats: {
       hp: "92",
@@ -34666,18 +26670,7 @@ const Pokedex = [
       speed: "138",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0889",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0890",
@@ -34689,12 +26682,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/eternatus.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/eternatus.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/eternatus.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/eternatus.gif",
     },
     stats: {
       hp: "140",
@@ -34705,18 +26700,7 @@ const Pokedex = [
       speed: "130",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0890",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0891",
@@ -34728,12 +26712,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/kubfu.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/kubfu.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/kubfu.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/kubfu.gif",
     },
     stats: {
       hp: "60",
@@ -34744,22 +26730,11 @@ const Pokedex = [
       speed: "72",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0891",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0892",
-    name: "Urshifu Single Strike",
+    name: "Urshifu",
     region: "Galar",
     types: ["Fighting", "Dark"],
     abilities: {
@@ -34767,12 +26742,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/urshifu.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/urshifu.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/urshifu.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/urshifu.gif",
     },
     stats: {
       hp: "100",
@@ -34783,18 +26760,7 @@ const Pokedex = [
       speed: "97",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0892",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [87.5, 12.5],
   },
   {
     id: "0893",
@@ -34806,12 +26772,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/zarude.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/zarude.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/zarude.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/zarude.gif",
     },
     stats: {
       hp: "105",
@@ -34822,18 +26790,7 @@ const Pokedex = [
       speed: "105",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0893",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0894",
@@ -34845,12 +26802,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/regieleki.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/regieleki.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/regieleki.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/regieleki.gif",
     },
     stats: {
       hp: "80",
@@ -34861,18 +26820,7 @@ const Pokedex = [
       speed: "200",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0894",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0895",
@@ -34884,12 +26832,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/regidrago.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/regidrago.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/regidrago.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/regidrago.gif",
     },
     stats: {
       hp: "200",
@@ -34900,18 +26850,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0895",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0896",
@@ -34923,12 +26862,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/glastrier.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/glastrier.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/glastrier.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/glastrier.gif",
     },
     stats: {
       hp: "100",
@@ -34939,18 +26880,7 @@ const Pokedex = [
       speed: "30",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0896",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0897",
@@ -34962,12 +26892,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/spectrier.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/spectrier.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/spectrier.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/spectrier.gif",
     },
     stats: {
       hp: "100",
@@ -34978,18 +26910,7 @@ const Pokedex = [
       speed: "130",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0897",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
   {
     id: "0898",
@@ -35001,12 +26922,14 @@ const Pokedex = [
       hidden: "none",
     },
     frontSprite: {
-      normal: "",
-      shiny: "",
+      normal: "https://projectpokemon.org/images/normal-sprite/calyrex.gif",
+      shiny: "https://projectpokemon.org/images/shiny-sprite/calyrex.gif",
     },
     backSprite: {
-      normal: "",
-      shiny: "",
+      normal:
+        "https://projectpokemon.org/images/sprites-models/normal-back/calyrex.gif",
+      shiny:
+        "https://projectpokemon.org/images/sprites-models/shiny-back/calyrex.gif",
     },
     stats: {
       hp: "100",
@@ -35017,18 +26940,7 @@ const Pokedex = [
       speed: "80",
     },
     eggGroups: ["No Eggs Discovered"],
-    learnsets: "0898",
-    genderRatios: [],
-    description: "",
-    evolution: [
-      {
-        method: "",
-        conditions: {
-          level: "",
-        },
-        into: "",
-      },
-    ],
+    genderRatios: [0, 0],
   },
 ];
 
