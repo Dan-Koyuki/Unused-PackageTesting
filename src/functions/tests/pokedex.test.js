@@ -2,7 +2,12 @@
 import { findByAbility, findById, findByName } from "../utils/Pokemon.js";
 
 // Test Usage
-const bulbasaur = findById('0001');
-// const adaptability = findByAbility('Adaptability');
-console.log("bulbasaur", bulbasaur);
-// console.log("Pokemon with adaptability \n", adaptability);
+// Search By ID {check}
+const pokemon = findById('0001');
+console.log("Is Pokemon Exist By ID? ", pokemon ? "True" : "False");
+
+// Search By Ability {check}
+const pokemonA = findByAbility('blaze');
+const pokemons = pokemonA?.map(poke => poke.name);
+console.log(pokemons)
+console.log("Is Pokemons Exist By Ability? ", pokemonA ? `True, ${pokemonA.length}` : "False");
