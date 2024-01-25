@@ -326,7 +326,7 @@ const Pokedex = [
     types: ["Bug"],
     abilities: {
       normal: ["Shed Skin"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/metapod.gif",
@@ -422,7 +422,7 @@ const Pokedex = [
     types: ["Bug", "Poison"],
     abilities: {
       normal: ["Shed Skin"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/kakuna.gif",
@@ -2918,7 +2918,7 @@ const Pokedex = [
     types: ["Ghost", "Poison"],
     abilities: {
       normal: ["Levitate"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/gastly.gif",
@@ -2950,7 +2950,7 @@ const Pokedex = [
     types: ["Ghost", "Poison"],
     abilities: {
       normal: ["Levitate"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/haunter.gif",
@@ -2982,7 +2982,7 @@ const Pokedex = [
     types: ["Ghost", "Poison"],
     abilities: {
       normal: ["Cursed Body"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/gengar.gif",
@@ -4806,7 +4806,7 @@ const Pokedex = [
     types: ["Psychic"],
     abilities: {
       normal: ["Synchronize"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/mew.gif",
@@ -6374,7 +6374,7 @@ const Pokedex = [
     types: ["Ghost"],
     abilities: {
       normal: ["Levitate"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/misdreavus.gif",
@@ -6406,7 +6406,7 @@ const Pokedex = [
     types: ["Psychic"],
     abilities: {
       normal: ["Levitate"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/unown.gif",
@@ -7878,7 +7878,7 @@ const Pokedex = [
     types: ["Rock", "Ground"],
     abilities: {
       normal: ["Shed Skin"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/pupitar.gif",
@@ -8006,7 +8006,7 @@ const Pokedex = [
     types: ["Psychic", "Grass"],
     abilities: {
       normal: ["Natural Cure"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/celebi.gif",
@@ -8486,7 +8486,7 @@ const Pokedex = [
     types: ["Bug"],
     abilities: {
       normal: ["Shed Skin"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/silcoon.gif",
@@ -8550,7 +8550,7 @@ const Pokedex = [
     types: ["Bug"],
     abilities: {
       normal: ["Shed Skin"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/cascoon.gif",
@@ -8989,7 +8989,7 @@ const Pokedex = [
     eggGroups: ["Human-Like", "Amorphous"],
     genderRatios: [50, 50],
     description:
-      "Kirlia uses the horns on its head to amplify its psychokinetic power. When the Pokémon uses its power, the air around it becomes distorted, creating mirages of nonexistent scenery.",
+      "Kirlia uses the horns on its head to amplify its psychokinetic power. When the Pokémon uses its power, the air around it becomes distorted, creating mirages of -xistent scenery.",
   },
   {
     id: "0282",
@@ -9158,7 +9158,7 @@ const Pokedex = [
     types: ["Normal"],
     abilities: {
       normal: ["Truant"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/slakoth.gif",
@@ -9190,7 +9190,7 @@ const Pokedex = [
     types: ["Normal"],
     abilities: {
       normal: ["Vital Spirit"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/vigoroth.gif",
@@ -9222,7 +9222,7 @@ const Pokedex = [
     types: ["Normal"],
     abilities: {
       normal: ["Truant"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/slaking.gif",
@@ -9318,7 +9318,7 @@ const Pokedex = [
     types: ["Bug", "Ghost"],
     abilities: {
       normal: ["Wonder Guard"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/shedinja.gif",
@@ -10502,7 +10502,7 @@ const Pokedex = [
     types: ["Ground", "Dragon"],
     abilities: {
       normal: ["Levitate"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/vibrava.gif",
@@ -10534,7 +10534,7 @@ const Pokedex = [
     types: ["Ground", "Dragon"],
     abilities: {
       normal: ["Levitate"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/flygon.gif",
@@ -10758,7 +10758,7 @@ const Pokedex = [
     types: ["Rock", "Psychic"],
     abilities: {
       normal: ["Levitate"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/lunatone.gif",
@@ -10790,7 +10790,7 @@ const Pokedex = [
     types: ["Rock", "Psychic"],
     abilities: {
       normal: ["Levitate"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/solrock.gif",
@@ -10950,7 +10950,7 @@ const Pokedex = [
     types: ["Ground", "Psychic"],
     abilities: {
       normal: ["Levitate"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/baltoy.gif",
@@ -10982,7 +10982,7 @@ const Pokedex = [
     types: ["Ground", "Psychic"],
     abilities: {
       normal: ["Levitate"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/claydol.gif",
@@ -11206,7 +11206,7 @@ const Pokedex = [
     types: ["Normal"],
     abilities: {
       normal: ["Forecast"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/castform.gif",
@@ -11430,7 +11430,7 @@ const Pokedex = [
     types: ["Psychic"],
     abilities: {
       normal: ["Levitate"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/chimecho.gif",
@@ -12134,7 +12134,7 @@ const Pokedex = [
     types: ["Dragon", "Psychic"],
     abilities: {
       normal: ["Levitate"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/latias.gif",
@@ -12166,7 +12166,7 @@ const Pokedex = [
     types: ["Dragon", "Psychic"],
     abilities: {
       normal: ["Levitate"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/latios.gif",
@@ -12198,7 +12198,7 @@ const Pokedex = [
     types: ["Water"],
     abilities: {
       normal: ["Drizzle"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/kyogre.gif",
@@ -12230,7 +12230,7 @@ const Pokedex = [
     types: ["Ground"],
     abilities: {
       normal: ["Drought"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/groudon.gif",
@@ -12262,7 +12262,7 @@ const Pokedex = [
     types: ["Dragon", "Flying"],
     abilities: {
       normal: ["Air Lock"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/rayquaza.gif",
@@ -12294,7 +12294,7 @@ const Pokedex = [
     types: ["Steel", "Psychic"],
     abilities: {
       normal: ["Serene Grace"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/jirachi.gif",
@@ -12326,7 +12326,7 @@ const Pokedex = [
     types: ["Psychic"],
     abilities: {
       normal: ["Pressure"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/deoxys.gif",
@@ -13414,7 +13414,7 @@ const Pokedex = [
     types: ["Grass"],
     abilities: {
       normal: ["Chlorophyll"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/cherubi.gif",
@@ -13446,7 +13446,7 @@ const Pokedex = [
     types: ["Grass"],
     abilities: {
       normal: ["Flower Gift"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/cherrim.gif",
@@ -13702,7 +13702,7 @@ const Pokedex = [
     types: ["Ghost"],
     abilities: {
       normal: ["Levitate"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/mismagius.gif",
@@ -13830,7 +13830,7 @@ const Pokedex = [
     types: ["Psychic"],
     abilities: {
       normal: ["Levitate"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/chingling.gif",
@@ -14534,7 +14534,7 @@ const Pokedex = [
     types: ["Grass"],
     abilities: {
       normal: ["Levitate"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/carnivine.gif",
@@ -15005,7 +15005,7 @@ const Pokedex = [
     eggGroups: ["Bug"],
     genderRatios: [50, 50],
     description:
-      "Extremely violent. When hunting, it wastes none of its energy, aiming only for prey's most vulnerable spots. Any who manage to tame this Pokémon must be of incredible bravery.",
+      "Extremely violent. When hunting, it wastes - of its energy, aiming only for prey's most vulnerable spots. Any who manage to tame this Pokémon must be of incredible bravery.",
   },
   {
     id: "0470",
@@ -15302,7 +15302,7 @@ const Pokedex = [
     types: ["Electric", "Ghost"],
     abilities: {
       normal: ["Levitate"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/rotom.gif",
@@ -15334,7 +15334,7 @@ const Pokedex = [
     types: ["Psychic"],
     abilities: {
       normal: ["Levitate"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/uxie.gif",
@@ -15366,7 +15366,7 @@ const Pokedex = [
     types: ["Psychic"],
     abilities: {
       normal: ["Levitate"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/mesprit.gif",
@@ -15398,7 +15398,7 @@ const Pokedex = [
     types: ["Psychic"],
     abilities: {
       normal: ["Levitate"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/azelf.gif",
@@ -15526,7 +15526,7 @@ const Pokedex = [
     types: ["Normal"],
     abilities: {
       normal: ["Slow Start"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/regigigas.gif",
@@ -15590,7 +15590,7 @@ const Pokedex = [
     types: ["Psychic"],
     abilities: {
       normal: ["Levitate"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/cresselia.gif",
@@ -15622,7 +15622,7 @@ const Pokedex = [
     types: ["Water"],
     abilities: {
       normal: ["Hydration"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/phione.gif",
@@ -15654,7 +15654,7 @@ const Pokedex = [
     types: ["Water"],
     abilities: {
       normal: ["Hydration"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/manaphy.gif",
@@ -15686,7 +15686,7 @@ const Pokedex = [
     types: ["Dark"],
     abilities: {
       normal: ["Bad Dreams"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/darkrai.gif",
@@ -15718,7 +15718,7 @@ const Pokedex = [
     types: ["Grass"],
     abilities: {
       normal: ["Natural Cure"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/shaymin.gif",
@@ -15750,7 +15750,7 @@ const Pokedex = [
     types: ["Normal"],
     abilities: {
       normal: ["Multitype"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/arceus.gif",
@@ -15782,7 +15782,7 @@ const Pokedex = [
     types: ["Psychic", "Fire"],
     abilities: {
       normal: ["Victory Star"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/victini.gif",
@@ -17958,7 +17958,7 @@ const Pokedex = [
     types: ["Ghost"],
     abilities: {
       normal: ["Mummy"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/yamask.gif",
@@ -17990,7 +17990,7 @@ const Pokedex = [
     types: ["Ghost"],
     abilities: {
       normal: ["Mummy"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/cofagrigus.gif",
@@ -18086,7 +18086,7 @@ const Pokedex = [
     types: ["Rock", "Flying"],
     abilities: {
       normal: ["Defeatist"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/archen.gif",
@@ -18118,7 +18118,7 @@ const Pokedex = [
     types: ["Rock", "Flying"],
     abilities: {
       normal: ["Defeatist"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/archeops.gif",
@@ -18214,7 +18214,7 @@ const Pokedex = [
     types: ["Dark"],
     abilities: {
       normal: ["Illusion"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/zorua.gif",
@@ -18246,7 +18246,7 @@ const Pokedex = [
     types: ["Dark"],
     abilities: {
       normal: ["Illusion"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/zoroark.gif",
@@ -19078,7 +19078,7 @@ const Pokedex = [
     types: ["Grass", "Steel"],
     abilities: {
       normal: ["Iron Barbs"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/ferroseed.gif",
@@ -19238,7 +19238,7 @@ const Pokedex = [
     types: ["Electric"],
     abilities: {
       normal: ["Levitate"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/tynamo.gif",
@@ -19270,7 +19270,7 @@ const Pokedex = [
     types: ["Electric"],
     abilities: {
       normal: ["Levitate"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/eelektrik.gif",
@@ -19302,7 +19302,7 @@ const Pokedex = [
     types: ["Electric"],
     abilities: {
       normal: ["Levitate"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/eelektross.gif",
@@ -19654,7 +19654,7 @@ const Pokedex = [
     types: ["Ice"],
     abilities: {
       normal: ["Levitate"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/cryogonal.gif",
@@ -20230,7 +20230,7 @@ const Pokedex = [
     types: ["Dark", "Dragon"],
     abilities: {
       normal: ["Hustle"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/deino.gif",
@@ -20262,7 +20262,7 @@ const Pokedex = [
     types: ["Dark", "Dragon"],
     abilities: {
       normal: ["Hustle"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/zweilous.gif",
@@ -20294,7 +20294,7 @@ const Pokedex = [
     types: ["Dark", "Dragon"],
     abilities: {
       normal: ["Levitate"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/hydreigon.gif",
@@ -20390,7 +20390,7 @@ const Pokedex = [
     types: ["Steel", "Fighting"],
     abilities: {
       normal: ["Justified"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/cobalion.gif",
@@ -20422,7 +20422,7 @@ const Pokedex = [
     types: ["Rock", "Fighting"],
     abilities: {
       normal: ["Justified"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/terrakion.gif",
@@ -20454,7 +20454,7 @@ const Pokedex = [
     types: ["Grass", "Fighting"],
     abilities: {
       normal: ["Justified"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/virizion.gif",
@@ -20550,7 +20550,7 @@ const Pokedex = [
     types: ["Dragon", "Fire"],
     abilities: {
       normal: ["Turboblaze"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/reshiram.gif",
@@ -20582,7 +20582,7 @@ const Pokedex = [
     types: ["Dragon", "Electric"],
     abilities: {
       normal: ["Teravolt"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/zekrom.gif",
@@ -20646,7 +20646,7 @@ const Pokedex = [
     types: ["Dragon", "Ice"],
     abilities: {
       normal: ["Pressure"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/kyurem.gif",
@@ -20678,7 +20678,7 @@ const Pokedex = [
     types: ["Water", "Fighting"],
     abilities: {
       normal: ["Justified"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/keldeo.gif",
@@ -20710,7 +20710,7 @@ const Pokedex = [
     types: ["Normal", "Psychic"],
     abilities: {
       normal: ["Serene Grace"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/meloetta.gif",
@@ -20742,7 +20742,7 @@ const Pokedex = [
     types: ["Bug", "Steel"],
     abilities: {
       normal: ["Download"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/genesect.gif",
@@ -21606,7 +21606,7 @@ const Pokedex = [
     types: ["Normal"],
     abilities: {
       normal: ["Fur Coat"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/furfrou.gif",
@@ -21702,7 +21702,7 @@ const Pokedex = [
     types: ["Steel", "Ghost"],
     abilities: {
       normal: ["No Guard"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/honedge.gif",
@@ -21734,7 +21734,7 @@ const Pokedex = [
     types: ["Steel", "Ghost"],
     abilities: {
       normal: ["No Guard"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/doublade.gif",
@@ -21766,7 +21766,7 @@ const Pokedex = [
     types: ["Steel", "Ghost"],
     abilities: {
       normal: ["Stance Change"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/aegislash.gif",
@@ -22118,7 +22118,7 @@ const Pokedex = [
     types: ["Water"],
     abilities: {
       normal: ["Mega Launcher"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/clauncher.gif",
@@ -22150,7 +22150,7 @@ const Pokedex = [
     types: ["Water"],
     abilities: {
       normal: ["Mega Launcher"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/clawitzer.gif",
@@ -22886,7 +22886,7 @@ const Pokedex = [
     types: ["Fairy"],
     abilities: {
       normal: ["Fairy Aura"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/xerneas.gif",
@@ -22918,7 +22918,7 @@ const Pokedex = [
     types: ["Dark", "Flying"],
     abilities: {
       normal: ["Dark Aura"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/yveltal.gif",
@@ -22950,7 +22950,7 @@ const Pokedex = [
     types: ["Dragon", "Ground"],
     abilities: {
       normal: ["Aura Break", "Power Construct"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/zygarde.gif",
@@ -22982,7 +22982,7 @@ const Pokedex = [
     types: ["Rock", "Fairy"],
     abilities: {
       normal: ["Clear Body"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/diancie.gif",
@@ -23014,7 +23014,7 @@ const Pokedex = [
     types: ["Psychic", "Ghost"],
     abilities: {
       normal: ["Magician"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/hoopa.gif",
@@ -23046,7 +23046,7 @@ const Pokedex = [
     types: ["Fire", "Water"],
     abilities: {
       normal: ["Water Absorb"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/volcanion.gif",
@@ -23133,7 +23133,7 @@ const Pokedex = [
     eggGroups: ["Flying"],
     genderRatios: [87.5, 12.5],
     description:
-      "Regularly basks in sunlight to gather power—presumably due to the frigid climate. Nonetheless, the edges of the blade quills set into its wings are keen as ever.",
+      "Regularly basks in sunlight to gather power—presumably due to the frigid climate. -theless, the edges of the blade quills set into its wings are keen as ever.",
   },
   {
     id: "0724",
@@ -23526,7 +23526,7 @@ const Pokedex = [
     types: ["Bug"],
     abilities: {
       normal: ["Swarm"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/grubbin.gif",
@@ -23558,7 +23558,7 @@ const Pokedex = [
     types: ["Bug", "Electric"],
     abilities: {
       normal: ["Battery"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/charjabug.gif",
@@ -23590,7 +23590,7 @@ const Pokedex = [
     types: ["Bug", "Electric"],
     abilities: {
       normal: ["Levitate"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/vikavolt.gif",
@@ -23687,7 +23687,7 @@ const Pokedex = [
     types: ["Fire", "Flying"],
     abilities: {
       normal: ["Dancer"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/oricorio.gif",
@@ -23847,7 +23847,7 @@ const Pokedex = [
     types: ["Water"],
     abilities: {
       normal: ["Schooling"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/wishiwashi.gif",
@@ -24519,7 +24519,7 @@ const Pokedex = [
     types: ["Bug", "Water"],
     abilities: {
       normal: ["Wimp Out"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/wimpod.gif",
@@ -24551,7 +24551,7 @@ const Pokedex = [
     types: ["Bug", "Water"],
     abilities: {
       normal: ["Emergency Exit"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/golisopod.gif",
@@ -24679,7 +24679,7 @@ const Pokedex = [
     types: ["Normal"],
     abilities: {
       normal: ["Battle Armor"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/type null.gif",
@@ -24711,7 +24711,7 @@ const Pokedex = [
     types: ["Normal"],
     abilities: {
       normal: ["RKS System"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/silvally.gif",
@@ -24743,7 +24743,7 @@ const Pokedex = [
     types: ["Rock", "Flying"],
     abilities: {
       normal: ["Shields Down"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/minior.gif",
@@ -24775,7 +24775,7 @@ const Pokedex = [
     types: ["Normal"],
     abilities: {
       normal: ["Comatose"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/komala.gif",
@@ -24807,7 +24807,7 @@ const Pokedex = [
     types: ["Fire", "Dragon"],
     abilities: {
       normal: ["Shell Armor"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/turtonator.gif",
@@ -24871,7 +24871,7 @@ const Pokedex = [
     types: ["Ghost", "Fairy"],
     abilities: {
       normal: ["Disguise"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/mimikyu.gif",
@@ -24967,7 +24967,7 @@ const Pokedex = [
     types: ["Ghost", "Grass"],
     abilities: {
       normal: ["Steelworker"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/dhelmise.gif",
@@ -25223,7 +25223,7 @@ const Pokedex = [
     types: ["Psychic"],
     abilities: {
       normal: ["Unaware"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/cosmog.gif",
@@ -25255,7 +25255,7 @@ const Pokedex = [
     types: ["Psychic"],
     abilities: {
       normal: ["Sturdy"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/cosmoem.gif",
@@ -25287,7 +25287,7 @@ const Pokedex = [
     types: ["Psychic", "Steel"],
     abilities: {
       normal: ["Full Metal Body"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/solgaleo.gif",
@@ -25319,7 +25319,7 @@ const Pokedex = [
     types: ["Psychic", "Ghost"],
     abilities: {
       normal: ["Shadow Shield"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/lunala.gif",
@@ -25351,7 +25351,7 @@ const Pokedex = [
     types: ["Rock", "Poison"],
     abilities: {
       normal: ["Beast Boost"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/nihilego.gif",
@@ -25383,7 +25383,7 @@ const Pokedex = [
     types: ["Bug", "Fighting"],
     abilities: {
       normal: ["Beast Boost"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/buzzwole.gif",
@@ -25415,7 +25415,7 @@ const Pokedex = [
     types: ["Bug", "Fighting"],
     abilities: {
       normal: ["Beast Boost"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/pheromosa.gif",
@@ -25447,7 +25447,7 @@ const Pokedex = [
     types: ["Electric"],
     abilities: {
       normal: ["Beast Boost"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/xurkitree.gif",
@@ -25479,7 +25479,7 @@ const Pokedex = [
     types: ["Steel", "Flying"],
     abilities: {
       normal: ["Beast Boost"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/celesteela.gif",
@@ -25511,7 +25511,7 @@ const Pokedex = [
     types: ["Grass", "Steel"],
     abilities: {
       normal: ["Beast Boost"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/kartana.gif",
@@ -25543,7 +25543,7 @@ const Pokedex = [
     types: ["Dark", "Dragon"],
     abilities: {
       normal: ["Beast Boost"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/guzzlord.gif",
@@ -25575,7 +25575,7 @@ const Pokedex = [
     types: ["Psychic"],
     abilities: {
       normal: ["Prism Armor"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/necrozma.gif",
@@ -25607,7 +25607,7 @@ const Pokedex = [
     types: ["Steel", "Fairy"],
     abilities: {
       normal: ["Soul-Heart"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/magearna.gif",
@@ -25639,7 +25639,7 @@ const Pokedex = [
     types: ["Fighting", "Ghost"],
     abilities: {
       normal: ["Technician"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/marshadow.gif",
@@ -25671,7 +25671,7 @@ const Pokedex = [
     types: ["Poison"],
     abilities: {
       normal: ["Beast Boost"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/poipole.gif",
@@ -25703,7 +25703,7 @@ const Pokedex = [
     types: ["Poison", "Dragon"],
     abilities: {
       normal: ["Beast Boost"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/naganadel.gif",
@@ -25735,7 +25735,7 @@ const Pokedex = [
     types: ["Rock", "Steel"],
     abilities: {
       normal: ["Beast Boost"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/stakataka.gif",
@@ -25767,7 +25767,7 @@ const Pokedex = [
     types: ["Fire", "Ghost"],
     abilities: {
       normal: ["Beast Boost"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/blacephalon.gif",
@@ -25799,7 +25799,7 @@ const Pokedex = [
     types: ["Electric"],
     abilities: {
       normal: ["Volt Absorb"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/zeraora.gif",
@@ -25831,7 +25831,7 @@ const Pokedex = [
     types: ["Steel"],
     abilities: {
       normal: ["Magnet Pull"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/meltan.gif",
@@ -25863,7 +25863,7 @@ const Pokedex = [
     types: ["Steel"],
     abilities: {
       normal: ["Iron Fist"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal: "https://projectpokemon.org/images/normal-sprite/melmetal.gif",
@@ -27015,7 +27015,7 @@ const Pokedex = [
     types: ["Flying", "Water"],
     abilities: {
       normal: ["Gulp Missile"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal:
@@ -27719,7 +27719,7 @@ const Pokedex = [
     types: ["Ground", "Ghost"],
     abilities: {
       normal: ["Wandering Spirit"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal:
@@ -27943,7 +27943,7 @@ const Pokedex = [
     types: ["Rock"],
     abilities: {
       normal: ["Power Spot"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal:
@@ -27975,7 +27975,7 @@ const Pokedex = [
     types: ["Ice"],
     abilities: {
       normal: ["Ice Face"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal:
@@ -28039,7 +28039,7 @@ const Pokedex = [
     types: ["Electric", "Dark"],
     abilities: {
       normal: ["Hunger Switch"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal:
@@ -28391,7 +28391,7 @@ const Pokedex = [
     types: ["Fairy"],
     abilities: {
       normal: ["Intrepid Sword"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal:
@@ -28423,7 +28423,7 @@ const Pokedex = [
     types: ["Fighting"],
     abilities: {
       normal: ["Dauntless Shield"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal:
@@ -28455,7 +28455,7 @@ const Pokedex = [
     types: ["Poison", "Dragon"],
     abilities: {
       normal: ["Pressure"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal:
@@ -28487,7 +28487,7 @@ const Pokedex = [
     types: ["Fighting"],
     abilities: {
       normal: ["Inner Focus"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal:
@@ -28519,7 +28519,7 @@ const Pokedex = [
     types: ["Fighting", "Dark"],
     abilities: {
       normal: ["Unseen Fist"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal:
@@ -28551,7 +28551,7 @@ const Pokedex = [
     types: ["Dark", "Grass"],
     abilities: {
       normal: ["Leaf Guard"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal:
@@ -28583,7 +28583,7 @@ const Pokedex = [
     types: ["Electric"],
     abilities: {
       normal: ["Transistor"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal:
@@ -28615,7 +28615,7 @@ const Pokedex = [
     types: ["Dragon"],
     abilities: {
       normal: ["Dragon's Maw"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal:
@@ -28647,7 +28647,7 @@ const Pokedex = [
     types: ["Ice"],
     abilities: {
       normal: ["Chilling Neigh"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal:
@@ -28679,7 +28679,7 @@ const Pokedex = [
     types: ["Ghost"],
     abilities: {
       normal: ["Grim Neigh"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal:
@@ -28711,7 +28711,7 @@ const Pokedex = [
     types: ["Psychic", "Grass"],
     abilities: {
       normal: ["Unnerve"],
-      hidden: "none",
+      hidden: "No Hidden",
     },
     frontSprite: {
       normal:
