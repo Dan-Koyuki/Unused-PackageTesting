@@ -1,5 +1,5 @@
 import Pokedex from "../../models/pokedex.js";
-import { capitalize } from "./helper.js";
+import { capitalize, throwErrorIfEmpty } from "../utils/helper.js";
 
 /**
  * findById - Find a specific Pokemon by its ID.
@@ -13,9 +13,7 @@ export const findById = (id) => {
 
   const res = Pokedex.find((pokemon) => pokemon.id === id);
 
-  if (!res || res.length === 0) {
-    throw new Error("No Pokemon Found!");
-  }
+  throwErrorIfEmpty(res, "No Pokemon Found!");
 
   return res;
 };
@@ -34,9 +32,7 @@ export const findByName = (name) => {
   const req = capitalize(name);
   const res = Pokedex.find((pokemon) => pokemon.name === req);
 
-  if (!res || res.length === 0) {
-    throw new Error("No Pokemon Found!");
-  }
+  throwErrorIfEmpty(res, "No Pokemon Found!");
 
   return res;
 };
@@ -69,9 +65,7 @@ export const findByRegion = (region) => {
     return pokemon.region === req;
   });
 
-  if (!res || res.length === 0) {
-    throw new Error(`No Pokemon Found from ${region}!`);
-  }
+  throwErrorIfEmpty(res, `No Pokemon Found from ${region}!`);
 
   return res;
 };
@@ -102,7 +96,7 @@ export const findByType = (type) => {
     "fairy",
     "poison",
   ];
-  if (typeof type !== "string" || !valid.includes(type)) {
+  if (typeof type !== "string" || !valid.includes(type.toLowerCase())) {
     throw new Error("Invalid Type! Please provide a correct Type of Pokemon");
   }
   const req = capitalize(type);
@@ -110,9 +104,7 @@ export const findByType = (type) => {
     return pokemon.types.includes(req);
   });
 
-  if (!res || res.length === 0) {
-    throw new Error(`No Pokemon with ${type} type!`);
-  }
+  throwErrorIfEmpty(res, `No Pokemon with ${type} type!`);
 
   return res;
 };
@@ -144,7 +136,7 @@ export const findByTypes = (types) => {
     "poison",
   ];
 
-  if (!Array.isArray(types) || !types.every((type) => valid.includes(type))) {
+  if (!Array.isArray(types) || !types.every((type) => valid.includes(type.toLowerCase()))) {
     throw new Error(
       "Invalid Type of Pokemon! Please provide a correct Type of Pokemon"
     );
@@ -155,9 +147,10 @@ export const findByTypes = (types) => {
     return req.every((type) => pokemon.types.includes(type));
   });
 
-  if (!res || res.length === 0) {
-    throw new Error(`No Pokemon with combination type of ${types.join(", ")}!`);
-  }
+  throwErrorIfEmpty(
+    res,
+    `No Pokemon with combination type of ${types.join(", ")}!`
+  );
 
   return res;
 };
@@ -180,9 +173,7 @@ export const findByAbility = (ability) => {
     );
   });
 
-  if (!res || res.length === 0) {
-    throw new Error(`No Pokemon with ${ability} is found!`);
-  }
+  throwErrorIfEmpty(res, `No Pokemon with ${ability} is found!`);
 
   return res;
 };
@@ -203,9 +194,7 @@ export const findByHiddenAbility = (ability) => {
     return pokemon.abilities.hidden === req;
   });
 
-  if (!res || res.length === 0) {
-    throw new Error(`No Pokemon have ${ability} as Hidden Ability!`);
-  }
+  throwErrorIfEmpty(res, `No Pokemon have ${ability} as Hidden Ability!`);
 
   return res;
 };
@@ -226,9 +215,7 @@ export const findByNormalAbility = (ability) => {
     return pokemon.abilities.normal.includes(req);
   });
 
-  if (!res || res.length === 0) {
-    throw new Error(`No Pokemon have ${ability} as Normal Ability!`);
-  }
+  throwErrorIfEmpty(res, `No Pokemon have ${ability} as Normal Ability!`);
 
   return res;
 };
@@ -241,7 +228,10 @@ export const findByNormalAbility = (ability) => {
  */
 export const findByBaseStat = (stat, statType) => {
   const valid = ["hp", "atk", "def", "spa", "spd", "speed"];
-  if (typeof stat !== "string" && typeof stat !== "number") {
+  if (
+    (typeof stat !== "string" && typeof stat !== "number") ||
+    (typeof stat === "string" && isNaN(parseInt(stat)))
+  ) {
     throw new Error(
       "Invalid Stat Format! Stat should be a number or a string."
     );
@@ -251,14 +241,17 @@ export const findByBaseStat = (stat, statType) => {
       "Invalid Stat Type! StatType should be one of 'hp', 'atk', 'def', 'spa', 'spd', 'speed'."
     );
   }
+
+  // turn stat into string incase user put number
   const req = stat.toString();
   const res = Pokedex.filter((pokemon) => {
     return pokemon.stats[statType] === req;
   });
 
-  if (!res || res.length === 0) {
-    throw new Error(`No Pokemon found with ${statType} base stat of ${stat}.`);
-  }
+  throwErrorIfEmpty(
+    res,
+    `No Pokemon found with ${statType} base stat of ${stat}.`
+  );
 
   return res;
 };
@@ -269,18 +262,35 @@ export const findByBaseStat = (stat, statType) => {
  * @returns {Array} - Array of Pokemon object with matching Egg Group.
  */
 export const findByEggGroup = (eggGroup) => {
-  const valid = ['monster', 'human-like', 'water 1', 'water 3', 'bug', 'mineral', 'flying', 'amorphous', 'field', 'water 2', 'fairy', 'ditto', 'grass', 'dragon', 'no eggs discovered', 'gender unknown'];
-  if (typeof eggGroup !== 'string' || !valid.includes(eggGroup.toLowerCase())){
-    throw new Error("Invalid Egg Group! Egg Group should be one of 'monster', 'human-like', 'water 1', 'water 3', 'bug', 'mineral', 'flying', 'amorphous', 'field', 'water 2', 'fairy', 'ditto', 'grass', 'dragon' or 'no eggs discovered'!");
+  const valid = [
+    "monster",
+    "human-like",
+    "water 1",
+    "water 3",
+    "bug",
+    "mineral",
+    "flying",
+    "amorphous",
+    "field",
+    "water 2",
+    "fairy",
+    "ditto",
+    "grass",
+    "dragon",
+    "no eggs discovered",
+    "gender unknown",
+  ];
+  if (typeof eggGroup !== "string" || !valid.includes(eggGroup.toLowerCase())) {
+    throw new Error(
+      "Invalid Egg Group! Egg Group should be one of 'monster', 'human-like', 'water 1', 'water 3', 'bug', 'mineral', 'flying', 'amorphous', 'field', 'water 2', 'fairy', 'ditto', 'grass', 'dragon' or 'no eggs discovered'!"
+    );
   }
   const req = capitalize(eggGroup);
   const res = Pokedex.filter((pokemon) => {
     return pokemon.eggGroups.includes(req);
   });
 
-  if (!res || res.length === 0) {
-    throw new Error(`No Pokemon from ${eggGroup} Egg Groups!`);
-  }
+  throwErrorIfEmpty(res, `No Pokemon from ${eggGroup} Egg Groups!`);
 
   return res;
 };
@@ -292,22 +302,30 @@ export const findByEggGroup = (eggGroup) => {
  * @returns array of Pokemon objects with matching Ratio.
  */
 export const findByGenderRatio = (ratio, gender) => {
-  const valid = ['male', 'female'];
-  if (typeof ratio !== 'number'){
-    throw new Error("Invalid Gender Ratio Format! Gender Ratio should be a number!");
+  const valid = ["male", "female"];
+  if (
+    typeof ratio !== "number" &&
+    (typeof ratio !== "string" || isNaN(parseFloat(ratio)))
+  ) {
+    throw new Error(
+      "Invalid Gender Ratio Format! Gender Ratio should be a number!"
+    );
   }
-  if (typeof gender !== 'string' || !valid.includes(gender.toLowerCase())){
-    throw new Error("Invalid Gender of Pokemon! Gender should be 'male' or 'female'!");
+  if (typeof gender !== "string" || !valid.includes(gender.toLowerCase())) {
+    throw new Error(
+      "Invalid Gender of Pokemon! Gender should be 'male' or 'female'!"
+    );
   }
+
+  // parse ratio into Float incase user put string
   const req = parseFloat(ratio);
-  const type = gender.toLowerCase() === 'male' ? 0 : 1;
+  // change male into 0 and female into 1
+  const type = gender.toLowerCase() === "male" ? 0 : 1;
   const res = Pokedex.filter((pokemon) => {
     return pokemon.genderRatios[type] === req;
-  })
+  });
 
-  if (!res || res.length === 0){
-    throw new Error(`No Pokemon with ${gender} ratio of ${ratio}!`);
-  }
+  throwErrorIfEmpty(res, `No Pokemon with ${gender} ratio of ${ratio}!`);
 
   return res;
-}
+};

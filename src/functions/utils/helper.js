@@ -10,3 +10,9 @@ export const capitalize = (inputString) => {
 
   return resultString;
 };
+
+export const throwErrorIfEmpty = (result, message) => {
+  if (!result || result.length === 0) {
+    throw new Error(message);
+  }
+};
