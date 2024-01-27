@@ -1,7 +1,11 @@
-import Types from "../../models/types";
-import { capitalize, throwErrorIfEmpty } from "../utils/helper";
+import Types from "../../models/types.js";
+import { capitalize, throwErrorIfEmpty } from "../utils/helper.js";
 
-
+/**
+ * pokeTypeInfo - retrieve detail for a Type of Pokemon.
+ * @param {string} type - Type of Pokemon (e.g., 'normal' - 'dragon').
+ * @returns Type object that have maching type.
+ */
 export const pokeTypeInfo = (type) => {
   const valid = [
     "fire",
@@ -28,7 +32,7 @@ export const pokeTypeInfo = (type) => {
   }
 
   const req = capitalize(type);
-  const res = Types.filter((t) => {
+  const res = Types.find((t) => {
     return t.id === req
   });
 

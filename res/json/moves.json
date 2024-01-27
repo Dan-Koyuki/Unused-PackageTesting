@@ -4,7 +4,7 @@
     "name": "10 000 000 Volt Thunderbolt",
     "description": "The user, Pikachu wearing a cap, powers up a jolt of electricity using its Z-Power and unleashes it. Critical hits land more easily.",
     "power": "195",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "1",
     "effect": {
       "details": [],
@@ -64,7 +64,7 @@
     "name": "Acid Armor",
     "description": "The user alters its cellular structure to liquefy itself, sharply raising its Defense stat.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -79,7 +79,7 @@
     "name": "Acid Downpour",
     "description": "The user creates a poisonous swamp using its Z-Power and sinks the target into it at full force. The power varies, depending on the original move.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "1",
     "effect": {
       "details": [],
@@ -124,7 +124,7 @@
     "name": "Acupressure",
     "description": "The user applies pressure to stress points, sharply boosting one of its or its allies’ stats.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "30",
     "effect": {
       "details": [],
@@ -139,7 +139,7 @@
     "name": "Aerial Ace",
     "description": "The user confounds the target with speed, then slashes. This attack never misses.",
     "power": "60",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -169,7 +169,7 @@
     "name": "After You",
     "description": "The user helps the target and makes it use its move right after the user.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "15",
     "effect": {
       "details": [],
@@ -184,7 +184,7 @@
     "name": "Agility",
     "description": "The user relaxes and lightens its body to move faster. This sharply raises the Speed stat.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "30",
     "effect": {
       "details": [],
@@ -229,7 +229,7 @@
     "name": "All Out Pummeling",
     "description": "The user rams an energy orb created by its Z-Power into the target with full force. The power varies, depending on the original move.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "1",
     "effect": {
       "details": [],
@@ -244,7 +244,7 @@
     "name": "Ally Switch",
     "description": "The user teleports using a strange power and switches places with one of its allies.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "15",
     "effect": {
       "details": [],
@@ -259,7 +259,7 @@
     "name": "Amnesia",
     "description": "The user temporarily empties its mind to forget its concerns. This sharply raises the user’s Sp. Def stat.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -334,7 +334,7 @@
     "name": "Aqua Ring",
     "description": "The user envelops itself in a veil made of water. It regains some HP every turn.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -379,7 +379,7 @@
     "name": "Aromatherapy",
     "description": "The user releases a soothing scent that heals all status conditions affecting the user’s party.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "5",
     "effect": {
       "details": [],
@@ -394,7 +394,7 @@
     "name": "Aromatic Mist",
     "description": "The user raises the Sp. Def stat of an ally Pokémon by using a mysterious aroma.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -409,7 +409,7 @@
     "name": "Assist",
     "description": "The user hurriedly and randomly uses a move among those known by ally Pokémon.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -499,7 +499,7 @@
     "name": "Aura Sphere",
     "description": "The user lets loose a blast of aura power from deep within its body at the target. This attack never misses.",
     "power": "80",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -544,7 +544,7 @@
     "name": "Aurora Veil",
     "description": "This move reduces damage from physical and special moves for five turns. This can be used only in a hailstorm.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -559,7 +559,7 @@
     "name": "Autotomize",
     "description": "The user sheds part of its body to make itself lighter and sharply raise its Speed stat.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "15",
     "effect": {
       "details": [],
@@ -619,7 +619,7 @@
     "name": "Baneful Bunker",
     "description": "In addition to protecting the user from attacks, this move also poisons any attacker that makes direct contact.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -649,7 +649,7 @@
     "name": "Barrier",
     "description": "The user throws up a sturdy wall that sharply raises its Defense stat.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -664,7 +664,7 @@
     "name": "Baton Pass",
     "description": "The user switches places with a party Pokémon in waiting and passes along any stat changes.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "40",
     "effect": {
       "details": [],
@@ -754,7 +754,7 @@
     "name": "Belly Drum",
     "description": "The user maximizes its Attack stat in exchange for HP equal to half its max HP.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -769,7 +769,7 @@
     "name": "Bestow",
     "description": "The user passes its held item to the target when the target isn’t holding an item.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "15",
     "effect": {
       "details": [],
@@ -784,7 +784,7 @@
     "name": "Bide",
     "description": "The user endures attacks for two turns, then strikes back to cause double the damage taken.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -829,7 +829,7 @@
     "name": "Black Hole Eclipse",
     "description": "The user gathers dark energy using its Z-Power and sucks the target into it. The power varies, depending on the original move.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "1",
     "effect": {
       "details": [],
@@ -889,7 +889,7 @@
     "name": "Block",
     "description": "The user blocks the target’s way with arms spread wide to prevent escape.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "5",
     "effect": {
       "details": [],
@@ -904,7 +904,7 @@
     "name": "Bloom Doom",
     "description": "The user collects energy from plants using its Z-Power and attacks the target with full force. The power varies, depending on the original move.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "1",
     "effect": {
       "details": [],
@@ -1129,7 +1129,7 @@
     "name": "Breakneck Blitz",
     "description": "The user builds up its momentum using its Z-Power and crashes into the target at full speed. The power varies, depending on the original move.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "1",
     "effect": {
       "details": [],
@@ -1249,7 +1249,7 @@
     "name": "Bulk Up",
     "description": "The user tenses its muscles to bulk up its body, raising both its Attack and Defense stats.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -1354,7 +1354,7 @@
     "name": "Calm Mind",
     "description": "The user quietly focuses its mind and calms its spirit to raise its Sp. Atk and Sp. Def stats.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -1369,7 +1369,7 @@
     "name": "Camouflage",
     "description": "The user’s type is changed depending on its environment, such as at water’s edge, in grass, or in a cave.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -1399,7 +1399,7 @@
     "name": "Catastropika",
     "description": "The user, Pikachu, surrounds itself with the maximum amount of electricity using its Z-Power and pounces on its target with full force.",
     "power": "210",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "1",
     "effect": {
       "details": [],
@@ -1414,7 +1414,7 @@
     "name": "Celebrate",
     "description": "The Pokémon congratulates you on your special day!",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "40",
     "effect": {
       "details": [],
@@ -1429,7 +1429,7 @@
     "name": "Charge",
     "description": "The user boosts the power of the Electric move it uses on the next turn. This also raises the user’s Sp. Def stat.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -1564,7 +1564,7 @@
     "name": "Clangorous Soulblaze",
     "description": "After obtaining Z-Power, the user, Kommo-o, attacks the opposing Pokémon with full force. This move boosts the user’s stats.",
     "power": "185",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "1",
     "effect": {
       "details": [],
@@ -1579,7 +1579,7 @@
     "name": "Clear Smog",
     "description": "The user attacks the target by throwing a clump of special mud. All stat changes are returned to normal.",
     "power": "50",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "15",
     "effect": {
       "details": [],
@@ -1609,7 +1609,7 @@
     "name": "Coaching",
     "description": "The user properly coaches its ally Pokémon, boosting their Attack and Defense stats.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -1624,7 +1624,7 @@
     "name": "Coil",
     "description": "The user coils up and concentrates. This raises its Attack and Defense stats as well as its accuracy.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -1654,7 +1654,7 @@
     "name": "Confide",
     "description": "The user tells the target a secret, and the target loses its ability to concentrate. This lowers the target’s Sp. Atk stat.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -1714,7 +1714,7 @@
     "name": "Continental Crush",
     "description": "The user summons a huge rock mountain using its Z-Power and drops it onto the target with full force. The power varies, depending on the original move.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "1",
     "effect": {
       "details": [],
@@ -1729,7 +1729,7 @@
     "name": "Conversion",
     "description": "The user changes its type to become the same type as the move at the top of the list of moves it knows.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "30",
     "effect": {
       "details": [],
@@ -1744,7 +1744,7 @@
     "name": "Conversion 2",
     "description": "The user changes its type to make itself resistant to the type of the attack the target used last.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "30",
     "effect": {
       "details": [],
@@ -1759,7 +1759,7 @@
     "name": "Copycat",
     "description": "The user mimics the move used immediately before it. The move fails if no other move has been used yet.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -1789,7 +1789,7 @@
     "name": "Corkscrew Crash",
     "description": "The user spins very fast and rams into the target with the full force of its Z-Power. The power varies, depending on the original move.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "1",
     "effect": {
       "details": [],
@@ -1819,7 +1819,7 @@
     "name": "Cosmic Power",
     "description": "The user absorbs a mystical power from space to raise its Defense and Sp. Def stats.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -1834,7 +1834,7 @@
     "name": "Cotton Guard",
     "description": "The user protects itself by wrapping its body in soft cotton, which drastically raises the user’s Defense stat.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -1924,7 +1924,7 @@
     "name": "Crafty Shield",
     "description": "The user protects itself and its allies from status moves with a mysterious power. This does not stop moves that do damage.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -2014,7 +2014,7 @@
     "name": "Curse",
     "description": "A move that works differently for the Ghost type than for all other types.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -2104,7 +2104,7 @@
     "name": "Decorate",
     "description": "The user sharply raises the target’s Attack and Sp. Atk stats by decorating the target.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "15",
     "effect": {
       "details": [],
@@ -2119,7 +2119,7 @@
     "name": "Defend Order",
     "description": "The user calls out its underlings to shield its body, raising its Defense and Sp. Def stats.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -2134,7 +2134,7 @@
     "name": "Defense Curl",
     "description": "The user curls up to conceal weak spots and raise its Defense stat.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "40",
     "effect": {
       "details": [],
@@ -2149,7 +2149,7 @@
     "name": "Defog",
     "description": "A strong wind blows away the target’s barriers such as Reflect or Light Screen. This also lowers the target’s evasiveness.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "15",
     "effect": {
       "details": [],
@@ -2164,7 +2164,7 @@
     "name": "Destiny Bond",
     "description": "After using this move, if the user faints, the Pokémon that landed the knockout hit also faints. Its chance of failing rises if it is used in succession.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "5",
     "effect": {
       "details": [],
@@ -2179,7 +2179,7 @@
     "name": "Detect",
     "description": "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "5",
     "effect": {
       "details": [],
@@ -2194,7 +2194,7 @@
     "name": "Devastating Drake",
     "description": "The user materializes its aura using its Z-Power and attacks the target with full force. The power varies, depending on the original move.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "1",
     "effect": {
       "details": [],
@@ -2254,7 +2254,7 @@
     "name": "Disarming Voice",
     "description": "Letting out a charming cry, the user does emotional damage to opposing Pokémon. This attack never misses.",
     "power": "40",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "15",
     "effect": {
       "details": [],
@@ -2404,7 +2404,7 @@
     "name": "Double Team",
     "description": "By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "15",
     "effect": {
       "details": [],
@@ -2479,7 +2479,7 @@
     "name": "Dragon Dance",
     "description": "The user vigorously performs a mystic, powerful dance that raises its Attack and Speed stats.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -2839,7 +2839,7 @@
     "name": "Electric Terrain",
     "description": "The user electrifies the ground for five turns, powering up Electric-type moves. Pokémon on the ground no longer fall asleep.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -2854,7 +2854,7 @@
     "name": "Electrify",
     "description": "If the target is electrified before it uses a move during that turn, the target’s move becomes Electric type.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -2959,7 +2959,7 @@
     "name": "Endure",
     "description": "The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -3079,7 +3079,7 @@
     "name": "Extreme Evoboost",
     "description": "After obtaining Z-Power, the user, Eevee, gets energy from its evolved friends and boosts its stats sharply.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "1",
     "effect": {
       "details": [],
@@ -3124,7 +3124,7 @@
     "name": "Fairy Lock",
     "description": "By locking down the battlefield, the user keeps all Pokémon from fleeing during the next turn.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -3184,7 +3184,7 @@
     "name": "False Surrender",
     "description": "The user pretends to bow its head, but then it stabs the target with its disheveled hair. This attack never misses.",
     "power": "80",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -3244,7 +3244,7 @@
     "name": "Feint Attack",
     "description": "The user approaches the target disarmingly, then throws a sucker punch. This attack never misses.",
     "power": "60",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -3649,7 +3649,7 @@
     "name": "Floral Healing",
     "description": "The user restores the target’s HP by up to half of its max HP. It restores more HP when the terrain is grass.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -3664,7 +3664,7 @@
     "name": "Flower Shield",
     "description": "The user raises the Defense stats of all Grass-type Pokémon in battle with a mysterious power.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -3724,7 +3724,7 @@
     "name": "Focus Energy",
     "description": "The user takes a deep breath and focuses so that critical hits land more easily.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "30",
     "effect": {
       "details": [],
@@ -3754,7 +3754,7 @@
     "name": "Follow Me",
     "description": "The user draws attention to itself, making all targets take aim only at the user.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -3784,7 +3784,7 @@
     "name": "Foresight",
     "description": "Enables a Ghost-type target to be hit by Normal- and Fighting-type attacks. This also enables an evasive target to be hit.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "40",
     "effect": {
       "details": [],
@@ -4054,7 +4054,7 @@
     "name": "Gear Up",
     "description": "The user engages its gears to raise the Attack and Sp. Atk stats of ally Pokémon with the Plus or Minus Ability.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -4069,7 +4069,7 @@
     "name": "Genesis Supernova",
     "description": "After obtaining Z-Power, the user, Mew, attacks the target with full force. The terrain will be charged with psychic energy.",
     "power": "185",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "1",
     "effect": {
       "details": [],
@@ -4084,7 +4084,7 @@
     "name": "Geomancy",
     "description": "The user absorbs energy and sharply raises its Sp. Atk, Sp. Def, and Speed stats on the next turn.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -4129,7 +4129,7 @@
     "name": "Gigavolt Havoc",
     "description": "The user hits the target with a powerful electric current collected by its Z-Power. The power varies, depending on the original move.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "1",
     "effect": {
       "details": [],
@@ -4264,7 +4264,7 @@
     "name": "Grassy Terrain",
     "description": "The user turns the ground to grass for five turns. This restores the HP of Pokémon on the ground a little every turn and powers up Grass-type moves.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -4294,7 +4294,7 @@
     "name": "Gravity",
     "description": "This move enables Flying-type Pokémon or Pokémon with the Levitate Ability to be hit by Ground-type moves. Moves that involve flying can’t be used.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "5",
     "effect": {
       "details": [],
@@ -4324,7 +4324,7 @@
     "name": "Growth",
     "description": "The user’s body grows all at once, raising the Attack and Sp. Atk stats.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -4339,7 +4339,7 @@
     "name": "Grudge",
     "description": "If the user faints, the user’s grudge fully depletes the PP of the opponent’s move that knocked it out.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "5",
     "effect": {
       "details": [],
@@ -4354,7 +4354,7 @@
     "name": "Guard Split",
     "description": "The user employs its psychic power to average its Defense and Sp. Def stats with those of the target.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -4369,7 +4369,7 @@
     "name": "Guard Swap",
     "description": "The user employs its psychic power to switch changes to its Defense and Sp. Def stats with the target.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -4384,7 +4384,7 @@
     "name": "Guardian Of Alola",
     "description": "The user, the Land Spirit Pokémon, obtains Alola’s energy using its Z-Power and attacks the target with full force. This reduces the target’s HP greatly.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "1",
     "effect": {
       "details": [],
@@ -4459,7 +4459,7 @@
     "name": "Hail",
     "description": "The user summons a hailstorm lasting five turns. It damages all Pokémon except Ice types.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -4489,7 +4489,7 @@
     "name": "Happy Hour",
     "description": "Using Happy Hour doubles the amount of prize money received after battle.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "30",
     "effect": {
       "details": [],
@@ -4504,7 +4504,7 @@
     "name": "Harden",
     "description": "The user stiffens all the muscles in its body to raise its Defense stat.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "30",
     "effect": {
       "details": [],
@@ -4519,7 +4519,7 @@
     "name": "Haze",
     "description": "The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "30",
     "effect": {
       "details": [],
@@ -4579,7 +4579,7 @@
     "name": "Heal Bell",
     "description": "The user makes a soothing bell chime to heal the status conditions of all the party Pokémon.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "5",
     "effect": {
       "details": [],
@@ -4609,7 +4609,7 @@
     "name": "Heal Order",
     "description": "The user calls out its underlings to heal it. The user regains up to half of its max HP.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -4624,7 +4624,7 @@
     "name": "Heal Pulse",
     "description": "The user emits a healing pulse that restores the target’s HP by up to half of its max HP.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -4639,7 +4639,7 @@
     "name": "Healing Wish",
     "description": "The user faints. In return, the Pokémon taking its place will have its HP restored and status conditions cured.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -4669,7 +4669,7 @@
     "name": "Heart Swap",
     "description": "The user employs its psychic power to switch stat changes with the target.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -4729,7 +4729,7 @@
     "name": "Helping Hand",
     "description": "The user assists an ally by boosting the power of that ally’s attack.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -4819,7 +4819,7 @@
     "name": "Hold Hands",
     "description": "The user and an ally hold hands. This makes them very happy.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "40",
     "effect": {
       "details": [],
@@ -4834,7 +4834,7 @@
     "name": "Hone Claws",
     "description": "The user sharpens its claws to boost its Attack stat and accuracy.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "15",
     "effect": {
       "details": [],
@@ -4894,7 +4894,7 @@
     "name": "Howl",
     "description": "The user howls loudly to raise the spirit of itself and allies. This raises their Attack stats.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "40",
     "effect": {
       "details": [],
@@ -4954,7 +4954,7 @@
     "name": "Hydro Vortex",
     "description": "The user creates a huge whirling current using its Z-Power to swallow the target with full force. The power varies, depending on the original move.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "1",
     "effect": {
       "details": [],
@@ -5014,7 +5014,7 @@
     "name": "Hyperspace Fury",
     "description": "Using its many arms, the user unleashes a barrage of attacks that ignore the effects of moves like Protect and Detect. But the user’s Defense stat falls.",
     "power": "100",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "5",
     "effect": {
       "details": [],
@@ -5029,7 +5029,7 @@
     "name": "Hyperspace Hole",
     "description": "Using a hyperspace hole, the user appears right next to the target and strikes. This also hits a target using a move such as Protect or Detect.",
     "power": "80",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "5",
     "effect": {
       "details": [],
@@ -5209,7 +5209,7 @@
     "name": "Imprison",
     "description": "If opposing Pokémon know any move also known by the user, they are prevented from using it.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -5254,7 +5254,7 @@
     "name": "Inferno Overdrive",
     "description": "The user breathes a stream of intense fire toward the target with the full force of its Z-Power. The power varies depending on the original move.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "1",
     "effect": {
       "details": [],
@@ -5284,7 +5284,7 @@
     "name": "Ingrain",
     "description": "The user lays roots that restore its HP on every turn. Because it’s rooted, it can’t switch out.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -5299,7 +5299,7 @@
     "name": "Instruct",
     "description": "The user instructs the target to use the target’s last move again.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "15",
     "effect": {
       "details": [],
@@ -5314,7 +5314,7 @@
     "name": "Ion Deluge",
     "description": "The user disperses electrically charged particles, which changes Normal-type moves to Electric-type moves.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "25",
     "effect": {
       "details": [],
@@ -5329,7 +5329,7 @@
     "name": "Iron Defense",
     "description": "The user hardens its body’s surface like iron, sharply raising its Defense stat.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "15",
     "effect": {
       "details": [],
@@ -5419,7 +5419,7 @@
     "name": "Jungle Healing",
     "description": "The user becomes one with the jungle, restoring HP and healing any status conditions of itself and its ally Pokémon in battle.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -5464,7 +5464,7 @@
     "name": "Kings Shield",
     "description": "The user takes a defensive stance while it protects itself from damage. It also lowers the Attack stat of any attacker that makes direct contact.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -5509,7 +5509,7 @@
     "name": "Laser Focus",
     "description": "The user concentrates intensely. The attack on the next turn always results in a critical hit.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "30",
     "effect": {
       "details": [],
@@ -5674,7 +5674,7 @@
     "name": "Lets Snuggle Forever",
     "description": "After obtaining Z-Power, the user, Mimikyu, punches the target with full force.",
     "power": "190",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "1",
     "effect": {
       "details": [],
@@ -5704,7 +5704,7 @@
     "name": "Life Dew",
     "description": "The user scatters mysterious water around and restores the HP of itself and its ally Pokémon in the battle.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -5734,7 +5734,7 @@
     "name": "Light Screen",
     "description": "A wondrous wall of light is put up to reduce damage from special attacks for five turns.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "30",
     "effect": {
       "details": [],
@@ -5749,7 +5749,7 @@
     "name": "Light That Burns The Sky",
     "description": "This attack inflicts Attack or Sp. Atk damage— whichever stat is higher for the user, Necrozma. This move ignores the target’s Ability.",
     "power": "200",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "1",
     "effect": {
       "details": [],
@@ -5779,7 +5779,7 @@
     "name": "Lock On",
     "description": "The user takes sure aim at the target. This ensures the next attack does not miss the target.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "5",
     "effect": {
       "details": [],
@@ -5839,7 +5839,7 @@
     "name": "Lucky Chant",
     "description": "The user chants an incantation toward the sky, preventing opposing Pokémon from landing critical hits for five turns.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "30",
     "effect": {
       "details": [],
@@ -5854,7 +5854,7 @@
     "name": "Lunar Dance",
     "description": "The user faints. In return, the Pokémon taking its place will have its status and HP fully restored.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -5914,7 +5914,7 @@
     "name": "Magic Coat",
     "description": "Moves like Leech Seed and moves that inflict status conditions are blocked by a barrier and reflected back to the user of those moves.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "15",
     "effect": {
       "details": [],
@@ -5944,7 +5944,7 @@
     "name": "Magic Room",
     "description": "The user creates a bizarre area in which Pokémon’s held items lose their effects for five turns.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -5959,7 +5959,7 @@
     "name": "Magical Leaf",
     "description": "The user scatters curious leaves that chase the target. This attack never misses.",
     "power": "60",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -5989,7 +5989,7 @@
     "name": "Magnet Bomb",
     "description": "The user launches steel bombs that stick to the target. This attack never misses.",
     "power": "60",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -6004,7 +6004,7 @@
     "name": "Magnet Rise",
     "description": "The user levitates using electrically generated magnetism for five turns.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -6019,7 +6019,7 @@
     "name": "Magnetic Flux",
     "description": "The user manipulates magnetic fields, which raises the Defense and Sp. Def stats of ally Pokémon with the Plus or Minus Ability.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -6049,7 +6049,7 @@
     "name": "Malicious Moonsault",
     "description": "The user, Incineroar, strengthens its body using its Z-Power and crashes into the target with full force.",
     "power": "180",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "1",
     "effect": {
       "details": [],
@@ -6064,7 +6064,7 @@
     "name": "Mat Block",
     "description": "Using a pulled-up mat as a shield, the user protects itself and its allies from damaging moves. This does not stop status moves.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -6079,7 +6079,7 @@
     "name": "Max Airstream",
     "description": "This is a Flying-type attack Dynamax Pokémon use. This raises ally Pokémon’s Speed stats.",
     "power": "10",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -6094,7 +6094,7 @@
     "name": "Max Darkness",
     "description": "This is a Dark-type attack Dynamax Pokémon use. This lowers the target’s Sp. Def stat.",
     "power": "10",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -6109,7 +6109,7 @@
     "name": "Max Flare",
     "description": "This is a Fire-type attack Dynamax Pokémon use. The user intensifies the sun for five turns.",
     "power": "100",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -6124,7 +6124,7 @@
     "name": "Max Flutterby",
     "description": "This is a Bug-type attack Dynamax Pokémon use. This lowers the target’s Sp. Atk stat.",
     "power": "10",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -6139,7 +6139,7 @@
     "name": "Max Geyser",
     "description": "This is a Water-type attack Dynamax Pokémon use. The user summons a heavy rain that falls for five turns.",
     "power": "10",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -6154,7 +6154,7 @@
     "name": "Max Guard",
     "description": "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -6169,7 +6169,7 @@
     "name": "Max Hailstorm",
     "description": "This is an Ice-type attack Dynamax Pokémon use. The user summons a hailstorm lasting five turns.",
     "power": "10",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -6184,7 +6184,7 @@
     "name": "Max Knuckle",
     "description": "This is a Fighting-type attack Dynamax Pokémon use. This raises ally Pokémon’s Attack stats.",
     "power": "10",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -6199,7 +6199,7 @@
     "name": "Max Lightning",
     "description": "This is an Electric-type attack Dynamax Pokémon use. The user turns the ground into Electric Terrain for five turns.",
     "power": "10",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -6214,7 +6214,7 @@
     "name": "Max Mindstorm",
     "description": "This is a Psychic-type attack Dynamax Pokémon use. The user turns the ground into Psychic Terrain for five turns.",
     "power": "10",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -6229,7 +6229,7 @@
     "name": "Max Ooze",
     "description": "This is a Poison-type attack Dynamax Pokémon use. This raises ally Pokémon’s Sp. Atk stats.",
     "power": "10",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -6244,7 +6244,7 @@
     "name": "Max Overgrowth",
     "description": "This is a Grass-type attack Dynamax Pokémon use. The user turns the ground into Grassy Terrain for five turns.",
     "power": "10",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -6259,7 +6259,7 @@
     "name": "Max Phantasm",
     "description": "This is a Ghost-type attack Dynamax Pokémon use. This lowers the target’s Defense stat.",
     "power": "10",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -6274,7 +6274,7 @@
     "name": "Max Quake",
     "description": "This is a Ground-type attack Dynamax Pokémon use. This raises ally Pokémon’s Sp. Def stats.",
     "power": "10",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -6289,7 +6289,7 @@
     "name": "Max Rockfall",
     "description": "This is a Rock-type attack Dynamax Pokémon use. The user summons a sandstorm lasting five turns.",
     "power": "10",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -6304,7 +6304,7 @@
     "name": "Max Starfall",
     "description": "This is a Fairy-type attack Dynamax Pokémon use. The user turns the ground into Misty Terrain for five turns.",
     "power": "10",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -6319,7 +6319,7 @@
     "name": "Max Steelspike",
     "description": "This is a Steel-type attack Dynamax Pokémon use. This raises ally Pokémon’s Defense stats.",
     "power": "10",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -6334,7 +6334,7 @@
     "name": "Max Strike",
     "description": "This is a Normal-type attack Dynamax Pokémon use. This lowers the target’s Speed stat.",
     "power": "10",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -6349,7 +6349,7 @@
     "name": "Max Wyrmwind",
     "description": "This is a Dragon-type attack Dynamax Pokémon use. This lowers the target’s Attack stat.",
     "power": "10",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -6364,7 +6364,7 @@
     "name": "Me First",
     "description": "The user cuts ahead of the target to copy and use the target’s intended move with greater power. This move fails if it isn’t used first.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -6379,7 +6379,7 @@
     "name": "Mean Look",
     "description": "The user pins the target with a dark, arresting look. The target becomes unable to flee.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "5",
     "effect": {
       "details": [],
@@ -6394,7 +6394,7 @@
     "name": "Meditate",
     "description": "The user meditates to awaken the power deep within its body and raise its Attack stat.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "40",
     "effect": {
       "details": [],
@@ -6484,7 +6484,7 @@
     "name": "Menacing Moonraze Maelstrom",
     "description": "After obtaining Z-Power, the user, Lunala, attacks the target with full force. This move can ignore the effect of the target’s Ability.",
     "power": "200",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "1",
     "effect": {
       "details": [],
@@ -6589,7 +6589,7 @@
     "name": "Metronome",
     "description": "The user waggles a finger and stimulates its brain into randomly using nearly any move.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -6604,7 +6604,7 @@
     "name": "Milk Drink",
     "description": "The user restores its own HP by up to half of its max HP.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -6619,7 +6619,7 @@
     "name": "Mimic",
     "description": "The user copies the target’s last move. The move can be used during battle until the Pokémon is switched out.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -6649,7 +6649,7 @@
     "name": "Mind Reader",
     "description": "The user senses the target’s movements with its mind to ensure its next attack does not miss the target.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "5",
     "effect": {
       "details": [],
@@ -6664,7 +6664,7 @@
     "name": "Minimize",
     "description": "The user compresses its body to make itself look smaller, which sharply raises its evasiveness.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -6679,7 +6679,7 @@
     "name": "Miracle Eye",
     "description": "Enables a Dark-type target to be hit by Psychic-type attacks. This also enables an evasive target to be hit.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "40",
     "effect": {
       "details": [],
@@ -6709,7 +6709,7 @@
     "name": "Mirror Move",
     "description": "The user counters the target by mimicking the target’s last move.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -6739,7 +6739,7 @@
     "name": "Mist",
     "description": "The user cloaks itself and its allies in a white mist that prevents any of their stats from being lowered for five turns.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "30",
     "effect": {
       "details": [],
@@ -6784,7 +6784,7 @@
     "name": "Misty Terrain",
     "description": "This protects Pokémon on the ground from status conditions and halves damage from Dragon-type moves for five turns.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -6829,7 +6829,7 @@
     "name": "Moonlight",
     "description": "The user restores its own HP. The amount of HP regained varies with the weather.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "5",
     "effect": {
       "details": [],
@@ -6844,7 +6844,7 @@
     "name": "Morning Sun",
     "description": "The user restores its own HP. The amount of HP regained varies with the weather.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "5",
     "effect": {
       "details": [],
@@ -6904,7 +6904,7 @@
     "name": "Mud Sport",
     "description": "The user kicks up mud on the battlefield. This weakens Electric-type moves for five turns.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "15",
     "effect": {
       "details": [],
@@ -6964,7 +6964,7 @@
     "name": "Nasty Plot",
     "description": "The user stimulates its brain by thinking bad thoughts. This sharply raises the user’s Sp. Atk stat.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -6994,7 +6994,7 @@
     "name": "Nature Power",
     "description": "This attack makes use of nature’s power. Its effects vary depending on the user’s environment.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -7039,7 +7039,7 @@
     "name": "Never Ending Nightmare",
     "description": "Deep-seated grudges summoned by the user’s Z-Power trap the target. The power varies, depending on the original move.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "1",
     "effect": {
       "details": [],
@@ -7114,7 +7114,7 @@
     "name": "No Retreat",
     "description": "This move raises all the user’s stats but prevents the user from switching out or fleeing.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "5",
     "effect": {
       "details": [],
@@ -7189,7 +7189,7 @@
     "name": "Oceanic Operetta",
     "description": "The user, Primarina, summons a massive amount of water using its Z-Power and attacks the target with full force.",
     "power": "195",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "1",
     "effect": {
       "details": [],
@@ -7234,7 +7234,7 @@
     "name": "Odor Sleuth",
     "description": "Enables a Ghost-type target to be hit by Normal- and Fighting-type attacks. This also enables an evasive target to be hit.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "40",
     "effect": {
       "details": [],
@@ -7324,7 +7324,7 @@
     "name": "Pain Split",
     "description": "The user adds its HP to the target’s HP, then equally shares the combined HP with the target.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -7414,7 +7414,7 @@
     "name": "Perish Song",
     "description": "Any Pokémon that hears this song faints in three turns, unless it switches out of battle.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "5",
     "effect": {
       "details": [],
@@ -7489,7 +7489,7 @@
     "name": "Pika Papow",
     "description": "The more Pikachu loves its Trainer, the greater the move’s power. It never misses.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -7534,7 +7534,7 @@
     "name": "Play Nice",
     "description": "The user and the target become friends, and the target loses its will to fight. This lowers the target’s Attack stat.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -7759,7 +7759,7 @@
     "name": "Power Split",
     "description": "The user employs its psychic power to average its Attack and Sp. Atk stats with those of the target.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -7774,7 +7774,7 @@
     "name": "Power Swap",
     "description": "The user employs its psychic power to switch changes to its Attack and Sp. Atk stats with the target.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -7789,7 +7789,7 @@
     "name": "Power Trick",
     "description": "The user employs its psychic power to switch its Attack stat with its Defense stat.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -7894,7 +7894,7 @@
     "name": "Protect",
     "description": "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -7924,7 +7924,7 @@
     "name": "Psych Up",
     "description": "The user hypnotizes itself into copying any stat change made by the target.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -7969,7 +7969,7 @@
     "name": "Psychic Terrain",
     "description": "This protects Pokémon on the ground from priority moves and powers up Psychic-type moves for five turns.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -8074,7 +8074,7 @@
     "name": "Pulverizing Pancake",
     "description": "Z-Power brings out the true capabilities of the user, Snorlax. The Pokémon moves its enormous body energetically and attacks the target with full force.",
     "power": "210",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "1",
     "effect": {
       "details": [],
@@ -8104,7 +8104,7 @@
     "name": "Purify",
     "description": "The user heals the target’s status condition. If the move succeeds, it also restores the user’s own HP.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -8179,7 +8179,7 @@
     "name": "Quick Guard",
     "description": "The user protects itself and its allies from priority moves.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "15",
     "effect": {
       "details": [],
@@ -8194,7 +8194,7 @@
     "name": "Quiver Dance",
     "description": "The user lightly performs a beautiful, mystic dance. This boosts the user’s Sp. Atk, Sp. Def, and Speed stats.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -8224,7 +8224,7 @@
     "name": "Rage Powder",
     "description": "The user scatters a cloud of irritating powder to draw attention to itself. Opposing Pokémon aim only at the user.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -8239,7 +8239,7 @@
     "name": "Rain Dance",
     "description": "The user summons a heavy rain that falls for five turns, powering up Water-type moves. It lowers the power of Fire-type moves.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "5",
     "effect": {
       "details": [],
@@ -8314,7 +8314,7 @@
     "name": "Recover",
     "description": "Restoring its own cells, the user restores its own HP by half of its max HP.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -8329,7 +8329,7 @@
     "name": "Recycle",
     "description": "The user recycles a held item that has been used in battle so it can be used again.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -8344,7 +8344,7 @@
     "name": "Reflect",
     "description": "A wondrous wall of light is put up to reduce damage from physical attacks for five turns.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -8359,7 +8359,7 @@
     "name": "Reflect Type",
     "description": "The user reflects the target’s type, making the user the same type as the target.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "15",
     "effect": {
       "details": [],
@@ -8374,7 +8374,7 @@
     "name": "Refresh",
     "description": "The user rests to cure itself of poisoning, a burn, or paralysis.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -8404,7 +8404,7 @@
     "name": "Rest",
     "description": "The user goes to sleep for two turns. This fully restores the user’s HP and heals any status conditions.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -8509,7 +8509,7 @@
     "name": "Roar",
     "description": "The target is scared off, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -8569,7 +8569,7 @@
     "name": "Rock Polish",
     "description": "The user polishes its body to reduce drag. This sharply raises the Speed stat.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -8659,7 +8659,7 @@
     "name": "Role Play",
     "description": "The user mimics the target completely, copying the target’s Ability.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -8704,7 +8704,7 @@
     "name": "Roost",
     "description": "The user lands and rests its body. This move restores the user’s HP by up to half of its max HP.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -8719,7 +8719,7 @@
     "name": "Rototiller",
     "description": "Tilling the soil, the user makes it easier for plants to grow. This raises the Attack and Sp. Atk stats of Grass-type Pokémon.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -8779,7 +8779,7 @@
     "name": "Safeguard",
     "description": "The user creates a protective field that prevents status conditions for five turns.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "25",
     "effect": {
       "details": [],
@@ -8824,7 +8824,7 @@
     "name": "Sandstorm",
     "description": "A five-turn sandstorm is summoned to hurt all combatants except Rock, Ground, and Steel types. It raises the Sp. Def stat of Rock types.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -8854,7 +8854,7 @@
     "name": "Savage Spin Out",
     "description": "The user binds the target with full force with threads of silk that the user spits using its Z-Power. The power varies, depending on the original move.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "1",
     "effect": {
       "details": [],
@@ -8974,7 +8974,7 @@
     "name": "Searing Sunraze Smash",
     "description": "After obtaining Z-Power, the user, Solgaleo, attacks the target with full force. This move can ignore the effect of the target’s Ability.",
     "power": "200",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "1",
     "effect": {
       "details": [],
@@ -9139,7 +9139,7 @@
     "name": "Shadow Punch",
     "description": "The user throws a punch from the shadows. This attack never misses.",
     "power": "60",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -9169,7 +9169,7 @@
     "name": "Sharpen",
     "description": "The user makes its edges more jagged, which raises its Attack stat.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "30",
     "effect": {
       "details": [],
@@ -9184,7 +9184,7 @@
     "name": "Shattered Psyche",
     "description": "The user controls the target with its Z-Power and hurts the target with full force. The power varies, depending on the original move.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "1",
     "effect": {
       "details": [],
@@ -9229,7 +9229,7 @@
     "name": "Shell Smash",
     "description": "The user breaks its shell, which lowers Defense and Sp. Def stats but sharply raises its Attack, Sp. Atk, and Speed stats.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "15",
     "effect": {
       "details": [],
@@ -9259,7 +9259,7 @@
     "name": "Shift Gear",
     "description": "The user rotates its gears, raising its Attack stat and sharply raising its Speed stat.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -9274,7 +9274,7 @@
     "name": "Shock Wave",
     "description": "The user strikes the target with a quick jolt of electricity. This attack never misses.",
     "power": "60",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -9289,7 +9289,7 @@
     "name": "Shore Up",
     "description": "The user regains up to half of its max HP. It restores more HP in a sandstorm.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -9364,7 +9364,7 @@
     "name": "Sinister Arrow Raid",
     "description": "The user, Decidueye, creates countless arrows using its Z-Power and shoots the target with full force.",
     "power": "180",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "1",
     "effect": {
       "details": [],
@@ -9394,7 +9394,7 @@
     "name": "Sketch",
     "description": "It enables the user to permanently learn the move last used by the target. Once used, Sketch disappears.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "1",
     "effect": {
       "details": [],
@@ -9409,7 +9409,7 @@
     "name": "Skill Swap",
     "description": "The user employs its psychic power to exchange Abilities with the target.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -9499,7 +9499,7 @@
     "name": "Slack Off",
     "description": "The user slacks off, restoring its own HP by up to half of its max HP.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -9559,7 +9559,7 @@
     "name": "Sleep Talk",
     "description": "While it is asleep, the user randomly uses one of the moves it knows.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -9634,7 +9634,7 @@
     "name": "Smart Strike",
     "description": "The user stabs the target with a sharp horn. This attack never misses.",
     "power": "70",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -9724,7 +9724,7 @@
     "name": "Snatch",
     "description": "The user steals the effects of any attempts to use a healing or stat-changing move.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -9784,7 +9784,7 @@
     "name": "Soft Boiled",
     "description": "The user restores its own HP by up to half of its max HP.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -9844,7 +9844,7 @@
     "name": "Soul Stealing 7 Star Strike",
     "description": "After obtaining Z-Power, the user, Marshadow, punches and kicks the target consecutively with full force.",
     "power": "195",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "1",
     "effect": {
       "details": [],
@@ -9934,7 +9934,7 @@
     "name": "Speed Swap",
     "description": "The user exchanges Speed stats with the target.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -9949,7 +9949,7 @@
     "name": "Spider Web",
     "description": "The user ensnares the target with thin, gooey silk so it can’t flee from battle.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -9979,7 +9979,7 @@
     "name": "Spikes",
     "description": "The user lays a trap of spikes at the opposing team’s feet. The trap hurts Pokémon that switch into battle.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -9994,7 +9994,7 @@
     "name": "Spiky Shield",
     "description": "In addition to protecting the user from attacks, this move also damages any attacker that makes direct contact.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -10069,7 +10069,7 @@
     "name": "Splash",
     "description": "The user just flops and splashes around to no effect at all...",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "40",
     "effect": {
       "details": [],
@@ -10084,7 +10084,7 @@
     "name": "Splintered Stormshards",
     "description": "After obtaining Z-Power, the user, Lycanroc, attacks the target with full force. This move negates the effect on the battlefield.",
     "power": "190",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "1",
     "effect": {
       "details": [],
@@ -10129,7 +10129,7 @@
     "name": "Spotlight",
     "description": "The user shines a spotlight on the target so that only the target will be attacked during the turn.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "15",
     "effect": {
       "details": [],
@@ -10144,7 +10144,7 @@
     "name": "Stealth Rock",
     "description": "The user lays a trap of levitating stones around the opposing team. The trap hurts opposing Pokémon that switch into battle.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -10234,7 +10234,7 @@
     "name": "Sticky Web",
     "description": "The user weaves a sticky net around the opposing team, which lowers their Speed stats upon switching into battle.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -10249,7 +10249,7 @@
     "name": "Stockpile",
     "description": "The user charges up power and raises both its Defense and Sp. Def stats. The move can be used three times.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -10264,7 +10264,7 @@
     "name": "Stoked Sparksurfer",
     "description": "After obtaining Z-Power, the user, Alolan Raichu, attacks the target with full force. This move leaves the target with paralysis.",
     "power": "175",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "1",
     "effect": {
       "details": [],
@@ -10414,7 +10414,7 @@
     "name": "Struggle",
     "description": "This attack is used in desperation only if the user has no PP. It also damages the user a little.",
     "power": "50",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "1",
     "effect": {
       "details": [],
@@ -10444,7 +10444,7 @@
     "name": "Stuff Cheeks",
     "description": "The user eats its held Berry, then sharply raises its Defense stat.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -10489,7 +10489,7 @@
     "name": "Substitute",
     "description": "The user creates a substitute for itself using some of its HP. The substitute serves as the user’s decoy.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -10504,7 +10504,7 @@
     "name": "Subzero Slammer",
     "description": "The user dramatically drops the temperature using its Z-Power and freezes the target with full force. The power varies, depending on the original move.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "1",
     "effect": {
       "details": [],
@@ -10534,7 +10534,7 @@
     "name": "Sunny Day",
     "description": "The user intensifies the sun for five turns, powering up Fire-type moves. It lowers the power of Water-type moves.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "5",
     "effect": {
       "details": [],
@@ -10609,7 +10609,7 @@
     "name": "Supersonic Skystrike",
     "description": "The user soars up with its Z-Power and plummets toward the target at full speed. The power varies, depending on the original move.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "1",
     "effect": {
       "details": [],
@@ -10669,7 +10669,7 @@
     "name": "Swallow",
     "description": "The power stored using the move Stockpile is absorbed by the user to heal its HP. Storing more power heals more HP.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -10714,7 +10714,7 @@
     "name": "Swift",
     "description": "Star-shaped rays are shot at opposing Pokémon. This attack never misses.",
     "power": "60",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -10744,7 +10744,7 @@
     "name": "Swords Dance",
     "description": "A frenetic dance to uplift the fighting spirit. This sharply raises the user’s Attack stat.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -10774,7 +10774,7 @@
     "name": "Synthesis",
     "description": "The user restores its own HP. The amount of HP regained varies with the weather.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "5",
     "effect": {
       "details": [],
@@ -10804,7 +10804,7 @@
     "name": "Tail Glow",
     "description": "The user stares at flashing lights to focus its mind, drastically raising its Sp. Atk stat.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -10849,7 +10849,7 @@
     "name": "Tailwind",
     "description": "The user whips up a turbulent whirlwind that ups the Speed stats of the user and its allies for four turns.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "15",
     "effect": {
       "details": [],
@@ -10909,7 +10909,7 @@
     "name": "Tearful Look",
     "description": "The user gets teary eyed to make the target lose its combative spirit. This lowers the target’s Attack and Sp. Atk stats.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -10924,7 +10924,7 @@
     "name": "Teatime",
     "description": "The user has teatime with all the Pokémon in the battle. Each Pokémon eats its held Berry.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -10954,7 +10954,7 @@
     "name": "Tectonic Rage",
     "description": "The user burrows deep into the ground and slams into the target with the full force of its Z-Power. The power varies, depending on the original move.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "1",
     "effect": {
       "details": [],
@@ -10984,7 +10984,7 @@
     "name": "Telekinesis",
     "description": "The user makes the target float with its psychic power. The target is easier to hit for three turns.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "15",
     "effect": {
       "details": [],
@@ -10999,7 +10999,7 @@
     "name": "Teleport",
     "description": "The user switches places with a party Pokémon in waiting, if any. If a wild Pokémon uses this move, it flees.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -11239,7 +11239,7 @@
     "name": "Topsy Turvy",
     "description": "All stat changes affecting the target turn topsy-turvy and become the opposite of what they were.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -11284,7 +11284,7 @@
     "name": "Toxic Spikes",
     "description": "The user lays a trap of poison spikes at the feet of the opposing team. The spikes will poison opposing Pokémon that switch into battle.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -11314,7 +11314,7 @@
     "name": "Transform",
     "description": "The user transforms into a copy of the target right down to having the same move set.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -11374,7 +11374,7 @@
     "name": "Trick Room",
     "description": "The user creates a bizarre area in which slower Pokémon get to move first for five turns.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "5",
     "effect": {
       "details": [],
@@ -11434,7 +11434,7 @@
     "name": "Trump Card",
     "description": "The fewer PP this move has, the greater its power.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "5",
     "effect": {
       "details": [],
@@ -11464,7 +11464,7 @@
     "name": "Twinkle Tackle",
     "description": "The user creates a very charming space using its Z-Power and totally toys with the target. The power varies, depending on the original move.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "1",
     "effect": {
       "details": [],
@@ -11554,7 +11554,7 @@
     "name": "Veevee Volley",
     "description": "The more Eevee loves its Trainer, the greater the move’s power. It never misses.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -11629,7 +11629,7 @@
     "name": "Vital Throw",
     "description": "The user attacks last. In return, this throw move never misses.",
     "power": "70",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -11749,7 +11749,7 @@
     "name": "Water Sport",
     "description": "The user soaks the battlefield with water. This weakens Fire-type moves for five turns.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "15",
     "effect": {
       "details": [],
@@ -11824,7 +11824,7 @@
     "name": "Whirlwind",
     "description": "The target is blown away, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "20",
     "effect": {
       "details": [],
@@ -11854,7 +11854,7 @@
     "name": "Wide Guard",
     "description": "The user and its allies are protected from wide-ranging attacks for one turn.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -11914,7 +11914,7 @@
     "name": "Wish",
     "description": "One turn after this move is used, the user’s or its replacement’s HP is restored by half the user’s max HP.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -11929,7 +11929,7 @@
     "name": "Withdraw",
     "description": "The user withdraws its body into its hard shell, raising its Defense stat.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "40",
     "effect": {
       "details": [],
@@ -11944,7 +11944,7 @@
     "name": "Wonder Room",
     "description": "The user creates a bizarre area in which Pokémon’s Defense and Sp. Def stats are swapped for five turns.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
@@ -11974,7 +11974,7 @@
     "name": "Work Up",
     "description": "The user is roused, and its Attack and Sp. Atk stats increase.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "30",
     "effect": {
       "details": [],
@@ -12049,7 +12049,7 @@
     "name": "Yawn",
     "description": "The user lets loose a huge yawn that lulls the target into falling asleep on the next turn.",
     "power": "",
-    "accuracy": "",
+    "accuracy": "-",
     "pp": "10",
     "effect": {
       "details": [],
